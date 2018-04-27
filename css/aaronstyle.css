@@ -5,6 +5,10 @@ background-color: magenta;
 position: relative;
 z-index: -1;
 }
+
+.single-slider {
+  position: relative;
+}
 .arrow-left,
 .arrow-right {
 background-color: #47505d;
@@ -35,13 +39,13 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   background-position: 30% 50%;
 }
 
-@media(min-width: 1024px) {
+/* @media(min-width: 1024px) { */
 .single-slider div {
 position: absolute;
-top: 30%;
-left: 33%;
+top: 50%;
+right: 0;
 }
-}
+/* } */
 .info-section > *, .video-summary p {
 margin-bottom: 1.5rem;
 }
@@ -145,6 +149,12 @@ font-size: 1rem;
   background-color: #47505d;
   padding: 15px;
 }
+
+/* .info-section {
+    outline: 1px solid white;
+    outline-offset: -5px;
+} */
+
 .video-summary section:nth-child(2) * {
   color: white;
 }
@@ -177,4 +187,30 @@ font-size: 1rem;
   position: absolute;
   top: 35%;
   right: 0;
+}
+
+dt,
+dd {
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+dt {
+  background-color: #dbdbdb;
+}
+
+dt a, .list-box a:hover, .list-box a:visited{
+  color: #00ccff;
+  text-decoration: none;
+}
+
+.list-box + section {
+  height: 456px;
+  background-image: url("http://placehold.it/924x540");
+  background-size: cover;
+}
+
+.list-box + section img {
+  width: auto;
+  height: 100%;
 }
