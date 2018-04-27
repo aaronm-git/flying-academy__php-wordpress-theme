@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>    
+	    <meta charset="utf-8">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title>Flying Academy</title>
+	    <!--normalize-->
+	    <link rel="stylesheet" href="css/normalize/normalize.css">
+	    <!--foundation css-->
+	    <link rel="stylesheet" href="css/foundation/foundation.css">
+	    <link rel="stylesheet" href="css/foundation/app.css">	
+		<!--css-->
+		<link href="css/style.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		<!--overlay-->
+		<div id="baseline-overlay"></div>
+		<div id="column-overlay"></div>
+		<div class="wrapper">
+		<!--code here-->
+		<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+			<button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+			<div class="title-bar-title">Menu</div>
+		</div>
+		<div class="top-bar" id="responsive-menu">
+			<nav>
+				<ul class="menu">
+					<li><a href="">Why choose us?</a></li>
+					<li><a href="">EASA &amp; FAA Courses</a></li>
+					<li><a href="">Training Locations</a></li>
+					<li><a href="">How to become a pilot</a></li>
+					<li><a href="">Fleet</a></li>
+					<li><a href="">Our Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- Page navigation -->		
+		<nav>
+			<ul class="menu">
+				<li><a href="">Miami home</a></li>
+				<li><a href="">Courses in Miami</a></li>
+				<li><a href="">Contacts</a></li>
+			</ul>
+		</nav>
+		<!-- Wrapper for centring content and padding -->
+		<div class="grid-container grid-container-padding">
+			<article class="grid-x grid-margin-x">
+				<section class="cell small-6">
+					<h1>Connect With Us</h1>
+					<p>Our experienced staff is ready to help you with any questions you might have regarding your flight training.</br>If you would like detailed information on the flight training courses, please fill in the form below and Flight Training Consultant will be in touch with you shortly.</p>
+					<form>
+						<!--name-->
+						<label for="name">Name</label>
+				  		<input type="text" id="name" placeholder="name">
+			  			<!--surname-->
+				  		<label for="surname">Surname</label>
+				  		<input type="text" id="surname" placeholder="surname">
+			  			<!--email-->
+			  			<label for="email">Email</label>
+			  			<input type="email" id="email" placeholder="email">
+			  			<!--confirm email-->
+			  			<label for="confirm-email">Confirm Email</label>
+			  			<input type="email" id="confirm-email" placeholder="">
+			  			<!--phone-->
+			  			<label for="phone">Phone</label>
+			  			<input type="tel" id="phone" placeholder="phone">
+			  			<!--prefered contact method-->  			
+						<input type="checkbox" id="prefered-contact-method">
+						<label for="prefered-contact-method">Phone is My Prefered Contact Method:</label>			
+						<!--country-->
+						<label for="country">Country of Residence</label>
+						<select id="country">
+							<option>Select Country</option>
+						</select>   	
+						<!--type of license-->
+						<label for="type-license">Type of License</label>
+						<select id="type-license">
+							<option>Select License</option>
+						</select>   	
+						<!--interested in...-->
+						<label for="interest">Interested in...</label>
+						<select id="interest">
+							<option>Select Interest</option>
+						</select>   	
+						<!--flight exeperience-->
+						<input type="checkbox" id="flight-experience">
+						<label for="flight-experience">Previous Flight Experience</label>
+						<!--message-->
+						<label for="message">Message</label>
+			  			<textarea id="message"></textarea>
+			  			<!--submit-->
+						<button type="submit">Submit</button>
+					</form>
+				</section>
+				<!-- Left side -->
+				<article class="cell small-6">
+				<!-- Map -->
+					<section class="cell small-12">
+						<div class="responsive-embed widescreen">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.627919989894!2d-80.43279798498136!3d25.650471783687383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c1949acc5ad1%3A0xb2b944adb0d492df!2zMTQ1NjkgU1cgMTI3dGggU3QsIE1pYW1pLCBGTCAzMzE4Niwg0KHQqNCQ!5e0!3m2!1sru!2scz!4v1523985027755" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</section>
+					<!-- Contacts section -->
+					<article class="grid-x grid-margin-x">
+						<section class="cell small-6">
+							<p>Adress: 14569 SW 127 St</p>
+							<p>City: Miami, Florida</p>							
+						</section>
+						<section class="cell small-6">
+							<p>Phone: <a href="">+1 (305) 255-8753</a></p>
+							<p>Email: <a href="">fly@flyingacademy.com</a></p>									
+						</section>
+					</article>
+					<!-- Newsletter subscription -->
+					<article class="grid-x grid-margin-x">
+						<section class="cell small-6">					
+							<form>
+								<h6>Subscribe to aviation news!</h6>
+								<label for="email">Email</label>
+								<input type="email" placeholder="YOUR E-MAIL">
+								<button type="submit">Subscribe now</button>
+							</form>
+						</section>
+						<!-- Social links -->
+						<section class="cell small-6">
+							<h6>Our Social Media</h6>
+							<nav>
+								<ul class="menu">
+									<li><a href="">FB</a></li>
+									<li><a href="">YT</a></li>
+									<li><a href="">IN</a></li>
+									<li><a href="">TW</a></li>
+								</ul>
+							</nav>
+						</section>
+					</article>
+				</article>
+			</article>
+		</div>
+		<!--foundation js-->		
+		<script src="js/foundation/vendor/jquery.js"></script>
+		<script src="js/foundation/vendor/what-input.js"></script>
+		<script src="js/foundation/vendor/foundation.js"></script>
+		<script src="js/foundation/app.js"></script>
+		<script>
+      		$(document).foundation();
+    	</script>
+	</body>
+</html>

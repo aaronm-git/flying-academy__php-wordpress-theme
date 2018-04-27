@@ -1,0 +1,180 @@
+.single-slider img {
+width: 100%;
+height: auto;
+background-color: magenta;
+position: relative;
+z-index: -1;
+}
+.arrow-left,
+.arrow-right {
+background-color: #47505d;
+border: none;
+color: white;
+padding: 30px 35px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+text-indent :-9999px;
+}
+.box-shadow {
+border-radius: 5px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+.arrow-left{
+  background-image: url("../images/left-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+}
+.arrow-right{
+  background-image: url("../images/right-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+@media(min-width: 1024px) {
+.single-slider div {
+position: absolute;
+top: 30%;
+left: 33%;
+}
+}
+.info-section > *, .video-summary p {
+margin-bottom: 1.5rem;
+}
+/* section.cell.large-7.grid-margin-x > p {
+width: 550px;
+} */
+.info-section table, .info-section td:first-of-type, .info-section tr {
+/* border-width: 1px;
+border-color: #d9d9d9;
+border-style: solid; */
+outline-width: 1px;
+outline-color: #d9d9d9;
+outline-style: solid;
+}
+td img {
+margin-right: 1.5rem;
+}
+a, a:hover {
+color: #47505d;
+}
+a > img {
+margin-left: 18px;
+}
+.info-section table td p {
+display: inline-block;
+}
+.info-section table p:nth-of-type(2) {
+display: inline;
+float: right;
+}
+.btn {
+  padding: 10px;
+  width: 7.5rem;
+  text-align: center;
+  border-width: 1px;
+  border-color: #47505d;
+  border-style: solid;
+}
+.button-primary, .button-primary:hover {
+background-color: #47505d !important;
+color: white !important;
+}
+.button-secondary, .button-secondary:hover {
+background-color: #d9d9d9 !important;
+color: #47505d !important;
+}
+.button-third, .button-third:hover {
+background-color: white !important;
+color: black !important;
+}
+a:active {
+color: #cbe6ef;
+}
+form {
+height: 19.5rem;
+background: linear-gradient(to right, white, transparent),
+url("../images/skyscrapers.png") no-repeat center;
+background-size: cover;
+/* background-image: url("../images/skyscrapers.png");
+background-repeat: no-repeat;
+background-position: center; */
+}
+form div {
+position: relative;
+top: 50%;
+transform: perspective(1px) translateY(-50%);
+padding: 15px;
+}
+
+.carousel-summary {
+  position: relative;
+}
+
+.class-price p:first-of-type {
+font-size: 1rem;
+}
+.class-price p {
+  font-size: 1.5rem;
+}
+
+.class-price {
+  width: 170px;
+  padding: 15px;
+  position: absolute;
+  bottom: 3rem;
+  right: 0;
+  background-color: #d9d9d9;
+  color: #47505d;
+}
+
+.class-apply {
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.favideo {
+  height: 100%;
+}
+
+.video-summary section:nth-child(2) {
+  background-color: #47505d;
+  padding: 15px;
+}
+.video-summary section:nth-child(2) * {
+  color: white;
+}
+
+.video-btn {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  width: auto;
+}
+
+.video-btn img {
+  height: 23px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.carousel-summary .arrow-left {
+  position: absolute;
+  top: 35%;
+}
+
+.carousel-summary .arrow-right {
+  position: absolute;
+  top: 35%;
+  right: 0;
+}
