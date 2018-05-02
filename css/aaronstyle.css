@@ -1,11 +1,19 @@
-.single-slider {
+.two-part-box {
   position: relative;
 }
 
-.single-slider img {
+.slider-box {
   width: 100%;
+  height: 100%;
+  background-image: url('../images/buildings.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.arrow-group {
   position: absolute;
-  top: 20%;
+  top: 50%;
+  right: -10px;
 }
 
 .arrow-left,
@@ -13,13 +21,13 @@
   background-color: #47505d;
   border: none;
   color: white;
-  padding: 30px 35px;
+  padding: 1.5rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   text-indent :-9999px;
 }
+
 .box-shadow {
   /* border-radius: 5px; */
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
@@ -38,13 +46,12 @@
   background-position: 30% 50%;
 }
 
-/* @media(min-width: 1024px) { */
-.single-slider div {
-  position: absolute;
-  top: 50%;
-  right: 0;
+
+.hidden-text {
+  display: none;
+  animation-duration: 4s;
 }
-/* } */
+
 .info-section > *, .video-summary p {
   margin-bottom: 1.5rem;
 }

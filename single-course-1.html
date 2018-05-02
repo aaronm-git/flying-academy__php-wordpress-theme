@@ -30,15 +30,14 @@
     <div id="column-overlay"></div>
     <div class="wrapper">
       <div class="grid-container">
-        <!-- Section 1 -->
+        <!-- Contact info -->
         <article class="grid-x grid-margin-x">
           <!-- Slider for FAA 0-CPL -->
-          <section class="cell medium-5 grid-margin-x single-slider">
-            <img src="images/buildings.jpg">
-            <img class="this-image">
-            <div class="box-shadow">
-              <a class="arrow-left box-shadow" href="">Previous</a>
-              <a class="arrow-right box-shadow" href="">Next</a>
+          <section class="cell medium-5 grid-margin-x two-part-box">
+            <div class="slider-box"></div>
+            <div class="arrow-group box-shadow">
+              <a class="arrow-left">Previous</a>
+              <a class="arrow-right">Next</a>
             </div>
           </section>
           <!-- FAA 0-CPL description -->
@@ -47,10 +46,10 @@
             <h5>Flying Academy</h5>
             <p>0-<abbr title="Commercial Pilot Licence">CPL(A)</abbr> is designed for students with little to no flying experience and that want to pursue a career in aviation according to <abbr title="Federal Aviation Administration">FAA</abbr> regulations. The trainees of the program will start with <a href=""><abbr title="Private Pilot Licence">PPL(A)</abbr></a> and, upon obtaining the necessary flight experience, will continue with <abbr title="Instrument Rating"><a href="">IR(A)</a></abbr>, <abbr title="Commercial Pilot Licence">CPL(A)</abbr> modules and <a href=""><abbr title="multi-engine Land">MEL</abbr></a> flight programs.</br></p>
             <!-- Hiden text with Jquery -->
-            <!-- After successful completion of the zero to <abbr title="Commercial Pilot Licence">CPL(A)</abbr> course, you will be issued an FAA <abbr title="Commercial Pilot Licence">CPL(A)</abbr> license and will be authorized to act as Pilot-In-Command (PIC) and acquire compensation on an aircraft. The privileges of the holder of a <abbr title="Commercial Pilot Licence">CPL(A)</abbr> are to act as pilot-in-command (Captain) or co-pilot (First Officer) in charter operations and corporate flying which exercises all the privileges of the holder of a PPL(A), and IR(A).</br>At the end of the course, each pilot will have 190 hours of flight experience out of which 100 as Pilot in Command [PIC] if training is done under FAA Part 141; 250 hours of flight experience out of which 100 as Pilot in Command [PIC] if training is done under FAA Part 61.</p> -->
+            <p class="hidden-text">After successful completion of the zero to <abbr title="Commercial Pilot Licence">CPL(A)</abbr> course, you will be issued an FAA <abbr title="Commercial Pilot Licence">CPL(A)</abbr> license and will be authorized to act as Pilot-In-Command (PIC) and acquire compensation on an aircraft. The privileges of the holder of a <abbr title="Commercial Pilot Licence">CPL(A)</abbr> are to act as pilot-in-command (Captain) or co-pilot (First Officer) in charter operations and corporate flying which exercises all the privileges of the holder of a PPL(A), and IR(A).</br>At the end of the course, each pilot will have 190 hours of flight experience out of which 100 as Pilot in Command [PIC] if training is done under FAA Part 141; 250 hours of flight experience out of which 100 as Pilot in Command [PIC] if training is done under FAA Part 61.</p>
             <a href="">View more <img src="images/down-arrow.png"></a>
             <!-- Contacts section and Infosection -->
-            <table class="stacks">
+            <table class="stack">
               <tr>
                 <td><img src="images/envelope.png"><a href="">fly@flyingacademy.com</a></td>
                 <td>
@@ -78,11 +77,11 @@
             </table>
           </section>
         </article>
-        <!-- Section 2 -->
+        <!-- Closest flight courses -->
         <article class="grid-x grid-margin-x">
           <section class="cell large-7">
             <h2>Closest flight courses</h2>
-            <table class="">
+            <table>
               <tbody>
                 <tr>
                   <th></th>
@@ -130,7 +129,7 @@
             </form>
           </section>
         </article>
-        <!-- Section 3 -->
+        <!-- Apply now -->
         <article class="grid-x grid-margin-x">
           <section class="cell large-6 carousel-summary">
             <img src="images/teaching.jpg" class="cell">
@@ -149,7 +148,7 @@
             </div>
           </section>
         </article>
-        <!-- Section 4 -->
+        <!-- Video -->
         <article class="grid-x video-summary">
           <section class="cell medium-6">
             <div class="responsive-embed widescreen favideo">
@@ -205,95 +204,98 @@
               <h2>What will I do during my 0 - CPL Training?</h2>
               <p>Flying Academy</p>
             </div>
-            <div class="grid-x grid-margin-x">
-              <!-- Ground training -->
-              <h3 class="cell medium-3">Ground training</h3>
-              <div class="cell medium-9">
-                <p>Theoretical preparation lays the foundation for practical flight training.</p>
-                <p>During the Zero to CPL course, the trainee will complete theoretical courses for PPL(A), IR(A), CPL(A) and MEL (A). <b>The curriculum for the program Zero to Commercial can be found under the PPL, IR, CPL, and ME sections.</b></p>
-              </div>
-              <!-- Flight training -->
-              <h3 class="cell medium-3">Flight Training</h3>
-              <div class="cell medium-9">
-                <p>The flight training will start with the PPL(A), continues with IR(A) and with the CPL SEL and MEL add on.The curriculum for the program Zero to Commercial can be found under the PPL, IR, CPL, and ME sections.</p>
-                <ul class="tabs" data-tabs id="info-tabs">
-                  <li class="tabs-title is-active box-shadow"><a href="#panel1" aria-selected="true">Part 141</a></li>
-                  <li class="tabs-title box-shadow"><a data-tabs-target="panel2" href="#panel2">Part 61</a></li>
-                </ul>
-                <div class="tabs-content" data-tabs-content="info-tabs">
-                  <div class="tabs-panel is-active" id="panel1">
-                    <!-- <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p> -->
-                    <p>190 hours total time. Must have 120 hours of dual time including in the total.</br>Must complete 55 hours of training with an instructor in which must include:</p>
-                    <ul>
-                      <li>10 hours under the hood; simulated instruments.</li>
-                      <li>One 2 hour cross-country that consists on more than 100 nm straight line distance during the day.</li>
-                      <li>One 2 hour cross-country that consists on more than 100 nm straight line distance during the night.</li>
-                      <li>10 hours of training in a SEL complex aircraft.</li>
-                      <li>3 hour of training 60 days prior to the checkride.</li>
-                    </ul>
-                    <p>Student must complete 10 hours solo in which must include:</p>
-                    <ul>
-                      <li>One cross-country with landings at a minimum of three points and one segment of the flight must consist of a straight-line distance of at least 250 nm.</li>
-                      <li>5 hours of night VFR conditions with 10 takeoffs/landings which must be performed during pattern work.</li>
-                    </ul>
-                  </div>
-                  <div class="tabs-panel" id="panel2">
-                    <!-- <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p> -->
-                    <p>250 hours total time which must include:</p>
-                    <ul>
-                      <li>100 hours of PIC time flight time which includes at least: 50 hours in cross-country flight of which at least must be in airplanes</li>
-                    </ul>
-                    <p>20 hours of training with instructor in which includes:</p>
-                    <ul>
-                      <li>10 hours under the hood; simulated instruments</li>
-                      <li>One 2 hour cross-country that consists more than 100 nm straight line distance during the day.</li>
-                      <li>One 2 hour cross-country that consists more than 100 nm straight line distance during the night.</li>
-                      <li>10 hours of training in a SEL complex aircraft.</li>
-                      <li>3 hour of training 60 days prior to the checkride.</li>
-                    </ul>
-                    <p>Student must complete 10 hours solo in which must include:</p>
-                    <ul>
-                      <li>One cross-country with landings at a minimum of three points and one segment of the flight must consist of a straight-line distance of at least 250 nm.</li>
-                      <li>5 hours of night VFR conditions with 10 takeoffs/landings which must be performed during pattern work.</li>
-                    </ul>
-                  </div>
+            <dl class="grid-x grid-margin-x">
+            <!-- Ground training -->
+            <dt class="cell medium-3">Ground training</dt>
+            <dd class="cell medium-9">
+              <p>Theoretical preparation lays the foundation for practical flight training.</p>
+              <p>During the Zero to CPL course, the trainee will complete theoretical courses for PPL(A), IR(A), CPL(A) and MEL (A). <b>The curriculum for the program Zero to Commercial can be found under the PPL, IR, CPL, and ME sections.</b></p>
+            </dd>
+            <!-- Flight training -->
+            <dt class="cell medium-3">Flight Training</dt>
+            <dd class="cell medium-9">
+              <p>The flight training will start with the PPL(A), continues with IR(A) and with the CPL SEL and MEL add on.The curriculum for the program Zero to Commercial can be found under the PPL, IR, CPL, and ME sections.</p>
+              <ul class="tabs" data-tabs id="info-tabs">
+                <li class="tabs-title is-active box-shadow"><a href="#panel1" aria-selected="true">Part 141</a></li>
+                <li class="tabs-title box-shadow"><a data-tabs-target="panel2" href="#panel2">Part 61</a></li>
+              </ul>
+              <div class="tabs-content" data-tabs-content="info-tabs">
+                <div class="tabs-panel is-active" id="panel1">
+                  <!-- <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p> -->
+                  <p>190 hours total time. Must have 120 hours of dual time including in the total.</br>Must complete 55 hours of training with an instructor in which must include:</p>
+                  <ul>
+                    <li>10 hours under the hood; simulated instruments.</li>
+                    <li>One 2 hour cross-country that consists on more than 100 nm straight line distance during the day.</li>
+                    <li>One 2 hour cross-country that consists on more than 100 nm straight line distance during the night.</li>
+                    <li>10 hours of training in a SEL complex aircraft.</li>
+                    <li>3 hour of training 60 days prior to the checkride.</li>
+                  </ul>
+                  <p>Student must complete 10 hours solo in which must include:</p>
+                  <ul>
+                    <li>One cross-country with landings at a minimum of three points and one segment of the flight must consist of a straight-line distance of at least 250 nm.</li>
+                    <li>5 hours of night VFR conditions with 10 takeoffs/landings which must be performed during pattern work.</li>
+                  </ul>
+                </div>
+                <div class="tabs-panel" id="panel2">
+                  <!-- <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p> -->
+                  <p>250 hours total time which must include:</p>
+                  <ul>
+                    <li>100 hours of PIC time flight time which includes at least: 50 hours in cross-country flight of which at least must be in airplanes</li>
+                  </ul>
+                  <p>20 hours of training with instructor in which includes:</p>
+                  <ul>
+                    <li>10 hours under the hood; simulated instruments</li>
+                    <li>One 2 hour cross-country that consists more than 100 nm straight line distance during the day.</li>
+                    <li>One 2 hour cross-country that consists more than 100 nm straight line distance during the night.</li>
+                    <li>10 hours of training in a SEL complex aircraft.</li>
+                    <li>3 hour of training 60 days prior to the checkride.</li>
+                  </ul>
+                  <p>Student must complete 10 hours solo in which must include:</p>
+                  <ul>
+                    <li>One cross-country with landings at a minimum of three points and one segment of the flight must consist of a straight-line distance of at least 250 nm.</li>
+                    <li>5 hours of night VFR conditions with 10 takeoffs/landings which must be performed during pattern work.</li>
+                  </ul>
                 </div>
               </div>
-              <!-- Theoretical examination -->
-              <h3 class="cell medium-3">Theoretical Examinations</h3>
-              <div class="cell medium-9">
-                <p>Towards the end of the course of PPL, IR and CPL you will have to demonstrate a sufficient level of theoretical knowledge at an FAA approved testing center in the form of a written test.</br>To pass the written examinations you need to achieve a score of at least 70%,  which is still a passing score. This test must be done before the Checkride.</p>
-              </div>
-              <!-- Practical Examinations -->
-              <h3 class="cell medium-3">Practical Examinations</h3>
-              <div class="cell medium-9">
-                <p>The final aeronautical knowledge and practical test is the checkride. It will be taken at the end of the training of PPL, IR, CPL and ME  and consist of an oral and practical exam.</br>The length of the Check Ride varies depending on the FAA examiner.</p>
-              </div>
-            </div>
+            </dd>
+            <!-- Theoretical examination -->
+            <dt class="cell medium-3">Theoretical Examinations</dt>
+            <dd class="cell medium-9">
+              <p>Towards the end of the course of PPL, IR and CPL you will have to demonstrate a sufficient level of theoretical knowledge at an FAA approved testing center in the form of a written test.</br>To pass the written examinations you need to achieve a score of at least 70%,  which is still a passing score. This test must be done before the Checkride.</p>
+            </dd>
+            <!-- Practical Examinations -->
+            <dt class="cell medium-3">Practical Examinations</dt>
+            <dd class="cell medium-9">
+              <p>The final aeronautical knowledge and practical test is the checkride. It will be taken at the end of the training of PPL, IR, CPL and ME  and consist of an oral and practical exam.</br>The length of the Check Ride varies depending on the FAA examiner.</p>
+            </dd>
           </section>
         </article>
-
+        <!-- Fee covers the following items and services -->
         <article class="grid-x grid-margin-x carousel-info">
-             <section class="cell small-6 carousel">
-                 <!-- <img src="http://placehold.it/924x540" class="cell"> -->
-                 <a class="arrow-left-two box-shadow">Previous</a>
-                 <a class="arrow-right-two box-shadow">Next</a>
-             </section>
-             <section class="cell small-6">
-               <!-- <h3>TEXT</h3> -->
-                 <h2>Fee covers the following items and services:</h2>
-                 <ul>
-                    <img src="images/check.png"><li>Flight instructor time for ground &amp; practical training</li>
-                    <img src="images/check.png"><li>Airplane usage, including fuel</li>
-                    <img src="images/check.png"><li>Subsidized iPad mini 4G + WiFi</li>
-                    <img src="images/check.png"><li>Bonus - account for Rocket Route flight planning services - valued &dollar;300/year</li>
-                 </ul>
-                 <a class="btn button-primary box-shadow">Learn more about courses fees</a>
-             </section>
-           </article>
-
-      </div>
+          <section class="cell small-5 carousel">
+          <!-- <img src="http://placehold.it/924x540" class="cell"> -->
+          <a class="arrow-left-two box-shadow">Previous</a>
+          <a class="arrow-right-two box-shadow">Next</a>
+          </section>
+          <section class="cell small-7">
+            <!-- <h3>TEXT</h3> -->
+            <h2>Fee covers the following items and services:</h2>
+            <ul>
+              <img src="images/check.png">
+              <li>Flight instructor time for ground &amp; practical training</li>
+              <img src="images/check.png">
+              <li>Airplane usage, including fuel</li>
+              <img src="images/check.png">
+              <li>Subsidized iPad mini 4G + WiFi</li>
+              <img src="images/check.png">
+              <li>Bonus - account for Rocket Route flight planning services - valued &dollar;300/year</li>
+            </ul>
+            <a class="btn button-primary box-shadow">Learn more about courses fees</a>
+          </section>
+        </article>
     </div>
+    </div>
+
     <!--jquery-->
     <script src="jquery/jquery.min.js"></script>
     <!--foundation js-->
@@ -304,6 +306,7 @@
     <script>
       $(document).foundation();
     </script>
+
     <!--owl js-->
     <script src="owl/js/owl.carousel.js"></script>
     <script>
