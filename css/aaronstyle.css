@@ -69,9 +69,11 @@ width: 550px;
 td img {
   margin-right: 1.5rem;
 }
-a, a:hover {
-  color: #47505d;
+
+a, a:hover, a:focus {
+  color: #003366;
 }
+
 a > img {
   margin-left: 18px;
 }
@@ -106,9 +108,12 @@ a > img {
   background-color: white !important;
   color: black !important;
 }
+
 a:active {
-  color: #cbe6ef;
+  position: relative;
+  top: 2px;
 }
+
 form {
   height: 19.5rem;
   background: linear-gradient(to right, white, transparent),

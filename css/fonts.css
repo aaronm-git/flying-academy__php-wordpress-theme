@@ -1,3 +1,5 @@
+/* -------------------------------------------------------------------- */
+/* Minion Pro */
 @font-face {
     font-family: 'Minion Pro';
     src: url(../fonts/minionpro/hinted-MinionPro-Regular.woff);
@@ -6,8 +8,196 @@
 }
 
 @font-face {
+    font-family: 'Minion Pro Bold';
+    src: url(../fonts/minionpro/hinted-MinionPro-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Bold Condensed';
+    src: url(../fonts/minionpro/hinted-MinionPro-BoldCn.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Bold Condensed Italic';
+    src: url(../fonts/minionpro/hinted-MinionPro-BoldCnIt.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Bold Italic';
+    src: url(../fonts/minionpro/hinted-MinionPro-BoldIt.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Italic';
+    src: url(../fonts/minionpro/hinted-MinionPro-It.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Medium';
+    src: url(../fonts/minionpro/hinted-MinionPro-Medium.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Medium Italic';
+    src: url(../fonts/minionpro/hinted-MinionPro-MediumIt.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Semibold';
+    src: url(../fonts/minionpro/hinted-MinionPro-Semibold.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro Semibold Italic';
+    src: url(../fonts/minionpro/hinted-MinionPro-SemiboldIt.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------- */
+/* Roboto */
+@font-face {
     font-family: 'Roboto';
     src: url(../fonts/roboto/hinted-Roboto-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(../fonts/roboto/hinted-Roboto-Black.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Balck Italic';
+    src: url(../fonts/roboto/hinted-Roboto-BlackItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../fonts/roboto/hinted-Roboto-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold Italic';
+    src: url(../fonts/roboto/hinted-Roboto-BoldItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url(../fonts/roboto/hinted-Roboto-Italic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(../fonts/roboto/hinted-Roboto-Light.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Light Italic';
+    src: url(../fonts/roboto/hinted-Roboto-LightItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url(../fonts/roboto/hinted-Roboto-Medium.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Medium Italic';
+    src: url(../fonts/roboto/hinted-Roboto-MediumItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url(../fonts/roboto/hinted-Roboto-Thin.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Thin Italic';
+    src: url(../fonts/roboto/hinted-Roboto-ThinItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Bold';
+    src: url(../fonts/roboto/hinted-Roboto-Condensed-Bold.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Bold Italic';
+    src: url(../fonts/roboto/hinted-Roboto-Condensed-BoldItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Italic';
+    src: url(../fonts/roboto/hinted-Roboto-Condensed-Italic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Light';
+    src: url(../fonts/roboto/hinted-Roboto-Condensed-Light.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Light Italic';
+    src: url(../fonts/roboto/hinted-Roboto-Condensed-LightItalic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Regular';
+    src: url(../fonts/roboto/hinted-Roboto-Condensed-Regular.woff);
     font-weight: normal;
     font-style: normal;
 }
