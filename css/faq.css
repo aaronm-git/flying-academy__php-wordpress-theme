@@ -2,6 +2,8 @@
 .accordion-title::before {
   content: none;
 }
+/* /////// */
+
 
 a.accordion-title {
   border: 0;
@@ -17,6 +19,7 @@ a.accordion-title {
 a.accordion-title, a.accordion-title:focus {
   background-color: #003366;
   color: white;
+  /* Need to add borders at the bottom of these lis like in the designs */
   /* border-bottom: 1px solid white; */
   /* margin-bottom: 1px; */
 
@@ -34,6 +37,7 @@ a.accordion-title, a.accordion-title:focus {
   font-size: 1.5rem;
 }
 
+/* Need to add borders at the bottom of these lis like in the designs */
 /* .accordion-sub {
   border-bottom: 1px solid #cccccc;
 } */
