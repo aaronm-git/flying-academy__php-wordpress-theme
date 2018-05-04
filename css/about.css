@@ -3,7 +3,7 @@ table thead, table tbody, table tfoot {
   background: transparent;
 }
 
-/* gradient and image */
+/* Section 2 gradient style */
 .fourPieceSection {
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%), url('../images/stationed.jpg') no-repeat;
   background: -webkit-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%), url('../images/stationed.jpg') no-repeat;
@@ -12,7 +12,8 @@ table thead, table tbody, table tfoot {
   background-size: cover;
   background-position: 0% 25%;
 }
-
+/* //// */
+/* Section 2 mobile conditions (may not be important) */
 @media (min-width: 800px) {
   .fourPieceSection {
     padding: 0 6rem 9rem 6rem;
@@ -23,7 +24,9 @@ table thead, table tbody, table tfoot {
   padding: 0 0 9rem 0;
 }
 }
+/* //// */
 
+/* Section 2 CSS// */
 .fourPieceSection h1 {
   text-align: center;
 }
@@ -49,6 +52,36 @@ table thead, table tbody, table tfoot {
   margin-bottom: 3rem;
 }
 
+/* ////// */
+
+/* section 3 CSS */
+.quote-box {
+  text-align: center;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  font-family: Minion Pro, sans-serif;
+  background-color:	#F8F8FF;
+}
+
+.quote-box h1 {
+  display: inline-block;
+  position: relative;
+
+}
+
+.quote-box h1::after {
+  position: absolute;
+  bottom: -10;
+  left: 0;
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: gold;
+}
+/* //// */
+
+
+/* Section 4 CSS  */
 .mostLeft-InfoBox section:nth-child(2) {
   position: relative;
   background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%), url('../images/takeoff2.jpg') no-repeat center;
@@ -77,9 +110,12 @@ table thead, table tbody, table tfoot {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
 }
 
+/* ////// */
+
+
+/* Section 5 CSS */
 .mostRight-InfoBox section:nth-child(1) {
   position: relative;
-  /* background-image: url('../images/waiting.jpg'); */
   background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%), url('../images/waiting.jpg') no-repeat center;
   background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url('../images/waiting.jpg') no-repeat center;
   background: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url('../images/waiting.jpg') no-repeat center;
@@ -88,7 +124,6 @@ table thead, table tbody, table tfoot {
 }
 
 .mostRight-InfoBox section:nth-child(1)::after {
-  /* background-image: url('../images/waiting.jpg'); */
   content: '';
   position: absolute;
   top: 0;
@@ -104,28 +139,4 @@ table thead, table tbody, table tfoot {
   background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 75%,rgba(255,255,255,1) 100%);
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 75%,rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-}
-
-.quote-box {
-  text-align: center;
-  padding: 1.5rem 3rem 1.5rem 3rem;
-  font-family: Minion Pro, sans-serif;
-  background-color:	#F8F8FF;
-}
-
-.quote-box h1 {
-  display: inline-block;
-  position: relative;
-
-}
-
-.quote-box h1::after {
-  position: absolute;
-  bottom: -10;
-  left: 0;
-  content: '';
-  display: block;
-  height: 3px;
-  width: 100%;
-  background-color: gold;
 }
