@@ -77,6 +77,15 @@
 	margin: 0 .5rem 1.5rem .5rem;
 } */
 
+/* Aarons overrides for this page */
+.info-box ul, .offset-box ul {
+  margin-left: 0;
+}
+
+.info-box ul, .offset-box ul {
+  margin-left: 0;
+}
+
 /*info image*/
 
 .info-image {
@@ -102,11 +111,11 @@ body article:nth-of-type(3) .info-image img {
 	height: 100%;
 }
 
+/* added padding to the first h1 in the parent */
 .offset-box > h1, .box-heading h1 {
   padding-bottom: 1.5rem;
 }
 
-/* MY CODE */
 .simple-box {
   text-align: center;
 }
@@ -117,16 +126,4 @@ padding: 0 3rem 0 3rem;
 
 .info-box {
   padding: 3rem;
-  /* outline-color: black;
-  outline-style: solid;
-  outline-width: 1px; */
-}
-
-/* overrides */
-.info-box ul, .offset-box ul {
-  margin-left: 0;
-}
-
-.info-box ul, .offset-box ul {
-  margin-left: 0;
 }
