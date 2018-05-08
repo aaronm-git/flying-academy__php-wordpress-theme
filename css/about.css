@@ -60,6 +60,7 @@ table thead, table tbody, table tfoot {
   padding: 1.5rem 3rem 1.5rem 3rem;
   font-family: Minion Pro, sans-serif;
   background-color:	#F8F8FF;
+  /* background-color: grey; */
 }
 
 .quote-box h1 {
