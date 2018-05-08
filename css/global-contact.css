@@ -63,7 +63,7 @@
 }
 
 a.accordion-title {
-  background-image: url('../images/arrow-up-black.png');
+  background-image: url('../images/arrow-down-black.png');
   background-position: 95% 50%;
   background-size: 1.5rem auto;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ a.accordion-title {
 .accordion-title:focus {
   color: white;
   background-color: #3e4659;
-  background-image: url('../images/arrow-up-white.png');
+  background-image: url('../images/arrow-down-white.png');
 
 }
 
