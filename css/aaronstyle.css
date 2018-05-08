@@ -115,7 +115,7 @@ a > img {
 } */
 
 form {
-  height: 19.5rem;
+  /* height: 19.5rem; */
   background: linear-gradient(to right, white, transparent),
   url("../images/skyscrapers.png") no-repeat center;
   background-size: cover;
