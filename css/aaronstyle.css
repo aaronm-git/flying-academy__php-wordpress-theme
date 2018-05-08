@@ -109,10 +109,10 @@ a > img {
   color: black !important;
 }
 
-a:active {
+/* a:active {
   position: relative;
   top: 2px;
-}
+} */
 
 form {
   height: 19.5rem;

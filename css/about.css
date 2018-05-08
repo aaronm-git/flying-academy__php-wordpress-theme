@@ -4,7 +4,7 @@ table thead, table tbody, table tfoot {
 }
 
 /* Section 2 gradient style */
-.fourPieceSection {
+.four-piece-section {
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%), url('../images/stationed.jpg') no-repeat;
   background: -webkit-linear-gradient(top, rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%), url('../images/stationed.jpg') no-repeat;
   background: linear-gradient(to bottom, rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%), url('../images/stationed.jpg') no-repeat;
@@ -15,32 +15,32 @@ table thead, table tbody, table tfoot {
 /* //// */
 /* Section 2 mobile conditions (may not be important) */
 @media (min-width: 800px) {
-  .fourPieceSection {
+  .four-piece-section {
     padding: 0 6rem 9rem 6rem;
   }
 }
 
-@media (max-width: 1000px){ .fourPieceSection {
+@media (max-width: 1000px){ .four-piece-section {
   padding: 0 0 9rem 0;
 }
 }
 /* //// */
 
 /* Section 2 CSS// */
-.fourPieceSection h1 {
+.four-piece-section h1 {
   text-align: center;
 }
 
-.fourPieceSection section {
+.four-piece-section section {
   padding-left: 4.875rem;
 }
 
-.fourPieceSection section .imgPlaceholder {
+.four-piece-section section .img-placeholder {
   float: left;
   margin-left: -3.9375rem;
 }
 
-.fourPieceSection .imgPlaceholder{
+.four-piece-section .img-placeholder{
   background-image: url('../images/check2.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -48,7 +48,7 @@ table thead, table tbody, table tfoot {
   width: 3rem;
 }
 
-.fourPieceSection section + section, .fourPieceSection h1 {
+.four-piece-section section + section, .four-piece-section h1 {
   margin-bottom: 3rem;
 }
 
@@ -82,7 +82,7 @@ table thead, table tbody, table tfoot {
 
 
 /* Section 4 CSS  */
-.mostLeft-InfoBox section:nth-child(2) {
+.left-info-box section:nth-child(2) {
   position: relative;
   background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%), url('../images/takeoff2.jpg') no-repeat center;
   background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url('../images/takeoff2.jpg') no-repeat center;
@@ -91,7 +91,7 @@ table thead, table tbody, table tfoot {
   background-size: cover;
 }
 
-.mostLeft-InfoBox section:nth-child(2)::after {
+.left-info-box section:nth-child(2)::after {
   /* background-image: url('../images/waiting.jpg'); */
   content: '';
   position: absolute;
@@ -114,7 +114,7 @@ table thead, table tbody, table tfoot {
 
 
 /* Section 5 CSS */
-.mostRight-InfoBox section:nth-child(1) {
+.right-info-box section:nth-child(1) {
   position: relative;
   background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%), url('../images/waiting.jpg') no-repeat center;
   background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%), url('../images/waiting.jpg') no-repeat center;
@@ -123,7 +123,7 @@ table thead, table tbody, table tfoot {
   background-size: cover;
 }
 
-.mostRight-InfoBox section:nth-child(1)::after {
+.right-info-box section:nth-child(1)::after {
   content: '';
   position: absolute;
   top: 0;
