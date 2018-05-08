@@ -59,8 +59,11 @@ table thead, table tbody, table tfoot {
   text-align: center;
   padding: 1.5rem 3rem 1.5rem 3rem;
   font-family: Minion Pro, sans-serif;
+}
+
+.quote-box-background {
   background-color:	#F8F8FF;
-  /* background-color: grey; */
+
 }
 
 .quote-box h1 {
