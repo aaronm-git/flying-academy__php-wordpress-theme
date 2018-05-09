@@ -193,7 +193,7 @@ button {
 	line-height: 1.5rem;
 	padding: .75rem 3rem .75rem 3rem;
 	border: none;
-	border-radius: 0;	
+	border-radius: 0;
 	background-color: #465064;
 	color: white;
 }
@@ -255,7 +255,7 @@ table tbody tr td,
 table tfoot tr td,
 table tr th,
 table tr td {
-	padding: 12px .9375rem 11px .9375rem; 	
+	padding: 12px .9375rem 11px .9375rem;
 	border: 1px solid #45505f;
 	line-height: 1.5rem;
 	background-color: transparent;
@@ -272,7 +272,7 @@ table tr:nth-child(even) {
 }
 
 tr th *,
-tr td *{	
+tr td *{
 	margin: 0;
 }
 
@@ -290,7 +290,7 @@ tr td p,
 tr th,
 tr td {
 	color: #45505f;
-} 
+}
 
 
 /*typography miscellaneous elements*/
@@ -1002,7 +1002,7 @@ p.faq-link:last-child {
 	padding-left: 1.875rem;
 }
 
-.offset-box.right {	
+.offset-box.right {
 	padding-right: 1.875rem;
 }
 
@@ -1141,7 +1141,7 @@ p.faq-link:last-child {
 	font-size: 1.5rem;
 	line-height: 1.5rem;
 	margin-top: -1.5rem;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 /*blog article body*/
@@ -1165,7 +1165,7 @@ p.faq-link:last-child {
 }
 
 .share-box * {
-	display: block;	
+	display: block;
 }
 
 .share-box h1 {
@@ -1174,7 +1174,7 @@ p.faq-link:last-child {
 	margin-bottom: 0;
 	line-height: 3rem;
 	font-family: 'Roboto', sans-serif;
-	font-size: 2rem;	
+	font-size: 2rem;
 	text-transform: uppercase;
 }
 
@@ -1249,7 +1249,7 @@ p.faq-link:last-child {
 .blog-grid  article {
 	position: relative;
 	margin-bottom: 1.5rem;
-	background-color: darkgray;	
+	background-color: darkgray;
 }
 
 .blog-grid > h1:first-child {
@@ -1325,7 +1325,7 @@ p.faq-link:last-child {
 }
 
 .video-info *{
-	
+
 	color: white;
 }
 
@@ -1480,7 +1480,7 @@ p.faq-link:last-child {
 	background-color: #efefef;
 }
 
-.fancy-table th, 
+.fancy-table th,
 .fancy-table td {
 	padding: .75rem 0;
 	border: none;
