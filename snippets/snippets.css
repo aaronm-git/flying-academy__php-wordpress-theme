@@ -1,0 +1,107 @@
+/*border collapse method*/
+table {
+	border-collapse: separate;
+	border-spacing: 0px;
+	border: none;
+	margin-top: -1px;
+	margin-bottom: 1.5rem;
+}
+
+table thead,
+table tbody,
+table tfoot {
+	border: none;
+}
+
+table thead tr th,
+table tbody tr th,
+table tfoot tr th,
+table thead tr td,
+table tbody tr td,
+table tfoot tr td,
+table tr th,
+table tr td {
+	padding: 12px .9375rem 11px .9375rem; 	
+	border: 1px solid black;
+	line-height: 1.5rem;
+	background-color: transparent;
+	vertical-align: baseline;
+}
+
+table thead tr:nth-child(even),
+table tbody tr:nth-child(even),
+table tfoot tr:nth-child(even),
+table tr:nth-child(even),
+table tr:nth-child(even),
+table tr:nth-child(even) {
+	background-color: transparent;
+}
+
+tr th *,
+tr td *{	
+	margin: 0;
+}
+
+tr th img,
+tr td img {
+	display: inline-block;
+	height: 23px;
+	width: auto;
+}
+
+/*border seperate method*/
+
+table {
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-width: 1px 0 0 1px;
+	border-style: inset;
+	border-color: black;
+	margin-top: -1px;
+	margin-bottom: 1.5rem;
+}
+
+table thead,
+table tbody,
+table tfoot {
+	border: none;
+}
+
+table thead tr th,
+table tbody tr th,
+table tfoot tr th,
+table thead tr td,
+table tbody tr td,
+table tfoot tr td,
+table tr th,
+table tr td {
+	padding: 12px .9375rem 11px .9375rem;
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: black;
+	line-height: 1.5rem;
+	background-color: transparent;
+	vertical-align: baseline;
+}
+
+
+table thead tr:nth-child(even),
+table tbody tr:nth-child(even),
+table tfoot tr:nth-child(even),
+table tr:nth-child(even),
+table tr:nth-child(even),
+table tr:nth-child(even) {
+	background-color: transparent;
+}
+
+tr th *,
+tr td *{
+	margin: 0;
+}
+
+tr th img,
+tr td img {
+	display: inline-block;
+	height: 23px;
+	width: auto;
+}
