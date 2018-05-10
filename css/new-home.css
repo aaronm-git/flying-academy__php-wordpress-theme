@@ -1,72 +1,18 @@
 /* foundation overrides */
 .grid-container.fluid {
+  /* background image */
   background-image: url("../home-images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+/* / */
 
-.hero-content {
-  position: relative;
-  height: 30rem;
+.special-heading {
+  display: inline-block;
 }
 
-.hero-content * {
-  position: relative;
-  top: 20%;
-  /* left: 50%; */
-  color: white;
-  /* text-align: center; */
-}
-
-.hero-content p {
-    line-height: 3rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: .0625rem;
-    margin-bottom: 1.5rem;
-}
-
-.hero-content .border {
-  position: relative;
-  top: 4.5rem;
-  height: 1px;
-  width: 50px;
-  background-color: white;
-  margin: 0 auto;
-}
-
-.hero-content h1 {
-  font-size: 4.5rem;
-  line-height: 4.5rem;
-}
-
-.hero-content a {
-  margin: 0 auto;
-  display:block;
-
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding: .75rem 3rem .75rem 3rem;
-  /* border: none;
-  border-radius: 0; */
-  background-color: #465064;
-  color: white;
-  width: 200px;
-}
-
-.hero-content a:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.hero-content a:active {
-  text-decoration: none;
-  background: white;
-  color: black;
-  transition: 0s;
-}
-
+/* shadow style */
 .shadow {
   -webkit-box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.5);
   -moz-box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.5);
@@ -82,3 +28,67 @@
   transition: 0.25s ease-in-out;
   transform: scale(1.02, 1.02);
 }
+/* / */
+
+/* row 1 */
+.hero-content {
+  /* contains the content inside the hero (text, button, etc) */
+  /* hero-content also stretches its parents height. */
+  padding: 6rem 0 12rem 0;
+}
+
+.hero-content * {
+  /* targets everything inside the hero-content */
+  color: white;
+  /* text-align: center; */
+}
+
+/* getting specific in the hero-content*/
+.hero-content p {
+  /* these settings are directly copied and pasted from danny's special-heading css
+  without including the :after style for the gold line. this css will not affect other
+  p tags that used special-heading in the html */
+    line-height: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    margin-bottom: 0;
+}
+
+.hero-content .border {
+  /* custom border for the p tag. replaces the gold underline and centers it underneath using margins,
+  since its a div */
+  background-color: white;
+  width: 50px;
+  height: 1px;
+  margin: 0 auto 1.4rem auto;
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+.hero-content a {
+  /* button style */
+  margin: 0 auto; /* centers it */
+  padding: .625rem 3rem .625rem 3rem;
+  /* background-color: #465064; */
+  border: 2px solid white;
+  color: white;
+}
+
+.hero-content a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-content a:active {
+  text-decoration: none;
+  background: white;
+  color: black;
+  transition: 0s;
+}
+/* row 1 end */
+
+/* row 2 */
