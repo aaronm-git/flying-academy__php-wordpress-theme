@@ -609,6 +609,7 @@ h1 + .special-heading,
 
 .button.dark:hover{
 	background-color: #465064;
+	color: white;
 }
 
 .button.nuetral:hover{
