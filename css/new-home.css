@@ -7,10 +7,6 @@
   background-position: center;
 }
 
-.fluid {
-  background-color: #F0F0F0;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -333,6 +329,7 @@ border-color: transparent !important;
 
 /* row 3 */
 .fluid-background {
+  background-color: #F0F0F0;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
@@ -381,11 +378,14 @@ border-color: transparent !important;
   height: 100%;
   width: auto;
 }
+/* end row 4 */
 
-/* .course-description .button {
-  padding: .75rem 0 .75rem 0;
-  background-color: transparent;
-  width: 160px;
-  color: #465064;
-  outline: 2px solid #465064;
-} */
+/* row 5 */
+.map-image {
+  height: 36rem;
+  /* max-width: 100%; */
+}
+
+/* end row 5 */
+
+/* row 6 */
