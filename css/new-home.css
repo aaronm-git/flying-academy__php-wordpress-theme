@@ -332,6 +332,60 @@ border-color: transparent !important;
 /* end of row 2 */
 
 /* row 3 */
-section.cell.text-center {
-  padding-top: 1.5rem;
+.fluid-background {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
+
+.course-tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3rem;
+}
+
+.course-tabs .button {
+  padding: .75rem 0 .75rem 0;
+  background-color: transparent;
+  width: 150px;
+  color: #465064;
+  outline: 2px solid #465064;
+}
+
+.course-tabs .button:hover {
+  background-color: #465064;
+  color: white;
+  outline: 2px solid #dcdcdc;
+}
+
+.course-description h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+
+.course-description p {
+  margin-bottom: .5rem;
+}
+
+.course-description .button {
+  margin-bottom: 2rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: .75rem;
+}
+
+.fluid-box-image img {
+  height: 100%;
+  width: auto;
+}
+
+/* .course-description .button {
+  padding: .75rem 0 .75rem 0;
+  background-color: transparent;
+  width: 160px;
+  color: #465064;
+  outline: 2px solid #465064;
+} */
