@@ -84,7 +84,7 @@ border-color: transparent !important;
   line-height: 4.5rem;
 }
 
-.hero-content a {
+.transparent-button {
   /* button style */
   margin: 0 auto; /* centers it */
   padding: .625rem 3rem .625rem 3rem;
@@ -93,7 +93,7 @@ border-color: transparent !important;
   color: white;
 }
 
-.hero-content a:active, .hero-content a:hover {
+.transparent-button:active, .hero-content .transparent-button:hover {
   text-decoration: none;
   background: white;
   color: black;
@@ -389,3 +389,12 @@ border-color: transparent !important;
 /* end row 5 */
 
 /* row 6 */
+
+/* end row 6 */
+
+/* row 7 */
+/* .video-info-button{
+  position: absolute;
+  bottom: 3rem;
+} */
+/* end row 7 */
