@@ -155,7 +155,7 @@ td {
 }
 
 .calendar table {
-  margin-bottom: .5rem;
+  margin-bottom: 0rem;
 }
 
 .calendar-background-wrap {
@@ -296,6 +296,7 @@ td {
 .calendar-options {
   display: flex;
   justify-content: space-between;
+  margin-top: -2px; /* table border width is 2px */
 }
 
 .calendar-legend {
