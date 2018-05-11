@@ -1,10 +1,14 @@
 /* foundation overrides */
-.grid-container.fluid {
+.grid-container.fluid:first-child {
   /* background image */
   background-image: url("../home-images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.fluid {
+  background-color: #F0F0F0;
 }
 
 a:hover {
@@ -18,14 +22,10 @@ tr {
 }
 
 td {
-  border-color: transparent !important;
-  vertical-align: middle !important;
+border-color: transparent !important;
 }
 
-/* table {
-  margin-top: 1px;
-} */
-/* / */
+
 
 .special-heading {
   display: inline-block;
@@ -59,7 +59,7 @@ td {
 .hero-content * {
   /* targets everything inside the hero-content */
   color: white;
-  /* text-align: center; */
+
 }
 
 /* getting specific in the hero-content*/
@@ -92,16 +92,16 @@ td {
   /* button style */
   margin: 0 auto; /* centers it */
   padding: .625rem 3rem .625rem 3rem;
-  /* background-color: #465064; */
+
   border: 2px solid white;
   color: white;
 }
 
-.hero-content a:active {
+.hero-content a:active, .hero-content a:hover {
   text-decoration: none;
   background: white;
   color: black;
-  transition: 0s;
+  transition: .5s;
 }
 /* row 1 end */
 
@@ -158,7 +158,7 @@ td {
   margin-bottom: 0rem;
 }
 
-.calendar-background-wrap {
+.calendar-background-color {
   position: absolute;
   height: 6rem;
   width: 100%;
@@ -170,6 +170,7 @@ td {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 3rem;
 }
 
 .calendar h1 {
@@ -198,12 +199,10 @@ td {
 
 .calendar td {
 	text-align: center;
-	width: 14.285%;
-  margin: 0;
-  border: 0;
+
 }
 
-.calendar td, .calendar-days td {
+.calendar-days td {
   padding: .75rem 0 .75rem 0 !important;
 }
 
@@ -219,7 +218,7 @@ td {
 }
 
 .event {
-	background: #8797bc;
+	background: #5B8EC5;
 	color: #f9f9f9;
 }
 
@@ -233,7 +232,7 @@ td {
 }
 
 .course {
-	background: #00addf;
+	background: #6BDCFF;
 	color: #f9f9f9;
 }
 
@@ -296,7 +295,7 @@ td {
 .calendar-options {
   display: flex;
   justify-content: space-between;
-  margin-top: -2px; /* table border width is 2px */
+  /* margin-top: -2px; /* table border width is 2px */ */
 }
 
 .calendar-legend {
@@ -318,17 +317,21 @@ td {
   left: 0;
   width: 1rem;
   height: 1rem;
-  background-color: #8797bc;
+  background-color: #5B8EC5;
 }
 
 .calendar-legend p:last-child::after {
   /* course */
-  background-color: #00addf;
+  background-color: #6BDCFF;
 }
 
 .calendar-container {
-  border: 2px solid #f0f0f0;
+  outline: 2px solid #f0f0f0;
+  margin-bottom: 1.5rem;
 }
 /* end of row 2 */
 
 /* row 3 */
+section.cell.text-center {
+  padding-top: 1.5rem;
+}
