@@ -363,13 +363,17 @@ td {
 
 .course-tabs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 3rem;
 }
 
+ul.menu.stack.course-tabs.stack {
+  padding: 0;
+}
+
 .course-tabs .button {
-    padding: .75rem 0 .75rem 0;
+    /* padding: .75rem 0 .75rem 0; */
     background-color: transparent;
     width: 150px;
     color: #465064;
