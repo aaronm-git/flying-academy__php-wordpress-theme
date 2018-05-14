@@ -1,66 +1,75 @@
 /* foundation overrides */
+
 .grid-container.fluid:first-child {
-  /* background image */
-  background-image: url("../home-images/hero-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    /* background image */
+    background-image: url("../home-images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
+
 /* / */
 
+
 /* danny style overrides */
+
 tr {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 td {
-border-color: transparent !important;
+    border-color: transparent !important;
 }
-
-
 
 .special-heading {
-  display: inline-block;
+    display: inline-block;
 }
 
-/* shadow style */
-.shadow {
-  -webkit-box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.5);
-  -moz-box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.5);
-  box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.5);
-  transition: 0.25s ease-in-out;
 
+/* shadow style */
+
+.shadow {
+    -webkit-box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.25s ease-in-out;
 }
 
 .shadow:hover {
-  -webkit-box-shadow: 4px 8px 25px 4px rgba(0,0,0,0.5);
-  -moz-box-shadow: 4px 8px 25px 4px rgba(0,0,0,0.5);
-  box-shadow: 4px 8px 25px 4px rgba(0,0,0,0.5);
-  transition: 0.25s ease-in-out;
-  transform: scale(1.02, 1.02);
+    -webkit-box-shadow: 4px 8px 25px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 8px 25px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 8px 25px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.25s ease-in-out;
+    transform: scale(1.02, 1.02);
 }
+
+
 /* / */
 
+
 /* row 1 */
+
 .hero-content {
-  /* contains the content inside the hero (text, button, etc) */
-  /* hero-content also stretches its parents height. */
-  padding: 6rem 0 12rem 0;
+    /* contains the content inside the hero (text, button, etc) */
+    /* hero-content also stretches its parents height. */
+    padding: 6rem 0 12rem 0;
 }
 
 .hero-content * {
-  /* targets everything inside the hero-content */
-  color: white;
-
+    /* targets everything inside the hero-content */
+    color: white;
 }
 
+
 /* getting specific in the hero-content*/
+
 .hero-content p {
-  /* these settings are directly copied and pasted from danny's special-heading css
+    /* these settings are directly copied and pasted from danny's special-heading css
   without including the :after style for the gold line. this css will not affect other
   p tags that used special-heading in the html */
     line-height: 3rem;
@@ -71,48 +80,55 @@ border-color: transparent !important;
 }
 
 .hero-content .border {
-  /* custom border for the p tag. replaces the gold underline and centers it underneath using margins,
+    /* custom border for the p tag. replaces the gold underline and centers it underneath using margins,
   since its a div */
-  background-color: white;
-  width: 50px;
-  height: 1px;
-  margin: 0 auto 1.4rem auto;
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    margin: 0 auto 1.4rem auto;
 }
 
 .hero-content h1 {
-  font-size: 4.5rem;
-  line-height: 4.5rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
 }
 
 .transparent-button {
-  /* button style */
-  margin: 0 auto; /* centers it */
-  padding: .625rem 3rem .625rem 3rem;
-
-  border: 2px solid white;
-  color: white;
+    /* button style */
+    margin: 0 auto;
+    /* centers it */
+    padding: .625rem 3rem .625rem 3rem;
+    border: 2px solid white;
+    color: white;
 }
 
-.transparent-button:active, .hero-content .transparent-button:hover {
-  text-decoration: none;
-  background: white;
-  color: black;
-  transition: .5s;
+.transparent-button:active,
+.hero-content .transparent-button:hover {
+    text-decoration: none;
+    background: white;
+    color: black;
+    transition: .5s;
 }
+
+
 /* row 1 end */
 
+
 /* row 2 */
+
 .search-div select {
-  background-color: #465064;
-  background-image: url('../images/arrow-down-white.png');
-  background-position: right;
-  background-size: 1.5rem;
-  color: white;
+    background-color: #465064;
+    background-image: url('../images/arrow-down-white.png');
+    background-position: right;
+    background-size: 1.5rem;
+    color: white;
 }
 
+
 /* row 2 course table */
+
 .cool-table {
-  position: relative;
+    position: relative;
 }
 
 .cool-table tr:nth-child(3n+1)::after {
@@ -139,109 +155,114 @@ border-color: transparent !important;
     top: calc(25% - 1px);
     left: 0;
     background-color: #77e0ff;
-  }
+}
 
-  /* custom cal */
+
+/* custom cal */
+
 
 /* ---------- CALENDAR ---------- */
 
 .calendar {
-  position: relative;
-	text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .calendar table {
-  margin-bottom: 0rem;
+    margin-bottom: 0rem;
 }
 
 .calendar-background-color {
-  position: absolute;
-  height: 6rem;
-  width: 100%;
-  background-color: #3E4659;
-  z-index: -1;
+    position: absolute;
+    height: 6rem;
+    width: 100%;
+    background-color: #3E4659;
+    z-index: -1;
 }
 
 .calendar header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
 }
 
 .calendar h1 {
-	/* text-transform: uppercase; */
-  font-family: sans-serif;
-  color: white;
-  font-size: 1rem;
-  margin-bottom: 0;
+    /* text-transform: uppercase; */
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0;
 }
+
 .calendar thead {
-	font-weight: 600;
-	text-transform: uppercase;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .calendar tbody {
-	color: #7c8a95;
+    color: #7c8a95;
 }
 
 .calendar tbody td:hover {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .calendar tr {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 .calendar td {
-	text-align: center;
-
+    text-align: center;
 }
 
 .calendar-days td {
-  padding: .75rem 0 .75rem 0 !important;
+    padding: .75rem 0 .75rem 0 !important;
 }
 
 .calendar thead tr:first-of-type td {
-	color: white;
-  font-weight: normal;
-  padding: 0;
+    color: white;
+    font-weight: normal;
+    padding: 0;
 }
 
 .calendar .prev-month,
 .calendar .next-month {
-	color: #cbd1d2;
+    color: #cbd1d2;
 }
 
 .event {
-	background: #5B8EC5;
-	color: #f9f9f9;
+    background: #5B8EC5;
+    color: #f9f9f9;
 }
 
 .event:hover {
-  color: black;
+    color: black;
 }
 
 .event {
-	/* cursor: pointer; */
-	/* position: relative; */
+    /* cursor: pointer; */
+    /* position: relative; */
 }
 
 .course {
-	background: #6BDCFF;
-	color: #f9f9f9;
+    background: #6BDCFF;
+    color: #f9f9f9;
 }
 
 .course:hover {
-  color: black;
+    color: black;
 }
 
 .course {
-	/* cursor: pointer; */
-	/* position: relative; */
+    /* cursor: pointer; */
+    /* position: relative; */
 }
 
+
 /* creates a dot instead of full color */
+
+
 /* .event:after {
 	background: #00addf;
 	border-radius: 50%;
@@ -255,114 +276,120 @@ border-color: transparent !important;
 	width: .5em;
 } */
 
+
 /* .event.current-day:after {
 	background: #f9f9f9;
 } */
 
 .btn-prev,
 .btn-next {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: 0 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem;
 }
 
 .btn-prev {
-  background-image: url('../images/arrow-left-white.png');
-  background-repeat:no-repeat;
-  background-size: 1rem;
-  background-position: center;
+    background-image: url('../images/arrow-left-white.png');
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: center;
 }
 
 .btn-next {
-  background-image: url('../images/arrow-right-white.png');
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  background-position: center;
+    background-image: url('../images/arrow-right-white.png');
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: center;
 }
 
 .btn-prev {
-	left: 6em;
+    left: 6em;
 }
 
 .btn-next {
-	right: 6em;
+    right: 6em;
 }
 
 .calendar-options {
-  display: flex;
-  justify-content: space-between;
-  /* margin-top: -2px; /* table border width is 2px */ */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: -2px; /* table border width is 2px */
+    */
 }
 
 .calendar-legend {
-  position: relative;
+    position: relative;
 }
 
 .calendar-legend p {
-  margin: 0;
+    margin: 0;
 }
 
-.calendar-legend p:first-child::after, .calendar-legend p:last-child::after{
-  /* event */
-  margin-left: 1rem;
-  float: right;
-  content: '';
-  position: relative;
-  display: inline-block;
-  top: 3.3px;
-  left: 0;
-  width: 1rem;
-  height: 1rem;
-  background-color: #5B8EC5;
+.calendar-legend p:first-child::after,
+.calendar-legend p:last-child::after {
+    /* event */
+    margin-left: 1rem;
+    float: right;
+    content: '';
+    position: relative;
+    display: inline-block;
+    top: 3.3px;
+    left: 0;
+    width: 1rem;
+    height: 1rem;
+    background-color: #5B8EC5;
 }
 
 .calendar-legend p:last-child::after {
-  /* course */
-  background-color: #6BDCFF;
+    /* course */
+    background-color: #6BDCFF;
 }
 
 .calendar-container {
-  outline: 2px solid #f0f0f0;
-  margin-bottom: 1.5rem;
+    outline: 2px solid #f0f0f0;
+    margin-bottom: 1.5rem;
 }
+
+
 /* end of row 2 */
 
+
 /* row 3 */
+
 .fluid-background {
-  background-color: #F0F0F0;
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
+    background-color: #F0F0F0;
+    padding-top: 1.5rem;
 }
 
 .course-tabs {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
 }
 
 .course-tabs .button {
-  padding: .75rem 0 .75rem 0;
-  background-color: transparent;
-  width: 150px;
-  color: #465064;
-  outline: 2px solid #465064;
+    padding: .75rem 0 .75rem 0;
+    background-color: transparent;
+    width: 150px;
+    color: #465064;
+    outline: 2px solid #465064;
 }
 
 .course-tabs .button:hover {
-  background-color: #465064;
-  color: white;
-  outline: 2px solid #dcdcdc;
+    background-color: #465064;
+    color: white;
+    outline: 2px solid #dcdcdc;
 }
 
 .course-description h1 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
 }
 
 .course-description p {
-  margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 .course-description .button {
@@ -374,27 +401,32 @@ border-color: transparent !important;
   font-size: .75rem;
 }
 
-.fluid-box-image img {
-  height: 100%;
-  width: auto;
+.info-image {
+  background: url('../home-images/courses-image.jpg') no-repeat center;
 }
 /* end row 4 */
 
 /* row 5 */
 .map-image {
-  height: 36rem;
-  /* max-width: 100%; */
+    height: 36rem;
+    /* max-width: 100%; */
 }
-
 /* end row 5 */
+
 
 /* row 6 */
 
+
 /* end row 6 */
 
+
 /* row 7 */
+
+
 /* .video-info-button{
   position: absolute;
   bottom: 3rem;
 } */
+
+
 /* end row 7 */
