@@ -24,6 +24,8 @@ tr {
 
 td {
     border-color: transparent !important;
+    /* padding: 1.5rem !important;
+    height: 4.5rem !important; */
 }
 
 .special-heading {
@@ -55,8 +57,6 @@ td {
 /* row 1 */
 
 .hero-content {
-    /* contains the content inside the hero (text, button, etc) */
-    /* hero-content also stretches its parents height. */
     padding: 6rem 0 12rem 0;
 }
 
@@ -427,12 +427,5 @@ ul.menu.stack.course-tabs.stack {
 
 
 /* row 7 */
-
-
-/* .video-info-button{
-  position: absolute;
-  bottom: 3rem;
-} */
-
 
 /* end row 7 */
