@@ -5,7 +5,7 @@
     background-image: url("../home-images/hero-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 a:hover {
@@ -24,8 +24,6 @@ tr {
 
 td {
     border-color: transparent !important;
-    /* padding: 1.5rem !important;
-    height: 4.5rem !important; */
 }
 
 .special-heading {
@@ -57,7 +55,7 @@ td {
 /* row 1 */
 
 .hero-content {
-    padding: 6rem 0 12rem 0;
+    padding: 12rem 0 19rem 0;
 }
 
 .hero-content * {
@@ -217,7 +215,7 @@ td {
 }
 
 .calendar-days td {
-    padding: .75rem 0 .75rem 0 !important;
+    padding: .75rem 1rem .75rem 1rem !important;
 }
 
 .calendar thead tr:first-of-type td {
@@ -258,28 +256,6 @@ td {
     /* cursor: pointer; */
     /* position: relative; */
 }
-
-
-/* creates a dot instead of full color */
-
-
-/* .event:after {
-	background: #00addf;
-	border-radius: 50%;
-	bottom: .5em;
-	display: block;
-	content: '';
-	height: .5em;
-	left: 50%;
-	margin: -.25em 0 0 -.25em;
-	position: absolute;
-	width: .5em;
-} */
-
-
-/* .event.current-day:after {
-	background: #f9f9f9;
-} */
 
 .btn-prev,
 .btn-next {
@@ -364,8 +340,6 @@ td {
 .course-tabs {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 3rem;
 }
 
 ul.menu.stack.course-tabs.stack {
@@ -373,11 +347,16 @@ ul.menu.stack.course-tabs.stack {
 }
 
 .course-tabs .button {
-    /* padding: .75rem 0 .75rem 0; */
     background-color: transparent;
-    width: 150px;
+    width: 75px;
     color: #465064;
     outline: 2px solid #465064;
+}
+
+@media (min-width: 540px) {
+  .course-tabs .button {
+      width: 150px;
+  }
 }
 
 .course-tabs .button:hover {
