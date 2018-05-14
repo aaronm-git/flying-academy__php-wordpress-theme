@@ -340,10 +340,7 @@ td {
 .course-tabs {
     display: flex;
     justify-content: space-between;
-}
-
-ul.menu.stack.course-tabs.stack {
-  padding: 0;
+    height: 3rem;
 }
 
 .course-tabs .button {
@@ -391,8 +388,7 @@ ul.menu.stack.course-tabs.stack {
 
 /* row 5 */
 .map-image {
-    /* height: 36rem; */
-    /* max-width: 100%; */
+  height: 36rem;
 }
 /* end row 5 */
 
@@ -406,5 +402,7 @@ ul.menu.stack.course-tabs.stack {
 
 
 /* row 7 */
+.video-placeholder img {
 
+}
 /* end row 7 */
