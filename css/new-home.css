@@ -419,7 +419,9 @@ ul.menu.stack.course-tabs.stack {
 
 
 /* row 6 */
-
+.shaded-box {
+  margin-bottom: 3rem;
+}
 
 /* end row 6 */
 
