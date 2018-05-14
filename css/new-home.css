@@ -2,7 +2,7 @@
 
 .grid-container.fluid:first-child {
     /* background image */
-    background-image: url("../home-images/hero-image.jpg");
+    background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -382,14 +382,14 @@ td {
 }
 
 .info-image {
-  background: url('../home-images/courses-image.jpg') no-repeat center;
+  background: url('../images/courses-image.jpg') no-repeat center;
 }
 /* end row 4 */
 
 /* row 5 */
 .map-image {
   height:24rem;
-  background: url('../home-images/world-map.jpg') no-repeat center;
+  background: url('../images/world-map.jpg') no-repeat center;
   background-size: contain;
 }
 /* end row 5 */
