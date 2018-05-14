@@ -388,7 +388,9 @@ td {
 
 /* row 5 */
 .map-image {
-  height: 36rem;
+  height:24rem;
+  background: url('../home-images/world-map.jpg') no-repeat center;
+  background-size: contain;
 }
 /* end row 5 */
 
