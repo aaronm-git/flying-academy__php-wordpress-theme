@@ -83,34 +83,29 @@
 
 
 /*big carousel*/
-.uni-carousel .item {
+.big-carousel .item {
 	position: relative;
 }
 
-.uni-carousel.tall .item {
-	height: 33rem;
+.big-carousel.tall .item {
+	height: calc(100vw / 2);
+	max-height: 33rem;
+	background-size: cover;
+	background-position: center;
 }
 
-.uni-carousel.tall .owl-nav {
-	top: 24rem;
-}
-
-.uni-carousel .owl-nav {
-	position:absolute;
-	top: 19.5rem;
-	left: -1.875rem;
-	display: block;
-	width: 9.9375rem;
-	height: 6rem;
-}
-
-.uni-carousel .owl-nav button.owl-prev,
-.uni-carousel .owl-nav button.owl-next {
+.big-carousel .owl-nav button.owl-prev,
+.big-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 50%;
 	display: inline-block;
-	width: 4.5rem;
-	height: 6rem;
+	margin-top: -3rem;
 }
 
-.uni-carousel .owl-nav button.owl-prev {
-	margin-right: .9375rem;
+.big-carousel  .owl-nav button.owl-prev {
+	left: -1.875rem;
+}
+
+.big-carousel  .owl-nav button.owl-next {
+	right: -1.875rem;
 }
