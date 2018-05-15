@@ -141,7 +141,7 @@ td {
 }
 
 .cool-table tr:nth-child(0n+4)::after {
-    top: calc(75% - 2px);
+    top: calc(75%);
 }
 
 .cool-table tbody::after {
@@ -150,11 +150,10 @@ td {
     position: absolute;
     width: .5rem;
     height: 50%;
-    top: calc(25% - 1px);
+    top: calc(25%);
     left: 0;
     background-color: #77e0ff;
 }
-
 
 /* custom cal */
 
