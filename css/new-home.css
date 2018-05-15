@@ -388,9 +388,37 @@ td {
 
 /* row 5 */
 .map-image {
-  height:24rem;
-  background: url('../images/world-map.jpg') no-repeat center;
-  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.map-image img{
+  height:22.5rem;
+}
+
+.map-image dl {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .map-image img {
+    /* height: 12rem; */
+    display: none;
+  }
+
+  .map-image dl {
+    display: block;
+  }
+
+  dl dt {
+    margin-bottom: 1.5rem;
+  }
+
+  dl dd {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.45rem;
+    border-bottom: 1px solid #363E4F;
+  }
 }
 /* end row 5 */
 
@@ -404,7 +432,5 @@ td {
 
 
 /* row 7 */
-.video-placeholder img {
 
-}
 /* end row 7 */
