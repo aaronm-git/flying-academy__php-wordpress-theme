@@ -11,55 +11,19 @@
 a:hover {
     text-decoration: none;
 }
-
-
-/* / */
-
+/* end of foundation overrides */
 
 /* danny style overrides */
-
-tr {
-    background-color: #f2f2f2;
-}
-
-td {
-    border-color: transparent !important;
-}
-
 .special-heading {
     display: inline-block;
 }
 
-th {
-  border: 0px solid white !important;
-  text-align: left;
-  color: #363e4f;
+.shaded-box {
+  margin-bottom: 3rem;
 }
-
-
-/* shadow style */
-
-.shadow {
-    -webkit-box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.5);
-    transition: 0.25s ease-in-out;
-}
-
-.shadow:hover {
-    -webkit-box-shadow: 4px 8px 25px 4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 4px 8px 25px 4px rgba(0, 0, 0, 0.5);
-    box-shadow: 4px 8px 25px 4px rgba(0, 0, 0, 0.5);
-    transition: 0.25s ease-in-out;
-    transform: scale(1.02, 1.02);
-}
-
-
-/* / */
-
+/* end of danny's overrides */
 
 /* row 1 */
-
 .hero-content {
     padding: 12rem 0 21rem 0;
 }
@@ -68,9 +32,6 @@ th {
     /* targets everything inside the hero-content */
     color: white;
 }
-
-
-/* getting specific in the hero-content*/
 
 .hero-content p {
     /* these settings are directly copied and pasted from danny's special-heading css
@@ -130,30 +91,8 @@ th {
 
 /* row 2 course table */
 
-.cool-table {
-    position: relative;
-}
-
-.table-event::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: .5rem;
-    height: 4.5rem;
-    top: 25;
-    left: 0;
-    background-color: #5B8EC5;
-}
-
-.table-course::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: .5rem;
-  height: 4.5rem;
-  top: 25;
-  left: 0;
-  background-color: #6BDCFF;
+.cool-table td {
+  vertical-align: middle;
 }
 
 .cool-table button.view-more {
@@ -161,9 +100,18 @@ th {
   white-space: nowrap;
 }
 
-.cool-table td {
-  vertical-align: middle;
+.cool-table tbody tr:first-of-type {
+    border-left: 8px solid #efefef;
 }
+
+.table-event {
+    border-left: 8px solid #5B8EC5;
+}
+
+.table-course {
+    border-left: 8px solid #6BDCFF;
+}
+
 
 /* custom cal */
 
@@ -359,12 +307,6 @@ th {
     outline: 2px solid #465064;
 }
 
-@media (min-width: 540px) {
-  .course-tabs .button {
-      width: 150px;
-  }
-}
-
 .course-tabs .button:hover {
     background-color: #465064;
     color: white;
@@ -389,57 +331,30 @@ th {
   padding-right: 24px;
   font-size: .75rem;
 }
-
-.info-image {
-  background: url('../images/courses-image.jpg') no-repeat center;
-}
 /* end row 4 */
 
 /* row 5 */
-.map-image {
-  display: flex;
-  justify-content: center;
+.map-image img {
+  width: 100%;
+  height: auto;
 }
 
-.map-image img{
-  height:22.5rem;
-}
-
-.map-image dl {
-  display: none;
-}
-
-@media (max-width: 750px) {
-  .map-image img {
-    /* height: 12rem; */
-    display: none;
-  }
-
-  .map-image dl {
-    display: block;
-  }
-
-  dl dt {
-    margin-bottom: 1.5rem;
-  }
-
-  dl dd {
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.45rem;
-    border-bottom: 1px solid #363E4F;
-  }
+.map-list dd {
+  margin-bottom: 1.5rem;
 }
 /* end row 5 */
 
-
 /* row 6 */
-.shaded-box {
-  margin-bottom: 3rem;
-}
 
 /* end row 6 */
-
 
 /* row 7 */
 
 /* end row 7 */
+
+/* media queries */
+@media (min-width: 540px) {
+  .course-tabs .button {
+      width: 150px;
+  }
+}
