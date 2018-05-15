@@ -30,6 +30,12 @@ td {
     display: inline-block;
 }
 
+th {
+  border: 0px solid white !important;
+  text-align: left;
+  color: #363e4f;
+}
+
 
 /* shadow style */
 
@@ -122,37 +128,41 @@ td {
     color: white;
 }
 
-
 /* row 2 course table */
 
 .cool-table {
     position: relative;
 }
 
-.cool-table tr:nth-child(3n+1)::after {
+.table-event::after {
     content: '';
     display: block;
     position: absolute;
     width: .5rem;
-    height: calc(25%);
-    top: 0;
+    height: 4.5rem;
+    top: 25;
     left: 0;
-    background-color: #6699cc;
+    background-color: #5B8EC5;
 }
 
-.cool-table tr:nth-child(0n+4)::after {
-    top: calc(75%);
+.table-course::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: .5rem;
+  height: 4.5rem;
+  top: 25;
+  left: 0;
+  background-color: #6BDCFF;
 }
 
-.cool-table tbody::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: .5rem;
-    height: 50%;
-    top: calc(25%);
-    left: 0;
-    background-color: #77e0ff;
+.cool-table button.view-more {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.cool-table td {
+  vertical-align: middle;
 }
 
 /* custom cal */
