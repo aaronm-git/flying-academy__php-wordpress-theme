@@ -1,56 +1,115 @@
 footer {
-  background-color: #233F5D;
-  padding-top: 3rem;
+    background-color: #233F5D;
+    padding-top: 3rem;
 }
+/*
+footer * {
+  font-family: 'Roboto';
+  } */
 
 footer h1 {
-  font-size: 1.5rem;
-  color: white;
+    font-size: 1.5rem;
+    color: white;
 }
 
 footer h2 {
-  font-size: .75rem;
-  color: grey;
-  text-transform: uppercase;
-  margin-bottom: 0;
+    font-size: 1rem;
+    color: grey;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: -3rem;
 }
 
-footer p {
-  color: white;
-  text-transform: uppercase;
-  font-size: .75rem;
+footer p, span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+footer ul {
+    color: white;
+}
+
+footer section {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0px 30px !important;
+}
+
+.fas,
+.fab {
+    color: white;
+    padding-top: .20rem;
+    height: 1.5rem;
+}
+
+.footer-contact a {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.footer-logo {
+  height: 3rem;
+  margin-bottom: 4.5rem;
+}
+
+.footer-locations,
+.footer-social {
+    border-right: 2px solid white;
+    padding-right: 2px;
 }
 
 .footer-contact img {
-  height: 3rem;
-  margin-bottom: 3rem;
+    max-height: 3rem;
 }
 
-.footer-contact div {
-  display: flex;
-  justify-content: space-around;
+.footer-contact a {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer-social div {
-  padding-top: .375rem;
-  padding-bottom: .375rem;
+  margin-bottom: 1.5rem;
+  height: 1.5rem;
 }
 
-.footer-social img {
-  margin: 0px auto;
+.footer-social span {
+  width: 125px;
+  padding-left: 10px;
+  text-align: left;
 }
 
-.footer-social div p {
-  display: inline-block;
-  width: 100px;
+.footer-newsletter h2 {
+    margin-bottom: 3rem;
 }
 
-.footer-newsletter input {
-  max-width: 150px;
+.footer-newsletter input[type=submit] {
+    position: relative;
+    top: .375rem;
+    height: 2.25rem;
+    line-height: 1.5rem;
+    padding: .3125rem .5rem .3125rem .5rem;
+    border: .0625rem solid grey;
+    border-radius: 0;
+    margin-bottom: 2.25rem;
+    background-color: grey;
+    color: white;
 }
 
-.footer-newsletter button {
-  background-color: grey;
-  border-color: grey;
+.footer-navigation ul {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.footer-navigation li {
+    margin-right: 25px;
+}
+
+.menu a {
   color: white;
 }
