@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- auto reload for dev -->
+    <!-- <meta http-equiv="refresh" content="3" > -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flying Academy</title>
+    <!--normalize-->
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <!--foundation css-->
+    <link rel="stylesheet" href="foundation/css/foundation.css">
+    <link rel="stylesheet" href="foundation/css/app.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="owl/css/owl.carousel.css">
+    <!--<link rel="stylesheet" href="css/owl.theme.default.css">-->
+    <!--owl documentation theme css-->
+    <!-- <link rel="stylesheet" href="css/docs.theme.min.css"> -->
+    <!--my theme css-->
+    <link rel="stylesheet" href="css/owl-theme.css">
+    <!--site css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- my tyle -->
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+    <div id="baseline-overlay"></div>
+    <div id="column-overlay"></div>
+    <div class="wrapper">
+      <footer>
+        <div class="grid-container fluid">
+          <article class="grid-x grid-margin-x">
+            <section class="cell medium-3 text-center footer-contact">
+              <img src="images/logo.png" alt="Flying Academy">
+              <h1>Contact us</h1>
+              <div class="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+              </div>
+            </section>
+
+            <section class="cell medium-3 footer-locations text-left">
+              <h1>Our Offices</h1>
+              <div class="">
+                <p>Prague, Czech Republic</p>
+                <p>Brno, Czech Republic</p>
+                <p>Los Angeles, California</p>
+                <p>Miami, Florida</p>
+                <p>Gurugram, India</p>
+              </div>
+            </section>
+
+            <section class="cell medium-3 text-center footer-social">
+              <h1>Connect With Us</h1>
+              <h2>Social Media Channels</h2>
+              <div class="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <p>Instagram</p>
+              </div>
+              <div class="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <p>Twitter</p>
+              </div>
+              <div class="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <p>Facebook</p>
+              </div>
+              <div class="">
+                <img src="http://via.placeholder.com/48x48" alt="">
+                <p>YouTube</p>
+              </div>
+            </section>
+
+            <section class="cell medium-3 footer-newsletter">
+              <h1>Newsletter</h1>
+              <h2>Sign up for special offers</h2>
+              <form class="" action="index.html" method="post">
+                <label for="newsletter"></label>
+                <input type="email" name="newsletter" placeholder="Email">
+                <button class="button" type="submit" name="signup">SIGN UP</button>
+              </form>
+            </section>
+
+          </article>
+
+        </div>
+      </footer>
+    </div>
+
+        <!--jquery-->
+        <script src="jquery/jquery.min.js"></script>
+        <!--foundation js-->
+        <!--<script src="foundation/js/vendor/jquery.js"></script>-->
+        <script src="foundation/js/vendor/what-input.js"></script>
+        <script src="foundation/js/vendor/foundation.js"></script>
+        <script src="foundation/js/app.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
+
+        <!--owl js-->
+        <script src="owl/js/owl.carousel.js"></script>
+        <script>
+          $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+              dots: false,
+              nav: true,
+              autoplay: true,
+              autoplayTimeout: 5000,
+              loop: true,
+              margin: 30,
+              responsiveClass: true,
+              responsive: {
+                0: {
+                  items: 1
+                },
+                640: {
+                  items: 2
+                },
+                1024: {
+                  items: 4
+                },
+                1200: {
+                  items: 4
+                },
+                1440: {
+                  items: 4
+                },
+              }
+            })
+          })
+        </script>
+        </script>
+  </body>
+</html>

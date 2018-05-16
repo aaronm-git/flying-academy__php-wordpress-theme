@@ -1,0 +1,56 @@
+footer {
+  background-color: #233F5D;
+  padding-top: 3rem;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+footer h2 {
+  font-size: .75rem;
+  color: grey;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+footer p {
+  color: white;
+  text-transform: uppercase;
+  font-size: .75rem;
+}
+
+.footer-contact img {
+  height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-contact div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-social div {
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+}
+
+.footer-social img {
+  margin: 0px auto;
+}
+
+.footer-social div p {
+  display: inline-block;
+  width: 100px;
+}
+
+.footer-newsletter input {
+  max-width: 150px;
+}
+
+.footer-newsletter button {
+  background-color: grey;
+  border-color: grey;
+  color: white;
+}
