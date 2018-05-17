@@ -2,10 +2,6 @@ footer {
     background-color: #233F5D;
     padding-top: 3rem;
 }
-/*
-footer * {
-  font-family: 'Roboto';
-  } */
 
 footer h1 {
     font-size: 1.5rem;
@@ -16,8 +12,9 @@ footer h2 {
     font-size: 1rem;
     color: grey;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: .75rem;
     margin-top: -3rem;
+    margin-bottom: .75rem;
 }
 
 footer p, span {
@@ -30,24 +27,27 @@ footer ul {
     color: white;
 }
 
-i {
-  width: 25px;
+.footer-contact,
+.footer-locations,
+.footer-social,
+.footer-newsletter {
+    margin-bottom: 2.25rem;
 }
 
 .fas,
 .fab {
     color: white;
+    font-size: 1.5rem;
 }
 
 .footer-logo {
-  height: 3rem;
   margin-bottom: 4.5rem;
+  height: 3rem;
 }
 
 .footer-locations,
 .footer-social {
-    border-right: 2px solid white;
-    /* padding-right: 2px; */
+    border-right: 1px solid white;
 }
 
 .footer-contact img {
@@ -61,20 +61,36 @@ i {
 .footer-contact a {
     margin-left: 25px;
     margin-right: 25px;
+    position: relative;
 }
 
-.footer-social div {
-  margin-bottom: 1.5rem;
+.footer-contact a::after {
+  content: '';
+  height: 2.25rem;
+  width: 2.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1.125rem;
+  margin-left: -1.125rem;
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
-.social-container {
-  margin: 0px auto;
-  width: auto;
+.footer-locations h1 {
+    margin-bottom: 2.25rem;
 }
 
 .footer-social a {
+  display: block;
+  margin-bottom: 1.5rem;
   color: white;
-  /* margin: 0px 25%; */
+}
+
+.footer-social i {
+  display: block;
+  float: left;
+  width: 35px;
 }
 
 .footer-newsletter h2 {
@@ -106,6 +122,15 @@ i {
     margin-right: 25px;
 }
 
-footer .menu a {
+footer > div:last-of-type {
+    border-top: 1px solid white;
+    padding-top: 1.5rem;
+}
+
+.footer-navigation {
+  margin: 0;
+}
+
+.footer-navigation a {
   color: white;
 }
