@@ -41,12 +41,16 @@ nav .fa-bars {
     margin-right: 1rem !important;
 }
 
+nav .fas:hover, nav .far:hover {
+    text-decoration: none;
+}
+
 /* ///////////////////////////////////// */
 
-.menu-container {
+/* .menu-container {
     display: inline-block;
     width: calc(100% - 148px);
-}
+} */
 
 .nav-contact-link {
     padding: 1.5rem !important;
@@ -54,8 +58,11 @@ nav .fa-bars {
     color: white;
     text-transform: uppercase;
     font-family: 'Roboto bold';
-    float: right;
-    width: auto;
+    /* float: right; */
+    margin-top: -24px !important;
+    margin-right: -24px !important;
+    position: relative;
+    top: 12px;
 }
 
 .nav-contact-link:hover, .nav-contact-link:focus {
