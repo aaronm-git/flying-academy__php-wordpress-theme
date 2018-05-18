@@ -45,8 +45,7 @@ nav .fa-bars {
 
 .menu-container {
     display: inline-block;
-    width: 90%;
-
+    width: calc(100% - 148px);
 }
 
 .nav-contact-link {
@@ -56,6 +55,7 @@ nav .fa-bars {
     text-transform: uppercase;
     font-family: 'Roboto bold';
     float: right;
+    width: auto;
 }
 
 .nav-contact-link:hover, .nav-contact-link:focus {
@@ -71,4 +71,10 @@ nav .fa-bars {
 nav .dropdown li:not(.menu-logo):hover {
     background-color: #e6e6e6;
     border-radius: 10px;
+}
+
+.nav-language {
+    margin-left: 1rem !important;
+    text-transform: uppercase;
+    font-family: 'Roboto';
 }

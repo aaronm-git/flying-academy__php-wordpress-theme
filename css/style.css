@@ -630,7 +630,8 @@ h1 + .special-heading,
 	color: #45505f;
 }
 
-button.view-more{
+a.view-more,
+button.view-more {
 	display: block;
 	padding: 0 2.75rem 0 0;
 	margin-bottom: 1.5rem;

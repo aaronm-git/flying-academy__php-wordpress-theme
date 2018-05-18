@@ -28,7 +28,7 @@
     <div id="column-overlay"></div>
 
     <nav>
-        <div class="menu-container">
+        <div class="menu-container show-for-medium">
             <div class="top-bar" id="responsive-menu">
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
@@ -47,12 +47,29 @@
                         <li><a class="fas fa-search"></a></li>
                         <li><a class="far fa-envelope"></a></li>
                         <li><a class="fas fa-phone"></a></li>
-                        <li><a href="#" class="nav-language">Language</a></li>
+                        <li><a href="#" class="nav-language show-for-large view-more">Language</a></li>
+                        <li><a href="#" class="nav-language show-for-medium-only fas fa-globe"></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <a href="#" class="nav-contact-link">Contact Us</a>
+        <div class="show-for-small-only">
+            <div class="top-bar" id="responsive-menu">
+                <div class="top-bar-left">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <a class="fas fa-bars"></a>
+                        <div class="menu-logo">
+                            <img src="images/logo.png" alt="Flying Academy">
+                        </div>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Course</a></li>
+                        <li><a href="#">Training Locations</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="nav-contact-link show-for-medium">Contact Us</a>
     </nav>
 
 
