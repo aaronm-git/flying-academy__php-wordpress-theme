@@ -1,0 +1,52 @@
+/* danny overrides */
+nav li, nav a, nav input, nav ul{
+    margin: 0 !important;
+}
+
+nav a {
+    padding-top: .75rem !important;
+    padding-bottom: .75rem !important;
+    color: black;
+    font-family: 'Minion Pro';
+}
+
+nav .top-bar {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    width: 100%;
+}
+
+nav .top-bar, nav .menu {
+    background-color: white;
+}
+
+nav .menu-logo img {
+    height: 3rem;
+}
+
+nav .menu-text {
+    padding: 1rem 1rem !important;
+}
+
+/* ///////////////////////////////////// */
+
+.menu-container {
+    display: inline-block;
+    width: 86%;
+
+}
+
+.nav-contact-link {
+    padding: 1.5rem !important;
+    background-color: OrangeRed;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto bold';
+    float: right;
+}
+
+.nav-contact-link:hover, .nav-contact-link:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #cc3600;
+}
