@@ -1,43 +1,100 @@
+.sub-menu section > h1 {
+    font-size: 1.5rem !important;
+    padding-top: 1.5rem;
+}
+
+
 .sidenav {
     margin-top: 4.5rem;
     height: 100%;
-    width: 0;
+    width: 250px;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: #f2f2f2;
     overflow-x: hidden;
     transition: 0.25s;
-    padding-top: 60px;
+    border-right: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
-    -moz-box-shadow:    0 5px 10px rgba(0, 0 , 0, .5);
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0 , 0, .5);
-    box-shadow:         0 5px 10px rgba(0, 0 , 0, .5);
 }
 
+.sidenav ul {
+    background-color: #f2f2f2;
+}
+
+/* .sidenav::after {
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 5px;
+    height: 100%;
+    top: 12rem;
+    left: 250px;
+    z-index: 1;
+    -moz-box-shadow:    0 15px 10px rgba(0, 0 , 0, .5);
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0 , 0, .5);
+    box-shadow:         0 15px 10px rgba(0, 0 , 0, .5);
+
+} */
+
 .sidenav a:not(.closebtn) {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
+    font-size: 1rem;
     display: block;;
     margin-top: -1px !important;
     border-bottom: 1px solid lightgrey;
 }
 
-.sidenav a:hover {
-    /* color: #6699cc; */
+.sidenav a:not(.closebtn):hover {
+    background-color: #e6e6e6;
+    width: 250px;
+    margin-left: -1rem !important;
+    padding-left: 2rem;
+    font-family: 'Minion Pro bold';
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    font-size: 2rem;
+    margin-bottom: .75rem !important;
 }
 
-/* @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-} */
+.sub-menu {
+    border-bottom: 1px solid lightgrey;
+    margin-left: 250px;
+    padding-bottom: 1.5rem;
+}
+
+.sub-menu,
+.sub-menu ul.vertical.menu {
+    background-color: #e6e6e6;
+}
+
+.sub-menu ul.vertical.menu {
+    margin-left: -1.5em !important;
+}
+
+.sub-menu a {
+    margin-top: -1px !important;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto';
+    max-width: 250px;
+}
+
+.sub-menu a:hover {
+    margin-top: 0px !important;
+    background-color: #465064;
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    font-family: 'Roboto bold';
+    text-decoration: none;
+    transform: scale(1.05);
+    -moz-box-shadow:    0 2px 5px rgba(0, 0 , 0, .5);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0 , 0, .5);
+    box-shadow:         0 2px 5px rgba(0, 0 , 0, .5);
+    transition: .25s;
+}
+
+body > nav > div.sub-menu > div > div > section:nth-child(2) {
+    margin-top: 72px !important;
+    padding-top: 1.5rem;
+}

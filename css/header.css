@@ -20,6 +20,7 @@ nav .top-bar {
     padding-top: .75rem;
     padding-bottom: .75rem;
     width: 100%;
+    border-bottom: 1px solid lightgrey;
 }
 
 nav .top-bar, nav .menu {
@@ -47,11 +48,6 @@ nav .fas:hover, nav .far:hover {
 
 /* ///////////////////////////////////// */
 
-/* .menu-container {
-    display: inline-block;
-    width: calc(100% - 148px);
-} */
-
 .nav-contact-link {
     padding: 1.5rem !important;
     background-color: #ff571a;
@@ -76,7 +72,7 @@ nav .fas:hover, nav .far:hover {
 }
 
 nav .dropdown li:not(.menu-logo):hover {
-    background-color: #e6e6e6;
+    background-color: #f2f2f2;
     border-radius: 10px;
 }
 
@@ -84,4 +80,9 @@ nav .dropdown li:not(.menu-logo):hover {
     margin: 0 1rem 0 1rem !important;
     text-transform: uppercase;
     font-family: 'Roboto';
+}
+
+.top-menu-options {
+    text-align: center;
+    min-width: 100px;
 }
