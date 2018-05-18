@@ -1,4 +1,10 @@
 /* danny overrides */
+nav {
+    -moz-box-shadow:    0 0 10px rgba(0, 0 , 0, .5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0 , 0, .5);
+    box-shadow:         0 0 10px rgba(0, 0 , 0, .5);
+}
+
 nav li, nav a, nav input, nav ul{
     margin: 0 !important;
 }
@@ -22,17 +28,24 @@ nav .top-bar, nav .menu {
 
 nav .menu-logo img {
     height: 3rem;
+    margin-right: 50px;
 }
 
 nav .menu-text {
     padding: 1rem 1rem !important;
 }
 
+/* font awesome overrides */
+nav .fa-bars {
+    font-size: 1.5rem;
+    margin-right: 1rem !important;
+}
+
 /* ///////////////////////////////////// */
 
 .menu-container {
     display: inline-block;
-    width: 86%;
+    width: 90%;
 
 }
 
@@ -49,4 +62,13 @@ nav .menu-text {
     color: white;
     text-decoration: none;
     background-color: #cc3600;
+    color: #e6e6e6;
+    -moz-box-shadow:    inset 0 0 10px rgba(0, 0 , 0, .5);
+   -webkit-box-shadow: inset 0 0 10px rgba(0, 0 , 0, .5);
+   box-shadow:         inset 0 0 10px rgba(0, 0 , 0, .5);
+}
+
+nav .dropdown li:not(.menu-logo):hover {
+    background-color: #e6e6e6;
+    border-radius: 10px;
 }
