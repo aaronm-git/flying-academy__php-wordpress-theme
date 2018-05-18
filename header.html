@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- my tyle -->
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav-sidebar.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             <div class="top-bar" id="responsive-menu">
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
-                        <a class="fas fa-bars"></a>
+                        <a class="fas fa-bars" onclick="openNav()"></a>
                         <li class="menu-logo">
                             <img src="images/logo.png" alt="Flying Academy">
                         </li>
@@ -51,7 +52,29 @@
                     </ul>
                 </div>
             </div>
-        <!-- <a href="#" class="nav-contact-link show-for-medium">Contact Us</a> -->
+
+            <div class="container">
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+
+            </div>
+
     </nav>
 
 

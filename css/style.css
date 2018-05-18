@@ -3,7 +3,7 @@
 /*broswer user agent reset*/
 
 *{
-	outline: 1px solid rgba(0, 255, 0, .3);
+	/* outline: 1px solid rgba(0, 255, 0, .3); */
 	margin: 0px;
 	border: none;
 	padding: 0px;
@@ -18,7 +18,7 @@
 
 /*baseline overlay*/
 
-#baseline-overlay{
+/* #baseline-overlay{
 	z-index: 10;
 	opacity: .2;
 	position: absolute;
@@ -26,7 +26,7 @@
 	width: 100%;
 	background-image: url('../images/24px-baseline.png');
 	pointer-events: none;
-}
+} */
 
 /*12 column overlay*/
 /*
