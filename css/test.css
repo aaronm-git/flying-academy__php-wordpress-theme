@@ -1,0 +1,16 @@
+.sidenav {
+    /* display: none; */
+}
+
+.sub-menu {
+    display: none;
+}
+
+/* .sidenav .menu-active, .sub-menu .menu-active {
+    display: block;
+} */
+
+
+.off-canvas.is-transition-overlap.is-open {
+    box-shadow: none;
+}
