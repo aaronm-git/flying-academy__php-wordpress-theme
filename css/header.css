@@ -64,11 +64,11 @@ nav .fas:hover, nav .far:hover {
 .nav-contact-link:hover, .nav-contact-link:focus {
     color: white;
     text-decoration: none;
-    background-color: #cc3600;
+    /* background-color: #cc3600;
     color: #d9d9d9;
     -moz-box-shadow:    inset 0 0 10px rgba(0, 0 , 0, .5);
     -webkit-box-shadow: inset 0 0 10px rgba(0, 0 , 0, .5);
-    box-shadow:         inset 0 0 10px rgba(0, 0 , 0, .5);
+    box-shadow:         inset 0 0 10px rgba(0, 0 , 0, .5); */
 }
 
 nav .dropdown li:not(.menu-logo):hover {
