@@ -18,7 +18,7 @@ nav a {
 
 nav .top-bar {
     padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-bottom: .6875rem;
     width: 100%;
     border-bottom: 1px solid lightgrey;
 }
@@ -29,7 +29,7 @@ nav .top-bar, nav .menu {
 
 nav .menu-logo img {
     height: 3rem;
-    margin-right: 50px;
+    margin: 0 3rem 0 3rem;
 }
 
 nav .menu-text {

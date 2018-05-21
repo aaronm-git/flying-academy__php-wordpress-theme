@@ -14,3 +14,26 @@
 .off-canvas.is-transition-overlap.is-open {
     box-shadow: none;
 }
+
+main {
+    margin: 3rem;
+}
+
+.sidenav-toggle{
+    background-image: url('../images/bars-toggle.svg');
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .25s;
+}
+
+
+.sidenav-toggle[aria-expanded="true"]{
+    background-image: url('../images/times-toggle.svg');
+    transform: rotate(360deg);
+    transition: .25s;
+}
+
+nav .js-off-canvas-overlay.is-overlay-fixed {
+    opacity: 0;
+}
