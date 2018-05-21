@@ -1,22 +1,17 @@
-.sidenav {
-    /* display: none; */
+main {
+    margin: 3rem;
 }
 
 .sub-menu {
     display: none;
 }
 
-/* .sidenav .menu-active, .sub-menu .menu-active {
-    display: block;
-} */
-
+nav .js-off-canvas-overlay.is-overlay-fixed {
+    opacity: 0;
+}
 
 .off-canvas.is-transition-overlap.is-open {
     box-shadow: none;
-}
-
-main {
-    margin: 3rem;
 }
 
 .sidenav-toggle{
@@ -27,13 +22,8 @@ main {
     transition: .25s;
 }
 
-
 .sidenav-toggle[aria-expanded="true"]{
     background-image: url('../images/times-toggle.svg');
     transform: rotate(360deg);
     transition: .25s;
-}
-
-nav .js-off-canvas-overlay.is-overlay-fixed {
-    opacity: 0;
 }
