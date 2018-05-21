@@ -36,6 +36,7 @@
     display: block;;
     margin-top: -1px !important;
     border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
 }
 
 .sidenav a:not(.closebtn):hover {
@@ -77,18 +78,7 @@
 }
 
 .sub-menu a:hover {
-    /* margin-top: 0px !important;
-    background-color: #465064;
-    color: white;
-    border-radius: 10px;
-    border-width: 0;
-    font-family: 'Roboto bold';
-    text-decoration: none;
-    transform: scale(1.05);
-    -moz-box-shadow:    0 2px 5px rgba(0, 0 , 0, .5);
-    -webkit-box-shadow: 0 2px 5px rgba(0, 0 , 0, .5);
-    box-shadow:         0 2px 5px rgba(0, 0 , 0, .5);
-    transition: .25s; */
+
 }
 
 .sub-menu .grid-container {
