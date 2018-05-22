@@ -1,6 +1,5 @@
 nav .js-off-canvas-overlay.is-overlay-fixed {
     opacity: 0;
-    display: none;
 }
 
 nav .off-canvas.is-transition-overlap.is-open {
