@@ -1,12 +1,9 @@
 .sidenav {
     height: 100%;
     width: 250px;
-    position: fixed;
     margin-top: -1px;
     top: 4.5rem;
-    /* left: -999px; */
     background-color: #f2f2f2;
-    overflow-x: hidden;
     transition: 0.25s;
     border-right: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
@@ -16,20 +13,6 @@
     background-color: #f2f2f2;
 }
 
-/* .sidenav::after {
-    content: '';
-    position: absolute;
-    background-color: red;
-    width: 5px;
-    height: 100%;
-    top: 12rem;
-    left: 250px;
-    z-index: 1;
-    -moz-box-shadow:    0 15px 10px rgba(0, 0 , 0, .5);
-    -webkit-box-shadow: 0 15px 10px rgba(0, 0 , 0, .5);
-    box-shadow:         0 15px 10px rgba(0, 0 , 0, .5);
-
-} */
 
 .sidenav a:not(.closebtn) {
     font-size: 1rem;
@@ -46,7 +29,6 @@
     width: 250px;
     margin-left: -1rem !important;
     padding-left: 2rem;
-    /* font-family: 'Minion Pro bold'; */
 }
 
 .sidenav .closebtn {
@@ -88,6 +70,4 @@
     margin: 0;
     max-width: 100%;
     padding: 0 1.5rem 1.5rem 1.5rem;
-    /* max-height: 31.5rem;
-    overflow-y: auto; */
 }
