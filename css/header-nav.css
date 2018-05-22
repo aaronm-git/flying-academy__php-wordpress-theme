@@ -1,5 +1,9 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
+nav a {
+    color: black;
+}
+
 /* danny overrides */
 .header-nav {
     -moz-box-shadow:    0 0 10px rgba(0, 0 , 0, .5);
@@ -8,6 +12,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     padding-top: .75rem;
     padding-bottom: .6875rem;
     border-bottom: 1px solid lightgrey;
+    z-index: 9999;
 }
 
 .header-nav, .header-nav ul {

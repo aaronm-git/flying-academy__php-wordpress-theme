@@ -30,7 +30,12 @@ nav .off-canvas.is-transition-overlap.is-open {
     background-color: #e6e6e6;
 }
 
-.sidenav .menu {
+.dropdown.menu .is-active > a {
+    background-color: #e6e6e6;
+    color: #6699cc;
+}
+
+.sidenav > .menu {
     padding: 0;
 }
 

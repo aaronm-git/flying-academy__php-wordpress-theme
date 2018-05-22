@@ -3,7 +3,7 @@
     position: absolute;
     top: -97px !important;
     left: 250px !important;
-    padding: 1.5rem;
+    padding: 2rem;
     width: calc(100vw - 250px);
     height: 100vh;
     overflow: scroll;
@@ -14,18 +14,27 @@
     background-color: #e6e6e6;
 }
 
+.classes-subnav ul {
+    padding-left: 0;
+    margin-left: 0 !important;
+}
+
 .classes-subnav h1 {
     font-size: 1.5rem !important;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .classes-subnav a {
     margin-top: -1px !important;
     /* margin-left: -.75rem; */
     border-bottom: 1px solid lightgrey;
+    color: grey;
 }
 
 .classes-subnav li a:hover {
     background-color: #d9d9d9 !important;
     border-radius: 5px;
+    transform: scale(1.1);
+    transition: .15s;
+    color: #6699cc;
 }

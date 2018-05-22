@@ -20,13 +20,13 @@
 /*baseline overlay*/
 
 #baseline-overlay{
-	z-index: 99999;
+	/* z-index: 99999;
 	opacity: .2;
 	position: absolute;
 	height: 12000px;
 	width: 100%;
 	background-image: url('../images/24px-baseline.png');
-	pointer-events: none;
+	pointer-events: none; */
 }
 
 /*12 column overlay*/
