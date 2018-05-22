@@ -2,8 +2,8 @@
 
 /*broswer user agent reset*/
 
-*{
-	outline: 1px solid rgba(0, 255, 0, 1);
+* {
+	outline: 1px solid rgba(0, 255, 0, 1) !important;
 	margin: 0px;
 	border: none;
 	padding: 0px;
@@ -14,12 +14,13 @@
 	-webkit-margin-padding: 0px; /*rule not specific enough*/
 	-webkit-padding-start: 0px;
 	list-style: none;
+
 }
 
 /*baseline overlay*/
 
 #baseline-overlay{
-	z-index: 100000;
+	z-index: 99999;
 	opacity: .2;
 	position: absolute;
 	height: 12000px;

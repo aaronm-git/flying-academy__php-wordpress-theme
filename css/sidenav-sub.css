@@ -1,3 +1,39 @@
+/* sub-menu */
+
+.sub-menu section > h1 {
+    font-size: 1.5rem !important;
+    padding-top: 1.5rem;
+}
+
+.sub-menu {
+    position: fixed;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 250px;
+}
+
+.sub-menu,
+.sub-menu ul {
+    background-color: #e6e6e6;
+
+}
+
+.sub-menu a {
+    margin-top: -1px !important;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto';
+    padding-left: 0;
+}
+
+.sub-menu a:hover {
+
+}
+
+.sub-menu .grid-container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
 main {
     margin: 3rem;
 }
@@ -12,20 +48,6 @@ nav .js-off-canvas-overlay.is-overlay-fixed {
 
 .off-canvas.is-transition-overlap.is-open {
     box-shadow: none;
-}
-
-.sidenav-toggle{
-    background-image: url('../images/bars-toggle.svg');
-    background-size: 1.5rem 1.5rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: .25s;
-}
-
-.sidenav-toggle[aria-expanded="true"]{
-    background-image: url('../images/times-toggle.svg');
-    transform: rotate(360deg);
-    transition: .25s;
 }
 
 

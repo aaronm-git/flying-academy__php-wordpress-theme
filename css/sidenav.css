@@ -1,14 +1,53 @@
-.sidenav {
-    height: 100%;
-    width: 250px;
-    margin-top: -1px;
-    top: 4.5rem;
-    background-color: #f2f2f2;
-    transition: 0.25s;
-    border-right: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+nav .js-off-canvas-overlay.is-overlay-fixed {
+    opacity: 0;
 }
 
+nav .off-canvas.is-transition-overlap.is-open {
+    box-shadow: none;
+}
+
+.sidenav {
+    top: 4.5rem;
+    background-color: #f2f2f2;
+    outline: 1px solid lightgrey !important;
+}
+
+.sidenav a {
+    padding: .75rem !important;
+}
+
+.sidenav a:hover {
+    text-decoration: none;
+}
+
+.sidenav a:not(.close-btn):hover {
+    background-color: #e6e6e6 !important;
+}
+
+.sidenav .menu {
+    padding: 0;
+}
+
+.close-btn {
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
+}
+
+.view-more-right {
+    background-image: url(../images/right-arrow-black.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - 1rem) center !important;
+    background-size: .5rem auto !important;
+}
+
+.dropdown.menu.vertical > li.opens-right > a::after,
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    display: none;
+}
+
+/*
 .sidenav ul {
     background-color: #f2f2f2;
 }
@@ -34,42 +73,4 @@
 .sidenav .closebtn {
     font-size: 2rem;
     padding-top: 1.5rem;
-}
-
-
-
-/* sub-menu */
-
-.sub-menu section > h1 {
-    font-size: 1.5rem !important;
-    padding-top: 1.5rem;
-}
-
-.sub-menu {
-    position: fixed;
-    border-bottom: 1px solid lightgrey;
-    margin-left: 250px;
-}
-
-.sub-menu,
-.sub-menu ul {
-    background-color: #e6e6e6;
-
-}
-
-.sub-menu a {
-    margin-top: -1px !important;
-    border-bottom: 1px solid white;
-    font-family: 'Roboto';
-    padding-left: 0;
-}
-
-.sub-menu a:hover {
-
-}
-
-.sub-menu .grid-container {
-    margin: 0;
-    max-width: 100%;
-    padding: 0 1.5rem 1.5rem 1.5rem;
-}
+} */
