@@ -17,6 +17,7 @@
 .classes-subnav h1 {
     font-size: 1.5rem !important;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .classes-subnav a {
@@ -24,6 +25,7 @@
     border-bottom: 1px solid lightgrey;
     color: grey;
     margin-left: -2rem !important;
+    text-transform: uppercase;
 }
 
 .classes-subnav li a:hover {
