@@ -1,7 +1,6 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
-
 nav .js-off-canvas-overlay.is-overlay-fixed {
     opacity: 0;
+    display: none;
 }
 
 nav .off-canvas.is-transition-overlap.is-open {
@@ -16,14 +15,19 @@ nav .off-canvas.is-transition-overlap.is-open {
 
 .sidenav a {
     padding: .75rem !important;
+    margin-bottom: 0;
 }
 
 .sidenav a:hover {
     text-decoration: none;
 }
 
-.sidenav a:not(.close-btn):hover {
-    background-color: #e6e6e6 !important;
+.sidenav > ul > li a:hover {
+    background-color: #e6e6e6;
+}
+
+.sidenav > ul > li a:hover {
+    background-color: #e6e6e6;
 }
 
 .sidenav .menu {
