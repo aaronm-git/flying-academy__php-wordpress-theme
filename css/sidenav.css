@@ -47,30 +47,6 @@ nav .off-canvas.is-transition-overlap.is-open {
     display: none;
 }
 
-/*
-.sidenav ul {
-    background-color: #f2f2f2;
+nav .position-left {
+    overflow: visible;
 }
-
-
-.sidenav a:not(.closebtn) {
-    font-size: 1rem;
-    display: block;
-    margin-top: -1px !important;
-    border-bottom: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
-    padding-top: .6875rem !important;
-    padding-bottom: .75rem !important;
-}
-
-.sidenav a:not(.closebtn):hover {
-    background-color: #e6e6e6;
-    width: 250px;
-    margin-left: -1rem !important;
-    padding-left: 2rem;
-}
-
-.sidenav .closebtn {
-    font-size: 2rem;
-    padding-top: 1.5rem;
-} */
