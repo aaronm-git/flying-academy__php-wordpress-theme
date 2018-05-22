@@ -1,0 +1,102 @@
+/* danny overrides */
+.header-nav {
+    -moz-box-shadow:    0 0 10px rgba(0, 0 , 0, .5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0 , 0, .5);
+    box-shadow:         0 0 10px rgba(0, 0 , 0, .5);
+    padding-top: .75rem;
+    padding-bottom: .6875rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-nav, .header-nav ul {
+    background-color: white;
+}
+
+.header-nav ul {
+    height: 3rem;
+}
+
+.header-nav  * {
+    margin-bottom: 0 !important;
+}
+
+.header-nav a.sidenav-toggle {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+}
+
+.header-nav .sidenav-toggle {
+    background-image: url('../images/bars-toggle.svg');
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .25s;
+}
+
+.header-nav .sidenav-toggle[aria-expanded="true"] {
+    background-image: url('../images/times-toggle.svg');
+    transform: rotate(360deg);
+    transition: .25s;
+}
+
+.header-nav .nav-logo-container a {
+    padding: 0 !important;
+}
+
+.header-nav .nav-logo-container img {
+    height: 3rem;
+}
+
+.header-nav .nav-logo-container {
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+.header-nav .top-bar-left li:not(.nav-logo-container),
+.header-nav .top-bar-right li:not(.nav-contact-link) {
+    margin-right: .25rem;
+    margin-left: .25rem;
+}
+
+.header-nav .top-bar-left li:not(.nav-logo-container):hover,
+.header-nav .top-bar-right li:not(.nav-contact-link):hover {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.header-nav .top-bar-left li:not(.nav-logo-container) a,
+.header-nav .top-bar-right li a {
+    line-height: 3rem;
+    /* color: navy; */
+}
+
+.header-nav .top-bar-left li:not(.nav-logo-container) a:hover,
+.header-nav .top-bar-right li a:hover {
+    text-decoration: none;
+}
+
+.header-nav .top-bar-right .float-right {
+    padding: 0;
+}
+
+.header-nav .nav-contact-link {
+    position: relative;
+    top: -.75rem;
+    margin-right: -.50rem;
+    padding-bottom: 1rem;
+    background-color: #ff571a;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Bold';
+    height: 4.4375rem;
+    line-height: 4.5rem;
+    width: 150px;
+}
+
+.header-nav .nav-contact-link a {
+    text-align: center;
+    height: 4.5rem;
+    line-height: 4.5rem !important;
+    color: white;
+}

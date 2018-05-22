@@ -52,14 +52,16 @@
 }
 
 .sub-menu,
-.sub-menu ul.vertical.menu {
+.sub-menu ul {
     background-color: #e6e6e6;
+
 }
 
 .sub-menu a {
     margin-top: -1px !important;
     border-bottom: 1px solid white;
     font-family: 'Roboto';
+    padding-left: 0;
 }
 
 .sub-menu a:hover {

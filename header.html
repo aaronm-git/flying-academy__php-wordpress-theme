@@ -20,145 +20,123 @@
     <!--site css-->
     <link rel="stylesheet" href="css/style.css">
     <!-- my tyle -->
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/nav-sidebar.css">
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/header-nav.css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/sidenav-sub.css">
 </head>
 
 <body>
     <div id="baseline-overlay"></div>
     <div id="column-overlay"></div>
     <nav data-sticky-container>
-        <div class="top-bar" id="responsive-menu" data-sticky data-options="marginTop:0;">
+        <div class="top-bar header-nav" id="responsive-menu" data-sticky data-options="marginTop:0;">
             <div class="top-bar-left">
                 <ul class="menu">
                     <a class="sidenav-toggle" data-toggle="offCanvas"></a>
-                    <li class="menu-logo">
-                        <img src="images/logo.png" alt="Flying Academy">
+                    <li class="nav-logo-container">
+                        <a href="#"><img src="images/logo.png" alt="Flying Academy"></a>
                     </li>
-                    <li><a class="top-menu-options" href="#">About</a></li>
-                    <li><a class="top-menu-options" href="#">Course</a></li>
-                    <li><a class="top-menu-options" href="#">Training Locations</a></li>
-                    <li><a class="top-menu-options" href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Training Locations</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
             <div class="top-bar-right">
-                <ul class="menu">
+                <ul class="menu float-left">
                     <li><a class="fas fa-search"></a></li>
                     <li><a class="far fa-envelope"></a></li>
                     <li><a class="fas fa-phone"></a></li>
                     <li><a class="fas fa-moon"></a></li>
-                    <li><a href="#" class="nav-language show-for-large view-more">Language</a></li>
-                    <a href="#" class="nav-contact-link show-for-medium">Contact Us</a>
+                    <li><a href="#" class="nav-language view-more">Language</a></li>
+                </ul>
+                <ul class="menu float-right">
+                    <li class="nav-contact-link">
+                        <a href="#">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
-
         <div class="off-canvas position-left sidenav" id="offCanvas" data-off-canvas>
-            <ul class="vertical menu">
+            <ul class="vertical dropdown menu" data-dropdown-menu>
                 <li><a class="closebtn text-right" data-toggle="offCanvas">&times;</a></li>
                 <li><a href="#">Locations</a></li>
-                <li><a href="#">Our Courses</a></li>
+                <li>
+                    <a href="#" class="view-more">Our Courses</a>
+                    <ul class="vertical menu nested sub-menu classes-subnav">
+                        <li>
+                            <div class="grid-container fluid">
+                                <div class="grid-x grid-margin-x">
+                                    <section class="cell large-auto">
+                                        <h1>EASA COURSES</h1>
+                                        <ul class="vertical menu">
+                                            <li><a href="#">ATPL Integrated</a></li>
+                                            <li><a href="#">0 to ATPL</a></li>
+                                            <li><a href="#">0 to ATPL with US Experience</a></li>
+                                            <li><a href="#">PPL – Private Pilot License</a></li>
+                                            <li><a href="#">CPL – Commercial Pilot Licensers</a></li>
+                                            <li><a href="#">IR – Instrument Rating</a></li>
+                                            <li><a href="#">MEP – Multi Engine Piston</a></li>
+                                            <li><a href="#">ATPL Theory</a></li>
+
+                                            <li><a href="#">Night Rating</a></li>
+                                            <li><a href="#">FI & IRI – Flight Instructor</a></li>
+                                            <li><a href="#">MCC – Multi Crew Cooperation</a></li>
+                                            <li><a href="#">JOC – Jet Orientation Course</a></li>
+                                            <li><a href="#">Introductory Flight</a></li>
+                                            <li><a href="#">Aviation English</a></li>
+                                            <li><a href="#">IR English</a></li>
+                                        </ul>
+                                    </section>
+
+                                    <section class="cell large-auto">
+                                        <h1>FAA COURSES</h1>
+                                        <ul class="vertical menu">
+                                            <li><a href="#">PPL – Private Pilot License</a></li>
+                                            <li><a href="#">CPL – Commercial Pilot License</a></li>
+                                            <li><a href="#">IR – Instrument Rating</a></li>
+                                            <li><a href="#">MEP – Multi Engine Piston</a></li>
+                                            <li><a href="#">0 to CPL</a></li>
+                                            <li><a href="#">0 to 1500 Hours</a></li>
+                                            <li><a href="#">CFI & CFII – Certified Flight Instructor</a></li>
+                                        </ul>
+                                    </section>
+
+                                    <section class="cell large-auto">
+                                        <h1>TIME BUILDING</h1>
+                                        <ul class="vertical menu">
+                                            <li><a href="#">Time Building in Europe</a></li>
+                                            <li><a href="#">Time Building in USA</a></li>
+                                            <li><a href="#">Three</a></li>
+                                        </ul>
+
+                                        <h1>CONVERSIONS</h1>
+                                        <ul class="vertical menu">
+                                            <li><a href="#">FAA CPL to EASA License Conversions</a></li>
+                                            <li><a href="#">Time Building in USA</a></li>
+                                            <li><a href="#">Three</a></li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#">Why Choose Us</a></li>
                 <li><a href="#">B2B</a></li>
                 <li><a href="#">Fleet</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+    </nav>
 
-        <div class="sub-menu">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <section class="cell large-auto">
-                        <h1>EASA COURSES</h1>
-                        <ul class="vertical menu">
-                            <li><a href="#">ATPL Integrated</a></li>
-                            <li><a href="#">0 to ATPL</a></li>
-                            <li><a href="#">0 to ATPL with US Experience</a></li>
-                            <li><a href="#">PPL – Private Pilot License</a></li>
-                            <li><a href="#">CPL – Commercial Pilot Licensers</a></li>
-                            <li><a href="#">IR – Instrument Rating</a></li>
-                            <li><a href="#">MEP – Multi Engine Piston</a></li>
-                            <li><a href="#">ATPL Theory</a></li>
-
-                            <li><a href="#">Night Rating</a></li>
-                            <li><a href="#">FI & IRI – Flight Instructor</a></li>
-                            <li><a href="#">MCC – Multi Crew Cooperation</a></li>
-                            <li><a href="#">JOC – Jet Orientation Course</a></li>
-                            <li><a href="#">Introductory Flight</a></li>
-                            <li><a href="#">Aviation English</a></li>
-                            <li><a href="#">IR English</a></li>
-                        </ul>
-                    </section>
-                    <!-- <section class="cell large-auto">
-                    <ul class="vertical menu">
-                    <li><a href="#">Night Rating</a></li>
-                    <li><a href="#">FI & IRI – Flight Instructor</a></li>
-                    <li><a href="#">MCC – Multi Crew Cooperation</a></li>
-                    <li><a href="#">JOC – Jet Orientation Course</a></li>
-                    <li><a href="#">Introductory Flight</a></li>
-                    <li><a href="#">Aviation English</a></li>
-                    <li><a href="#">IR English</a></li>
-                </ul>
-            </section> -->
-
-
-            <section class="cell large-auto">
-                <h1>FAA COURSES</h1>
-                <ul class="vertical menu">
-                    <li><a href="#">PPL – Private Pilot License</a></li>
-                    <li><a href="#">CPL – Commercial Pilot License</a></li>
-                    <li><a href="#">IR – Instrument Rating</a></li>
-                    <li><a href="#">MEP – Multi Engine Piston</a></li>
-                    <li><a href="#">0 to CPL</a></li>
-                    <li><a href="#">0 to 1500 Hours</a></li>
-                    <li><a href="#">CFI & CFII – Certified Flight Instructor</a></li>
-                </ul>
-            </section>
-
-            <section class="cell large-auto">
-                <h1>TIME BUILDING</h1>
-                <ul class="vertical menu">
-                    <li><a href="#">Time Building in Europe</a></li>
-                    <li><a href="#">Time Building in USA</a></li>
-                    <li><a href="#">Three</a></li>
-                </ul>
-
-                <h1>CONVERSIONS</h1>
-                <ul class="vertical menu">
-                    <li><a href="#">FAA CPL to EASA License Conversions</a></li>
-                    <li><a href="#">Time Building in USA</a></li>
-                    <li><a href="#">Three</a></li>
-                </ul>
-
-            </section>
-        </div>
-    </div>
-</div>
-</nav>
-
-<main>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in semper risus. Duis ornare, ligula ac dignissim ornare, nulla velit scelerisque diam, et suscipit odio enim ut odio. Phasellus vel arcu ut lacus congue pulvinar. Vivamus leo erat, interdum in sollicitudin in, convallis ut ligula. Aenean a mauris nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eget varius mauris. Nunc ac malesuada urna, vitae gravida augue. Suspendisse potenti. In id nibh fermentum, elementum erat quis, mollis justo. Donec mi felis, lacinia in pellentesque ac, rhoncus sed augue. Proin gravida euismod nunc, nec elementum sem suscipit in. Donec finibus nisl interdum lacus pellentesque consectetur.
-
-    Aliquam dictum ex eu sapien varius, ut viverra nisl convallis. Vivamus vitae leo dui. Aenean convallis aliquam pellentesque. Nunc sit amet velit lacus. Fusce mattis neque rhoncus justo mollis, sed laoreet eros suscipit. Maecenas vitae odio imperdiet, egestas felis sed, tempor urna. Nulla luctus justo vitae efficitur gravida. Nullam eu velit placerat, venenatis nulla nec, accumsan justo. Aenean molestie, quam ac dapibus semper, turpis turpis auctor sem, nec feugiat leo metus rutrum augue. Aliquam vitae convallis ligula, non fringilla urna. Etiam sit amet auctor odio. Nunc commodo mi ac sem tristique tincidunt. Nullam luctus augue at enim dignissim, in suscipit mauris tincidunt. Aliquam tristique leo nulla, sit amet faucibus felis pellentesque et. Curabitur leo libero, pharetra a arcu eget, tincidunt sodales tortor. Integer vitae venenatis massa, eu fringilla turpis.
-
-    Quisque condimentum turpis eu odio pellentesque varius. Aliquam et commodo tortor, vitae imperdiet diam. Donec rutrum quis urna quis convallis. Morbi dignissim id diam a rutrum. Nam tincidunt tortor euismod metus interdum, ut facilisis lacus ornare. Nam in hendrerit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio magna, tempus ac tristique ac, hendrerit ac ipsum. Proin augue velit, viverra in mauris nec, dignissim pellentesque augue. In pulvinar mi ac magna venenatis, sed mattis nisl eleifend. Nulla sit amet massa a ipsum blandit convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer tincidunt tortor erat, sed lacinia risus egestas posuere.
-</main>
-
-
-
-<!--jquery-->
-<script src="jquery/jquery.min.js"></script>
-<!--foundation js-->
-<!--<script src="foundation/js/vendor/jquery.js"></script>-->
-<script src="foundation/js/vendor/what-input.js"></script>
-<script src="foundation/js/vendor/foundation.js"></script>
-<script src="foundation/js/app.js"></script>
-<script>
-$(document).foundation();
-</script>
-
-</script>
+    <!--jquery-->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 
 </html>

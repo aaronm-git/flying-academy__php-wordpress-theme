@@ -3,7 +3,7 @@
 /*broswer user agent reset*/
 
 *{
-	/* outline: 1px solid rgba(0, 255, 0, .3); */
+	outline: 1px solid rgba(0, 255, 0, 1);
 	margin: 0px;
 	border: none;
 	padding: 0px;
@@ -19,7 +19,7 @@
 /*baseline overlay*/
 
 #baseline-overlay{
-	z-index: 10;
+	z-index: 100000;
 	opacity: .2;
 	position: absolute;
 	height: 12000px;
@@ -633,7 +633,7 @@ h1 + .special-heading,
 a.view-more,
 button.view-more {
 	display: block;
-	padding: 0 2.75rem 0 0;
+	padding: 0 2.75rem 0 1rem;
 	margin-bottom: 1.5rem;
 	background-image: url(../images/down-arrow.png);
 	background-repeat: no-repeat;

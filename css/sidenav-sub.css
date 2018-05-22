@@ -27,3 +27,21 @@ nav .js-off-canvas-overlay.is-overlay-fixed {
     transform: rotate(360deg);
     transition: .25s;
 }
+
+
+.position-left {
+    overflow: visible;
+}
+
+.classes-subnav {
+    position: absolute;
+    top: -97px !important;
+    left: 233px !important;
+    padding: 1.5rem;
+    width: calc(100vw - 250px);
+    height: 100vh;
+}
+
+.classes-subnav a:hover {
+    width: auto !important;
+}
