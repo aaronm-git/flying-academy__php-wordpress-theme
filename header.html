@@ -44,10 +44,10 @@
                 </ul>
             </div>
             <div class="top-bar-right">
-                <ul class="menu float-left">
-                    <li><a href="" class="fas fa-search"></a></li>
-                    <li><a href="" class="far fa-envelope"></a></li>
-                    <li><a href="" class="fas fa-phone"></a></li>
+                <ul class="menu float-left show-for-large">
+                    <li><a href="#" class="fas fa-search"></a></li>
+                    <li><a href="#" class="far fa-envelope"></a></li>
+                    <li><a href="#" class="fas fa-phone"></a></li>
                     <li><a class="fas fa-moon night-mode"></a></li>     <!--NIGHT MODE TRIGGER-->
                     <li><a href="#" class="nav-language view-more">Language</a></li>
                     <li class="nav-contact-link"><a href="#">Contact Us</a></li>
@@ -59,10 +59,10 @@
             <ul class="vertical dropdown menu" data-dropdown-menu>
                 <li><a class="close-btn text-right" data-toggle="offCanvas">&times;</a></li>
                 <li>
-                    <a class="view-more-right">Locations</a>
+                    <a class="view-more-right locations-trigger">Locations</a>
                 </li>
                 <li>
-                    <a class="view-more-right">Our Courses</a>
+                    <a class="view-more-right courses-trigger">Our Courses</a>
                     <ul class="vertical menu nested sub-menu classes-subnav">
                         <li>
                             <div class="grid-container fluid">
@@ -159,6 +159,18 @@
         $('.night-mode').click( function(){
             $('nav').toggleClass('night-mode');
         });
+
+    //     $(document).ready(function() {
+    // $( '.courses-trigger' ).hover(
+    //     function(){
+    //         $('.classes-subnav').slideDown(250);
+    //     },
+    //     function(){
+    //         $('.classes-subnav').slideUp(250);
+    //     }
+    // );
+// });
+
     });
 </script>
 

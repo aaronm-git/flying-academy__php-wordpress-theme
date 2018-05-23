@@ -1,4 +1,9 @@
 /* sub-menu */
+
+.js-dropdown-active > ul {
+    transition: 2s;
+}
+
 .classes-subnav {
     position: absolute;
     top: -97px !important;
@@ -37,7 +42,7 @@
 
 .classes-subnav li a:hover {
     /* background-color: #d9d9d9 !important; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     text-decoration: underline;
     /* transform: scale(1.1); */
     transition: .15s;

@@ -14,12 +14,12 @@ nav.night-mode .header-nav, nav.night-mode .header-nav ul {
 
 nav.night-mode .header-nav .sidenav-toggle {
     background-image: url('../images/bars-toggle-white.svg');
-    background-size: 1.5rem;
+    background-size: 1.5rem
 }
 
 nav.night-mode .header-nav .sidenav-toggle[aria-expanded="true"] {
     background-image: url('../images/times-toggle-white.svg');
-    background-size: 1.5rem;
+    background-size: 1.5rem
 }
 
 nav.night-mode .header-nav .nav-logo-container img {
@@ -44,13 +44,10 @@ nav.night-mode .header-nav .nav-contact-link {
     /* position: relative; */
     /* left: .5rem; */
     background-color: #f1b10e;
-    font-family: "roboto bold";
-    width: 150px;
 }
 
 nav.night-mode .header-nav .nav-contact-link a {
     color: white;
-    text-align: center;
 }
 
 /* sidenav colors-------------------------------------*/
@@ -95,7 +92,6 @@ nav.night-mode .classes-subnav a {
 }
 
 nav.night-mode .classes-subnav li a:hover {
-    border-radius: 5px;
     text-decoration: underline;
     transition: .15s;
     color: #6699cc;
