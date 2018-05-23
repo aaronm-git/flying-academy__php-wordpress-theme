@@ -1,7 +1,7 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 nav a {
-    color: #11286e;
+    color: grey;
 }
 
 /* danny overrides */
@@ -72,9 +72,9 @@ nav a {
 }
 
 .header-nav .top-bar-left li:not(.nav-logo-container) a:hover,
-.header-nav .top-bar-right li a:hover {
+.header-nav .top-bar-right li:not(.nav-contact-link) a:hover {
     text-decoration: none;
-    color: white;
+    /* color: #0075ff; */
 }
 
 .header-nav .top-bar-left li:not(.nav-logo-container),
@@ -84,8 +84,8 @@ nav a {
 
 .header-nav .top-bar-left li:not(.nav-logo-container):hover,
 .header-nav .top-bar-right li:not(.nav-contact-link):hover {
-    background-color: #41b9e1;
-    transition: width 2s linear 1s;
+    background-color: #efefef;
+    /* transition: .25s; */
 }
 
 .header-nav .top-bar-right .float-right {
@@ -112,5 +112,5 @@ nav a {
 }
 
 .header-nav .nav-contact-link a:hover {
-    color: white;
+    text-decoration: none;
 }
