@@ -1,5 +1,10 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
+.header-nav ul,
+.nav-contact-link {
+    transition: 1s;
+}
+
 nav a {
     color: grey;
 }
@@ -112,5 +117,5 @@ nav a {
 }
 
 .header-nav .nav-contact-link a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }

@@ -23,12 +23,13 @@
     <link rel="stylesheet" href="css/header-nav.css">
     <link rel="stylesheet" href="css/sidenav.css">
     <link rel="stylesheet" href="css/sidenav-sub.css">
+    <link rel="stylesheet" href="css/night-mode.css">
 </head>
 
 <body>
     <div id="baseline-overlay"></div>
     <div id="column-overlay"></div>
-    <nav data-sticky-container>
+    <nav class="" data-sticky-container>
         <div class="top-bar header-nav" id="responsive-menu" data-sticky data-options="marginTop:0;">
             <div class="top-bar-left">
                 <ul class="menu">
@@ -156,7 +157,7 @@
 <script type="text/javascript">
     $( document ).ready(function() {
         $('.night-mode').click( function(){
-            
+            $('nav').toggleClass('night-mode');
         });
     });
 </script>

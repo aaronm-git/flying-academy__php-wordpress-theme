@@ -1,0 +1,102 @@
+/* header-nav colors*/
+
+nav.night-mode a {
+    color: lightgrey;
+}
+
+nav.night-mode .header-nav {
+    border-bottom: 1px solid grey;
+}
+
+nav.night-mode .header-nav, nav.night-mode .header-nav ul {
+    background-color: #000033;
+}
+
+nav.night-mode .header-nav .sidenav-toggle {
+    background-image: url('../images/bars-toggle-white.svg');
+    background-size: 1.5rem;
+}
+
+nav.night-mode .header-nav .sidenav-toggle[aria-expanded="true"] {
+    background-image: url('../images/times-toggle-white.svg');
+    background-size: 1.5rem;
+}
+
+nav.night-mode .header-nav .nav-logo-container img {
+}
+
+nav.night-mode .header-nav .top-bar-left li:not(.nav-logo-container) a:hover,
+nav.night-mode .header-nav .top-bar-right li:not(.nav-contact-link) a:hover {
+    color: white;
+}
+
+nav.night-mode .header-nav .top-bar-left li:not(.nav-logo-container):hover,
+nav.night-mode .header-nav .top-bar-right li:not(.nav-contact-link):hover {
+    background-color: grey;
+}
+
+/* language element */
+nav.night-mode .view-more {
+    background-image: url('../images/arrow-down-white.png');
+}
+
+nav.night-mode .header-nav .nav-contact-link {
+    /* position: relative; */
+    /* left: .5rem; */
+    background-color: #f1b10e;
+    font-family: "roboto bold";
+    width: 150px;
+}
+
+nav.night-mode .header-nav .nav-contact-link a {
+    color: white;
+    text-align: center;
+}
+
+/* sidenav colors-------------------------------------*/
+
+nav.night-mode .sidenav {
+    top: 4.5rem;
+    background: rgb(0,0,45);
+background: -moz-linear-gradient(top, rgb(0,0,45) 0%, rgb(0,0,26) 75%, rgb(0,0,26) 100%);
+background: -webkit-linear-gradient(top, rgb(0,0,45) 0%,rgb(0,0,26) 75%,rgb(0,0,26) 100%);
+background: linear-gradient(to bottom, rgb(0,0,45) 0%,rgb(0,0,26) 75%,rgb(0,0,26) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00002d', endColorstr='#00001a',GradientType=0 );
+    outline: 1px solid grey !important;
+}
+
+nav.night-mode .sidenav > ul:not(.classes-subnav) > li > a:hover {
+    background-color: #00001a;
+}
+
+nav.night-mode .dropdown.menu .is-active > a {
+    background-color: #00001a;
+    color: white;
+}
+
+nav.night-mode .view-more-right {
+    background-image: url('../images/arrow-right-white.png') !important;
+}
+
+/* sidenav-sub colors-------------------------------------*/
+
+nav.night-mode .classes-subnav,
+nav.night-mode .classes-subnav ul {
+    background-color: #00001a;
+}
+
+nav.night-mode .classes-subnav h1 {
+    color: lightgrey;
+}
+
+nav.night-mode .classes-subnav a {
+    border-bottom: 1px solid grey;
+    color: white;
+}
+
+nav.night-mode .classes-subnav li a:hover {
+    border-radius: 5px;
+    text-decoration: underline;
+    transition: .15s;
+    color: #6699cc;
+}

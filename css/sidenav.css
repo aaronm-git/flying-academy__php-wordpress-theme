@@ -21,11 +21,7 @@ nav .off-canvas.is-transition-overlap.is-open {
     text-decoration: none;
 }
 
-.sidenav > ul > li a:hover {
-    background-color: #e6e6e6;
-}
-
-.sidenav > ul > li a:hover {
+.sidenav > ul > li a:not(a.classes-subnav):hover {
     background-color: #e6e6e6;
 }
 
