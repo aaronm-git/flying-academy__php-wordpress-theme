@@ -132,8 +132,14 @@ nav a {
 }
 
 /* Responsive////////////////////////////////// */
-/* @media (max-width: 1230px) {
-    .top-bar-right ul li:not(.nav-contact-link):not(.nav-language){
+@media (min-width: 640px) and (max-width: 760px) {
+    .header-nav .nav-contact-link {
         display: none;
     }
-} */
+}
+
+@media (min-width: 640px) and (max-width: 645px) {
+    .header-nav .logo img {
+        height: 1.5rem;
+    }
+}
