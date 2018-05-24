@@ -39,8 +39,9 @@ nav .off-canvas.is-transition-overlap.is-open {
     margin-bottom: 0 !important;
 }
 
-.view-more-right {
-    background-image: url(../images/right-arrow-black.png) !important;
+.view-more-right,
+ .dropdown.menu .is-active > a {
+    background-image: url(../images/right-arrow-black.png);
     background-repeat: no-repeat !important;
     background-position: calc(100% - 1rem) center !important;
     background-size: .5rem auto !important;
