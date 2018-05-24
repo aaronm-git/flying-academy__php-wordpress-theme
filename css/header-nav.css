@@ -102,18 +102,22 @@ nav a {
 
 .header-nav .flyout-language, .is-dropdown-submenu {
     top: 4.5rem;
-    right: -1px !important;
+    right: 0 !important;
     border-color: lightgrey;
     border-bottom: none;
 }
 
 .flyout-language {
     box-shadow: 2px 5px 10px rgba(0, 0 , 0, .15);
-
 }
 
 .header-nav .flyout-language a {
     border-bottom: 1px solid lightgrey;
+    margin-top: -1px;
+}
+
+.header-nav .is-submenu-item:hover {
+    border-top: 1px solid lightgrey;
     margin-top: -1px;
 }
 
@@ -155,5 +159,10 @@ nav a {
 
     .logo {
      margin-left: calc(50vw - 10rem);
+    }
+
+    .header-nav .menu .is-active > a,
+    .nav-language {
+        background-color: inherit !important;
     }
 }
