@@ -13,8 +13,6 @@
     <!--foundation css-->
     <link rel="stylesheet" href="foundation/css/foundation.css">
     <link rel="stylesheet" href="foundation/css/app.css">
-    <!--my theme css-->
-    <link rel="stylesheet" href="css/owl-theme.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--site css-->
@@ -33,7 +31,6 @@
         <div class="top-bar header-nav" id="responsive-menu" data-sticky data-options="marginTop:0;">
             <a class="sidenav-toggle" data-toggle="offCanvas"></a>
             <a href="#" class="logo"><img src="images/logo.png" alt="Flying Academy"></a>
-            <div class="nav-language-mobile show-for-small-only"><a href="#"><img src="images/usa-flag.svg"></a></div>
             <div class="top-bar-left">
                 <ul class="menu show-for-medium">
                     <li><a href="#">About</a></li>
@@ -43,13 +40,23 @@
                 </ul>
             </div>
             <div class="top-bar-right">
-                <ul class="menu float-left show-for-medium">
+                <ul class="menu float-left" data-dropdown-menu>
                     <li><a href="#" class="fas fa-search show-for-large"></a></li>
                     <li><a href="#" class="far fa-envelope show-for-large"></a></li>
                     <li><a href="#" class="fas fa-phone show-for-large"></a></li>
-                    <li><a class="fas fa-moon night-mode show-for-large"></a></li>     <!--NIGHT MODE TRIGGER-->
-                    <li class="nav-language"><a href="#"><img src="images/usa-flag.svg"></a></li>
-                    <li class="nav-contact-link"><a href="#">Contact Us</a></li>
+                    <li><a class="fas fa-moon night-mode show-for-large"></a></li> <!--NIGHT MODE TRIGGER-->
+                    <li class="nav-language show-for-small">
+                        <a href="#"><img src="images/flags/usa.svg"></a>
+                        <ul class="menu flyout-language">
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Czech</a></li>
+                            <li><a href="#">Italian</a></li>
+                            <li><a href="#">Russian</a></li>
+                            <li><a href="#">Chinese</a></li>
+                            <li><a href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-contact-link show-for-medium"><a href="#">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -159,16 +166,16 @@
             $('nav').toggleClass('night-mode');
         });
 
-    //     $(document).ready(function() {
-    // $( '.courses-trigger' ).hover(
-    //     function(){
-    //         $('.classes-subnav').slideDown(250);
-    //     },
-    //     function(){
-    //         $('.classes-subnav').slideUp(250);
-    //     }
-    // );
-// });
+        //     $(document).ready(function() {
+        // $( '.courses-trigger' ).hover(
+        //     function(){
+        //         $('.classes-subnav').slideDown(250);
+        //     },
+        //     function(){
+        //         $('.classes-subnav').slideUp(250);
+        //     }
+        // );
+        // });
 
     });
 </script>

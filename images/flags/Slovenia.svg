@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	<rect x="2" y="19" fill="#1976D2" width="44" height="10"/>
+	<path fill="#1976D2" d="M9,14v2c0,7,4,8,4,8s4-1,4-8v-2H9z"/>
+</g>
+<g>
+	<rect x="2" y="29" fill="#FF3D00" width="44" height="10"/>
+	<path fill="#FF3D00" d="M17,14v2c0,7-4,8-4,8s-4-1-4-8v-2H8v2c0,7.692,4.563,8.922,4.758,8.971L13,25.031l0.242-0.061&#10;&#9;&#9;C13.437,24.922,18,23.692,18,16v-2H17z"/>
+</g>
+<g>
+	<path fill="#ECEFF1" d="M2,9v10h6.281C8.109,18.126,8,17.142,8,16v-2h1h8h1v2c0,1.142-0.109,2.126-0.281,3H46V9H2z"/>
+	<path fill="#ECEFF1" d="M15,18l-1,1l-1-2l-1,2l-1-1l-1.564,1.564C10.47,23.355,13,24,13,24s2.53-0.645,3.564-4.436L15,18z"/>
+</g>
+</svg>

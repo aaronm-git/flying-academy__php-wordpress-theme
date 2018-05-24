@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<rect x="2" y="29" fill="#424242" width="44" height="10"/>
+<rect x="2" y="19" fill="#ECEFF1" width="44" height="10"/>
+<rect x="2" y="9" fill="#FF3D00" width="44" height="10"/>
+<g>
+	<path fill="#FFB300" d="M28,27c0,0.553-0.447,1-1,1l-3-2l-3,2c-0.553,0-1-0.447-1-1v-4c0-0.553,0.447-1,1-1h6c0.553,0,1,0.447,1,1&#10;&#9;&#9;V27z"/>
+	<path fill="#FFB300" d="M25,23c0,0.553-0.447,1-1,1l0,0c-0.553,0-1-0.447-1-1v-2c0-0.553,0.447-1,1-1l0,0c0.553,0,1,0.447,1,1V23z"/>
+	<polygon fill="#FFB300" points="23,28 25,28 24,26 &#9;"/>
+</g>
+</svg>
