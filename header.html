@@ -62,7 +62,7 @@
         </div>
 
         <div class="off-canvas position-left sidenav" id="offCanvas" data-off-canvas>
-            <ul class="vertical dropdown menu" data-dropdown-menu>
+            <ul class="vertical dropdown menu show-for-medium" data-dropdown-menu>
                 <li><a class="close-btn text-right" data-toggle="offCanvas">&times;</a></li>
                 <li>
                     <a class="view-more-right locations-trigger">Locations</a>
@@ -149,35 +149,114 @@
                 <li><a href="#">Fleet</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </div>
-    </nav>
 
-    <!--jquery-->
-    <script src="jquery/jquery.min.js"></script>
-    <script src="foundation/js/vendor/what-input.js"></script>
-    <script src="foundation/js/vendor/foundation.js"></script>
-    <script>
-    $(document).foundation();
+            <ul class="vertical menu drilldown show-for-small-only" data-drilldown>
+                <li>
+                    <a class="view-more-right">Locations</a>
+                </li>
+                <li>
+                    <a class="view-more-right">Our Courses</a>
+                    <ul class="vertical menu nested">
+                        <li>
+                            <a>EASA COURSES</a>
+                            <ul class="vertical menu nested">
+                                <li><a href="#">0-1500</a></li>
+                                <li><a href="#">0-ATPL</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>FAA COURSES</a>
+                            <ul class="vertical menu nested">
+                                <li><a href="#">0-1500</a></li>
+                                <li><a href="#">0-CPLA</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>EASA Modules</a>
+                            <ul class="vertical menu nested">
+                                <li><a href="#">PPL – Private Pilot License</a></li>
+                                <li><a href="#">CPL – Commercial Pilot License</a></li>
+                                <li><a href="#">IR – Instrument Rating</a></li>
+                                <li><a href="#">MEP – Multi Engine Piston</a></li>
+                                <li><a href="#">0 to CPL</a></li>
+                                <li><a href="#">0 to 1500 Hours</a></li>
+                                <li><a href="#">CFI & CFII – Certified Flight Instructor</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>FAA COURSES</a>
+                            <ul class="vertical menu nested">
+                                <li><a href="#">PPL – Private Pilot License</a></li>
+                                <li><a href="#">CPL – Commercial Pilot License</a></li>
+                                <li><a href="#">IR – Instrument Rating</a></li>
+                                <li><a href="#">MEP – Multi Engine Piston</a></li>
+                                <li><a href="#">0 to CPL</a></li>
+                                <li><a href="#">0 to 1500 Hours</a></li>
+                                <li><a href="#">CFI & CFII – Certified Flight Instructor</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>Time Building</a>
+                                <ul class="vertical menu nested">
+                                    <li><a href="#">PPL – Private Pilot License</a></li>
+                                    <li><a href="#">CPL – Commercial Pilot License</a></li>
+                                    <li><a href="#">IR – Instrument Rating</a></li>
+                                    <li><a href="#">MEP – Multi Engine Piston</a></li>
+                                    <li><a href="#">0 to CPL</a></li>
+                                    <li><a href="#">0 to 1500 Hours</a></li>
+                                    <li><a href="#">CFI & CFII – Certified Flight Instructor</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Other</a>
+                                <ul class="vertical menu nested">
+                                    <li><a href="#">PPL – Private Pilot License</a></li>
+                                    <li><a href="#">CPL – Commercial Pilot License</a></li>
+                                    <li><a href="#">IR – Instrument Rating</a></li>
+                                    <li><a href="#">MEP – Multi Engine Piston</a></li>
+                                    <li><a href="#">0 to CPL</a></li>
+                                    <li><a href="#">0 to 1500 Hours</a></li>
+                                    <li><a href="#">CFI & CFII – Certified Flight Instructor</a></li>
+                                </ul>
+                            </li>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">Why Choose Us</a></li>
+        <li><a href="#">B2B</a></li>
+        <li><a href="#">Fleet</a></li>
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+</div>
+</nav>
+
+<!--jquery-->
+<script src="jquery/jquery.min.js"></script>
+<script src="foundation/js/vendor/what-input.js"></script>
+<script src="foundation/js/vendor/foundation.js"></script>
+<script>
+$(document).foundation();
 </script>
 
 <script type="text/javascript">
-    $( document ).ready(function() {
-        $('.night-mode').click( function(){
-            $('nav').toggleClass('night-mode');
-        });
-
-        //     $(document).ready(function() {
-        // $( '.courses-trigger' ).hover(
-        //     function(){
-        //         $('.classes-subnav').slideDown(250);
-        //     },
-        //     function(){
-        //         $('.classes-subnav').slideUp(250);
-        //     }
-        // );
-        // });
-
+$( document ).ready(function() {
+    $('.night-mode').click( function(){
+        $('nav').toggleClass('night-mode');
     });
+
+    //     $(document).ready(function() {
+    // $( '.courses-trigger' ).hover(
+    //     function(){
+    //         $('.classes-subnav').slideDown(250);
+    //     },
+    //     function(){
+    //         $('.classes-subnav').slideUp(250);
+    //     }
+    // );
+    // });
+
+});
 </script>
 
 </body>

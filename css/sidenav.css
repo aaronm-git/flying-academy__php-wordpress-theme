@@ -12,8 +12,14 @@ nav .off-canvas.is-transition-overlap.is-open {
     outline: 1px solid lightgrey !important;
 }
 
-.sidenav a {
-    padding: .75rem !important;
+.header-nav ul.vertical.menu.drilldown a,
+ul.vertical.menu.nested.submenu.is-drilldown-submenu.drilldown-submenu-cover-previous.is-active {
+    background-color: #f2f2f2;
+}
+
+.sidenav .menu a {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
     margin-bottom: 0;
 }
 
@@ -54,4 +60,41 @@ nav .off-canvas.is-transition-overlap.is-open {
 
 nav .position-left {
     overflow: visible;
+}
+
+/* responsive design */
+
+@media (max-width: 640px) {
+    .position-left {
+        width: 100%;
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    a.close-btn {
+        display: none;
+    }
+
+    .is-drilldown {
+        padding-top: 3rem;
+    }
+
+    ul.vertical.menu.drilldown,
+    .drilldown .nested.is-drilldown-submenu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    ul.vertical.menu.drilldown a {
+        background-color: #f2f2f2;
+        border-bottom: 1px solid lightgrey;
+        border-top: 1px solid lightgrey;
+        margin-top: -1px;
+        padding-bottom: .75rem;
+        padding-top: .6875rem;
+    }
+
+    .is-submenu-item .is-drilldown-submenu-item a {
+        color: #2ba6cb;
+    }
 }
