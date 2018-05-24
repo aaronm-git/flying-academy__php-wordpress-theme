@@ -55,10 +55,10 @@ nav.night-mode .header-nav .nav-contact-link a {
 nav.night-mode .sidenav {
     top: 4.5rem;
     background: rgb(0,0,45);
-background: -moz-linear-gradient(top, rgb(0,0,45) 0%, rgb(0,0,26) 75%, rgb(0,0,26) 100%);
-background: -webkit-linear-gradient(top, rgb(0,0,45) 0%,rgb(0,0,26) 75%,rgb(0,0,26) 100%);
-background: linear-gradient(to bottom, rgb(0,0,45) 0%,rgb(0,0,26) 75%,rgb(0,0,26) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00002d', endColorstr='#00001a',GradientType=0 );
+    background: -moz-linear-gradient(top, rgb(0,0,45) 0%, rgb(0,0,26) 75%, rgb(0,0,26) 100%);
+    background: -webkit-linear-gradient(top, rgb(0,0,45) 0%,rgb(0,0,26) 75%,rgb(0,0,26) 100%);
+    background: linear-gradient(to bottom, rgb(0,0,45) 0%,rgb(0,0,26) 75%,rgb(0,0,26) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00002d', endColorstr='#00001a',GradientType=0 );
     outline: 1px solid grey !important;
 }
 
@@ -74,6 +74,24 @@ nav.night-mode .dropdown.menu .is-active > a {
 nav.night-mode .view-more-right {
     background-image: url('../images/arrow-right-white.png') !important;
 }
+
+nav.night-mode .header-nav .nav-language,
+nav.night-mode .header-nav .menu .is-active > a  {
+    background-image: url('../images/arrow-down-white.png');
+}
+
+nav.night-mode .header-nav .flyout-language, .is-dropdown-submenu {
+    border-color: grey;
+}
+
+nav.night-mode .header-nav .flyout-language a {
+    border-bottom: 1px solid grey;
+}
+
+nav.night-mode .header-nav .is-submenu-item:hover {
+    border-top: 1px solid grey;
+}
+
 
 /* sidenav-sub colors-------------------------------------*/
 
