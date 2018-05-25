@@ -8,7 +8,7 @@
     position: absolute;
     top: -97px !important;
     left: 250px !important;
-    padding: 2rem;
+    padding: 1.5rem;
     width: calc(100vw - 250px);
     height: 100vh;
     overflow: scroll;
@@ -20,13 +20,12 @@
 }
 
 .classes-subnav ul {
-    /* padding-left: 0; */
-    /* padding-right: 0; */
+    margin-bottom: 0;
 }
 
 .classes-subnav h1 {
     font-size: 1.5rem !important;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     padding-left: 1rem;
 }

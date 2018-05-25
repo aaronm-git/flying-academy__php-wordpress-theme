@@ -1,25 +1,33 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
 
 nav a {
     color: grey;
 }
 
+
 /* darkmode transition */
+
 .header-nav ul,
 .nav-contact-link {
     transition: 1s;
 }
 
 .header-nav {
-    -moz-box-shadow:    0 0 10px rgba(0, 0 , 0, .5);
-    -webkit-box-shadow: 0 0 10px rgba(0, 0 , 0, .5);
-    box-shadow:         0 0 10px rgba(0, 0 , 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     padding: 0;
     border-bottom: 1px solid lightgrey;
     z-index: 9999;
 }
 
-.header-nav, .header-nav ul {
+.header-nav,
+.header-nav ul {
     background-color: white;
 }
 
@@ -44,7 +52,7 @@ nav a {
     transition: .5s;
 }
 
-.header-nav .logo img{
+.header-nav .logo img {
     height: 2rem;
 }
 
@@ -77,9 +85,7 @@ nav a {
 }
 
 .header-nav .top-bar-left li:not(.nav-logo-container),
-.header-nav .top-bar-right li:not(.nav-contact-link) {
-
-}
+.header-nav .top-bar-right li:not(.nav-contact-link) {}
 
 .header-nav .top-bar-left li:not(.nav-logo-container):hover,
 .header-nav .top-bar-right li:not(.nav-contact-link):hover,
@@ -89,7 +95,7 @@ nav a {
 }
 
 .header-nav .nav-language,
-.header-nav .menu .is-active > a  {
+.header-nav .menu .is-active > a {
     background: url('../images/arrow-down-black.png') no-repeat 64px;
     background-size: 1rem;
     width: 6rem;
@@ -100,7 +106,8 @@ nav a {
     height: 2.25rem;
 }
 
-.header-nav .flyout-language, .is-dropdown-submenu {
+.header-nav .flyout-language,
+.is-dropdown-submenu {
     top: 4.5rem;
     right: 0 !important;
     border-color: lightgrey;
@@ -108,7 +115,7 @@ nav a {
 }
 
 .flyout-language {
-    box-shadow: 2px 5px 10px rgba(0, 0 , 0, .15);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .15);
 }
 
 .header-nav .flyout-language a {
@@ -135,6 +142,7 @@ nav a {
     text-decoration: underline;
 }
 
+
 /* Responsive////////////////////////////////// */
 
 @media (min-width: 640px) and (max-width: 780px) {
@@ -155,11 +163,9 @@ nav a {
         bottom: 0;
         right: -100vw;
     }
-
     .logo {
-     margin-left: calc(50vw - 10rem);
+        margin-left: calc(50vw - 10rem);
     }
-
     .header-nav .menu .is-active > a,
     .nav-language {
         background-color: inherit !important;

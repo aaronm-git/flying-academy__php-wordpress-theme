@@ -8,7 +8,8 @@ nav.night-mode .header-nav {
     border-bottom: 1px solid grey;
 }
 
-nav.night-mode .header-nav, nav.night-mode .header-nav ul {
+nav.night-mode .header-nav,
+nav.night-mode .header-nav ul {
     background-color: #00004d;
 }
 
@@ -20,8 +21,7 @@ nav.night-mode .header-nav .sidenav-toggle[aria-expanded="true"] {
     background-image: url('../images/times-toggle-white.svg');
 }
 
-nav.night-mode .header-nav .nav-logo-container img {
-}
+nav.night-mode .header-nav .nav-logo-container img {}
 
 nav.night-mode .header-nav .top-bar-left li:not(.nav-logo-container) a:hover,
 nav.night-mode .header-nav .top-bar-right li:not(.nav-contact-link) a:hover {
@@ -33,7 +33,9 @@ nav.night-mode .header-nav .top-bar-right li:not(.nav-contact-link):hover {
     background-color: #008ae6;
 }
 
+
 /* language element */
+
 nav.night-mode .view-more {
     background-image: url('../images/arrow-down-white.png');
 }
@@ -46,6 +48,7 @@ nav.night-mode .header-nav .nav-contact-link a {
     color: white;
 }
 
+
 /* sidenav colors-------------------------------------*/
 
 nav.night-mode .sidenav {
@@ -53,7 +56,7 @@ nav.night-mode .sidenav {
     background: -moz-linear-gradient(top, #00004d 0%, #00001a 100%);
     background: -webkit-linear-gradient(top, #00004d 0%, #00001a 100%);
     background: linear-gradient(to bottom, #00004d 0%, #00001a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00002d', endColorstr='#00001a',GradientType=0 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00002d', endColorstr='#00001a', GradientType=0);
     outline: 1px solid grey !important;
 }
 
@@ -73,7 +76,7 @@ nav.night-mode .dropdown.menu .is-active > a {
 }
 
 nav.night-mode .header-nav .nav-language,
-nav.night-mode .header-nav .menu .is-active > a  {
+nav.night-mode .header-nav .menu .is-active > a {
     background-image: url('../images/arrow-down-white.png');
 }
 

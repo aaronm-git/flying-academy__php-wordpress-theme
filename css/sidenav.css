@@ -46,11 +46,11 @@ ul.vertical.menu.nested.submenu.is-drilldown-submenu.drilldown-submenu-cover-pre
 }
 
 .view-more-right,
- .dropdown.menu .is-active > a {
+.dropdown.menu .is-active > a {
     background-image: url(../images/right-arrow-black.png);
-    background-repeat: no-repeat !important;
-    background-position: calc(100% - 1rem) center !important;
-    background-size: .5rem auto !important;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1rem) center;
+    background-size: .5rem auto;
 }
 
 .dropdown.menu.vertical > li.opens-right > a::after,
@@ -62,6 +62,7 @@ nav .position-left {
     overflow: visible;
 }
 
+
 /* responsive design */
 
 @media (max-width: 640px) {
@@ -70,21 +71,17 @@ nav .position-left {
         -ms-transform: translateX(-100%);
         transform: translateX(-100%);
     }
-
     a.close-btn {
         display: none;
     }
-
     .is-drilldown {
         padding-top: 3rem;
     }
-
     ul.vertical.menu.drilldown,
     .drilldown .nested.is-drilldown-submenu {
         padding-left: 0;
         padding-right: 0;
     }
-
     ul.vertical.menu.drilldown a {
         background-color: #f2f2f2;
         border-bottom: 1px solid lightgrey;
@@ -93,8 +90,22 @@ nav .position-left {
         padding-bottom: .75rem;
         padding-top: .6875rem;
     }
-
     .is-submenu-item .is-drilldown-submenu-item a {
+        color: #2ba6cb;
+    }
+    .drilldown .is-drilldown-submenu-parent > a::after,
+    .drilldown .js-drilldown-back > a::before {
+        display: none;
+    }
+    .drilldown-option {
+        background: url('../images/right-arrow-black.png') no-repeat !important;
+        background-position: calc(100vw - 1.5rem) !important;
+        background-size: .5rem auto !important;
+    }
+    li.js-drilldown-back {
+        background-size: .5rem auto !important;
+    }
+    li.js-drilldown-back a {
         color: #2ba6cb;
     }
 }
