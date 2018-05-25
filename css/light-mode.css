@@ -1,0 +1,41 @@
+/* element PRIMARY color */
+{
+    background-color: white;
+}
+/* element SECONDARY color */
+
+{
+    background-color: #efefef;
+}
+/* element OTHER color */
+{
+    background: lightgrey;
+}
+/* border */
+{
+    border-color: lightgrey;
+}
+/* typography PRIMARY color */
+{
+    color: black;
+}
+/* typography SECONDARY color */
+{
+    color: #6699cc; /* blue */
+}
+/* typography OTHER color */
+{
+    color: grey; /* grey */
+}
+/* warning */
+{   
+    background: #ff6933; /* red */
+    color: white;
+    font-family: 'roboto bold';
+}
+
+.box-shadow {
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
