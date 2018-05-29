@@ -102,10 +102,39 @@
 	margin-top: -3rem;
 }
 
-.big-carousel  .owl-nav button.owl-prev {
+.big-carousel .owl-nav button.owl-prev {
 	left: -1.875rem;
 }
 
 .big-carousel  .owl-nav button.owl-next {
 	right: -1.875rem;
+}
+
+/*uni carousel*/
+
+.uni-two-carousel .item {
+	position: relative;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+.uni-two-carousel.tall .owl-nav {
+	top: 24rem;
+}
+
+.uni-two-carousel .owl-nav button.owl-prev,
+.uni-two-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin-top: -3rem;
+}
+
+.uni-two-carousel .owl-nav button.owl-prev {
+	left: -5rem;
+}
+
+.uni-two-carousel  .owl-nav button.owl-next {
+	right: -5rem;
 }
