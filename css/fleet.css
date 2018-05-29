@@ -1,0 +1,46 @@
+.page-cover {
+    height: 36rem;
+}
+
+
+.uni-two-carousel > div > div > div .cell {
+    position: relative;
+}
+
+.uni-two-carousel h1 {
+    margin-bottom: 0;
+}
+
+.uni-two-carousel h2 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.uni-two-carousel a.button {
+    padding: 1rem 3rem;
+}
+
+.uni-two-carousel th {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: -1px;
+    border: 2px solid lightgrey;
+}
+
+.uni-two-carousel p {
+    margin-bottom: 1rem;
+}
+
+.uni-two-carousel table p {
+    margin-bottom: 0;
+}
+
+.offset-box.right {
+    right: 2px;
+}
+
+.offset-box.left {
+    left: 2px;
+}
