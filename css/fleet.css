@@ -1,7 +1,37 @@
+
 .page-cover {
     height: 36rem;
+    background: url('../images/flight-training-courses-los-angeles.jpg') no-repeat center;
+    background-size: cover;
+    margin-bottom: 6rem;
+    position: relative;
 }
 
+.page-cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.page-links {
+ z-index: 1;
+ position: absolute;
+ bottom: 1.5rem;
+ width: 100%;
+ text-align: center;
+}
+
+.page-links a {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
 .uni-two-carousel > div > div > div .cell {
     position: relative;
@@ -15,6 +45,11 @@
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.two-button {
+    display: flex;
+    justify-content: space-between;
 }
 
 .uni-two-carousel a.button {
