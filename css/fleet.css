@@ -88,20 +88,28 @@
 .second.cover-content {
  position: absolute;
  height: 100%;
- vertical-align: middle;
- width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 3rem;
 }
 
 .second.cover-content a, .second.cover-content h1, .second.cover-content span {
     font-family: 'roboto bold';
     font-size: 4.5rem;
     color: white;
-    padding: 0;
-    line-height: 6rem;
+    line-height: 7.5rem;
+    margin-bottom: 0;
 }
 
 .second.cover-content span {
-    font-family: 'roboto bold';
-    font-size: 6rem;
-    color: white;
+    font-size: 7.5rem;;
+}
+
+.second.cover-content a {
+    background-color: red;
+    line-height: 1.5rem;
+    width: 250px;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
