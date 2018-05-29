@@ -132,9 +132,9 @@
 }
 
 .uni-two-carousel .owl-nav button.owl-prev {
-	left: -5rem;
+	left: 0rem;
 }
 
 .uni-two-carousel  .owl-nav button.owl-next {
-	right: -5rem;
+	right: 0rem;
 }

@@ -17,15 +17,18 @@
     background-color: rgba(0, 0, 0, .5);
 }
 
-.page-links {
- z-index: 1;
- position: absolute;
- bottom: 1.5rem;
- width: 100%;
- text-align: center;
+.cover-content {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
 }
 
-.page-links a {
+.main.cover-content {
+ position: absolute;
+ bottom: 1.5rem;
+}
+
+.cover-content a {
     font-size: 1.5rem;
     color: white;
     text-transform: uppercase;
@@ -54,14 +57,15 @@
 
 .uni-two-carousel a.button {
     padding: 1rem 3rem;
+    margin-bottom: 2.875rem;
 }
 
 .uni-two-carousel th {
     display: inline-flex;
     justify-content: space-between;
     width: 50%;
-    margin: -1px;
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
+    outline: 1px solid lightgrey;
 }
 
 .uni-two-carousel p {
@@ -78,4 +82,26 @@
 
 .offset-box.left {
     left: 2px;
+}
+
+
+.second.cover-content {
+ position: absolute;
+ height: 100%;
+ vertical-align: middle;
+ width: 50%;
+}
+
+.second.cover-content a, .second.cover-content h1, .second.cover-content span {
+    font-family: 'roboto bold';
+    font-size: 4.5rem;
+    color: white;
+    padding: 0;
+    line-height: 6rem;
+}
+
+.second.cover-content span {
+    font-family: 'roboto bold';
+    font-size: 6rem;
+    color: white;
 }
