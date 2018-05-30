@@ -2,62 +2,6 @@
 
 /*broswer user agent reset----------------------------------------------------------------------------------------------------*/
 
-*{
-	outline: 1px solid rgba(0, 255, 0, .3);
-	margin: 0px;
-	border: none;
-	padding: 0px;
-	-webkit-margin-before: 0px;
-	-webkit-margin-after: 0px;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-margin-padding: 0px; /*rule not specific enough*/
-	-webkit-padding-start: 0px;
-	list-style: none;
-}
-
-/*layout grid overlays----------------------------------------------------------------------------------------------------*/
-
-/*baseline overlay*/
-/*
-#baseline-overlay{
-	z-index: 10;
-	opacity: .2;
-	position: absolute;
-	height: 12000px;
-	width: 100%;
-	background-image: url('../images/24px-baseline.png');
-	pointer-events: none;
-}
-
-/*12 column overlay*/
-/*
-#column-overlay{
-	z-index: 1;
-	opacity: .3;
-	position: absolute;
-	height: 12000px;
-	width: 100%;
-	background-image: url('../images/1200px-12-column.png');
-	background-position: center;
-	background-repeat: repeat-y;
-	pointer-events: none;
-}
-
-/*12 column with gutters overlay*/
-/*
-#column-overlay{
-	z-index: 10;
-	opacity: .3;
-	position: absolute;
-	height: 12000px;
-	width: 100%;
-	background-image: url('../images/1200px-12-column-30px-gutter.png');
-	background-position: center;
-	background-repeat: repeat-y;
-	pointer-events: none;
-}
-
 /*typography----------------------------------------------------------------------------------------------------*/
 
 /*define rem value*/
@@ -65,29 +9,29 @@
 html {
 	line-height: 1.5rem;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;	
+	font-size: 16px;
 }
 
 html,
-body, 
+body,
 article,
 section,
 div,
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,
 p {
 	margin: 0;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
 	font-family: 'Minion Pro', serif;
 }
@@ -104,7 +48,7 @@ h6 {
 	line-height: 1.5rem;
 }
 
-h1 { 
+h1 {
 	font-size: 2.25rem;
 }
 
@@ -178,7 +122,7 @@ button {
 	line-height: 1.5rem;
 	padding: .75rem 3rem .75rem 3rem;
 	border: none;
-	border-radius: 0;	
+	border-radius: 0;
 	background-color: #465064;
 	color: white;
 }
@@ -244,7 +188,7 @@ table tbody tr td,
 table tfoot tr td,
 table tr th,
 table tr td {
-	padding: .75rem .9375rem .6875rem .9375rem; 	
+	padding: .75rem .9375rem .6875rem .9375rem;
 	border: 1px solid #45505f;
 	line-height: 1.5rem;
 	background-color: transparent;
@@ -283,7 +227,7 @@ tr td p,
 tr th,
 tr td {
 	color: #45505f;
-} 
+}
 
 iframe {
 	display: block;
@@ -477,7 +421,7 @@ img {
 
 .accordion-title,
 :last-child:not(.is-active) > .accordion-title {
-	position: relative;	
+	position: relative;
 	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 	font-family: 'Minion Pro', serif;
 	font-size: 1.5rem;
@@ -509,7 +453,7 @@ img {
 
 /*top accordion*/
 
-.accordion-title {	
+.accordion-title {
 	background-color: #465064;
 	color: white;
 }
@@ -518,7 +462,7 @@ img {
 .accordion-title:focus {
 	text-decoration: none;
 	background-color: #465064;
-	color: white;	
+	color: white;
 }
 
 .accordion-title::before {
@@ -539,7 +483,7 @@ img {
 	background-color: #dcdcdc;
 }
 
-.sub .accordion-title {	
+.sub .accordion-title {
 	background-color: transparent;
 	color: #222;
 }
@@ -869,7 +813,7 @@ img {
 
 /*fancy table*/
 
-.fancy-table th, 
+.fancy-table th,
 .fancy-table td {
 	padding: .75rem .9375rem .75rem .9375rem;
 	border: none;
@@ -1152,7 +1096,7 @@ img {
 }
 
 .pin {
-	display: block;	
+	display: block;
 	padding: 2rem 0 0 2rem;
 	background-image: url(../images/map-marker.png);
 	background-size: 1.25rem;
@@ -1245,7 +1189,7 @@ img {
 .calendar.events thead tr th,
 .calendar.events thead tr th p {
 	font-family: 'Roboto Thin', sans-serif;
-	color: white;	
+	color: white;
 	font-weight: normal;
 	text-align: center;
 }
@@ -1349,7 +1293,7 @@ img {
 
 /*large and up (1024+)*/
 @media screen and (min-width: 64em) {
-	
+
 	.double-outline{
 		position: relative;
 	}
@@ -1573,7 +1517,7 @@ img {
 		padding-left: 1.875rem;
 	}
 
-	.offset-box.right {	
+	.offset-box.right {
 		padding-right: 1.875rem;
 	}
 }
@@ -1584,7 +1528,7 @@ img {
 	position: relative;
 	padding-bottom: 9rem;
 	margin-bottom: 6rem;
-	background-image: url('../images/small-plane-runway.jpg');  
+	background-image: url('../images/small-plane-runway.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1686,7 +1630,7 @@ img {
 	margin-bottom: 0;
 	line-height: 3rem;
 	font-family: 'Roboto', sans-serif;
-	font-size: 2rem;	
+	font-size: 2rem;
 	text-transform: uppercase;
 }
 
@@ -1718,7 +1662,7 @@ img {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 /*video box*/
@@ -1728,7 +1672,7 @@ img {
 }
 
 .video-box > *::before {
-	content: "\25B7";	
+	content: "\25B7";
 	position: absolute;
 	top: calc(50% - 3rem);
 	left: calc(50% - 3rem);
@@ -1755,7 +1699,7 @@ img {
 	overflow: hidden;
 }
 
-.video-summary-box *{	
+.video-summary-box *{
 	color: white;
 }
 
@@ -1786,7 +1730,7 @@ img {
 
 .box-grid  article {
 	position: relative;
-	background-color: darkgray;	
+	background-color: darkgray;
 }
 
 .box-grid > h1:first-child {
@@ -1956,7 +1900,7 @@ img {
 @media screen and (min-width: 64em) {
 /*gradient image*/
 
-	.gradient-image {	
+	.gradient-image {
 		position: absolute;
 		top: 0;
 		left: calc(50% + .9375rem);
@@ -1992,7 +1936,7 @@ img {
 	/*full-width-gradient-image*/
 
 	.full-width-gradient-image {
-		
+
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -2003,7 +1947,7 @@ img {
 		background-clip: border-box;
 		background-repeat: no-repeat;
 		background-position: right;
-		background-color: rgb(245, 245, 245);	
+		background-color: rgb(245, 245, 245);
 		z-index: -1;
 	}
 

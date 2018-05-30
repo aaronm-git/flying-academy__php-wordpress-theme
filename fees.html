@@ -14,9 +14,6 @@
     <!--site css-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/baseline.css">
-
-    <!-- my tyle -->
-    <link rel="stylesheet" href="css/accordion.css">
     <link rel="stylesheet" href="css/fees.css">
 </head>
 
@@ -26,50 +23,247 @@
 
     <main class="fees-page">
         <div class="wrapper">
-            <div class="grid-container fluid page-cover">
-                    <article class="grid-x">
-                        <!-- <div class="cell main cover-content">
-                            <a href="#">Single Engine</a>
-                            <a href="#">Multi Engine</a>
-                            <a href="#">Simulator</a>
-                        </div> -->
-                    </article>
+            <div class="grid-container fluid page-cover show-for-medium">
+                <article class="grid-x">
+                    <!-- <div class="cell main cover-content">
+                    <a href="#">Single Engine</a>
+                    <a href="#">Multi Engine</a>
+                    <a href="#">Simulator</a>
+                </div> -->
+                </article>
             </div>
 
-            <div class="grid-container">
-                <article class="grid-x grid-margin-x">
-                    <section class="cell section-title">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <article class="cell">
+                    <section class="section-title">
                         <h1>Courses Fees</h1>
                         <h2 class="special-heading">FLYING ACADEMY</h2>
                     </section>
+                    <section>
+                        <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+                            <!--accordion item-->
+                            <li class="accordion-item" data-accordion-item>
+                                <a href="#" class="accordion-title">FAA Courses</a>
+                                <div class="accordion-content" data-tab-content>
+                                    <!--sub accordion-->
+                                    <table class="stack">
+                                        <tbody>
 
-                    <section class="cell accordion">
-
-                        <ul class="vertical menu accordion-menu" data-accordion-menu>
-                          <li>
-                            <a href="#">Item 1</a>
-                            <ul class="menu vertical nested">
-                              <li><a href="#">Item 1A</a></li>
-                              <li><a href="#">Item 1B</a></li>
-                            </ul>
-                          </li>
+                                            <tr>
+                                                <th><a>PPL - Private Pilot License in Miami</a></th>
+                                                <th><a>PPL - Private Pilot License in CA</a></th>
+                                                <th><a>PPL - Commercial Pilot License</a></th>
+                                            </tr>
+                                            <tr>
+                                                <th><a>IR - Instrumental Raiting</a></th>
+                                                <th><a>MEP - Multi Engine Piston</a></th>
+                                                <th><a>0 - 1500 Hours</a></th>
+                                            </tr>
+                                            <tr>
+                                                <th><a>0 - CPL</a></th>
+                                                <th><a>Certified Pilot Instructor</a></th>
+                                                <!-- <th><a>PPL - Private License in Miami</a></th> -->
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="accordion-item" data-accordion-item>
+                                <a href="#" class="accordion-title">EASA Courses</a>
+                                <div class="accordion-content" data-tab-content>
+                                    <!--sub accordion-->
+                                    <table class="stack">
+                                        <tbody>
+                                            <tr>
+                                                <th><a>PPL - Private Pilot License in Miami</a></th>
+                                                <th><a>PPL - Private Pilot License in CA</a></th>
+                                                <th><a>PPL - Commercial Pilot License</a></th>
+                                            </tr>
+                                            <tr>
+                                                <th><a>IR - Instrumental Raiting</a></th>
+                                                <th><a>MEP - Multi Engine Piston</a></th>
+                                                <th><a>0 - 1500 Hours</a></th>
+                                            </tr>
+                                            <tr>
+                                                <th><a>0 - CPL</a></th>
+                                                <th><a>Certified Pilot Instructor</a></th>
+                                                <!-- <th><a>PPL - Private License in Miami</a></th> -->
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="accordion-item" data-accordion-item>
+                                <a href="#" class="accordion-title">Time Building</a>
+                                <div class="accordion-content" data-tab-content>
+                                    <!--sub accordion-->
+                                    <table class="stack">
+                                        <tbody>
+                                            <tr>
+                                                <th><a>PPL - Private Pilot License in Miami</a></th>
+                                                <th><a>PPL - Private Pilot License in CA</a></th>
+                                                <th><a>PPL - Commercial Pilot License</a></th>
+                                            </tr>
+                                            <tr>
+                                                <th><a>IR - Instrumental Raiting</a></th>
+                                                <th><a>MEP - Multi Engine Piston</a></th>
+                                                <th><a>0 - 1500 Hours</a></th>
+                                            </tr>
+                                            <tr>
+                                                <th><a>0 - CPL</a></th>
+                                                <th><a>Certified Pilot Instructor</a></th>
+                                                <!-- <th><a>PPL - Private License in Miami</a></th> -->
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
                         </ul>
-
                     </section>
                 </article>
+
+                <article class="cell">
+                    <section class="section-title">
+                        <h1>EASA CPL - Commercial Pilot License</h1>
+                    </section>
+                    <section>
+                        <h2 class="subheader">Fee for Pilots With IR (A)</h2>
+                        <label class="select-currency float-right"><span class="hide">Select Currency</span>
+                            <select>
+                                <option value="husker">USD</option>
+                                <option value="starbuck">GBP</option>
+                                <option value="hotdog">EUR</option>
+                                <option value="apollo">JPY</option>
+                            </select>
+                        </label>
+
+                        <table class="simple-table stack">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Amount</th>
+                                    <th>Unit price</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Aircraft Cessna 152 (VFR - 2 seater)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr>
+                                    <th>Aircraft Piper Arrow (IFR, Garmin Aircraft Piper Arrow (IFR, Garmin G430 - 4 seater)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr>
+                                    <th>Aircraft Cessna 152 (VFR - 2 seater)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr>
+                                    <th>Ground training (30 hours)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr class="total">
+                                    <th>total</th>
+                                    <th class="show-for-large"></th>
+                                    <th class="show-for-large"></th>
+                                    <th>5030</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </article>
+
+                <article class="cell">
+                    <section>
+                        <h2 class="subheader">Fee for Pilots Without IR (A)</h2>
+                        <!-- <label class="select-currency float-right"><span class="hide">Select Currency</span>
+                            <select>
+                                <option value="husker">USD</option>
+                                <option value="starbuck">GBP</option>
+                                <option value="hotdog">EUR</option>
+                                <option value="apollo">JPY</option>
+                            </select>
+                        </label> -->
+
+                        <table class="simple-table stack">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Amount</th>
+                                    <th>Unit price</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Aircraft Cessna 152 (VFR - 2 seater)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr>
+                                    <th>Aircraft Piper Arrow (IFR, Garmin Aircraft Piper Arrow (IFR, Garmin G430 - 4 seater)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr>
+                                    <th>Aircraft Cessna 152 (VFR - 2 seater)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr>
+                                    <th>Ground training (30 hours)</th>
+                                    <th>45</th>
+                                    <th>96</th>
+                                    <th>4320</th>
+                                </tr>
+                                <tr class="total">
+                                    <th>total</th>
+                                    <th class="show-for-large"></th>
+                                    <th class="show-for-large"></th>
+                                    <th>5030</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section class="details">
+                        <p>
+                            The prices are without VAT (+ 21 %).<br>
+Training fees are covering the following items and services: <br>
+• Instructor time for practical training only <br>
+• Aircraft rental with fuel <br>
+* All training fees are bound to the actual exchange rates of the local currency of the Flying Academy
+base
+ where the training or a part of the training is provided.
+                        </p>
+                    </section>
+                </article>
+
             </div>
         </div>
+    </div>
 
-    </main>
-    <!--jquery-->
-    <script src="jquery/jquery.min.js"></script>
-    <!--foundation js-->
-    <script src="foundation/js/vendor/what-input.js"></script>
-    <script src="foundation/js/vendor/foundation.js"></script>
-
-    <script>
-    $(document).foundation();
-    </script>
+</main>
+<!--jquery-->
+<script src="jquery/jquery.min.js"></script>
+<!--foundation js-->
+<script src="foundation/js/vendor/what-input.js"></script>
+<script src="foundation/js/vendor/foundation.js"></script>
+<script>
+$(document).foundation();
+</script>
 
 </script>
 </body>

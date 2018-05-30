@@ -1,4 +1,34 @@
 /* cover */
+.fees-page article {
+    margin-bottom: 3rem;
+}
+
+.fees-page article > section {
+    margin-bottom: 1.5rem;
+}
+
+.fees-page .subheader {
+    margin: 0;
+    height: 3rem;
+}
+
+.fees-page label {
+    height: 2.875rem;
+    width: 75px;
+    /* margin-top: -1.5rem; */
+}
+
+.fees-page select {
+    background: url(../images/down-arrow.png) no-repeat;
+    background-position: 90%;
+    background-size: 1rem;
+    /* border-radius: 10px; */
+}
+
+.container {
+    height: 4.5rem;
+}
+
 .fees-page .page-cover {
     height: 30rem;
     background: url('../images/fees.jpg') no-repeat center;
@@ -37,6 +67,46 @@
 }
 
 /* row one */
-.fees-page .section-title h1 {
-    margin-bottom: 0;
+
+/* table css*/
+
+.fees-page .accordion .accordion-content table {
+    margin-top: 1.4375rem;
+    margin-bottom: 1.5rem;
+}
+
+.fees-page thead {
+    background-color: #465064;
+}
+
+.fees-page thead th {
+    color: white;
+}
+
+.fees-page tbody th {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-color: transparent;
+    border-bottom: 1px solid lightgrey;
+}
+
+.fees-page tbody tr:not(.total) th {
+    font-weight: normal !important;
+    font-family: 'roboto' !important;
+}
+
+.fees-page .simple-table tbody tr:nth-of-type(2n+2) {
+    background-color: #efefef;
+}
+
+.fees-page table tr.total {
+    width: 100%;
+}
+
+.fees-page .details {
+    margin-bottom: .5rem;
+}
+
+.fees-page .details p {
+    line-height: 2rem;
 }
