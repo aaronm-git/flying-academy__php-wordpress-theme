@@ -1,0 +1,50 @@
+/* cover */
+
+.fees-page .page-cover {
+    height: 30rem;
+    background: url('../images/fees.jpg') no-repeat center;
+    background-size: cover;
+    margin-bottom: 4.5rem;
+    position: relative;
+}
+
+.fees-page .page-cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.fees-page .cover-content {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.fees-page .main.cover-content {
+ position: absolute;
+ bottom: 1.5rem;
+}
+
+.fees-page .cover-content a {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* article 1 */
+
+.fees-page .section-title {
+    width: 100%;
+    margin-top: -1px;
+    border-bottom: 1px solid grey;
+}
+
+.fees-page .section-title h1 {
+    margin-bottom: 0;
+}
