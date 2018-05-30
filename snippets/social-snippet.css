@@ -1,0 +1,49 @@
+/*parent*/
+
+.parent {
+	padding: 3rem;
+	background-color: gray;
+}
+
+/*social*/
+
+.social a,
+.social i {
+	display: block;
+	
+}
+
+.social a {
+	line-height: 1.5rem;
+	padding: .75rem 0 .75rem 3rem;
+	background-color: magenta;
+}
+
+.social i {
+	float: left;
+	margin-left: -2rem;
+	background-color: limegreen;
+}
+
+/*social 2*/
+
+
+.social-2 a {
+	position: relative;
+	display: block;
+	line-height: 1.5rem;
+	padding: .75rem 0 .75rem 4rem !important;
+	clear: both;
+}
+
+.social-2 a::after {
+	content: '$$';
+	display: block;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	padding: .75rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+}

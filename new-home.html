@@ -1,386 +1,530 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <!-- auto reload for dev -->
-    <!-- <meta http-equiv="refresh" content="3" > -->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flying academy</title>
-    <!--normalize-->
-    <link rel="stylesheet" href="normalize/normalize.css">
-    <!--foundation css-->
-    <link rel="stylesheet" href="foundation/css/foundation.css">
-    <link rel="stylesheet" href="foundation/css/app.css">
-    <!--owl css-->
-    <link rel="stylesheet" href="owl/css/owl.carousel.css">
-    <!--<link rel="stylesheet" href="css/owl.theme.default.css">-->
-    <!--owl documentation theme css-->
-    <!-- <link rel="stylesheet" href="css/docs.theme.min.css"> -->
-    <!--my theme css-->
-    <link rel="stylesheet" href="css/owl-theme.css">
-    <!--site css-->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- my tyle -->
-    <link rel="stylesheet" href="css/new-home.css">
-</head>
-
-<body>
-    <div id="baseline-overlay"></div>
-    <div id="column-overlay"></div>
-    <div class="wrapper">
-        <!-- full with grid container -->
-        <div class="grid-container fluid">
-            <!-- row 1 -->
-            <article class="grid-x grid-margin-x">
-                <section class="cell small-12 hero-content text-center">
-                    <p>flying academy</p>
-                    <div class="border"></div>
-                    <h1>COME FLY WITH US</h1>
-                    <a class="transparent-button" href="#">JOIN US NOW</a>
-                </section>
-            </article>
-        </div>
-        <!-- regular grid container / contains row 2 & 3 -->
-        <div class="grid-container">
-            <!-- row 2 / courses and events section-->
-            <article class="grid-x grid-margin-x">
-                <section class="cell text-center">
-                    <p class="special-heading">flying academy</p>
-                    <h1>Courses and Events Calendar</h1>
-                </section>
-                <!-- search and table -->
-                <section class="cell large-7">
-                    <div class="grid-container">
-                        <div class="grid-x grid-margin-x search-div">
-                            <select class="cell medium-5">
-                                <option value="option1">United States (FAA)</option>
-                                <option value="option1">option2</option>
-                                <option value="option1">option3</option>
-                                <option value="option1">option4</option>
-                            </select>
-                            <input class="cell medium-7" type="text" name="search" placeholder="Search">
-                            <table class="cell cool-table fancy-table">
-                              <tbody class="">
-                                <tr>
-                                  <th>Event/Class</th>
-                                  <th>Location</th>
-                                  <th>Date</th>
-                                  <th>Info</th>
-                                </tr>
-                                <tr class="table-event">
-                                  <td>Flying Academy Christmas Party</td>
-                                  <td>Los Angeles, California</td>
-                                  <td><time>12.12.18</time></td>
-                                  <td><button class="view-more" href="#">READ MORE</button></td>
-                                </tr>
-                                <tr class="table-course">
-                                  <td>Flying Academy Course 1</td>
-                                  <td>Los Angeles, California</td>
-                                  <td><time>12.12.18</time></td>
-                                  <td><button class="view-more" href="#">READ MORE</button></td>
-                                </tr>
-                                <tr class="table-course">
-                                  <td>Flying Academy Course 2</td>
-                                  <td>Los Angeles, California</td>
-                                  <td><time>12.12.18</time></td>
-                                  <td><button class="view-more" href="#">READ MORE</button></td>
-                                </tr>
-                                <tr class="table-event">
-                                  <td>Flying Academy New Years Party</td>
-                                  <td>Los Angeles, California</td>
-                                  <td><time>12.12.18</time></td>
-                                  <td><button class="view-more" href="#">READ MORE</button></td>
-                                </tr>
-
-                              </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </section>
-                <!-- calendar -->
-                <section class="cell medium-offset-1 medium-10 large-offset-0 large-5">
-                    <div class="grid-container">
-                        <div class="grid-x grid-margin-x">
-                            <div class="cell calendar-container">
-                                <div class="calendar">
-                                    <div class="calendar-background-color">
-                                    </div>
-                                    <header>
-                                        <a class="btn-prev" href="#"></a>
-                                        <h1>December 2018</h1>
-                                        <a class="btn-next" href="#"></a>
-                                    </header>
-                                    <table>
-                                        <thead class="calendar-days">
-                                            <tr>
-                                                <td>Mo</td>
-                                                <td>Tu</td>
-                                                <td>We</td>
-                                                <td>Th</td>
-                                                <td>Fr</td>
-                                                <td>Sa</td>
-                                                <td>Su</td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="prev-month">26</td>
-                                                <td class="prev-month">27</td>
-                                                <td class="prev-month">28</td>
-                                                <td class="prev-month">29</td>
-                                                <td class="prev-month">30</td>
-                                                <td class="prev-month">31</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>3</td>
-                                                <td>4</td>
-                                                <td>5</td>
-                                                <td>6</td>
-                                                <td>7</td>
-                                                <td>8</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td class="event">10</td>
-                                                <td>11</td>
-                                                <td>12</td>
-                                                <td>13</td>
-                                                <td>14</td>
-                                                <td>15</td>
-                                            </tr>
-                                            <tr>
-                                                <td>16</td>
-                                                <td>17</td>
-                                                <td>18</td>
-                                                <td>19</td>
-                                                <td>20</td>
-                                                <td class="course">21</td>
-                                                <td>22</td>
-                                            </tr>
-                                            <tr>
-                                                <td>23</td>
-                                                <td>24</td>
-                                                <td>25</td>
-                                                <td>26</td>
-                                                <td>27</td>
-                                                <td>28</td>
-                                                <td>29</td>
-                                            </tr>
-                                            <tr>
-                                                <td>30</td>
-                                                <td class="next-month">1</td>
-                                                <td class="next-month">2</td>
-                                                <td class="next-month">3</td>
-                                                <td class="next-month">4</td>
-                                                <td class="next-month">5</td>
-                                                <td class="next-month">6</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <!-- end calendar -->
-                            </div>
-                            <!-- Table caption -->
-                            <div class="cell calendar-options">
-                                <div>
-                                    <a href="#">Request an individual term</a>
-                                </div>
-                                <div class="calendar-legend">
-                                    <p>Event</p>
-                                    <p>Course</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </article>
-            <!-- row 3 / popular courses -->
-            <article class="grid-x grid-margin-x">
-                <section class="cell text-center">
-                    <p class="special-heading">flying academy</p>
-                    <h1>Our Popular Courses</h1>
-                </section>
-                <div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/best-sellers-left.jpg);">
-                    <h1>EASA PPL</h1>
-                    <p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                    <a href="" class="button dark">Learn more</a>
-                </div>
-                <div class="cell medium-6 large-4 shaded-box inset-outline" style="background-image: url(images/best-sellers-middle.jpg);">
-                    <h1>EASA PPL</h1>
-                    <p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                    <a href="" class="button dark">Learn more</a>
-                </div>
-                <div class="cell medium-6 large-4 shaded-box inset-outline" style="background-image: url(images/video-thumbnail.jpg);">
-                    <h1>EASA PPL</h1>
-                    <p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                    <a href="" class="button dark">Learn more</a>
-                </div>
-                </section>
-            </article>
-        </div>
-        <!-- fluid grid container / contains row 4 -->
-        <div class="grid-container fluid fluid-background">
-            <!-- row 4 / our courses -->
-            <div class="grid-container">
-                <article class="grid-x grid-margin-x">
-                    <section class="cell text-center">
-                        <p class="special-heading">flying academy</p>
-                        <h1>Our Courses</h1>
-                    </section>
-                    <section class="cell large-6">
-                        <ul class="menu stack course-tabs">
-                            <li><a class="button" href="#">FFA</a></li>
-                            <li><a class="button" href="#">EASA</a></li>
-                            <li><a class="button" href="#">B2B</a></li>
-                        </ul>
-                        <div class="course-description">
-                            <h1>PPL</h1>
-                            <p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                            <a class="button dark" href="#">Read more</a>
-                        </div>
-                        <div class="course-description">
-                            <h1>PPL</h1>
-                            <p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                            <a class="button dark" href="#">Read more</a>
-                        </div>
-                        <div class="course-description">
-                            <h1>PPL</h1>
-                            <p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                            <a class="button dark" href="#">Read more</a>
-                        </div>
-                        <button class="view-more">View more courses</button>
-                    </section>
-                    <section class="cell large-6 info-image">
-                        <img class="" src="images/courses-image.jpg" alt="">
-                    </section>
-                </article>
-            </div>
-        </div>
-        <!-- regular grid container / contains row 5 -->
-        <div class="grid-container">
-            <!-- row 5 / map -->
-            <article class="grid-x grid-margin-x">
-                <section class="cell text-center">
-                    <p class="special-heading">flying academy</p>
-                    <h1>Out Training Locations</h1>
-                    <h2>We are providing training experience</h2>
-                </section>
-                <section class="cell map-list">
-                    <dl>
-                      <dt><a>Los Angeles, California</a></dt>
-                      <dd>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</dd>
-                      <dt><a>Miami, Florida</a></dt>
-                      <dd>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</dd>
-                      <dt><a>Prague, Czech Republic</a></dt>
-                      <dd>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</dd>
-                      <dt><a>Brno, Czech Republic</a></dt>
-                      <dd>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</dd>
-                      <dt><a>Gurugram, India</a></dt>
-                      <dd>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</dd>
-                    </dl>
-                  </section>
-
-                  <section class="cell map-image info-image">
-                      <img src="images/world-map.jpg" alt="" usemap="#map-area">
-                      <map name="map-area">
-                        <area class="office-one" target="" alt="Los Angeles, California" title="Los Angeles, California" href="#" coords="274,326,54" shape="circle">
-                        <area class="office-two" target="" alt="Miami, Florida" title="Miami, Florida" href="#" coords="452,390,37" shape="circle">
-                        <area class="office-tree" target="" alt="Prague, Czech Republic" title="Prague, Czech Republic" href="#" coords="874,265,28" shape="circle">
-                        <area class="office-four" target="" alt="Brno, Czech Republic" title="Brno, Czech Republic" href="#" coords="904,295,29" shape="circle">
-                      </map>
-                  </section>
-
-            </article>
-        </div>
-
-        <!-- FLUID grid container / contains row 6 -->
-        <div class="grid-container fluid">
-            <article class="grid-x grid-margin-x fluid-background">
-                <div class="grid-container">
-                    <div class="grid-x grid-margin-x">
-
-                        <!-- row 6 / how to become a pilot -->
-                        <section class="cell text-center">
-                            <p class="special-heading">flying academy</p>
-                            <h1>Our Popular Courses</h1>
-                        </section>
-                        <div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/best-sellers-left.jpg);">
-                            <h1>EASA PPL</h1>
-                            <p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                            <a href="" class="button dark">Learn more</a>
-                        </div>
-                        <div class="cell medium-6 large-4 shaded-box inset-outline" style="background-image: url(images/best-sellers-middle.jpg);">
-                            <h1>EASA PPL</h1>
-                            <p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                            <a href="" class="button dark">Learn more</a>
-                        </div>
-                        <div class="cell medium-6 large-4 shaded-box inset-outline" style="background-image: url(images/video-thumbnail.jpg);">
-                            <h1>EASA PPL</h1>
-                            <p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
-                            <a href="" class="button dark">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-
-            </article>
-
-        </div>
-    </div>
-
-    <div class="grid-container">
-        <!-- row 7 / our student's experiences -->
-        <article class="grid-x">
-            <!--video placeholder-->
-            <section class="cell medium-6 video-placeholder">
-                <img src="images/video-thumbnail.jpg">
-            </section>
-            <!--video info-->
-            <section class="cell medium-6 video-info">
-                <p class="special-heading">flying academy</p>
-                <h1>Our Student's Experiences</h1>
-                <p>Flight training should be life time experience</p>
-                <a href="#" class="transparent-button video-info-button">View More At Our Blog</a>
-            </section>
-        </article>
-        <!-- row 8 / our fleet -->
-
-<article id="easa-flight-courses" class="grid-x grid-margin-x info-banner">
-					<section class="cell text-center">
-            <p class="special-heading">flying academy</p>
-            <h1>Our Fleet</h1>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="msapplication-tap-highlight" content="no">
+		<title>home</title>
+		<!--font awesome cdn-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<!--normalize-->
+		<link rel="stylesheet" href="normalize/normalize.css">
+		<!--foundation css-->
+		<link rel="stylesheet" href="foundation/css/foundation.css">
+		<link rel="stylesheet" href="foundation/css/app.css">
+		<!--owl css-->
+		<link rel="stylesheet" href="owl/css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl-theme.css">
+		<!--css-->
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		<!--css-->
+		<!--<link href="css/new-home-.css" rel="stylesheet" media="screen">-->
+	</head>
+	<body id="home">
+		<div id="baseline-overlay"></div>
+		<div id="column-overlay"></div>
+		<div class="wrapper">	
+			<div class="grid-container full">
+				<!-- row 1 -->
+				<!--jumbo carousel-->
+				<section class="owl-carousel owl-theme jumbo-carousel tall" style="margin-bottom: 4.5rem;">
+					<!--item 1-->
+					<div class="item" style="background-image: url(images/airliner-flying.jpg);">					
+						<!--info box-->
+						<div class="info-box">
+							<h1>Flying Academy</h1>
+							<a href="" class="button transparent full big">Join Us Now</a>
+						</div>
+					</div>
+					<!--item 2-->
+					<div class="item" style="background-image: url(images/airliner-flying.jpg);">
+						<!--info box-->
+						<div class="info-box">
+							<h1>Flying Academy</h1>
+							<a href="" class="button transparent full big">Join Us Now</a>
+						</div>
+					</div>
+					<!--item 3-->
+					<div class="item" style="background-image: url(images/airliner-flying.jpg);">
+						<!--info box-->
+						<div class="info-box">
+							<h1>Flying Academy</h1>
+							<a href="" class="button transparent full big">Join Us Now</a>
+						</div>
+					</div>
+					<!--item 3-->
+					<div class="item" style="background-image: url(images/airliner-flying.jpg);">
+						<!--info box-->
+						<div class="info-box">
+							<h1>Flying Academy</h1>
+							<a href="" class="button transparent full big">Join Us Now</a>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!--row 2-->
+			<div class="grid-container">
+				<article class="grid-x grid-margin-x">					
+					<header class="cell text-center">
+						<p class="special-heading">Flying Academy</p>
+						<h1>Courses and Events Calendar</h1>
+					</header>
+					<section class="cell large-8">					
+						<form class="flex-wrapper">
+							<select>
+								<option value="option1">United States (FAA)</option>
+								<option value="option1">option2</option>
+								<option value="option1">option3</option>
+								<option value="option1">option4</option>
+							</select>
+							<input type="text" name="search" placeholder="Search">
+						</form>
+						<!--fancy table-->
+						<table class="fancy-table events">							
+							<thead>
+								<tr>
+									<th>Event/Class</th>
+									<th>Location</th>
+									<th>Date</th>
+									<th>Info</th>
+								</tr>
+							</thead>							
+							<tbody>
+								<tr class="event-type-a">
+									<td>Flying Academy Christmas Party</td>
+									<td>Los Angeles, California</td>
+									<td><time>12.12.18</time></td>
+									<td><button class="view-more" href="#">READ MORE</button></td>
+								</tr>
+								<tr class="event-type-b">
+									<td>Flying Academy Course 1</td>
+									<td>Los Angeles, California</td>
+									<td><time>12.12.18</time></td>
+									<td><button class="view-more" href="#">READ MORE</button></td>
+								</tr>
+								<tr class="event-type-b">
+									<td>Flying Academy Course 2</td>
+									<td>Los Angeles, California</td>
+									<td><time>12.12.18</time></td>
+									<td><button class="view-more" href="#">READ MORE</button></td>
+								</tr>
+								<tr class="event-type-a">
+									<td>Flying Academy New Years Party</td>
+									<td>Los Angeles, California</td>
+									<td><time>12.12.18</time></td>
+									<td><button class="view-more" href="#">READ MORE</button></td>
+								</tr>
+							</tbody>
+						</table>
 					</section>
-          <!--uni carousel-->
+					<section class="cell large-4">
+						<!--calendar events-->
+						<table class="calendar events">
+							<thead>
+								<tr>
+									<th colspan="7">
+										<a class="previous" href="">&#9664;</a>
+										<a class="next" href="">&#9654;</a>
+										<p>December 2018</p>
+									</th>
+								</tr>
+								<tr>
+									<th>Mo</th>
+									<th>Tu</th>
+									<th>We</th>
+									<th>Th</th>
+									<th>Fr</th>
+									<th>Sa</th>
+									<th>Su</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="ghosted">26</td>
+									<td class="ghosted">27</td>
+									<td class="ghosted">28</td>
+									<td class="ghosted">29</td>
+									<td class="ghosted">30</td>
+									<td class="ghosted">31</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>3</td>
+									<td>4</td>
+									<td>5</td>
+									<td>6</td>
+									<td>7</td>
+									<td>8</td>
+								</tr>
+								<tr>
+									<td>9</td>
+									<td class="event-type-a">10</td>
+									<td>11</td>
+									<td>12</td>
+									<td>13</td>
+									<td>14</td>
+									<td>15</td>
+								</tr>
+								<tr>
+									<td>16</td>
+									<td>17</td>
+									<td>18</td>
+									<td>19</td>
+									<td>20</td>
+									<td class="event-type-b">21</td>
+									<td>22</td>
+								</tr>
+								<tr>
+									<td>23</td>
+									<td>24</td>
+									<td>25</td>
+									<td>26</td>
+									<td>27</td>
+									<td>28</td>
+									<td>29</td>
+								</tr>
+								<tr>
+									<td>30</td>
+									<td class="ghosted">1</td>
+									<td class="ghosted">2</td>
+									<td class="ghosted">3</td>
+									<td class="ghosted">4</td>
+									<td class="ghosted">5</td>
+									<td class="ghosted">6</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="legend events">
+							<p>Event</p>
+							<p>Course Start</p>
+						</div>
+						<p class="asterisk">Request an individual term</p>
+					</section>
+				</article>
+				<!-- row 3-->
+				<article class="grid-x grid-margin-x">
+					<header class="cell text-center">
+						<p class="special-heading">Flying Academy</p>
+						<h1>Popular Courses</h1>
+					</header>
+					<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/pilot-students-airplane-wing);">
+						<h1>EASA PPL</h1>
+						<p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+						<a href="" class="button">Learn more</a>
+					</div>
+					<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/pilot-exam.jpg);">
+						<h1>EASA PPL</h1>
+						<p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+						<a href="" class="button">Learn more</a>
+					</div>
+					<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/pilot-and-airplane.jpg);">
+						<h1>EASA PPL</h1>
+						<p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+						<a href="" class="button">Learn more</a>
+					</div>
+					</section>
+				</article>
+			</div>			
+			<div class="grid-container full">				
+				<div class="grid-container">
+					<!--row 4 -->
+					<article class="grid-x grid-margin-x">
+						<header class="cell text-center">
+							<p class="special-heading">Flying Academy</p>
+							<h1>Our Courses</h1>
+						</header>
+						<section class="cell large-6">
+							<ul  class="tabs" data-tabs id="example-tabs">
+								<li class="tabs-title is-active">
+									<a href="#panel-1" aria-selected="true">FFA</a>
+								</li>
+								<li class="tabs-title">
+									<a href="#panel-2" data-tabs-target="panel-2">EASA</a>
+								</li>
+							</ul>
+							<div class="tabs-content" data-tabs-content="example-tabs">
+								<div class="tabs-panel is-active" id="panel-1">
+									<section>
+										<h1>PPL</h1>
+										<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+										<a class="button dark" href="#">Read more</a>
+									</section>
+									<section>
+										<h1>PPL</h1>
+										<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+										<a class="button dark" href="#">Read more</a>
+									</section>
+									<section>
+										<h1>PPL</h1>
+										<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+										<a class="button dark" href="#">Read more</a>
+									</section>
+								</div>
+								<div class="tabs-panel" id="panel-2">
+									<section>
+										<h1>PPL</h1>
+										<p>2 Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+										<a class="button dark" href="#">Read more</a>
+									</section>
+									<section>
+										<h1>PPL</h1>
+										<p>2 Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+										<a class="button dark" href="#">Read more</a>
+									</section>
+									<section>
+										<h1>PPL</h1>
+										<p>2 Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+										<a class="button dark" href="#">Read more</a>
+									</section>
+								</div>
+							</div>
+							<button class="view-more">View More Courses</button>
+						</section>
+						<section class="cell large-6">
+							<div class="responsive-sprite" style="background-image: url(images/pilot-students.jpg);"></div>
+						</section>
+					</article>
+				</div>
+			</div>
+			<div class="grid-container">
+				<!--row 5-->
+				<article class="grid-x grid-margin-x">
+					<header class="cell text-center">
+						<p class="special-heading">Flying Academy</p>
+						<h1>Campus Locations</h1>
+					</header>
+					<section class="cell world-map">
+						<img class="world-map-image" src="images/world-map.jpg" alt="world map">					
+						
+						<div id="miami" class="place">
+							<a class="pin">Miami, Florida, United States</a>						
+							<div class="information">
+								<h2>Miami, Florida</h2>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
+							</div>
+						<div>
+						
+						<div id="los-angeles" class="place">
+							<a class="pin">Miami, Florida, United States</a>						
+							<div class="information">
+								<h2>Miami, Florida</h2>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
+							</div>
+						</div>
+
+						<div id="prague" class="place">
+							<a class="pin">Miami, Florida, United States</a>						
+							<div class="information">
+								<h2>Miami, Florida</h2>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
+							</div>
+						</div>
+
+						<div id="brno" class="place">
+							<a class="pin">Miami, Florida, United States</a>						
+							<div class="information">
+								<h2>Miami, Florida</h2>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
+							</div>
+						</div>
+
+						<div id="gurugram" class="place">
+							<a class="pin">Miami, Florida, United States</a>						
+							<div class="information">
+								<h2>Miami, Florida</h2>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
+							</div>
+						</div>
+						
+					</section>
+				</article>
+			</div>
+			<!--row 6-->
+			<div class="grid-container full">
+				<article class="grid-container">
+					<div class="grid-x grid-margin-x">
+						<!-- row 6 / how to become a pilot -->
+						<header class="cell text-center">
+							<p class="special-heading">flying academy</p>
+							<h1>Our Popular Courses</h1>
+						</header>
+						<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/pilot-students-airplane-wing);">
+							<h1>EASA PPL</h1>
+							<p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+							<a href="" class="button dark">Learn more</a>
+						</div>
+						<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/pilot-exam.jpg);">
+							<h1>EASA PPL</h1>
+							<p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+							<a href="" class="button dark">Learn more</a>
+						</div>
+						<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/pilot-and-airplane.jpg);">
+							<h1>EASA PPL</h1>
+							<p>Private Pilot License is a qualification that permits ti act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+							<a href="" class="button dark">Learn more</a>
+						</div>
+					</div>
+				</article>
+			</div>
+			<div class="grid-container">
+				<!--row 7-->
+				<article class="grid-x">
+						<!--video box-->
+						<section class="cell large-6 video-box">
+							<dir class="responsive-sprite" style="background-image: url(images/pilot.jpg)"></dir>
+						</section>
+						<!--video summary box-->
+						<section class="cell large-6 video-summary-box">
+							<p class="special-heading small">Flying Academy</p>
+							<h1>How to Become Airline Pilot with FAA License</h1>
+							<p>In this video Anna will explain you how you can become an international airline pilot with american license FAA ATPL. You will learn that ATPL pilot consists of and what courses can give it to you</p>
+							<a class="button youtube" href="">See More Videos On Our YouTube Channel</a>
+						</section>
+					</article>
+				<!--row 8-->
+				<article id="easa-flight-courses" class="grid-x grid-margin-x info-banner">
+					<header class="cell text-center">
+						<p class="special-heading">flying academy</p>
+						<h1>Our Fleet</h1>
+					</header>
+					<!--big carousel-->
 					<section class="cell owl-carousel owl-theme big-carousel tall">
 						<!--column 1-->
-						<div class="item" style="background-image: url(images/bg-airplane-faded-out-931.png);">
-						</div>
+						<div class="item" style="background-image: url(images/small-airplane-1.png);"></div>
 						<!--column 2-->
-						<div class="item" style="background-image: url(images/bg-airplane-faded-out-931.png);">
-						</div>
+						<div class="item" style="background-image: url(images/small-airplane-2.jpg);"></div>
 						<!--column 3-->
-						<div class="item" style="background-image: url(images/bg-airplane-faded-out-931.png);">
-						</div>
+						<div class="item" style="background-image: url(images/small-airplane-3.jpg);"></div>
+						<!--column 3-->
+						<div class="item" style="background-image: url(images/small-airplane-4.jpg);"></div>
 					</section>
-</article>
-
-    </div>
-    <!--jquery-->
-    <script src="jquery/jquery.min.js"></script>
-    <!--foundation js-->
-    <!--<script src="foundation/js/vendor/jquery.js"></script>-->
-    <script src="foundation/js/vendor/what-input.js"></script>
-    <script src="foundation/js/vendor/foundation.js"></script>
-    <script src="foundation/js/app.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
-    <!--owl js-->
-    <script src="owl/js/owl.carousel.js"></script>
-    <script>
+				</article>
+				<!--row 9-->
+				<!--colossal form-->
+				<div class="colossal-form double-outline">
+					<form class="grid-x grid-padding-x">
+						<h1 class="cell">Join Us Now!</h1>
+						<!--name-->
+						<div class="cell medium-6">
+							<label for="name">Name</label>
+							<input type="text" id="name" placeholder="First Name">
+						</div>
+						<!--surname-->
+						<div class="cell medium-6">
+							<label for="surname">Surname</label>
+							<input type="text" id="surname" placeholder="Last Name">
+						</div>
+						<!--email-->
+						<div class="cell medium-6">
+							<label for="email">Email</label>
+							<input type="email" id="email" placeholder="Email">
+						</div>
+						<!--confirm email-->
+						<div class="cell medium-6">
+							<label for="confirm-email">Confirm Email</label>
+							<input type="email" id="confirm-email" placeholder="Confirm Email">
+						</div>
+						<!--phone-->
+						<div class="cell medium-6">
+							<label for="phone">Phone</label>
+							<input type="tel" id="phone" placeholder="Phone">
+						</div>
+						<!--preferred contact method-->
+						<div class="cell medium-6"> 
+							<div class="form-spacer"></div>		
+							<input type="checkbox" id="prefered-contact-method">
+							<label for="prefered-contact-method">I Prefer Phone Contact</label>			
+						</div>
+						<!--country-->
+						<div class="cell medium-6">
+							<label for="country">Country of Residence</label>
+							<select id="country">
+								<option>Select Country</option>
+							</select>
+						</div>
+						<!--type of license-->
+						<div class="cell medium-6">
+							<label for="type-license">Type of License</label>
+							<select id="type-license">
+								<option>Select License</option>
+							</select>
+						</div>
+						<!--interested in...-->
+						<div class="cell medium-6">
+							<label for="interest">Interested in...</label>
+							<select id="interest">
+								<option>Select Interest</option>
+							</select>
+						</div>
+						<!--flight experience-->
+						<div class="cell medium-6">
+							<div class="form-spacer"></div>	
+							<input type="checkbox" id="flight-experience">
+							<label for="flight-experience">Previous Flight Experience</label>
+						</div>
+						<!--message-->
+						<div class="cell">
+							<label for="message">Message</label>
+							<textarea id="message"></textarea>
+						</div>
+						<!--submit-->
+						<div class="cell">
+							<button type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>	
+		<!--jquery-->
+		<script src="jquery/jquery.min.js"></script>
+		<!--foundation js-->
+		<!--<script src="foundation/js/vendor/jquery.js"></script>-->
+		<script src="foundation/js/vendor/what-input.js"></script>
+		<script src="foundation/js/vendor/foundation.js"></script>
+		<!--<script src="foundation/js/app.js"></script>-->
+		<script>
+			$(document).foundation();
+		</script>
+		<!--owl js-->
+		<script src="owl/js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.jumbo-carousel').owlCarousel({
+					dots: true,
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 5000,
+					loop: true,
+					margin: 30,
+					responsiveClass: true,
+					responsive: {
+						0: {
+							items: 1
+						},
+						640: {
+							items: 1
+						},
+						1024: {
+							items: 1
+						},
+						1200: {
+							items: 1
+						},
+						1440: {
+							items: 1
+						},
+					}
+				})
+			})
+		</script>
+		<script>
 			$(document).ready(function() {
 				$('.big-carousel').owlCarousel({
 					dots: false,
@@ -410,6 +554,5 @@
 				})
 			})
 		</script>
-</body>
-
+	</body>
 </html>

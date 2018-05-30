@@ -1,0 +1,47 @@
+/* Foundation overrides */
+.accordion-title::before {
+  content: none;
+}
+/* /////// */
+
+
+a.accordion-title {
+  border: 0;
+  margin-bottom: 0;
+}
+
+/* -------- */
+.accordion-menu {
+  margin: auto;
+  max-width: 800px;
+}
+
+a.accordion-title, a.accordion-title:focus {
+  background-color: #003366;
+  color: white;
+  /* Need to add borders at the bottom of these lis like in the designs */
+  /* border-bottom: 1px solid white; */
+  /* margin-bottom: 1px; */
+
+}
+
+.accordion-title:hover, .accordion-sub:hover {
+  background-color: #dbdbdb;
+  color: #003366;
+  transition: .2s;
+}
+
+.accordion-menu a {
+  padding: 1.5rem !important;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Need to add borders at the bottom of these lis like in the designs */
+/* .accordion-sub {
+  border-bottom: 1px solid #cccccc;
+} */
+
+.accordion-info p {
+  color: #626262;
+}

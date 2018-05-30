@@ -5,7 +5,7 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="msapplication-tap-highlight" content="no">
-		<title>Location Single</title>
+		<title>Location Details</title>
 		<!--font awesome cdn-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 		<!--normalize-->
@@ -19,7 +19,7 @@
 		<!--css-->
 		<link href="css/style.css" rel="stylesheet" media="screen">
 	</head>
-	<body id="location-single">
+	<body id="location-details">
 		<!--overlay-->
 		<div id="baseline-overlay"></div>
 		<div id="column-overlay"></div>
@@ -37,54 +37,40 @@
 			<div class="grid-container">
 				<!--row 1-->
 				<!--info banner-->
-				<article class="grid-x grid-margin-x info-banner">
-					<div class="floaty-image" style="background-image: url(images/bg-miami-buildings.jpg);"></div>	
+				<article class="grid-x grid-margin-x background">
+					<!--background gradient image-->
+					<div class="gradient-image" style="background-image: url(images/bg-miami-buildings.jpg);"></div>	
 					<section class="cell medium-6">
 						<p class="special-heading">Flying Academy</p>
 						<h1>Miami, Florida</h1>
 						<p>Flying Academy Miami is a flight school authorized by the FAA under Part 141 and Part 61. Our school is located just 13 miles (21 km) southwest of Downtown Miami at Miami Executive Airport (KTMB), Miami FL, USA. Miami Executive Airport is known for the highest volume of traffic. This will prepare the future pilot career. Florida tropical weather, makes it possible to fly year-round, you can expect over 360 flying days. This condition makes the building hours up quick so they can jump into the seat of an airline or corporate position.</p>
-						<!--simple table-->
-						<table class="stack simple-table" style="margin-bottom: 1.5rem">
-							<tr>
-								<td>
-									<img src="images/envelope.png">
-									<a href="">fly@flyingacademy.com</a>
-								</td>
-								<td>
-									<img src="images/sun.png">
-									Local weather
-								</td>
-								<td>
-									29C/85F
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="images/phone.png">
-									<a href="">+420 228 882 444</a>
-								</td>
-								<td>
-									<img src="images/clock.png">
-									Local time
-								</td>
-								<td>
-									<time>15:40</time>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="images/server.png">
-									<a href="">FAA 0-CPL course brochure.pdf</a>
-								</td>
-								<td>
-									<img src="images/price.png">
-									Price from
-								</td>
-								<td>
-									$32,595
-								</td>
-							</tr>
-						</table>
+						<!--sudo table-->						
+						<div class="pseudo-table">
+							<div>
+								<img src="images/envelope.png">
+								<a href="">fly@flyingacademy.com</a>
+							</div>
+							<div>
+								<img src="images/phone.png">
+								<a href="">+420 228 882 444</a>
+							</div>
+							<div>
+								<img src="images/server.png">
+								<a href="">Course Brochure.pdf</a>
+							</div>
+							<div>
+								<img src="images/sun.png">
+								Local weather: 29C/85F
+							</div>						
+							<div>
+								<img src="images/clock.png">
+								Local time <time>15:40</time>
+							</div>						
+							<div>
+								<img src="images/price.png">
+								Price from: $32,595
+							</div>
+						</div>
 					</section>			
 					<!--quad carousel -->		
 					<Section class="cell owl-carousel owl-theme quad-carousel">
@@ -174,7 +160,7 @@
 					<!--offset box-->
 					<section class="cell medium-5 offset-box right">
 						<h1>Miami Executive Airport (KTMB):</h1>
-						<ul>
+						<ul class="simple-list">
 							<li>International airport</li>
 							<li>Award-winning FAA-staffed control tower</li>
 							<li>Training opportunities with full ILS and RNAV/GPS approaches</li>
@@ -186,7 +172,7 @@
 				</article>
 				<!--row 3-->
 				<!--statistics boxes-->
-				<article class="grid-x large-up-3 grid-padding-x grid-margin-x expand-padding stats">
+				<article class="grid-x large-up-3 grid-margin-x stats-box">
 					<section class="cell">
 						<p>3</p>
 						<h1>Runways</h1>
@@ -201,13 +187,13 @@
 					</section>
 				</article>
 				<!--row 4-->
-				<!--video placeholder-->
 				<article class="grid-x">
-					<section class="cell large-6 video-placeholder">
-						<img src="images/video.png">
+					<!--video box-->
+					<section class="cell large-6 video-box">
+						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
 					</section>
-					<!--video info-->
-					<section class="cell large-6 video-info">
+					<!--video summary box-->
+					<section class="cell large-6 video-summary-box">
 						<p class="special-heading small">Flying Academy</p>
 						<h1>How to Become Airline Pilot with FAA License</h1>
 						<p>In this video Anna will explain you how you can become an international airline pilot with american license FAA ATPL. You will learn that ATPL pilot consists of and what courses can give it to you</p>
@@ -215,14 +201,14 @@
 					</section>
 				</article>
 				<!--row 5-->
-				<!--info banner-->
-				<article class="grid-x grid-margin-x info-banner">			
+				<!--background-->
+				<article class="grid-x grid-margin-x background">			
 					<!--floaty image-->
-					<div class="floaty-image" style="background-image: url(images/bg-miami-beach.jpg);"></div>
+					<div class="gradient-image" style="background-image: url(images/bg-miami-beach.jpg);"></div>
 					<section class="cell large-6">
 						<h1>Miami Transportation Fees</h1>
 						<!--fancy table-->
-						<table class="stack fancy-table">
+						<table class="fancy-table">
 							<tbody>
 								<tr>
 									<td>From Miami International Airport</td>
@@ -261,10 +247,10 @@
 					</section>					
 				</article>
 				<!--row 7-->
-				<!--info banner-->
-				<article class="grid-x grid-margin-x info-banner">
+				<!--background-->
+				<article class="grid-x grid-margin-x background">
 					<!--floaty image-->
-					<div class="floaty-image" style="background-image: url(images/bg-miami-buildings.jpg);"></div>	
+					<div class="gradient-image" style="background-image: url(images/bg-miami-buildings.jpg);"></div>	
 					<section class="cell medium-6">
 						<h1>Miami Accomodation</h1>
 						<p>Our staff will help you find the most suitable place during your study. Flying Academy can provide accommodation to fit everyone's taste and budget. Short-term and long-term accommodations are available on the request.
@@ -287,9 +273,9 @@
 					</section>
 				</article>
 			</div>
-			<div class="grid-container container-6">
-				<!--contact form-->
-				<form class="grid-x grid-padding-x colossal-form double-outline">
+			<div class="colossal-form double-outline">
+				<!--colossal form-->
+				<form class="grid-x grid-padding-x">
 					<h1 class="cell">Join Us Now!</h1>
 					<!--name-->
 					<div class="cell medium-6">

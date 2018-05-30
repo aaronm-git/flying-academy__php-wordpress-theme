@@ -1,0 +1,82 @@
+/*owl carousel general*/
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	display: block;
+	width: 4.5rem;
+	height: 6rem;
+	border-radius: 0;
+	background-color: #465064;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1rem 2rem;
+	color: white;
+	z-index: 999;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+	background-image: url(../images/left-arrow.png);
+}
+
+.owl-carousel .owl-nav button.owl-next {
+	background-image: url(../images/right-arrow.png);
+}
+
+.owl-carousel .owl-prev a,
+.owl-carousel .owl-prev span,
+.owl-carousel .owl-next a,
+.owl-carousel .owl-next span {
+	display: none;
+}
+
+/*quad carousel*/
+
+.quad-carousel .owl-nav button.owl-prev,
+.quad-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 50%;	
+	display: inline-block;
+	margin-top: -3rem;
+}
+
+.quad-carousel  .owl-nav button.owl-prev {
+	left: -1.875rem;
+}
+
+.quad-carousel  .owl-nav button.owl-next {
+	right: -1.875rem;
+}
+
+/*uni carousel*/
+
+.uni-carousel .item {
+	position: relative;
+}
+
+.uni-carousel.tall .item {
+	height: 33rem;
+}
+
+.uni-carousel.tall .owl-nav {
+	top: 24rem;
+}
+
+.uni-carousel .owl-nav {
+	position:absolute;
+	top: 19.5rem;
+	left: -1.875rem;
+	display: block;
+	width: 9.9375rem;
+	height: 6rem;
+}
+
+.uni-carousel .owl-nav button.owl-prev,
+.uni-carousel .owl-nav button.owl-next {
+	display: inline-block;
+	width: 4.5rem;
+	height: 6rem;
+}
+
+.uni-carousel .owl-nav button.owl-prev {
+	margin-right: .9375rem;
+}

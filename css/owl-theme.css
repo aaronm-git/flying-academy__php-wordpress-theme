@@ -40,11 +40,11 @@
 }
 
 .quad-carousel  .owl-nav button.owl-prev {
-	left: -1.875rem;
+	left: -.9375rem;
 }
 
 .quad-carousel  .owl-nav button.owl-next {
-	right: -1.875rem;
+	right: -.9375rem;
 }
 
 /*uni carousel*/
@@ -64,7 +64,7 @@
 .uni-carousel .owl-nav {
 	position:absolute;
 	top: 19.5rem;
-	left: -1.875rem;
+	left: -.9375rem;
 	display: block;
 	width: 9.9375rem;
 	height: 6rem;
@@ -81,8 +81,8 @@
 	margin-right: .9375rem;
 }
 
-
 /*big carousel*/
+
 .big-carousel .item {
 	position: relative;
 }
@@ -102,39 +102,74 @@
 	margin-top: -3rem;
 }
 
-.big-carousel .owl-nav button.owl-prev {
-	left: -1.875rem;
+.big-carousel  .owl-nav button.owl-prev {
+	left: -.9375rem;
 }
 
 .big-carousel  .owl-nav button.owl-next {
-	right: -1.875rem;
+	right: -.9375rem;
 }
 
-/*uni carousel*/
+/*jumbo carousel*/
 
-.uni-two-carousel .item {
+.jumbo-carousel .item {
 	position: relative;
-	height: auto;
+}
+
+.jumbo-carousel.tall .item {
+	height: calc(100vw / 2);
+	height: 45rem;
 	background-size: cover;
 	background-position: center;
 }
 
-.uni-two-carousel.tall .owl-nav {
-	top: 24rem;
-}
-
-.uni-two-carousel .owl-nav button.owl-prev,
-.uni-two-carousel .owl-nav button.owl-next {
+.jumbo-carousel .owl-nav button.owl-prev,
+.jumbo-carousel .owl-nav button.owl-next {
 	position: absolute;
 	top: 50%;
 	display: inline-block;
 	margin-top: -3rem;
+	opacity: .1;
+	filter: blur(.0625rem);
 }
 
-.uni-two-carousel .owl-nav button.owl-prev {
-	left: -1rem;
+.jumbo-carousel .owl-nav button.owl-prev:hover,
+.jumbo-carousel .owl-nav button.owl-next:hover {
+	opacity: 1;
+	filter: blur(0);
 }
 
-.uni-two-carousel  .owl-nav button.owl-next {
-	right: -1rem;
+.jumbo-carousel  .owl-nav button.owl-prev {
+	left: 1.875rem;
+}
+
+.jumbo-carousel  .owl-nav button.owl-next {
+	right: 1.875rem;
+}
+
+.jumbo-carousel .owl-dots {	
+	position: relative;
+	top: -1.5rem;
+	margin-top: -1.5rem;
+	display: block;
+	height: 1.5rem;
+	text-align: center;
+}
+
+.jumbo-carousel button.owl-dot {
+	display: inline-block;
+	width: 1.25rem;
+	height: 1.25rem;
+	border: .125rem solid white;
+	border-radius: .625rem;
+	margin: 0 .5rem .125rem .5rem;
+	background-color: transparent;
+}
+
+.jumbo-carousel .owl-dot.active {
+	background-color: white;
+}
+
+.jumbo-carousel button.owl-dot:hover {
+	background-color: rgba(255,255,255, .2);
 }

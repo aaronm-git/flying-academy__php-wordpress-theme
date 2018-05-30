@@ -1,321 +1,253 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <!-- auto reload for dev -->
-    <!-- <meta http-equiv="refresh" content="3" > -->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flying Academy</title>
-    <!--normalize-->
-    <link rel="stylesheet" href="normalize/normalize.css">
-    <!--foundation css-->
-    <link rel="stylesheet" href="foundation/css/foundation.css">
-    <link rel="stylesheet" href="foundation/css/app.css">
-    <!--owl css-->
-    <link rel="stylesheet" href="owl/css/owl.carousel.css">
-    <!--<link rel="stylesheet" href="css/owl.theme.default.css">-->
-    <!--owl documentation theme css-->
-    <!-- <link rel="stylesheet" href="css/docs.theme.min.css"> -->
-    <!--my theme css-->
-    <link rel="stylesheet" href="css/owl-theme.css">
-    <!--site css-->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- my tyle -->
-    <link rel="stylesheet" href="css/global-contact.css">
-</head>
-<body>
-    <div id="baseline-overlay"></div>
-    <div id="column-overlay"></div>
-    <div class="wrapper">
-        <div class="grid-container">
-            <!--row 1-->
-            <div class="grid-x grid-margin-x">
-                <!-- form -->
-                <section class="cell large-7">
-                    <div class="grid-container">
-                        <!--colossal form-->
-                        <form class="grid-x grid-padding-x colossal-form">
-                            <h1 class="cell">Get in touch with Flying Academy</h1>
-                            <h2 class="cell">Get in touch with Flying Academy</h2>
-                            <!--name-->
-                            <div class="cell medium-6">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" placeholder="First Name">
-                            </div>
-                            <!--surname-->
-                            <div class="cell medium-6">
-                                <label for="surname">Surname</label>
-                                <input type="text" id="surname" placeholder="Last Name">
-                            </div>
-                            <!--email-->
-                            <div class="cell medium-6">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" placeholder="Email">
-                            </div>
-                            <!--confirm email-->
-                            <div class="cell medium-6">
-                                <label for="confirm-email">Confirm Email</label>
-                                <input type="email" id="confirm-email" placeholder="Confirm Email">
-                            </div>
-                            <!--phone-->
-                            <div class="cell medium-6">
-                                <label for="phone">Phone</label>
-                                <input type="tel" id="phone" placeholder="Phone">
-                            </div>
-                            <!--preferred contact method-->
-                            <div class="cell medium-6">
-                                <div class="form-spacer"></div>
-                                <input type="checkbox" id="prefered-contact-method">
-                                <label for="prefered-contact-method">I Prefer Phone Contact</label>
-                            </div>
-                            <!--country-->
-                            <div class="cell medium-6">
-                                <label for="country">Country of Residence</label>
-                                <select id="country">
-                                    <option>Select Country</option>
-                                </select>
-                            </div>
-                            <!--type of license-->
-                            <div class="cell medium-6">
-                                <label for="type-license">Type of License</label>
-                                <select id="type-license">
-                                    <option>Select License</option>
-                                </select>
-                            </div>
-                            <!--interested in...-->
-                            <div class="cell medium-6">
-                                <label for="interest">Interested in...</label>
-                                <select id="interest">
-                                    <option>Select Interest</option>
-                                </select>
-                            </div>
-                            <!--flight experience-->
-                            <div class="cell medium-6">
-                                <div class="form-spacer"></div>
-                                <input type="checkbox" id="flight-experience">
-                                <label for="flight-experience">Previous Flight Experience</label>
-                            </div>
-                            <!--message-->
-                            <div class="cell">
-                                <label for="message">Message</label>
-                                <textarea id="message"></textarea>
-                            </div>
-                            <!--submit-->
-                            <div class="cell">
-                                <button type="submit">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </section>
-                <!-- subscribe sidebar -->
-                <aside class="cell large-4">
-                    <form class="sidebar-newsletter-form">
-                        <h1>Subscribe to Our Newsletter</h1>
-                        <input type="email" name="email" placeholder="Enter Your Email">
-                        <input type="submit" class="button full nuetral" value="Subscribe Now">
-                        <hr>
-                        <h2>Follow Us</h2>
-                        <nav class="sub-social">
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                        </nav>
-                    </form>
-                </aside>
-            </div>
-            <!-- row 2 -->
-            <article class="grid-x grid-margin-x">
-                <section class="cell large-12">
-                    <ul class="menu vertical accordion-menu" data-accordion-menu>
-                        <li>
-                            <a href="#" class="accordion-title" aria-expanded="true"><span>Prague, Czech Republic</span></a>
-                            <div class="accordion-arrow"></div>
-                            <ul class="menu vertical nested is-active sub-list">
-                                <li>
-                                    <table>
-                                        <th>School Contact Information</th>
-                                        <tr>
-                                            <td>City:</td>
-                                            <td>Prague, Czech Republic</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Address:</td>
-                                            <td>
-                                                <address>
-                                                    2008 Midway RoadAtkins, FL 33186
-                                                </address>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Phone:</td>
-                                            <td>+1 305 555 5555</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Email:</td>
-                                            <td>email@flyingacademy.com</td>
-                                        </tr>
-                                    </table>
-                                    <div class="cell mapouter">
-                                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                                        <style>.mapouter{overflow:hidden;height:500px;width:100%;}.gmap_canvas {background:none!important;height:500px;width:100%;}</style>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="accordion-title" aria-expanded="true"><span>Brno, Czech Republic</span></a>
-                            <div class="accordion-arrow"></div>
-                            <ul class="menu vertical nested sub-list">
-                                <li>
-                                    <table>
-                                        <th>School Contact Information</th>
-                                        <tr>
-                                            <td>City:</td>
-                                            <td>Prague, Czech Republic</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Address:</td>
-                                            <td>
-                                                <address>
-                                                    2008 Midway RoadAtkins, FL 33186
-                                                </address>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Phone:</td>
-                                            <td>+1 305 555 5555</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Email:</td>
-                                            <td>email@flyingacademy.com</td>
-                                        </tr>
-                                    </table>
-                                    <div class="cell mapouter">
-                                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                                        <style>.mapouter{overflow:hidden;height:500px;width:100%;}.gmap_canvas {background:none!important;height:500px;width:100%;}</style>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="accordion-title" aria-expanded="true"><span>Miami, Florida</span></a>
-                            <div class="accordion-arrow"></div>
-                            <ul class="menu vertical nested sub-list">
-                                <li>
-                                    <table>
-                                        <th>School Contact Information</th>
-                                        <tr>
-                                            <td>City:</td>
-                                            <td>Prague, Czech Republic</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Address:</td>
-                                            <td>
-                                                <address>
-                                                    2008 Midway RoadAtkins, FL 33186
-                                                </address>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Phone:</td>
-                                            <td>+1 305 555 5555</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Email:</td>
-                                            <td>email@flyingacademy.com</td>
-                                        </tr>
-                                    </table>
-                                    <div class="cell mapouter">
-                                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                                        <style>.mapouter{overflow:hidden;height:500px;width:100%;}.gmap_canvas {background:none!important;height:500px;width:100%;}</style>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="accordion-title" aria-expanded="true"><span>Los Angeles, California</span></a>
-                            <div class="accordion-arrow"></div>
-                            <ul class="menu vertical nested sub-list">
-                                <li>
-                                    <table>
-                                        <th>School Contact Information</th>
-                                        <tr>
-                                            <td>City:</td>
-                                            <td>Prague, Czech Republic</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Address:</td>
-                                            <td>
-                                                <address>
-                                                    2008 Midway RoadAtkins, FL 33186
-                                                </address>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Phone:</td>
-                                            <td>+1 305 555 5555</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Email:</td>
-                                            <td>email@flyingacademy.com</td>
-                                        </tr>
-                                    </table>
-                                    <div class="cell mapouter">
-                                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                                        <style>.mapouter{overflow:hidden;height:500px;width:100%;}.gmap_canvas {background:none!important;height:500px;width:100%;}</style>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="accordion-title" aria-expanded="true"><span>Gurugram, India</span></a>
-                            <div class="accordion-arrow"></div>
-                            <ul class="menu vertical nested sub-list">
-                                <li>
-                                    <table>
-                                        <th>School Contact Information</th>
-                                        <tr>
-                                            <td>City:</td>
-                                            <td>Prague, Czech Republic</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Address:</td>
-                                            <td>
-                                                <address>
-                                                    2008 Midway RoadAtkins, FL 33186
-                                                </address>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Phone:</td>
-                                            <td>+1 305 555 5555</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Email:</td>
-                                            <td>email@flyingacademy.com</td>
-                                        </tr>
-                                    </table>
-                                    <div class="cell mapouter">
-                                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                                        <style>.mapouter{overflow:hidden;height:500px;width:100%;}.gmap_canvas {background:none!important;height:500px;width:100%;}</style>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                    </section>
-                </article>
-            </div>
-            <!--jquery-->
-            <script src="jquery/jquery.min.js"></script>
-            <!--foundation js-->
-            <script src="foundation/js/vendor/what-input.js"></script>
-            <script src="foundation/js/vendor/foundation.js"></script>
-            <script src="foundation/js/app.js"></script>
-            <script>$(document).foundation();</script>
-        </script>
-    </div>
-</div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="msapplication-tap-highlight" content="no">
+		<title>Global Contact</title>
+		<!--font awesome cdn-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<!--normalize-->
+		<link rel="stylesheet" href="normalize/normalize.css">
+		<!--foundation css-->
+		<link rel="stylesheet" href="foundation/css/foundation.css">
+		<link rel="stylesheet" href="foundation/css/app.css">
+		<!--owl css-->
+		<link rel="stylesheet" href="owl/css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl-theme.css">
+		<!--css-->
+		<link href="css/style.css" rel="stylesheet" media="screen">
+	</head>
+	<body id="global-contact">
+			<div id="baseline-overlay"></div>
+			<div id="column-overlay"></div>
+			<div class="wrapper">
+				<!--page navigation-->
+				<nav class="page-nav">
+					<div class="grid-container">
+						<ul class="vertical medium-horizontal menu">
+							<li><a href="">Blog Home</a></li>
+							<li><a href="">News</a></li>
+							<li><a href="">Destinations</a></li>
+							<li><a href="">Courses</a></li>
+							<li><a href="">Life</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="grid-container">
+					<!--row 1-->
+					<div class="grid-x grid-margin-x">
+						<!--form-->
+						<section class="cell large-8">							
+							<form class="grid-x grid-margin-x">
+								<header class="cell">
+									<h1>Get in touch with Flying Academy</h1>
+									<p>Our experienced staff is ready to help you with any questions you may have in reagrds to flight training. Please fill out the contact form below and a flight training consultant will be in touch shortly.</p>
+								</header>								
+								<!--name-->
+								<div class="cell medium-6">
+									<label for="name">Name</label>
+									<input type="text" id="name" placeholder="First Name">
+								</div>
+								<!--surname-->
+								<div class="cell medium-6">
+									<label for="surname">Surname</label>
+									<input type="text" id="surname" placeholder="Last Name">
+								</div>
+								<!--email-->
+								<div class="cell medium-6">
+									<label for="email">Email</label>
+									<input type="email" id="email" placeholder="Email">
+								</div>
+								<!--confirm email-->
+								<div class="cell medium-6">
+									<label for="confirm-email">Confirm Email</label>
+									<input type="email" id="confirm-email" placeholder="Confirm Email">
+								</div>
+								<!--phone-->
+								<div class="cell medium-6">
+									<label for="phone">Phone</label>
+									<input type="tel" id="phone" placeholder="Phone">
+								</div>
+								<!--preferred contact method-->
+								<div class="cell medium-6">
+									<div class="form-spacer"></div>
+									<input type="checkbox" id="prefered-contact-method">
+									<label for="prefered-contact-method">I Prefer Phone Contact</label>
+								</div>
+								<!--country-->
+								<div class="cell medium-6">
+									<label for="country">Country of Residence</label>
+									<select id="country">
+										<option>Select Country</option>
+									</select>
+								</div>
+								<!--type of license-->
+								<div class="cell medium-6">
+									<label for="type-license">Type of License</label>
+									<select id="type-license">
+										<option>Select License</option>
+									</select>
+								</div>
+								<!--interested in...-->
+								<div class="cell medium-6">
+									<label for="interest">Interested in...</label>
+									<select id="interest">
+										<option>Select Interest</option>
+									</select>
+								</div>
+								<!--flight experience-->
+								<div class="cell medium-6">
+									<div class="form-spacer"></div>
+									<input type="checkbox" id="flight-experience">
+									<label for="flight-experience">Previous Flight Experience</label>
+								</div>
+								<!--message-->
+								<div class="cell">
+									<label for="message">Message</label>
+									<textarea id="message"></textarea>
+								</div>
+								<!--submit-->
+								<div class="cell">
+									<button type="submit">Submit</button>
+								</div>
+							</form>
+						</section>
+						<!--sidebar newsletter form-->
+						<aside class="cell large-4">
+							<form class="sidebar-newsletter-form">
+								<h1>Subscribe to Our Newsletter</h1>
+								<input type="email" name="email" placeholder="Enter Your Email">
+								<input type="submit" class="button full nuetral" value="Subscribe Now">
+								<hr>
+								<h2>Follow Us</h2>
+								<nav class="social-box">
+									<a href=""><i class="fab fa-instagram"></i></a>
+									<a href=""><i class="fab fa-twitter"></i></a>
+									<a href=""><i class="fab fa-facebook-f"></i></a>
+									<a href=""><i class="fab fa-youtube"></i></a>
+								</nav>
+							</form>
+						</aside>
+					</div>
+				<!--row 2-->
+				<h1>Flying Academy Locations</h1>
+				<!--accordion-->
+				<ul class="accordion simple" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+					<!--accordion item-->
+					<li class="accordion-item" data-accordion-item>
+						<a href="#" class="accordion-title">Prague, Czech Republic</a>
+						<div class="accordion-content" data-tab-content>
+							<p>City: Prague, Czech Republic</p>
+							<p>Address: 2008 Midway RoadAtkins, FL 33186</p>
+							<p>Phone: +1 305 555 5555</p>
+							<p>Email: email@flyingacademy.com</p>
+							<!--google map-->
+							<iframe 
+								width="100%"
+								height="480"
+								id="google-map-canvas"
+								src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0">					
+							</iframe>
+						</div>
+					</li>
+					<!--accordion item-->
+					<li class="accordion-item" data-accordion-item>
+						<a href="#" class="accordion-title">Brno, Czech Republic</a>
+						<div class="accordion-content" data-tab-content>
+							<p>City: Prague, Czech Republic</p>
+							<p>Address: 2008 Midway RoadAtkins, FL 33186</p>
+							<p>Phone: +1 305 555 5555</p>
+							<p>Email: email@flyingacademy.com</p>
+							<iframe 
+								width="100%"
+								height="480"
+								id="google-map-canvas"
+								src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0">					
+							</iframe>
+						</div>
+					</li>
+					<!--accordion item-->
+					<li class="accordion-item" data-accordion-item>
+						<a href="#" class="accordion-title">Miami, Florida, United States</a>
+						<div class="accordion-content" data-tab-content>
+							<p>City: Prague, Czech Republic</p>
+							<p>Address: 2008 Midway RoadAtkins, FL 33186</p>
+							<p>Phone: +1 305 555 5555</p>
+							<p>Email: email@flyingacademy.com</p>
+							<iframe 
+								width="100%"
+								height="480"
+								id="google-map-canvas"
+								src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0">					
+							</iframe>
+						</div>
+					</li>
+					<!--accordion item-->
+					<li class="accordion-item" data-accordion-item>
+						<a href="#" class="accordion-title">Los Angeles, California, United States</a>
+						<div class="accordion-content" data-tab-content>
+							<p>City: Prague, Czech Republic</p>
+							<p>Address: 2008 Midway RoadAtkins, FL 33186</p>
+							<p>Phone: +1 305 555 5555</p>
+							<p>Email: email@flyingacademy.com</p>
+							<iframe 
+								width="100%"
+								height="480"
+								id="google-map-canvas"
+								src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0">					
+							</iframe>
+						</div>
+					</li>
+					<!--accordion item-->
+					<li class="accordion-item" data-accordion-item>
+						<a href="#" class="accordion-title">Gurugram, India</a>
+						<div class="accordion-content" data-tab-content>
+							<p>City: Prague, Czech Republic</p>
+							<p>Address: 2008 Midway RoadAtkins, FL 33186</p>
+							<p>Phone: +1 305 555 5555</p>
+							<p>Email: email@flyingacademy.com</p>
+							<iframe 
+								width="100%"
+								height="480"
+								id="google-map-canvas"
+								src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0">					
+							</iframe>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--jquery-->
+		<script src="jquery/jquery.min.js"></script>
+		<!--foundation js-->
+		<!--<script src="foundation/js/vendor/jquery.js"></script>-->
+		<script src="foundation/js/vendor/what-input.js"></script>
+		<script src="foundation/js/vendor/foundation.js"></script>
+		<!--<script src="foundation/js/app.js"></script>-->
+		<script>
+				$(document).foundation();
+		</script>
+	</body>
 </html>

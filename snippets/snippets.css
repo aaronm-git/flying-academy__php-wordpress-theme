@@ -1,3 +1,33 @@
+/*foundation default breakpoints*/
+
+/*
+small only			0–639
+
+medium and up		640
+
+medium only			640–1,023
+
+large and up		1,024
+
+large only			1,024–1,199
+*/
+
+/*small only (0–639)*/
+@media screen and (max-width: 39.9375em) {}
+
+/*medium and up (640 +)*/
+@media screen and (min-width: 40em) {}
+
+/*medium only (640–1023)*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/*large and up (1024+)*/
+@media screen and (min-width: 64em) {}
+
+/*large only (1024–1199)*/
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+
 /*border collapse method*/
 table {
 	border-collapse: separate;
@@ -105,3 +135,432 @@ tr td img {
 	height: 23px;
 	width: auto;
 }
+
+@media screen and (orientation: landscape) {}
+
+/*conditional rules for firefox*/
+@-moz-document url-prefix() {}
+
+/*verticle margins*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+h1 + h2,
+h1 + h3,
+h1 + h4,
+h1 + h5,
+h1 + h6,
+h2 + h1,
+h3 + h1,
+h4 + h1,
+h5 + h1,
+h6 + h1{
+	margin-top: -1.5rem;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+p + p {
+	margin-top: -1.5rem
+}
+
+
+p:last-child {
+	margin-bottom: 1.5rem;
+}
+
+ul, ol, dl {
+	margin-bottom: 0;
+}
+
+p + ul,
+p + ol,
+p + dl {
+	margin-top: -1.5rem;
+}
+
+h1 + .special-heading,
+.special-heading + p {
+	margin-top: -1.5rem;
+}
+
+.special-heading + h1{
+	margin-top: -3rem;
+}
+
+.special-heading + h2 {
+	margin-top: -1.5rem;
+}
+
+.button:last-child {
+	margin-bottom: 0;
+}
+
+p + .view-more {
+	margin-top: -1.5rem;
+}
+
+.fancy-list + * {
+	margin-top: 1.5rem;
+}
+
+h1 + .accordion {
+	margin-top: 3rem;
+}
+
+.simple-table + * {
+	margin-top: 1.5rem;
+}
+
+.sidebar-newsletter-form nav {
+	margin-top: -1.5rem;
+}
+
+.check-points h1 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.blog-article p {
+	margin-bottom: 1.5rem;
+}
+
+.blog-article p:last-child {
+	margin-bottom: 3rem;
+}
+
+.blog-grid {
+	margin-bottom: 0;
+}
+
+.blog-grid  article {
+	position: relative;
+	margin-bottom: 1.5rem;
+	background-color: darkgray;	
+}
+
+.blog-grid > h1:first-child {
+	position: static;
+	color: #222;
+	padding: 0;
+	margin: 0 0 3rem .9375rem;
+	line-height: 3rem;
+	font-size: 2rem;
+}
+
+.blog-grid.up-1-sidebar article p,
+.blog-grid.up-2 article p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1.5rem;
+	margin-bottom: 0;
+	line-height: 3rem;
+	font-size: 2rem;
+	color: white;
+}
+
+.blog-grid.up-4 article p {
+	padding: .75rem;
+	margin-bottom: 0;
+	background-color: white
+}
+
+.video-info .button {
+	margin-bottom: 1.5rem;
+}
+
+.share-box a:last-child::after {
+	content: '';
+	display: block;
+}
+
+.offset-box p {
+	margin-bottom: 3rem;
+}
+
+.offset-box  ul {
+	margin-bottom: 3rem;
+}
+
+.offset-box  ul li {
+	margin-bottom: .75rem;
+}
+
+.offset-box  ul li:last-child:nth-child(even) {
+	margin-bottom: 3.75rem;
+}
+
+.quote-box blockquote::before,
+.quote-box blockquote::after{
+	position: absolute;
+	font-family: Minion Pro Bold, sans-serif;
+	font-size: 6rem;
+	color: gray;
+}
+
+.quote-box blockquote::before {
+	content: open-quote;
+	top: 1.75rem;
+	left: 0;
+}
+
+.quote-box blockquote::after {
+	content: close-quote;
+	bottom: -2.25rem;
+	right: 0;
+}
+
+.image-wrapper img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+/*page specific*/
+
+/*busines to business*/
+
+#business-to-business .centered-info p:last-child {
+	margin-bottom: 0;
+}
+
+#business-to-business .offset-box *{
+	text-align: left;
+}
+
+/*centered info*/
+
+.centered-info {
+	text-align: center;
+}
+
+/*simple info*/
+
+.simple-info {
+	text-align: left;
+}
+
+.simple-info button {}
+
+.simple-info p:last-child {
+	margin-bottom: 0;
+}
+
+/*events*/
+
+.events header {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.events h1 {
+	margin-bottom: 0;
+}
+
+/*detail box*/
+
+.flex-wrapper .detail-box {
+	width: 100%;
+	padding: 1.4375rem;
+	border: .0625rem solid #dedede;
+	background-color: #efefef;
+	text-align: center;
+}
+
+.flex-wrapper .detail-box p {
+	margin: 0;
+}
+
+/*large and up (1024+)*/
+
+@media screen and (min-width: 64em) {
+
+	.flex-wrapper .detail-box {
+		width: calc(50% - .9375rem);
+	}
+
+}
+
+/*social box*/
+
+.social-box i{
+	line-height: 3rem;
+	padding: 0 .9375rem;
+	font-size: 2.5rem;
+	color: gray;
+}
+
+.social-box.small i{
+	line-height: 3rem;
+	padding: 0 .9375rem;
+	font-size: 1.5rem;
+	color: gray;
+}
+
+.social-box a:first-child i {
+	padding-left: 0;
+}
+
+.social-box a:last-child i {
+	padding-right: 0;
+}
+
+
+.video-info h1 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+/*video placeholder*/
+
+.video-placeholder {
+	position: relative;
+	min-height: 25.5rem;
+	overflow: hidden;
+}
+
+.video-placeholder img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+/*buttons*/
+
+/*simple contact info*/
+
+.simple-contact-info h1{
+	font-family: 'Minion Pro Medium', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	color: #222;
+}
+
+/*tiny social media*/
+
+.tiny-social-media a {
+	font-size: 1.75rem;
+	line-height: 3rem;
+	margin: 0 .5rem 0 .5rem;
+	color: #ccc;
+}
+
+.tiny-social-media a:first-child {
+	margin-left: 0;
+}
+
+.tiny-social-media a:last-child {
+	margin-right: 0;
+}
+
+/*medium and up (640 +)*/
+
+@media screen and (min-width: 40em) {
+
+	.flex-wrapper .button {
+		padding-left: 0;
+		padding-right: 0;
+		width: calc(50% - .9375rem);
+	}
+}
+
+/*form elements*/
+
+.flex-wrapper select,
+.flex-wrapper input[type=text] {
+	position: static;
+	width: calc(50% - .9375rem);
+	height: 3rem;
+	margin-bottom: 1.5rem;
+}
+
+/*flex wrapper*/
+
+.flex-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex-wrapper > * {
+		flex-grow: 1;
+	}
+
+/*medium and up (640 +)*/
+
+@media screen and (min-width: 40em) {
+
+	.flex-wrapper > * {
+		flex-grow: 1;
+		width: auto;
+		margin: 0 .9375rem;
+	}
+
+	.flex-wrapper > a {
+		margin-top: -.0625rem;
+	}
+
+	.flex-wrapper > *:first-child {
+		margin-left: 0;
+	}
+
+	.flex-wrapper > *:last-child {
+		margin-right: 0;
+	}
+}
+
+/*flex wrapper with gutter*/
+
+.flex-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: -.75rem -.9375rem;
+}
+
+.flex-wrapper > * {
+	flex-grow: 1;
+	width: auto;
+	margin: .75rem .9375rem;
+}
+
+/*fade info*/
+
+.fade-info {
+	padding: 1.5rem 0 ;
+}
+
+/*class name readability prototypes*/
+
+.background-fullwidth-color
+.background-fullwidth-gradient
+.backgroung-fullwidth-image
+.background-fullwidth-gradient-image
+.background-fullwidth-floating-image
+
+.background-color
+.background-gradient
+.backgroung-image
+.background-gradient-image
+.background-floating-image
+
+.flex-wrapper.social
+.flex-wrapper.details
+.flex-wrapper.text
+.flex-wrapper.buttons
+.flex-wrapper.inputs
+.flex-wrapper.forms
+.flex-wrapper
+
+.video-box
+.video-text-box

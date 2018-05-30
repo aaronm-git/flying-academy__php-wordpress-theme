@@ -38,11 +38,12 @@
 				<div class="grid-x grid-margin-x">
 					<!--column 1-->
 					<section class="cell large-6">
-						<h1>Connect With Us</h1>
-						<p>Our experienced staff is ready to help you with any questions you might have regarding your flight training.</br>If you would like detailed information on the flight training courses, please fill in the form below and Flight Training Consultant will be in touch with you shortly.</p>
-						<!--colossal form-->
-						<form class="grid-x grid-padding-x">
-							<h1 class="cell">Join Us Now!</h1>
+						<!--form-->
+						<form class="grid-x grid-margin-x">
+							<header class="cell">
+								<h1>Connect With Us</h1>
+								<p>Our experienced staff is ready to help you with any questions you might have regarding your flight training. If you would like detailed information on the flight training courses, please fill in the form below and Flight Training Consultant will be in touch with you shortly.</p>
+							</header>							
 							<!--name-->
 							<div class="cell medium-6">
 					  			<label for="name">Name</label>
@@ -114,33 +115,45 @@
 					</section>
 					<!--column 2-->
 					<!--simple contact info-->
-					<section class="cell large-6 simple-contact-info">
+					<section class="cell large-6">
 						<!--google map-->
-						<div class="responsive-sprite" style="background-image: url(images/google-maps.jpg); height: 22.5rem;"></div>	
+						<iframe
+							class="cell"
+							width="100%"
+							height="480"
+							id="google-map-canvas"
+							src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+							frameborder="0"
+							scrolling="no"
+							marginheight="0"
+							marginwidth="0">					
+						</iframe>
 						<!--address-->
 						<div class="grid-x grid-margin-x">
 							<section class="cell large-6">
-								<p><b>Street:  </b>14569 SW 127 St</p>
-								<p><b>City/State:  </b>Miami, Florida</p>							
+								<h3>Mailing Address</h3>		
+								<p>Street: 14569 SW 127 St</p>
+								<p>City/State: Miami, Florida</p>							
 							</section>
 							<!--contact info-->
 							<section class="cell large-6">
-								<p><b>Phone:  </b><a href="">+1 (305) 255-8753</a></p>
-								<p><b>Email:  </b><a href="">fly@flyingacademy.com</a></p>									
+								<h3>Contact Information</h3>		
+								<p>Phone: <a href="">+1 (305) 255-8753</a></p>
+								<p>Email: <a href="">fly@flyingacademy.com</a></p>									
 							</section>
 						</div>
 						<!--tiny newsletter form-->
 						<div class="grid-x grid-margin-x">
 							<!--tiny newsletter-->
-							<section class="cell medium-6 tiny-newsletter-form">
-									<h1>Get Aviation News!</h1>							
+							<section class="cell medium-6">
+									<h3>Get Aviation News!</h3>							
 									<input type="email" placeholder="YOUR E-MAIL">
 									<a class="button dark full" href="">Subscribe Now</a>
 							</section>
 							<!--tiny social media-->
 							<section class="cell small-6 tiny-social-media">
-								<h1>Social Media</h1>
-								<nav class="sub-social">
+								<h3>Social Media</h3>
+								<nav class="social-box">
 									<a href=""><i class="fab fa-instagram"></i></a>
 									<a href=""><i class="fab fa-twitter"></i></a>
 									<a href=""><i class="fab fa-facebook-f"></i></a>

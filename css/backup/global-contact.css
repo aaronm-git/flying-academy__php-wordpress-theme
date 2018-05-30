@@ -1,0 +1,103 @@
+/* style overrides */
+.colossal-form {
+  margin-bottom: 0;
+}
+
+.colossal-form h1 {
+  margin-top: 0;
+}
+
+/*sidebar newsletter subscription form*/
+.sidebar-newsletter-form {
+	display: block;
+	background-color: #465064;
+	padding: 3rem;
+	margin-bottom: 1.5rem;
+	outline: 1px solid white;
+	outline-offset: -1.5rem;
+}
+
+.sidebar-newsletter-form * {
+	text-align: center;
+	color: white;
+}
+
+.sidebar-newsletter-form input[type=email] {
+	position: static;
+	height: 3rem;
+	line-height: 1.5rem;
+	padding: .75rem;
+	border: none;
+	margin: 0 0 1.5rem 0;
+	background-color: white;
+	box-shadow: none;
+	text-align: left;
+}
+
+.sidebar-newsletter-form h2 {
+	font-family: 'Minion Pro', serif;
+}
+
+.sidebar-newsletter-form nav {
+	margin-top: -1.5rem;
+}
+
+.sidebar-newsletter-form a {
+	margin: 0;
+}
+
+.sidebar-newsletter-form a i{
+	line-height: 3rem;
+	font-size: 2rem;
+	padding: 0 .9375rem;
+}
+
+/* accordion */
+/* foundation overrides */
+.accordion-title::before {
+  display: none;
+}
+
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+  border-style: none;
+}
+
+a.accordion-title {
+  background-image: url('../images/arrow-down-black.png');
+  background-position: 95% 50%;
+  background-size: 1.5rem auto;
+  background-repeat: no-repeat;
+  padding-top: 1.5rem;
+  padding-bottom: 1.4375rem;
+  margin-bottom: 0;
+
+  /* already included in danny's style.css */
+  /* border-bottom: .0625rem solid white; */
+  color: #3e4659;
+  /* border: 0px; */
+  border-bottom: 1px solid white;
+}
+
+.accordion-title:focus {
+  color: white;
+  background-color: #3e4659;
+  background-image: url('../images/arrow-down-white.png');
+
+}
+
+.sub-list li {
+  margin-top: 1rem;
+}
+
+/* .sub-list::before {
+  content: '';
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+} */
+
+table {
+  border: 0px;
+}
