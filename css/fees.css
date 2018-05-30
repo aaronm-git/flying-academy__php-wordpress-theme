@@ -1,5 +1,4 @@
 /* cover */
-
 .fees-page .page-cover {
     height: 30rem;
     background: url('../images/fees.jpg') no-repeat center;
@@ -37,14 +36,7 @@
     margin-right: 2rem;
 }
 
-/* article 1 */
-
-.fees-page .section-title {
-    width: 100%;
-    margin-top: -1px;
-    border-bottom: 1px solid grey;
-}
-
+/* row one */
 .fees-page .section-title h1 {
     margin-bottom: 0;
 }
