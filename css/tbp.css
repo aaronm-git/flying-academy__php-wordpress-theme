@@ -1,0 +1,60 @@
+.time-page label {
+    height: 2.875rem;
+    width: 75px;
+    /* margin-top: -1.5rem; */
+}
+
+.time-page select {
+    background: url(../images/down-arrow.png) no-repeat;
+    background-position: 90%;
+    background-size: 1rem;
+    /* border-radius: 10px; */
+}
+
+.time-page .accordion .accordion-content table {
+    margin-top: 1.4375rem;
+    margin-bottom: 1.5rem;
+}
+
+.time-page thead {
+    background-color: #465064;
+}
+
+.time-page thead th {
+    color: white;
+}
+
+.time-page thead th:not(:first-of-type),
+.time-page tbody th:not(:first-of-type) {
+    text-align: right;
+}
+
+.time-page tbody th {
+    border-color: transparent;
+    border-bottom: 1px solid lightgrey;
+}
+
+.time-page tbody th:first-of-type {
+    width: 250px;
+}
+
+.time-page tbody tr:not(.total) th {
+    font-weight: normal !important;
+    font-family: 'roboto' !important;
+}
+
+.time-page .simple-table tbody tr:nth-of-type(2n+2) {
+    background-color: #efefef;
+}
+
+.time-page table tr.total {
+    width: 100%;
+}
+
+.time-page .details {
+    margin-bottom: .5rem;
+}
+
+.time-page .details p {
+    line-height: 2rem;
+}
