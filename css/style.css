@@ -2,6 +2,65 @@
 
 /*broswer user agent reset----------------------------------------------------------------------------------------------------*/
 
+/*layout grid overlays----------------------------------------------------------------------------------------------------*/
+*{
+	/* outline: 1px solid rgba(0, 255, 0, .3); */
+	margin: 0px;
+	border: none;
+	padding: 0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-margin-padding: 0px; /*rule not specific enough*/
+	-webkit-padding-start: 0px;
+	list-style: none;
+}
+
+/*baseline overlay*/
+
+
+#baseline-overlay{
+	/* z-index: 10;
+	opacity: .2;
+	position: absolute;
+	height: 12000px;
+	width: 100%;
+	background-image: url('../images/24px-baseline.png');
+	pointer-events: none; */
+}
+
+/*12 column overlay*/
+/*
+#column-overlay{
+	z-index: 1;
+	opacity: .3;
+	position: absolute;
+	height: 12000px;
+	width: 100%;
+	background-image: url('../images/1200px-12-column.png');
+	background-position: center;
+	background-repeat: repeat-y;
+	pointer-events: none;
+}
+*/
+
+/*12 column with gutters overlay*/
+/*
+#column-overlay{
+	z-index: 10;
+	opacity: .3;
+	position: absolute;
+	height: 12000px;
+	width: 100%;
+	background-image: url('../images/1200px-12-column-30px-gutter.png');
+	background-position: center;
+	background-repeat: repeat-y;
+	pointer-events: none;
+}
+*/
+
+
 /*typography----------------------------------------------------------------------------------------------------*/
 
 /*define rem value*/
