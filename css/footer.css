@@ -115,6 +115,10 @@ footer .fab {
     color: white;
 }
 
+input.input-group-field {
+    border-radius: 0 !important;
+}
+
 .footer-navigation li {
     margin-right: 25px;
 }
