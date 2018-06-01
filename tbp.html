@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flying Academy</title>
+    <!--normalize-->
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <!--foundation css-->
+    <link rel="stylesheet" href="foundation/css/foundation.css">
+    <link rel="stylesheet" href="foundation/css/app.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="owl/css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl-theme.css">
+    <!--site css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- my tyle -->
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <div id="baseline-overlay"></div>
+    <div id="column-overlay"></div>
+
+    <div class="wrapper">
+        <div class="grid-container">
+            <article class="grid-x grid-margin-x">
+                <!--uni carousel-->
+                <section class="cell large-6 owl-carousel owl-theme uni-carousel">
+                    <!--column 1-->
+                    <div class="item" style="background-image: url(images/0-atpl-with.jpg);">
+                    </div>
+                    <!--column 2-->
+                    <div class="item" style="background-image: url(images/0-atpl-with.jpg);">
+                    </div>
+                    <!--column 3-->
+                    <div class="item" style="background-image: url(images/0-atpl-with.jpg);">
+                    </div>
+                </section>
+                <!--simple info-->
+                <section class="cell large-6 simple-info">
+                    <p class="special-heading small">Flying Academy</p>
+                    <h1>TIME BUILDING IN EUROPE</h1>
+                    <p>Hour building is one of the substantial experience sources for each pilot, regardless of the targets you are eager to reach.  We are offering tailor-made Time Building packages and a full range of services, required to make your flights enjoyable, safe and memorable.</p>
+                </section>
+            </article>
+            <article class="grid-x">
+                <!--video box-->
+                <section class="cell large-6 video-box">
+                    <dir class="responsive-sprite" style="background-image: url(images/pilot.jpg)"></dir>
+                </section>
+                <!--video summary box-->
+                <section class="cell large-6 video-summary-box">
+                    <p class="special-heading small">Flying Academy</p>
+                    <h1>How to Become Airline Pilot with FAA License</h1>
+                    <p>In this video Anna will explain you how you can become an international airline pilot with american license FAA ATPL. You will learn that ATPL pilot consists of and what courses can give it to you</p>
+                    <a class="button youtube" href="">See More Videos On Our YouTube Channel</a>
+                </section>
+            </article>
+
+            <article class="grid-x grid-margin-x">
+                <section class="cell large-12">
+                    <header class="text-center">
+                        <p class="special-heading small center">Flying Academy</p>
+                        <h1>Flying Academy Europe boasts:</h1>
+                    </header>
+                    <!--fancy description list-->
+                    <dl class="grid-x grid-padding-x fancy-description-list">
+                        <!--term 1-->
+                        <dt class="cell large-4">
+                            <h2>Flexible<br>Discount</h2>
+                        </dt>
+                        <!--description 1-->
+                        <dd class="cell large-8">
+                            <p>Rental fee decreases depending on the amount of hours that you fly.</p>
+                        </dd>
+                        <!--term 2-->
+                        <dt class="cell large-4">
+                            <h2>Perfect Location<br>For Intl. Flying</h2>
+                        </dt>
+                        <!--description 2-->
+                        <dd class="cell large-8">
+                            <p>Czech Republic is located in the very heart of Europe, which makes any part of European Union easily reachable within less than three hours.</p>
+                        </dd>
+                        <!--term 3-->
+                        <dt class="cell large-4">
+                            <h2>And More</h2>
+                        </dt>
+                        <!--description 3-->
+                        <dd class="cell large-8">
+                            <ul>
+                                <li>Diverse fleet. You can check the aircraft availability by following the link.</li>
+                                <li>Tailor-made solutions for each trainee: affordable leisure flying or VIP service packages, >100 hours solutions for Commercial Pilots, who need to reach the 1 500 hours milestone, as well as Introductory Flight offers</li>
+                                <li>Accessibility of training bases in Prague and Brno. Our bases are located at international airports, within the city line.</li>
+                                <li>Safety is always our main priority! All our aircraft are having regular maintenance check and there is always an Instructor on duty available to advise regarding flight planning, weather etc.</li>
+                                <li>Accommodation for foreign trainees in Flying Academy’s student houses. Read more about accommodation in the Czech Republic</li>
+                            </ul>
+                        </dl>
+                    </section>
+                </article>
+
+                <article class="grid-x grid-margin-x">
+                    <section class="cell large-6">
+                        <h1>Course Entry Requirements</h1>
+                        <!--fancy list-->
+                        <ul class="fancy-list">
+                            <li>1. 18+ Years of Age</li>
+                            <li>Must be 18 years of age or older</li>
+                            <li>2. Must Hold <a href="">Class 2 Medical Certification</a></li>
+                            <li>Physical fitness requirement <a href="">Class 2 FAA Pilot Medical Certificate</a></li>
+                            <li>3. Fluent in English Language</li>
+                            <li>Must read, write, understand and speak English with proficiancy</li>
+                        </ul>
+                        <!--faq link-->
+                        <p class="faq-link">Find answers to your <a href=""><abbr title="Frequently Asked Questions">FAQ</abbr> (Frequently Asked Questions)</a></p>
+                    </section>
+                    <!--responsive sprite-->
+                    <section class="cell large-6"s>
+                        <div class="responsive-sprite" style="background-image:url(images/student.jpg);"></div>
+                    </section>
+                </article>
+            </div>
+        </div>
+
+    </div>
+    <!--jquery-->
+    <script src="jquery/jquery.min.js"></script>
+    <!--foundation js-->
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script>$(document).foundation();</script>
+    <!--owl js-->
+    <script src="owl/js/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.uni-carousel').owlCarousel({
+            dots: false,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            loop: true,
+            margin: 30,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                640: {
+                    items: 1
+                },
+                1024: {
+                    items: 1
+                },
+                1200: {
+                    items: 1
+                },
+                1440: {
+                    items: 1
+                },
+            }
+        })
+    })
+    </script>
+
+</script>
+</body>
+
+</html>
