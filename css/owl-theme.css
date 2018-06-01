@@ -147,7 +147,7 @@
 	right: 1.875rem;
 }
 
-.jumbo-carousel .owl-dots {	
+.jumbo-carousel .owl-dots {
 	position: relative;
 	top: -1.5rem;
 	margin-top: -1.5rem;
@@ -172,4 +172,30 @@
 
 .jumbo-carousel button.owl-dot:hover {
 	background-color: rgba(255,255,255, .2);
+}
+
+/* picture info */
+.info-carousel .item {
+	position: relative;
+}
+
+.info-carousel.tall .item {
+	height: 33rem;
+}
+
+.info-carousel .owl-nav button.owl-prev,
+.info-carousel .owl-nav button.owl-next {
+	display: inline-block;
+}
+
+.info-carousel .owl-nav button.owl-prev {
+	position: absolute;
+	top: 50%;
+	left: -1rem;
+}
+
+.info-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 50%;
+	right: -1rem;
 }

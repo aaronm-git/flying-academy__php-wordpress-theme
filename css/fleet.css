@@ -1,3 +1,11 @@
+/* danny overrides */
+.offset-box.right {
+    padding-right: 4.5rem;
+}
+
+.offset-box.left {
+    padding-left: 4.5rem;
+}
 
 .page-cover {
     height: 36rem;
@@ -36,15 +44,15 @@
     margin-right: 2rem;
 }
 
-.uni-two-carousel > div > div > div .cell {
+.info-carousel > div > div > div .cell {
     position: relative;
 }
 
-.uni-two-carousel h1 {
+.info-carousel h1 {
     margin-bottom: 0;
 }
 
-.uni-two-carousel h2 {
+.info-carousel h2 {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
@@ -55,12 +63,12 @@
     justify-content: space-between;
 }
 
-.uni-two-carousel a.button {
+.info-carousel a.button {
     padding: 1rem 3rem;
     margin-bottom: 2.875rem;
 }
 
-.uni-two-carousel th {
+.info-carousel th {
     display: inline-flex;
     justify-content: space-between;
     width: 50%;
@@ -68,11 +76,11 @@
     outline: 1px solid lightgrey;
 }
 
-.uni-two-carousel p {
+.info-carousel p {
     margin-bottom: 1rem;
 }
 
-.uni-two-carousel table p {
+.info-carousel table p {
     margin-bottom: 0;
 }
 
