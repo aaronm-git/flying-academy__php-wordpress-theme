@@ -58,3 +58,25 @@
 .time-page .details p {
     line-height: 2rem;
 }
+
+.reveal {
+    box-shadow: 5px 4px 10px 0px #000000a8;
+    border-color: #222222;
+    background-color: #222222;
+    border-radius: 0;
+}
+
+.reveal h2 {
+    color: white;
+    font-family: 'roboto light';
+}
+
+.reveal button {
+    background-color: #c60f13;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.reveal span {
+    font-size: 1.5rem;
+}
