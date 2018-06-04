@@ -11,9 +11,9 @@
     /* border-radius: 10px; */
 }
 
-.time-page .accordion .accordion-content table {
-    margin-top: 1.4375rem;
-    margin-bottom: 1.5rem;
+.time-page section.scroll {
+    overflow: scroll;
+    max-height: 30rem;
 }
 
 .time-page thead {
@@ -88,4 +88,105 @@
 
 .reveal span {
     font-size: 1.5rem;
+}
+
+
+/* accordion */
+
+/* Foundation overrides */
+.blah .accordion-title::before {
+    display: none;
+  }
+  
+  .blah .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+    border-style: none;
+  }
+  /* /// */
+  
+  .blah a.accordion-title {
+    background-image: url('../images/arrow-up-white.png');
+    background-position: 95% 50%;
+    background-size: 1.5rem auto;
+    background-repeat: no-repeat;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 0;
+    border-style: none;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;
+  }
+  
+  .blah a.accordion-sub {
+    background-image: url('../images/arrow-up-black.png');
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    background-size: 1.5rem auto;
+  }
+  
+  .blah .accordion-menu .nested.is-accordion-submenu {
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .blah .nested > li .is-accordion-submenu-item p{
+    padding-left: 15px;
+  }
+  
+  .blah .sub-list > li {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #c1c1c1;
+  }
+  
+  
+  .blah .question, .question:hover {
+    border: 0;
+    margin-bottom: 0;
+    background-color: #003366;
+    color: white;
+  }
+  
+  .blah a.accordion-title {
+    color: white;
+    background-color: #003366;
+  }
+  
+  .blah .accordion-title:hover, .accordion-title:focus {
+    background-color: #003366;
+  }
+  
+
+  .time-page .tabs-content h1{
+      transition: 1s ease-in-out;
+  }
+
+  .time-page .tabs-title{
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.tab-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-flex li {
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+.tab-flex a:hover {
+    background-color: #efefef;
+}
+
+.tab-flex .tabs-title > a[aria-selected='true'] {
+    background-color: #465064;
+    color: white;
+
+}
+
+.tab-flex .tabs-title > a {
+    border-color: #465064;
+    color: #465064;
 }
