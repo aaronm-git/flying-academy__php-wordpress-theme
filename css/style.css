@@ -1,4 +1,21 @@
 @import 'fonts.css';
+/* @import 'owl-theme.css';
+@import 'animate.css';
+@import 'video-modal.css';
+@import 'header-nav.css';
+@import 'sidenav.css';
+@import 'sidenav-sub.css';
+@import 'light-mode.css';
+@import 'floating-action-button.css';
+@import 'night-mode.css';
+@import 'new-home.css';
+@import 'b2b.css';
+@import 'faq.css';
+@import 'fees.css';
+@import 'fleet.css';
+@import 'global-contact.css';
+@import 'tbp.css';
+@import 'footer.css'; */
 
 /*broswer user agent reset----------------------------------------------------------------------------------------------------*/
 
@@ -65,38 +82,6 @@
 
 /*define rem value*/
 
-
-.reveal {
-    box-shadow: .25rem .25rem .5rem rgba(0,0,0,.3);
-    border-color: #222222;
-    background-color: #222222;
-	border-radius: 0;
-	animation-duration: .5s !important;
-}
-
-.reveal h2 {
-    color: white;
-    font-family: 'roboto light';
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-}
-
-.reveal button {
-    background-color: #c60f13;
-    color: white;
-    font-size: 1.5rem;
-    padding: .5rem 1.5rem;
-    margin-top: .5rem;
-}
-
-.reveal button:hover {
-    background-color: #970b0e;
-    color: #fefefe;
-}
-
-.reveal span {
-    font-size: 1.5rem;
-}
 
 html {
 	line-height: 1.5rem;
