@@ -27,6 +27,7 @@
 .time-page thead th:not(:first-of-type),
 .time-page tbody th:not(:first-of-type) {
     text-align: right;
+    font-family: 'Roboto Bold';
 }
 
 .time-page tbody th {
@@ -34,13 +35,9 @@
     border-bottom: 1px solid lightgrey;
 }
 
-.time-page tbody th:first-of-type {
-    width: 250px;
-}
-
 .time-page tbody tr:not(.total) th {
-    font-weight: normal !important;
-    font-family: 'roboto' !important;
+    /* font-weight: normal !important;
+    font-family: 'roboto' !important; */
 }
 
 .time-page .simple-table tbody tr:nth-of-type(2n+2) {

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- my tyle -->
     <link rel="stylesheet" href="css/tbp.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -25,7 +26,8 @@
     <div id="column-overlay"></div>
     <div class="wrapper">
         <div class="grid-container time-page">
-            <div class="reveal large" id="video-modal" data-reveal aria-labelledby="video-modal" aria-hidden="true" role="dialog">
+            <div class="reveal large animated fadeInDown" id="video-modal" data-reveal aria-labelledby="video-modal" aria-hidden="true"
+                role="dialog">
                 <h2 id="video-modal">Time Building at Flying Academy</h2>
                 <div class="responsive-embed widescreen">
                     <iframe width="100%" height="600" src="https://www.youtube.com/embed/8832H4BPV1M?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
@@ -97,7 +99,11 @@
                         <li>Low expenses. Our landing and communication fees are within the lowest in Europe.</li>
                         <li>Responsive Customer Service and support throughout your study within Flying Academy.</li>
                     </ul>
-                </section>
+
+                    <p class="faq-link">Find answers to your
+                        <a href="">
+                            <abbr title="Frequently Asked Questions">FAQ</abbr> (Frequently Asked Questions)</a>
+                </section </section>
                 <!--responsive sprite-->
                 <section class="cell large-6">
                     <!-- <ul class="fancy-list check">
@@ -111,12 +117,12 @@
                     </ul> -->
                     <div class="responsive-sprite" style="background-image:url(images/student.jpg);"></div>
                 </section>
-                <section class="cell">
+                <!-- <section class="cell">
                     <p class="faq-link">Find answers to your
                         <a href="">
                             <abbr title="Frequently Asked Questions">FAQ</abbr> (Frequently Asked Questions)</a>
                     </p>
-                </section>
+                </section> -->
             </article>
             <!-- <article class="grid-x grid-margin-x time-page blah">
                 <section class="cell">
@@ -212,7 +218,7 @@
                         </li>
                     </ul>
                     <div class="tabs-content" data-tabs-content="example-tabs">
-                        <div class="tabs-panel is-active" id="panel1">
+                        <div class="tabs-panel animated fadeIn is-active" id="panel1">
                             <header>
                                 <h1>Rental Fees</h1>
                                 <p>The aircraft rental fees are already including fuel and they vary depending on the amount
@@ -220,7 +226,7 @@
                                     or bus station upon your arrival.</p>
                             </header>
                         </div>
-                        <div class="tabs-panel" id="panel2">
+                        <div class="tabs-panel animated fadeIn" id="panel2">
                             <header>
                                 <header>
                                     <h1>Standard Fees</h1>
@@ -246,268 +252,339 @@
                                     <tbody>
                                         <tr>
                                             <th>Aircraft Cessna 152</th>
-                                            <th>1</th>
-                                            <th>96</th>
-                                            <th>96</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>96</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>96</th>
                                         </tr>
                                         <tr>
                                             <th>Aircraft Cessna 172 P</th>
-                                            <th>1</th>
-                                            <th>110</th>
-                                            <th>110</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>110</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>110</th>
                                         </tr>
                                         <tr>
                                             <th>Aircraft Cessna 172SP Glass Cockpit</th>
-                                            <th>1</th>
-                                            <th>123</th>
-                                            <th>123</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>123</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>123</th>
                                         </tr>
                                         <tr>
                                             <th>Piper Seminole</th>
-                                            <th>1</th>
-                                            <th>286</th>
-                                            <th>286</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>286</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>286</th>
                                         </tr>
                                         <tr>
                                             <th>Cessna 172RG</th>
-                                            <th>1</th>
-                                            <th>163</th>
-                                            <th>163</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>163</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>163</th>
                                         </tr>
                                     </tbody>
                                 </table>
                         </div>
-                        <div class="tabs-panel" id="panel3">
+                        <div class="tabs-panel animated fadeIn" id="panel3">
                             <header>
-                                <h1>25hr Package Fees</h1>
-                            </header>
-                            <label class="select-currency float-right">
-                                <span class="hide">Select Currency</span>
-                                <select>
-                                    <option value="husker">USD</option>
-                                    <option value="starbuck">GBP</option>
-                                    <option value="hotdog">EUR</option>
-                                    <option value="apollo">JPY</option>
-                                </select>
-                            </label>
-                            <table class="simple-table stack">
-                                <thead>
-                                    <tr>
-                                        <th>Description</th>
-                                        <th>Amount</th>
-                                        <th>Unit price</th>
-                                        <th>Total</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>Aircraft Cessna 152</th>
-                                        <th>25</th>
-                                        <th>93</th>
-                                        <th>2 325</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172</th>
-                                        <th>25</th>
-                                        <th>108</th>
-                                        <th>2 700</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172 SP Glass Cockpit</th>
-                                        <th>25</th>
-                                        <th>123</th>
-                                        <th>3 075</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Piper Seminole</th>
-                                        <th>25</th>
-                                        <th>285</th>
-                                        <th>7 117</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Cessna 172RG</th>
-                                        <th>25</th>
-                                        <th>160</th>
-                                        <th>4 000</th>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                <header>
+                                    <h1>Standard Fees</h1>
+                                </header>
+                                <label class="select-currency float-right">
+                                    <span class="hide">Select Currency</span>
+                                    <select>
+                                        <option value="husker">USD</option>
+                                        <option value="starbuck">GBP</option>
+                                        <option value="hotdog">EUR</option>
+                                        <option value="apollo">JPY</option>
+                                    </select>
+                                </label>
+                                <table class="simple-table stack">
+                                    <thead>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                            <th>Unit price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Aircraft Cessna 152</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>96</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>96</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172 P</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>110</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>110</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172SP Glass Cockpit</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>123</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>123</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Piper Seminole</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>286</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>286</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Cessna 172RG</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>163</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>163</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         </div>
-                        <div class="tabs-panel" id="panel4">
+                        <div class="tabs-panel animated fadeIn" id="panel4">
                             <header>
-                                <h1>50hr Package Fees</h1>
-                            </header>
-
-                            <label class="select-currency float-right">
-                                <span class="hide">Select Currency</span>
-                                <select>
-                                    <option value="husker">USD</option>
-                                    <option value="starbuck">GBP</option>
-                                    <option value="hotdog">EUR</option>
-                                    <option value="apollo">JPY</option>
-                                </select>
-                            </label>
-                            <table class="simple-table stack">
-                                <thead>
-                                    <tr>
-                                        <th>Description</th>
-                                        <th>Amount</th>
-                                        <th>Unit price</th>
-                                        <th>Total</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>Aircraft Cessna 152</th>
-                                        <th>50</th>
-                                        <th>90</th>
-                                        <th>4 483</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172 P</th>
-                                        <th>50</th>
-                                        <th>106</th>
-                                        <th>5 317</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172SP Glass Cockpit</th>
-                                        <th>50</th>
-                                        <th>123</th>
-                                        <th>6 150</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Piper Seminole</th>
-                                        <th>50</th>
-                                        <th>280</th>
-                                        <th>14 000</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Cessna 172RG</th>
-                                        <th>50</th>
-                                        <th>157</th>
-                                        <th>7 833</th>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                <header>
+                                    <h1>Standard Fees</h1>
+                                </header>
+                                <label class="select-currency float-right">
+                                    <span class="hide">Select Currency</span>
+                                    <select>
+                                        <option value="husker">USD</option>
+                                        <option value="starbuck">GBP</option>
+                                        <option value="hotdog">EUR</option>
+                                        <option value="apollo">JPY</option>
+                                    </select>
+                                </label>
+                                <table class="simple-table stack">
+                                    <thead>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                            <th>Unit price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Aircraft Cessna 152</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>96</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>96</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172 P</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>110</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>110</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172SP Glass Cockpit</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>123</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>123</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Piper Seminole</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>286</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>286</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Cessna 172RG</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>163</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>163</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         </div>
-
-                        <div class="tabs-panel" id="panel5">
+                        <div class="tabs-panel animated fadeIn" id="panel5">
                             <header>
-                                <h1>75hr Package Fees</h1>
-                            </header>
-
-                            <label class="select-currency float-right">
-                                <span class="hide">Select Currency</span>
-                                <select>
-                                    <option value="husker">USD</option>
-                                    <option value="starbuck">GBP</option>
-                                    <option value="hotdog">EUR</option>
-                                    <option value="apollo">JPY</option>
-                                </select>
-                            </label>
-                            <table class="simple-table stack">
-                                <thead>
-                                    <tr>
-                                        <th>Description</th>
-                                        <th>Amount</th>
-                                        <th>Unit price</th>
-                                        <th>Total</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>Aircraft Cessna 152</th>
-                                        <th>1</th>
-                                        <th>108</th>
-                                        <th>5 380</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172 P</th>
-                                        <th>1</th>
-                                        <th>128</th>
-                                        <th>6 380</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172SP Glass Cockpit</th>
-                                        <th>1</th>
-                                        <th>148</th>
-                                        <th>7 380</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Piper Seminole</th>
-                                        <th>1</th>
-                                        <th>336</th>
-                                        <th>16 800</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Cessna 172RG</th>
-                                        <th>1</th>
-                                        <th>188</th>
-                                        <th>9 400</th>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                <header>
+                                    <h1>Standard Fees</h1>
+                                </header>
+                                <label class="select-currency float-right">
+                                    <span class="hide">Select Currency</span>
+                                    <select>
+                                        <option value="husker">USD</option>
+                                        <option value="starbuck">GBP</option>
+                                        <option value="hotdog">EUR</option>
+                                        <option value="apollo">JPY</option>
+                                    </select>
+                                </label>
+                                <table class="simple-table stack">
+                                    <thead>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                            <th>Unit price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Aircraft Cessna 152</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>96</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>96</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172 P</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>110</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>110</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172SP Glass Cockpit</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>123</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>123</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Piper Seminole</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>286</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>286</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Cessna 172RG</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>163</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>163</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         </div>
-
-                        <div class="tabs-panel" id="panel6">
+                        <div class="tabs-panel animated fadeIn" id="panel6">
                             <header>
-                                <h1>100hr Package Fees</h1>
-                                <p>The aircraft rental fees are already including fuel and they vary depending on the amount
-                                    of hours that you would like to fly. We are also offering free pick-up from the Airport
-                                    or bus station upon your arrival.</p>
-                            </header>
-
-                            <label class="select-currency float-right">
-                                <span class="hide">Select Currency</span>
-                                <select>
-                                    <option value="husker">USD</option>
-                                    <option value="starbuck">GBP</option>
-                                    <option value="hotdog">EUR</option>
-                                    <option value="apollo">JPY</option>
-                                </select>
-                            </label>
-                            <table class="simple-table stack">
-                                <thead>
-                                    <tr>
-                                        <th>Description</th>
-                                        <th>Amount</th>
-                                        <th>Unit price</th>
-                                        <th>Total</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>Aircraft Cessna 152</th>
-                                        <th>1</th>
-                                        <th>108</th>
-                                        <th>5 380</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172 P</th>
-                                        <th>1</th>
-                                        <th>128</th>
-                                        <th>6 380</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Aircraft Cessna 172SP Glass Cockpit</th>
-                                        <th>1</th>
-                                        <th>148</th>
-                                        <th>7 380</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Piper Seminole</th>
-                                        <th>1</th>
-                                        <th>336</th>
-                                        <th>16 800</th>
-                                    </tr>
-                                    <tr>
-                                        <th>Cessna 172RG</th>
-                                        <th>1</th>
-                                        <th>188</th>
-                                        <th>9 400</th>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                <header>
+                                    <h1>Standard Fees</h1>
+                                </header>
+                                <label class="select-currency float-right">
+                                    <span class="hide">Select Currency</span>
+                                    <select>
+                                        <option value="husker">USD</option>
+                                        <option value="starbuck">GBP</option>
+                                        <option value="hotdog">EUR</option>
+                                        <option value="apollo">JPY</option>
+                                    </select>
+                                </label>
+                                <table class="simple-table stack">
+                                    <thead>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                            <th>Unit price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Aircraft Cessna 152</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>96</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>96</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172 P</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>110</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>110</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Aircraft Cessna 172SP Glass Cockpit</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>123</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>123</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Piper Seminole</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>286</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>286</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Cessna 172RG</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Amount</span>1</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Unit Price</span>163</th>
+                                            <th>
+                                                <span class="float-left hide-for-large">Total</span>163</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         </div>
 
                     </div>

@@ -70,7 +70,8 @@
     box-shadow: .25rem .25rem .5rem rgba(0,0,0,.3);
     border-color: #222222;
     background-color: #222222;
-    border-radius: 0;
+	border-radius: 0;
+	animation-duration: .5s !important;
 }
 
 .reveal h2 {
