@@ -127,6 +127,7 @@
 .tab-flex {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1.625rem;
 }
 
 .tab-flex li {
@@ -147,4 +148,9 @@
 .tab-flex .tabs-title > a {
     border-color: #465064;
     color: #465064;
+}
+
+#panel1-label {
+    padding-top: .6875rem;
+    padding-bottom: .6875rem;
 }

@@ -1,27 +1,10 @@
 @import 'fonts.css';
-/* @import 'owl-theme.css';
-@import 'animate.css';
-@import 'video-modal.css';
-@import 'header-nav.css';
-@import 'sidenav.css';
-@import 'sidenav-sub.css';
-@import 'light-mode.css';
-@import 'floating-action-button.css';
-@import 'night-mode.css';
-@import 'new-home.css';
-@import 'b2b.css';
-@import 'faq.css';
-@import 'fees.css';
-@import 'fleet.css';
-@import 'global-contact.css';
-@import 'tbp.css';
-@import 'footer.css'; */
 
 /*broswer user agent reset----------------------------------------------------------------------------------------------------*/
 
 /*layout grid overlays----------------------------------------------------------------------------------------------------*/
 *{
-	/* outline: 1px solid rgba(0, 255, 0, .3); */
+	outline: 1px solid rgba(0, 255, 0, .3);
 	margin: 0px;
 	border: none;
 	padding: 0px;
@@ -38,13 +21,13 @@
 
 
 #baseline-overlay{
-	/* z-index: 10;
+	z-index: 10;
 	opacity: .2;
 	position: absolute;
 	height: 12000px;
 	width: 100%;
 	background-image: url('../images/24px-baseline.png');
-	pointer-events: none; */
+	pointer-events: none;
 }
 
 /*12 column overlay*/
@@ -219,7 +202,7 @@ hr:last-child {
 b,
 strong {
 	font-family: 'Roboto Bold', sans-serif;
-	font-weight: normal
+	font-weight: normal;
 	font-style: normal;
 	white-space: pre;
 	color: #444;
@@ -1232,7 +1215,7 @@ img {
 	bottom: -1rem;
 	left: calc(50% - .75rem);
 	display: inline;
-	line-height: 1.5rem
+	line-height: 1.5rem;
 	font-size: 1.5rem;
 	color: white;
 	text-shadow: .125rem .125rem .125rem rgba(0,0,0, .125);
