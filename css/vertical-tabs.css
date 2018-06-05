@@ -1,0 +1,21 @@
+.vertical.tabs li.tabs-title {
+    margin-top: -1px;
+}
+
+.vertical.tabs li.tabs-title a {
+    padding-bottom: .6875rem;
+    padding-top: .6875rem;
+    height: 3.0625rem;
+    border-color: #3E4659 !important;
+    color: #3E4659;
+}
+
+.vertical.tabs li.is-active a {
+    background-color: #3E4659;
+    color: white;
+}
+
+.vertical.tabs li.tabs-title a:hover {
+    background-color: #efefef;
+    color: #3E4659;
+}
