@@ -13,9 +13,6 @@
 		<!--foundation css-->
 		<link rel="stylesheet" href="foundation/css/foundation.css">
 		<link rel="stylesheet" href="foundation/css/app.css">
-		<!--owl css-->
-		<link rel="stylesheet" href="owl/css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl-theme.css">
 		<!--css-->
 		<link href="css/style.css" rel="stylesheet" media="screen">
 	</head>
@@ -33,14 +30,12 @@
 
 		<div class="wrapper">
 			<!--page navigation-->
-			<nav class="page-nav">
+			<nav class="page-nav" style="background-image: url(images/headerb2b.jpg);">
 				<div class="grid-container">
 				<ul class="vertical medium-horizontal menu" data-smooth-scroll>
-					<li><a href="#our-courses">Our Courses</a></li>
-					<li><a href="#easa-flight-courses">EASA Flight Courses</a></li>
-					<li><a href="#easa-locations">EASA Locations</a></li>
-					<li><a href="#faa-flight-courses">FAA Flight Courses</a></li>
-					<li><a href="#faa-locations">FAA Locations</a></li>
+					<li><a href="#pop-section">Become a PoP</a></li>
+					<li><a href="#benefits-section">PoP Benefits</a></li>
+					<li><a href="#register-section">Register</a></li>
 				</ul>
 				</div>
 			</nav>
@@ -57,10 +52,10 @@
 				<article class="grid-x grid-margin-x">
 					<!--image-->
 					<section class="cell medium-7">
-						<div class="responsive-sprite" style="background-image: url(images/pilot-handshake.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/b2b1.jpg);"></div>
 					</section>
 					<!--offest box-->
-					<section class="cell medium-5 offset-box right">
+					<section class="cell medium-5 offset-box right" id="pop-section">
 						<h1>Become a PoP</h1>
 						<ol class="simple-list number">
 							<li>Recruits Students</li>
@@ -73,7 +68,7 @@
 				<!--row 3-->
 				<article class="grid-x grid-margin-x">
 					<!--offset box-->
-					<section class="cell medium-5 offset-box left">
+					<section class="cell medium-5 offset-box left" id="benefits-section">
 					<h1>Benefits of Becoming a PoP</h1>
 					<ol class="simple-list number">
 						<li>Top of the line classes and training</li>
@@ -84,12 +79,12 @@
 					</section>
 					<!--image-->
 					<section class="cell medium-7">
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/b2b2.jpg);"></div>
 					</section>
 				</article>
-				<!--row 4-->		
+				<!--row 4-->
 				<!--colossal form-->
-				<div class="colossal-form double-outline">
+				<div class="colossal-form double-outline" id="register-section">
 					<!--colossal form-->
 					<form class="grid-x grid-padding-x">
 						<h1 class="cell">Join Us Now!</h1>
@@ -119,10 +114,10 @@
 							<input type="tel" id="phone" placeholder="Phone">
 						</div>
 						<!--preferred contact method-->
-						<div class="cell medium-6"> 
-							<div class="form-spacer"></div>		
+						<div class="cell medium-6">
+							<div class="form-spacer"></div>
 							<input type="checkbox" id="prefered-contact-method">
-							<label for="prefered-contact-method">I Prefer Phone Contact</label>			
+							<label for="prefered-contact-method">I Prefer Phone Contact</label>
 						</div>
 						<!--country-->
 						<div class="cell medium-6">
@@ -147,7 +142,7 @@
 						</div>
 						<!--flight experience-->
 						<div class="cell medium-6">
-							<div class="form-spacer"></div>	
+							<div class="form-spacer"></div>
 							<input type="checkbox" id="flight-experience">
 							<label for="flight-experience">Previous Flight Experience</label>
 						</div>
@@ -163,49 +158,16 @@
 					</form>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<!--jquery-->
 		<script src="jquery/jquery.min.js"></script>
 		<!--foundation js-->
-		<!--<script src="foundation/js/vendor/jquery.js"></script>-->
 		<script src="foundation/js/vendor/what-input.js"></script>
 		<script src="foundation/js/vendor/foundation.js"></script>
-		<script src="foundation/js/app.js"></script>
 		<script>
 			$(document).foundation();
 		</script>
 		<!--owl js-->
 		<script src="owl/js/owl.carousel.js"></script>
-		<script>
-			$(document).ready(function() {
-				$('.owl-carousel').owlCarousel({
-					dots: false,
-					nav: true,
-					autoplay: true,
-					autoplayTimeout: 5000,
-					loop: true,
-					margin: 30,
-					responsiveClass: true,
-					responsive: {
-						0: {
-							items: 1
-						},
-						640: {
-							items: 2
-						},
-						1024: {
-							items: 4
-						},
-						1200: {
-							items: 4
-						},
-						1440: {
-							items: 4
-						},
-					}
-				})
-			})
-		</script>
-		</script>
 	</body>
 </html>
