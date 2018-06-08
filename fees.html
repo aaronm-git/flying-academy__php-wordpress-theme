@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flying Academy</title>
-    <!--normalize-->
     <link rel="stylesheet" href="normalize/normalize.css">
-    <!--foundation css-->
     <link rel="stylesheet" href="foundation/css/foundation.css">
     <link rel="stylesheet" href="foundation/css/app.css">
-    <!--site css-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fees.css">
 </head>
-
 <body>
     <div id="baseline-overlay"></div>
     <div id="column-overlay"></div>
@@ -26,7 +21,6 @@
         </div>
         <button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
     </div>
-
     <main class="fees-page">
         <div class="wrapper">
             <nav class="page-nav" style="background-image: url(images/easa-ppl.jpg); background-position: center;">
@@ -39,7 +33,6 @@
                     </ul>
                 </div>
             </nav>
-
             <div class="grid-container">
                 <div class="grid-x grid-margin-x">
                     <article class="cell">
@@ -49,14 +42,11 @@
                         </section>
                         <section>
                             <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-                                <!--accordion item-->
-                                <li class="accordion-item" data-accordion-item>
+                                <li class="accordion-item is-active" data-accordion-item>
                                     <a href="#" class="accordion-title">FAA Courses</a>
                                     <div class="accordion-content" data-tab-content>
-                                        <!--sub accordion-->
                                         <table class="stack">
                                             <tbody>
-
                                                 <tr>
                                                     <th><a>PPL - Private Pilot License in Miami</a></th>
                                                     <th><a>PPL - Private Pilot License in CA</a></th>
@@ -70,7 +60,6 @@
                                                 <tr>
                                                     <th><a>0 - CPL</a></th>
                                                     <th><a>Certified Pilot Instructor</a></th>
-                                                    <!-- <th><a>PPL - Private License in Miami</a></th> -->
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -79,7 +68,6 @@
                                 <li class="accordion-item" data-accordion-item>
                                     <a href="#" class="accordion-title">EASA Courses</a>
                                     <div class="accordion-content" data-tab-content>
-                                        <!--sub accordion-->
                                         <table class="stack">
                                             <tbody>
                                                 <tr>
@@ -95,7 +83,6 @@
                                                 <tr>
                                                     <th><a>0 - CPL</a></th>
                                                     <th><a>Certified Pilot Instructor</a></th>
-                                                    <!-- <th><a>PPL - Private License in Miami</a></th> -->
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -104,7 +91,6 @@
                                 <li class="accordion-item" data-accordion-item>
                                     <a href="#" class="accordion-title">Time Building</a>
                                     <div class="accordion-content" data-tab-content>
-                                        <!--sub accordion-->
                                         <table class="stack">
                                             <tbody>
                                                 <tr>
@@ -120,7 +106,6 @@
                                                 <tr>
                                                     <th><a>0 - CPL</a></th>
                                                     <th><a>Certified Pilot Instructor</a></th>
-                                                    <!-- <th><a>PPL - Private License in Miami</a></th> -->
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -129,14 +114,13 @@
                             </ul>
                         </section>
                     </article>
-
                     <article class="cell">
                         <section class="section-title">
                             <h1>EASA CPL - Commercial Pilot License</h1>
                         </section>
                         <section>
-                            <h2 class="subheader">Fee for Pilots With IR (A)</h2>
-                            <label class="select-currency float-right"><span class="hide">Select Currency</span>
+                            <h2>Fee for Pilots With IR (A)</h2>
+                            <label class="float-right"><span class="hide">Select Currency</span>
                                 <select>
                                     <option value="czk">CZK</option>
                                     <option value="usd">USD</option>
@@ -145,11 +129,6 @@
                                     <option value="inr">INR</option>
                                 </select>
                             </label>
-                            <style media="screen">
-                                tbody .selected-currency {
-                                    display: block;
-                                }
-                            </style>
                             <table class="simple-table stack">
                                 <thead>
                                     <tr>
@@ -159,83 +138,591 @@
                                         <th>Total</th>
                                     </tr>
                                 </thead>
-                            <tbody class="czk currency-table">
-                                <tr><td>Aircraft Cessna 152</td><td>1</td><td>2 890</td><td>2 890</td></tr>
-
-                                <tr><td>Aircraft Cessna 172 P</td><td>1</td><td>3 290</td><td>3 290</td></tr>
-
-                                <tr><td>Aircraft Cessna 172SP Glass Cockpit</td><td>1</td><td>3 690</td><td>3 690</td></tr>
-
-                                <tr><td>Piper Seminole</td><td>1</td><td>8 590</td><td>8 590</td></tr><tr><td>Cessna 172RG</td><td>1</td><td>4 900</td><td>4 900</td></tr>
-                            </tbody>
-
-                            <tbody class="usd currency-table">
-                                <tr><td>Aircraft Cessna 152</td><td>1</td><td>131</td><td>131</td></tr>
-
-                                <tr><td>Aircraft Cessna 172 P</td><td>1</td><td>150</td><td>150</td></tr>
-
-                                <tr><td>Aircraft Cessna 172SP Glass Cockpit</td><td>1</td><td>168</td><td>168</td></tr>
-
-                                <tr><td>Piper Seminole</td><td>1</td><td>390</td><td>390</td></tr>
-
-                                <tr><td>Cessna 172RG</td><td>1</td><td>223</td><td>223</td></tr>
-                            </tbody>
-
-                            <tbody class="eur currency-table">
-                                <tr><td>Aircraft Cessna 152</td><td>1</td><td>116</td><td>116</td></tr><tr><td>Aircraft Cessna 172 P</td><td>1</td><td>132</td><td>132</td></tr><tr><td>Aircraft Cessna 172SP Glass Cockpit</td><td>1</td><td>148</td><td>148</td></tr><tr><td>Piper Seminole</td><td>1</td><td>344</td><td>344</td></tr><tr><td>Cessna 172RG</td><td>1</td><td>196</td><td>196</td></tr>
-                            </tbody>
-
-                            <tbody class="gbp currency-table">
-                                <tr><td>Aircraft Cessna 152</td><td>1</td><td>96</td><td>96</td></tr><tr><td>Aircraft Cessna 172 P</td><td>1</td><td>110</td><td>110</td></tr><tr><td>Aircraft Cessna 172SP Glass Cockpit</td><td>1</td><td>123</td><td>123</td></tr><tr><td>Piper Seminole</td><td>1</td><td>286</td><td>286</td></tr><tr><td>Cessna 172RG</td><td>1</td><td>163</td><td>163</td></tr>
-                            </tbody>
-
-                            <tbody class="inr currency-table">
-                                <tr><td>Aircraft Cessna 152</td><td>1</td><td>8 627</td><td>8 627</td></tr><tr><td>Aircraft Cessna 172 P</td><td>1</td><td>9 821</td><td>9 821</td></tr><tr><td>Aircraft Cessna 172SP Glass Cockpit</td><td>1</td><td>11 015</td><td>11 015</td></tr><tr><td>Piper Seminole</td><td>1</td><td>25 642</td><td>25 642</td></tr><tr><td>Cessna 172RG</td><td>1</td><td>14 627</td><td>14 627</td></tr>
-                            </tbody>
+                                <tbody class="czk currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>35</td>
+                                        <td>2 112</td>
+                                        <td>73 920</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>1 078</td>
+                                        <td>32 340</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>37 730</td>
+                                        <td>37 730</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total CZK</th>
+                                        <th>143 990</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="usd currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>35</td>
+                                        <td>96</td>
+                                        <td>3 360</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>49</td>
+                                        <td>1 470</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>1 715</td>
+                                        <td>1 715</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total USD</th>
+                                        <th>6 545</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="eur currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>35</td>
+                                        <td>84</td>
+                                        <td>2 957</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>43</td>
+                                        <td>1 294</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>1 509</td>
+                                        <td>1 509</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total EUR</th>
+                                        <th>5 760</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="gbp currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>35</td>
+                                        <td>70</td>
+                                        <td>2 464</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>36</td>
+                                        <td>1 078</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>1 258</td>
+                                        <td>1 258</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total GBP</th>
+                                        <th>4 800</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="inr currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>35</td>
+                                        <td>6 304</td>
+                                        <td>220 657</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>3 218</td>
+                                        <td>96 537</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>112 627</td>
+                                        <td>112 627</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total INR</th>
+                                        <th>429 821</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>No taxes are applied for pilot training in Florida.&nbsp;</p>
+                            <p><strong>The FAA PPL(A) program fee covers the following items and services:</strong></p>
+                            <ul class="simple-list bullet">
+                                <li>Flight Instructor time for ground &amp; practical training&nbsp;</li>
+                                <li>Airplane usage, including fuel.&nbsp;</li>
+                                <li>Subsidized iPad mini 4G + WiFi for $179&nbsp;</li>
+                                <li>Bonus - account for Rocket Route flight planning services - valued $300/year</li>
+                            </ul>
+                            <p>*All training fees are bound to the actual exchange rates of the local currency of the Flying Academy base where the training or a part of the training is provided.&nbsp;</p>
+                            <h2>Upgrades</h2>
+                            <p>We offer the opportunity to upgrade for different aircraft during the Private Pilot course. Below you can find training fee difference that will be charged on a top of standard offer.</p>
+                            <table class="simple-table stack">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                        <th>Unit price</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="czk currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>88</td>
+                                        <td>3 080</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>440</td>
+                                        <td>15 400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>440</td>
+                                        <td>15 400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>1 188</td>
+                                        <td>41 580</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="usd currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>4</td>
+                                        <td>140</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>20</td>
+                                        <td>700</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>20</td>
+                                        <td>700</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>54</td>
+                                        <td>1 890</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="eur currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>4</td>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>18</td>
+                                        <td>616</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>18</td>
+                                        <td>616</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>48</td>
+                                        <td>1 663</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="gbp currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>3</td>
+                                        <td>103</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>15</td>
+                                        <td>513</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>15</td>
+                                        <td>513</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>40</td>
+                                        <td>1 386</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="inr currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>263</td>
+                                        <td>9 194</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>1 313</td>
+                                        <td>45 970</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>1 313</td>
+                                        <td>45 970</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>35</td>
+                                        <td>3 546</td>
+                                        <td>124 119</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h2>PPL(A) Part 61</h2>
+                            <p><strong>The fee includes all components needed for being able to comply with the FAA PPL(A) issuance requirements&nbsp;</strong></p>
+                            <table class="simple-table stack">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                        <th>Unit price</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="czk currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>40</td>
+                                        <td>2 112</td>
+                                        <td>84 480</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>1 078</td>
+                                        <td>32 340</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>37 730</td>
+                                        <td>37 730</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total CZK</th>
+                                        <th>154 550</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="usd currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>40</td>
+                                        <td>96</td>
+                                        <td>3 840</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>49</td>
+                                        <td>1 470</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>1 715</td>
+                                        <td>1 715</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total USD</th>
+                                        <th>7 025</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="eur currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>40</td>
+                                        <td>84</td>
+                                        <td>3 379</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>43</td>
+                                        <td>1 294</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>1 509</td>
+                                        <td>1 509</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total EUR</th>
+                                        <th>6 182</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="gbp currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>40</td>
+                                        <td>70</td>
+                                        <td>2 816</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>36</td>
+                                        <td>1 078</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>1 258</td>
+                                        <td>1 258</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total GBP</th>
+                                        <th>5 152</th>
+                                    </tr>
+                                </tbody>
+                                <tbody class="inr currency-table">
+                                    <tr>
+                                        <td>Aircraft Cessna 152 (VFR - 2 seater)</td>
+                                        <td>40</td>
+                                        <td>6 304</td>
+                                        <td>252 179</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flight Instructor</td>
+                                        <td>30</td>
+                                        <td>3 218</td>
+                                        <td>96 537</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ground training (35 hours)</td>
+                                        <td>1</td>
+                                        <td>112 627</td>
+                                        <td>112 627</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Total INR</th>
+                                        <th>461 343</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>No taxes are applied for pilot training in Florida.&nbsp;</p>
+                            <ul class="simple-list bullet">
+                                <li>Flight Instructor time for ground &amp; practical training&nbsp;</li>
+                                <li>Airplane usage, including fuel. We don't apply any fuel surchage!&nbsp;</li>
+                                <li>Subsidized iPad mini 4G + WiFi for $179&nbsp;</li>
+                                <li>Bonus - account for Rocket Route flight planning services - valued $300/year</li>
+                            </ul>
+                            <p>*All training fees are bound to the actual exchange rates of the local currency of the Flying Academy base where the training or a part of the training is provided.&nbsp;</p>
+                            <h2>Upgrades</h2>
+                            <p>We offer the opportunity to upgrade for different aircraft during the Private Pilot course. Below you can find training fee difference that will be charged on a top of standard offer.</p>
+                            <table class="simple-table stack">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Amount</th>
+                                        <th>Unit price</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="czk currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>88</td>
+                                        <td>3 520</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>440</td>
+                                        <td>17 600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>440</td>
+                                        <td>17 600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>1 188</td>
+                                        <td>47 520</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="usd currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>4</td>
+                                        <td>160</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>20</td>
+                                        <td>800</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>20</td>
+                                        <td>800</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>54</td>
+                                        <td>2 160</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="eur currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>4</td>
+                                        <td>141</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>18</td>
+                                        <td>704</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>18</td>
+                                        <td>704</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>48</td>
+                                        <td>1 901</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="gbp currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>3</td>
+                                        <td>117</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>15</td>
+                                        <td>587</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>15</td>
+                                        <td>587</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>40</td>
+                                        <td>1 584</td>
+                                    </tr>
+                                </tbody>
+                                <tbody class="inr currency-table">
+                                    <tr>
+                                        <td>Aircraft Piper Cadet (VFR - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>263</td>
+                                        <td>10 507</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Piper Warrior (IFR, ADS-B &amp; Garmin G530 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>1 313</td>
+                                        <td>52 537</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna 172R (IFR, KLN94 - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>1 313</td>
+                                        <td>52 537</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aircraft Cessna172SP Garmin 1000 (IFR, Glass cockpit - 4 seater)</td>
+                                        <td>40</td>
+                                        <td>3 546</td>
+                                        <td>141 851</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h2>Duration</h2>
+                            <p>The PPL(A) can be obtained in a range period starting from one month depending on the trainees time availability for both theoretical and practical training.</p>
+                            <h2>International students</h2>
+                            <p>Flying Academy is able to provide all required documentation for non US citizens to be able to enrol in flight training courses in USA.</p>
+                            <p>For complete information about the US Visa process, please visit the <a href="EN/Flying-Academy-USA">International Students</a> and <a href="EN/US-visas">US student visas</a> pages.</p>
                         </section>
                     </article>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-
-</main>
-<!--jquery-->
-<script src="jquery/jquery.min.js"></script>
-<!--foundation js-->
-<script src="foundation/js/vendor/what-input.js"></script>
-<script src="foundation/js/vendor/foundation.js"></script>
-<script>
-$(document).foundation();
+    </main>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script>
+    $(document).foundation();
 </script>
 <script type="text/javascript">
-$(document).ready(function(){
-    $("select").change(function(){
-        $(this).find("option:selected").each(function(){
+$(document).ready(function() {
+    $("select").change(function() {
+        $(this).find("option:selected").each(function() {
             var optionValue = $(this).attr("value");
-            if(optionValue){
+            if (optionValue) {
                 $(".currency-table").not("." + optionValue).addClass('hide');
                 $("." + optionValue).removeClass('hide');
-            } else{
+            } else {
                 $(".box").hide();
             }
         });
     }).change();
 });
-
-    // function changeFunc() {
-    //     var CurrencyElement = document.getElementById("selected-currency");
-    //     var allOptions = CurrencyElement.options;
-    //     var selectedOption = allOptions[CurrencyElement.selectedIndex];
-    //     var matchedTable = selectedOption.value
-    //     console.log(selectedOption);
-    //     if (selectedOption.value == matchedTable) {
-    //         $('.'matchedTable).removeClass('hide');
-    //     }
-    //     else {
-    //         $('.usd').addClass('hide');
-    //     }
-    // }
 </script>
 </body>
-
 </html>
