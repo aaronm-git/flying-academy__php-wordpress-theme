@@ -3,6 +3,10 @@
         padding-top: 1.4375rem;
         /* padding-bottom: 1.5rem; */
 }
+
+article {
+    margin-bottom: 3rem;
+}
 /* //// */
 
 .fees-page select {
@@ -35,15 +39,19 @@
     color: white;
 }
 
-.fees-page .simple-table tbody th {
-    text-align: right;
-}
-
-.fees-page .simple-table tbody th, .fees-page .simple-table tbody td {
+.fees-page .simple-table tbody th,
+.fees-page .simple-table tbody td {
     border-color: transparent;
     border-bottom: 1px solid lightgrey;
 }
 
-.fees-page .simple-table .simple-table tbody tr:nth-of-type(2n+2) {
+.fees-page .simple-table tbody td:not(:first-of-type),
+.fees-page .simple-table thead th:not(:first-of-type),
+.fees-page .simple-table tbody th {
+    text-align: right;
+
+}
+
+.fees-page .simple-table tbody tr:nth-of-type(2n+2) {
     background-color: #efefef;
 }
