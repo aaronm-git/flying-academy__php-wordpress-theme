@@ -33,6 +33,8 @@
     </div>
 
     <div class="wrapper">
+    <?php include 'header.php' ?>
+
         <nav class="page-nav" style="background-image: url(images/fleet1.jpg); background-position: top;">
             <div class="grid-container">
                 <ul class="vertical medium-horizontal menu" data-smooth-scroll="qsunbd-smooth-scroll" id="y9di8h-smooth-scroll">
@@ -527,6 +529,8 @@
                     </div>
                 </form>
             </div>
+            <?php include 'footer.php' ?>
+
         </div>
         <!--jquery-->
         <script src="jquery/jquery.min.js"></script>

@@ -29,6 +29,8 @@
                 </div>
 
 		<div class="wrapper">
+		<?php include 'header.php' ?>
+
 			<!--page navigation-->
 			<nav class="page-nav" style="background-image: url(images/headerb2b.jpg);">
 				<div class="grid-container">
@@ -157,6 +159,8 @@
 					</form>
 				</div>
 			</div>
+			<?php include 'footer.php' ?>
+
 		</div>
 		<!--jquery-->
 		<script src="jquery/jquery.min.js"></script>

@@ -26,6 +26,8 @@
     <div id="baseline-overlay"></div>
     <div id="column-overlay"></div>
     <div class="wrapper">
+    <?php include 'header.php' ?>
+
         <div class="grid-container time-page">
             <div class="reveal large animated fadeInDown" id="video-modal" data-reveal aria-labelledby="video-modal" aria-hidden="true"
                 role="dialog">
@@ -609,6 +611,8 @@
                 </section> -->
             </article>
         </div>
+        <?php include 'footer.php' ?>
+
     </div>
     <!--jquery-->
     <script src="jquery/jquery.min.js"></script>

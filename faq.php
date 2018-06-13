@@ -32,6 +32,8 @@
 			</div>
 
 	<div class="wrapper">
+	<?php include 'header.php' ?>
+
 		<!--page navigation-->
 		<nav class="page-nav">
 			<div class="grid-container">
@@ -229,6 +231,8 @@
 				</li>
 			</ul>
 		</div>
+		<?php include 'footer.php' ?>
+
 	</div>
 	<!--jquery-->
 	<script src="jquery/jquery.min.js"></script>

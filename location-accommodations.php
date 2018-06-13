@@ -33,6 +33,8 @@
                 </div>
 
 		<div class="wrapper">
+		<?php include 'header.php' ?>
+
 			<!--page navigation-->
 			<nav class="page-nav" id="locations">
 				<div class="grid-container">
@@ -355,6 +357,8 @@
 					</div>
 				</form>
 			</div>
+			<?php include 'footer.php' ?>
+
 		</div>		
 		<!--jquery-->
 		<script src="jquery/jquery.min.js"></script>

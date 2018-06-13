@@ -21,8 +21,10 @@
         </div>
         <button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
     </div>
-    <main class="fees-page">
-        <div class="wrapper">
+
+        <div class="wrapper fees-page">
+        <?php include 'header.php' ?>
+
             <nav class="page-nav" style="background-image: url(images/easa-ppl.jpg); background-position: center;">
                 <div class="grid-container">
                     <ul class="vertical medium-horizontal menu" data-smooth-scroll="qsunbd-smooth-scroll" id="y9di8h-smooth-scroll">
@@ -699,8 +701,9 @@
                     </article>
                 </div>
             </div>
+            <?php include 'footer.php' ?>
+
         </div>
-    </main>
     <script src="jquery/jquery.min.js"></script>
     <script src="foundation/js/vendor/what-input.js"></script>
     <script src="foundation/js/vendor/foundation.js"></script>

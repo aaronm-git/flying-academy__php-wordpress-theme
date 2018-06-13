@@ -39,6 +39,8 @@
 	</div>
 
 	<div class="wrapper">
+	<?php include 'header.php' ?>
+
 		<div class="grid-container full">
 			<!-- row 1 -->
 			<!--jumbo carousel-->
@@ -568,6 +570,8 @@
 					</form>
 				</div>
 			</div>
+			<?php include 'footer.php' ?>
+
 			</div>
 			<!--jquery-->
 			<script src="jquery/jquery.min.js"></script>
