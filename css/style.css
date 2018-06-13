@@ -1,9 +1,11 @@
 @import 'fonts.css';
 
-/*broswer user agent reset----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*broswer user agent reset*/
 
 *{
-	/* outline: 1px solid rgba(0, 255, 0, .3); */
+	/*outline: 1px solid rgba(0, 255, 0, .3);*/
 	margin: 0px;
 	border: none;
 	padding: 0px;
@@ -16,10 +18,12 @@
 	list-style: none;
 }
 
-/*layout grid overlays----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*layout grid overlays*/
 
 /*baseline overlay*/
-
+/*
 #baseline-overlay{
 	z-index: 10;
 	opacity: .2;
@@ -58,36 +62,38 @@
 	pointer-events: none;
 }
 
-/*typography----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*typography*/
 
 /*define rem value*/
 
 html {
 	line-height: 1.5rem;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 16px;	
 }
 
 html,
-body,
+body, 
 article,
 section,
 div,
-h1,
-h2,
-h3,
-h4,
-h5,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
 h6,
 p {
 	margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
 h6 {
 	font-family: 'Minion Pro', serif;
 }
@@ -104,7 +110,7 @@ h6 {
 	line-height: 1.5rem;
 }
 
-h1 {
+h1 { 
 	font-size: 2.25rem;
 }
 
@@ -178,7 +184,7 @@ button {
 	line-height: 1.5rem;
 	padding: .75rem 3rem .75rem 3rem;
 	border: none;
-	border-radius: 0;
+	border-radius: 0;	
 	background-color: #465064;
 	color: white;
 }
@@ -245,7 +251,7 @@ table tbody tr td,
 table tfoot tr td,
 table tr th,
 table tr td {
-	padding: .75rem .9375rem .6875rem .9375rem;
+	padding: .75rem .9375rem .6875rem .9375rem; 	
 	border: 1px solid #45505f;
 	line-height: 1.5rem;
 	background-color: transparent;
@@ -286,7 +292,7 @@ tr td p,
 tr th,
 tr td {
 	color: #45505f;
-}
+} 
 
 iframe {
 	display: block;
@@ -364,7 +370,9 @@ button[type=submit]{
 	color: #444;
 }
 
-/*foundation class overides----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*foundation class overides*/
 
 .menu a {
 	line-height: 1.5rem;
@@ -380,58 +388,46 @@ img {
 	margin: 0;
 }
 
-/*foundation tabs overides----------------------------------------------------------------------------------------------------*/
+/*foundation tabs overides*/
 
 .tabs-title > a {
 	box-sizing: border-box;
 	height: 3rem;
 	padding: .75rem;
-	border: 1px solid #465064;
+	border: 1px solid #6699cc;
 	font-size: 1rem;
 	line-height: 1.5rem;
 	margin: 0;
-	color: #465064;
+	color: #6699cc;
 }
 
 .tabs-title> a:hover {
-	color: #465064;
-	text-decoration: none;
+	color: #6699cc;
 }
 
 .tabs-title > a[aria-selected='true'] {
-	background-color: #465064;
-	color: white;
-}
-
-.tabs-title.is-active > small {
+	background-color: #6699cc;
 	color: white;
 }
 
 .tabs {
 	border-style: none;
-	display: flex;
 }
 
-.tabs li.tabs-title {
-	flex-grow: 1;
-	text-align: center;
-	position: relative;
-}
-
-/*tab content*/
+/*foundation tabs content overides*/
 
 .tabs-content {
 	border: none;
 	margin: 0;
 }
 
-/*tabs panel*/
+/*foundation tabs panel overides*/
 
 .tabs-panel {
 	padding: 1.5rem 0 0 0;
 }
 
-/*buttons*/
+/*foundation button overides*/
 
 .button {
 	display: inline-block;
@@ -453,9 +449,9 @@ img {
 	color: #444;
 }
 
-/*foundation accordian overides----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
 
-/*general*/
+/*foundation accordian overides*/
 
 .accordion.simple .accordion-content,
 .accordion.simple :last-child > .accordion-content:last-child {
@@ -492,7 +488,7 @@ img {
 
 .accordion-title,
 :last-child:not(.is-active) > .accordion-title {
-	position: relative;
+	position: relative;	
 	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 	font-family: 'Minion Pro', serif;
 	font-size: 1.5rem;
@@ -522,9 +518,7 @@ img {
 	padding: 0;
 }
 
-/*top accordion*/
-
-.accordion-title {
+.accordion-title {	
 	background-color: #465064;
 	color: white;
 }
@@ -533,7 +527,7 @@ img {
 .accordion-title:focus {
 	text-decoration: none;
 	background-color: #465064;
-	color: white;
+	color: white;	
 }
 
 .accordion-title::before {
@@ -548,13 +542,13 @@ img {
 	background-color: white;
 }
 
-/*sub accordion*/
+/*foundation sub accordion overides*/
 
 .sub .accordion-item::after {
 	background-color: #dcdcdc;
 }
 
-.sub .accordion-title {
+.sub .accordion-title {	
 	background-color: transparent;
 	color: #222;
 }
@@ -579,7 +573,9 @@ img {
 	color: #444;
 }
 
-/*font awesome customizations----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*font awesome*/
 
 .fa-instagram:hover {
 	color: DarkOrange !important;
@@ -597,22 +593,24 @@ img {
 	color: Red !important;
 }
 
-/*custom wrapper classes----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
 
-/*page wrapper*/
+/*custom classes*/
+
+/*wrapper*/
 
 .wrapper{
 	overflow: hidden;
 }
 
-/*image wrappers*/
+/*image wrapper*/
 
 .image-wrapper {
 	position: relative;
 	overflow: hidden;
 }
 
-/*revise all flex wrapper elements----------------------------------------------------------------------------------------------------*/
+/*consider revising all flex wrapper elements*/
 
 /*flex wrapper*/
 
@@ -682,7 +680,11 @@ p + .flex-wrapper::before {
 	}
 }
 
-/*custom flex wrapped elements----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*flex wrapper children classes*/
+
+/*detail box*/
 
 .detail-box {
 	padding: 1.4375rem;
@@ -691,7 +693,7 @@ p + .flex-wrapper::before {
 	text-align: center;
 }
 
-/*social box----------------------------------------------------------------------------------------------------*/
+/*social box*/
 
 .social-box {
 	display: inline-flex;
@@ -726,7 +728,9 @@ p + .flex-wrapper::before {
 	font-size: 1.5rem;
 }
 
-/*custom utility classes----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*utility classes*/
 
 /*form spacer*/
 
@@ -734,7 +738,7 @@ p + .flex-wrapper::before {
 	height: 1.5rem;
 }
 
-/*responsive image sprites*/
+/*responsive sprite*/
 
 .responsive-sprite {
 	display: block;
@@ -745,9 +749,11 @@ p + .flex-wrapper::before {
 	background-position: center;
 }
 
-/*custom html elements----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
 
-/*heading style for flying academy*/
+/*html element classes*/
+
+/*special heading*/
 
 .special-heading {
 	position: relative;
@@ -943,14 +949,14 @@ p + .flex-wrapper::before {
 	margin: 0;
 }
 
-.fancy-table th,
+.fancy-table th, 
 .fancy-table td {
 	border: none;
 }
 
 .fancy-table thead th
 .fancy-table tfoot td {
-	padding: .75rem .9375rem .75rem .9375rem;
+	padding: .75rem .9375rem .75rem .9375rem;	
 }
 
 .fancy-table tbody tr td {
@@ -1183,6 +1189,560 @@ p + .flex-wrapper::before {
 
 }
 
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*html design elements*/
+
+/*outlines*/
+
+.inset-outline::after{
+	content:'';
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	width:100%;
+	height: 100%;
+	outline: 2px solid white;
+	outline-offset: -.75rem;
+}
+
+/*large and up (1024+)*/
+@media screen and (min-width: 64em) {
+	
+	.double-outline{
+		position: relative;
+	}
+
+	.double-outline::before {
+		content: '';
+		position:absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		outline: .125rem solid rgb(175, 175, 175);
+		outline-offset: -2px;
+		pointer-events: none;
+	}
+
+	.double-outline::after {
+		content: '';
+		position:absolute;
+		top: 1.5rem;
+		left: -.9375rem;
+		width: calc(100% + 1.875rem);
+		height: calc(100% - 3rem);
+		outline: 1px solid #dcdcdc;
+		pointer-events: none;
+	}
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*header*/
+
+/*hide for mobile*/
+
+.left-header > li:not(.logo):not(.hamburger),
+.right-header {
+	display: none;
+}
+
+/*hide for function*/
+
+/*hide submenus and checkboxes*/
+.main-header ul li > *:not(a):not(label):not(h1) {
+	display: none;
+}
+
+/*display for function*/
+
+/*checkbox hack display*/
+#hamburger:checked ~ .primary-nav,
+#search:checked ~ form,
+input[type=checkbox]:checked ~ ul {
+	display: block;
+}
+
+/*main header*/
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: white;
+}
+
+.main-header,
+.main-header ul:not(.primary-nav),
+.main-header li,
+.main-header a {
+	margin: 0;
+	padding: 0;
+}
+
+/*reset checkbox position*/
+.main-header input[type=checkbox],
+.main-header input[type=checkbox] + label {
+	position: static;
+	margin: 0;
+}
+
+.main-header a,
+.main-header label {
+	display: block;
+	white-space: nowrap;
+}
+
+.main-header > ul > li {
+	position: relative;	
+	float: left;
+	display: block;	
+}
+
+.main-header > ul > li > a,
+.main-header > ul > li > label {
+	display: block;
+	line-height: 4.5rem;
+	padding: 0 .9375rem;
+	margin: 0;
+	font-size: 1.125rem;
+	color: #444;		
+}
+
+/*left header*/
+
+.left-header {
+	display: flex;
+	justify-content: flex-start;
+}
+
+/*left header children*/
+
+/*hamburger menu*/
+
+#hamburger:checked + label {
+	background-image: url(../images/icon-x-white.svg);
+	background-color: #1040a5;
+	background-size: 1.125rem;
+}
+
+#hamburger:checked + label img {
+	opacity: 0;
+}
+
+#hamburger + label {
+	display: block;
+	width: 4.5rem;
+	height: 4.5rem;
+	background-image: url(../images/icon-hamburger-black.svg);
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1.5rem;
+}
+
+/*primary nav*/
+
+/*position*/
+.primary-nav {
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	width: 100vw;
+	padding: 1.5rem 0 0 0;
+	margin: 0;
+	background-color: #1040a5;
+	z-index: 99;
+}
+
+.primary-nav > li label + a {
+	display: none;
+}
+
+.primary-nav a,
+.primary-nav label {
+	line-height: 3rem;
+	padding: 0 1.5rem;
+	font-family: 'Roboto Light', sans-serif;
+	color: white;
+}
+
+.primary-nav h1 {
+	padding: 0 1.5rem;
+	color: lightblue;
+}
+
+/*mega menu*/
+
+.primary-nav > li > label,
+.primary-nav > li > ul > li > label {
+	padding-right: 3rem;
+	background-image: url(../images/icon-down-arrow-white.svg);
+	background-position: right 3rem center;
+	background-size: 1rem;
+	background-repeat: no-repeat;
+}
+
+.primary-nav > li > ul > li > label  {
+	background-size: .75rem;
+}
+
+.primary-nav > li > input[type=checkbox]:checked + label,
+.primary-nav > li > ul > li > input[type=checkbox]:checked + label {
+	background-image: url(../images/icon-up-arrow-white.svg) !important;
+}
+
+.primary-nav > li > ul > li > label,
+.primary-nav > li > input[type=checkbox]:checked ~ ul > li > a {
+	background-color: darkgray;
+	padding-left: 3rem;
+}
+
+.primary-nav > li > ul > li > ul > li a {
+	padding-left: 4.5rem;
+	background-color: silver;
+}
+
+/*logo*/
+
+.main-header .logo img {
+	display: block;
+	box-sizing: border-box;
+	height: 4.5rem;
+	padding: 1.375rem 0;
+	margin-left: .9375rem;
+}
+
+/*right header children*/
+
+/*search form design*/
+
+#search ~ form{
+	width: 24rem;
+	background-color: rgba(255, 255, 255, .7);
+	padding: 1.5rem;
+}
+
+#search ~ form *{
+	float: left;
+	display: block;
+	position: static;
+	box-sizing: border-box;
+	height: 3rem;
+	margin: 0;
+}
+
+#search ~ form input[type="text"] {	
+	width: calc(100% - 3rem);
+	background-color: white;
+	box-shadow: none;
+	color: #aaa;
+}
+
+#search ~ form input[type="submit"] {
+	width: calc(3rem);
+	border-radius: 0;
+	font-family: 'FontAwesome';
+	background-color: #45505f;
+	color: white;
+}
+
+#search ~ form input[type="text"]:focus {
+	color: #444;
+}
+
+/*language*/
+
+.right-header .language > input + label + a {
+	display: none;
+}
+
+.right-header .language > a,
+.right-header .language ul > li > a {
+	margin: 0;
+}
+
+.right-header .language > label,
+.right-header .language > a {
+	padding-right: 3.375rem;
+	background-image: url(../images/icon-down-arrow-black.svg);
+	background-size: 1.125rem auto;
+	background-repeat: no-repeat;
+	background-position: right 1.5rem center;
+}
+
+.right-header .language ul > li > a {
+	line-height: 4.5rem;
+	padding-left: 5.4375rem;
+	background-size: 3rem auto;
+	background-repeat: no-repeat;
+	background-position: left 1.5rem center;
+}
+
+/*contact*/
+
+#contact a {
+	padding: 0 3rem;
+	background-color: #cc2222;
+	color: white;
+	text-transform: uppercase;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*header media queries*/
+
+/*medium and up (640 +)*/
+@media screen and (min-width: 40em) {
+	
+	/*right header*/
+
+	.right-header {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.right-header li:not(#contact) {
+		display: none;
+	}
+
+}
+
+/*large and up (1024+)*/
+@media screen and (min-width: 64em) {
+
+	.right-header li {
+		display: block !important;
+	}
+
+	/*hover state submenus*/
+
+	.main-header > ul > li > ul:not(.primary-nav) {
+		background-color: white;
+	}
+
+	.main-header > ul > li > ul:not(.primary-nav) > li > a {
+		color: #666;
+	}
+
+	.main-header > ul > li > ul,
+	.main-header > ul > li > form {
+		position: absolute;
+	}
+
+	.main-header > ul > li > ul:not(.primary-nav),
+	.main-header > ul > li > form {
+		top: 4.5rem;
+	}
+
+	.left-header > li > ul,
+	.left-header > li > form {
+		left: 0;
+	}
+
+	.right-header > li > ul,
+	.right-header > li > form {
+		right: 0;
+	}
+
+	.left-header > li > ul:not(.primary-nav) > li > a,
+	.right-header > li > ul > li > a,
+	.primary-nav > li:not(.mega-menu) > ul > li > a{
+		line-height: 3rem;
+		width: 100%;
+		padding: 0 1.5rem;
+	}
+
+	.primary-nav > li:not(.mega-menu) {
+		position: relative;
+	}
+
+	.primary-nav > li > ul {
+		top: 0;
+		left: 100%;
+	}
+
+}
+
+/*x-large and up (1200+)*/
+@media screen and (min-width: 75em) {
+
+	/*main header*/
+
+	.main-header {
+		position: fixed;
+		overflow: visible;
+		z-index: 99;
+		box-shadow: .25rem .25rem .25rem rgba(0, 0, 0, .05)
+	}
+
+	/*left header*/
+
+	.left-header > li {
+		display: block !important;
+	}
+
+	/*right header*/
+
+	.right-header .language > input + label + a {
+		display: block;
+	}
+
+	/*checkbox hack display*/	
+	.main-header input[type=checkbox]:not(#hamburger):not(#search) + label {
+		display: none;
+	}
+
+	/*bug fix - top level ul display persistant in desktop view when checked*/
+	/*turn off language when swith from checkbox to a tag*/
+	/*turn off mega menu heading links*/
+	.right-header li input[type=checkbox]:checked ~ ul,
+	.primary-nav li input[type=checkbox]:checked ~ ul {
+		display: none;
+	}
+
+	.primary-nav li input[type=checkbox]:checked ~ ul > li > a {
+		padding: 0;
+		background-color: transparent;
+	}
+
+	/*bug fix - bottem level ul display hidden in desktop view when checked*/
+	.primary-nav li input[type=checkbox]:checked ~ ul > li > ul {
+		display: block;
+	}
+
+	/*primary nav*/
+
+	.primary-nav > li > label + a {
+		display: block;
+	}
+	
+	/*hover state submenu display*/
+
+	.main-header ul li:hover > ul:not(.primary-nav),
+	.main-header ul li ul li:hover ul {
+		display: block;
+	}
+
+	.mega-menu:hover > ul {
+		display: flex !important;
+	}
+
+	/*hover state primary nav*/
+
+	.primary-nav {
+		position: absolute;
+		height: calc(100vh - 4.5rem);
+		width: 15rem;
+		padding-top: 1.5rem;
+		background-color: #1040a5;
+	}
+
+	.primary-nav > ul {
+		background-color: #083075;
+	}
+
+	.primary-nav > li:nth-child(3) {
+		margin-top: 3rem;
+	}
+
+	.primary-nav > li  a {
+		line-height: 3rem;
+		font-family: 'Roboto Light', sans-serif;
+		color: white;
+	}
+
+	.primary-nav > li:not(.mega-menu) > a {
+		padding: 0 1.5rem;
+	}
+
+	.primary-nav > li:nth-child(4) > a,
+	.primary-nav > li:nth-child(5) > a {		
+		padding-right: 2.4375rem;
+		background-image: url(../images/icon-right-arrow-white.svg);
+		background-size: 1rem;
+		background-position: right .9375rem center;
+		background-repeat: no-repeat;
+	}
+
+	.primary-nav > li > ul {
+		position: absolute;
+		background-color: #083075;
+	}
+
+	.primary-nav > li > ul > li > ul > li > a {
+		padding: 0 !important;
+		background-color: transparent!important;
+	}
+
+	/*hover state mega menu*/
+
+	.mega-menu > a {
+		line-height: 3rem;
+		padding: 1.5rem 1.5rem 1.4375rem 1.5rem;
+		background-image: url(../images/icon-right-arrow-white.svg);
+		background-size: 1.25rem;
+		background-position: 95%;
+		background-repeat: no-repeat;
+		border-bottom: 1px solid lightblue;
+		font-size: 1.125rem;
+	}
+
+	.mega-menu > ul {	
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		width: calc(100vw - 15rem);
+		height: calc(100vh - 4.5rem);
+		padding: 1.5rem calc(1.5rem + 17px) 1.5rem 1.5rem !important;
+		background-color: #083075;
+		overflow-y: auto;
+	}
+
+	.mega-menu > ul > li {
+		flex-basis: 25% !important;
+		padding: 0 1.5rem;
+	}
+
+	.mega-menu > ul > li > a {
+		line-height: 3rem;
+		font-family: 'Minion Pro', serif;
+		font-weight: normal;
+		font-size: 1.5rem;
+		color: lightblue;
+		display: block;
+	}
+
+	.mega-menu ul a {
+		font-family: 'Roboto Light', sans-serif;
+		color: white;
+		line-height: 3rem;
+		border-bottom: 1px solid lightblue;
+		margin-top: -1px;
+	}
+
+	.mega-menu > ul > li > ul,
+	.mega-menu > ul > li > ul > li {
+		display: block;
+	}
+
+	.mega-menu > ul > li > a,
+	.mega-menu > ul > li > ul > li > a {
+		line-height: 4.5rem;
+		padding: 0;
+	}
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*html block classes*/
+
 /*world map*/
 
 .world-map {
@@ -1227,7 +1787,7 @@ p + .flex-wrapper::before {
 }
 
 .pin {
-	display: block;
+	display: block;	
 	padding: .5rem 0 0 1.5rem;
 	background-image: url(../images/map-marker.png);
 	background-size: auto 1.5rem;
@@ -1335,7 +1895,7 @@ p + .flex-wrapper::before {
 .calendar.events thead tr th,
 .calendar.events thead tr th p {
 	font-family: 'Roboto Thin', sans-serif;
-	color: white;
+	color: white;	
 	font-weight: normal;
 	text-align: center;
 }
@@ -1428,242 +1988,7 @@ p + .flex-wrapper::before {
 	background-color: #6BDCFF;
 }
 
-/*custom css design elements----------------------------------------------------------------------------------------------------*/
-
-/*outlines*/
-
-.inset-outline::after{
-	content:'';
-	position: absolute;
-	top:0;
-	left:0;
-	display: block;
-	width:100%;
-	height: 100%;
-	outline: 2px solid white;
-	outline-offset: -.75rem;
-}
-
-/*large and up (1024+)*/
-@media screen and (min-width: 64em) {
-
-	.double-outline{
-		position: relative;
-	}
-
-	.double-outline::before {
-		content: '';
-		position:absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		outline: .125rem solid rgb(175, 175, 175);
-		outline-offset: -2px;
-		pointer-events: none;
-	}
-
-	.double-outline::after {
-		content: '';
-		position:absolute;
-		top: 1.5rem;
-		left: -.9375rem;
-		width: calc(100% + 1.875rem);
-		height: calc(100% - 3rem);
-		outline: 1px solid #dcdcdc;
-		pointer-events: none;
-	}
-}
-
-/*custom html blocks----------------------------------------------------------------------------------------------------*/
-
-/*navigation menus----------------------------------------------------------------------------------------------------*/
-
-.content {
-	background-color: #1040a5;
-	height: 240rem;
-	margin-top: 4.5rem;
-}
-
-.main-header{
-	position: fixed;
-	width: 100%;
-	line-height: 4.5rem;
-	overflow: visible;
-}
-
-.main-header > ul:first-child {
-	float: left;
-}
-
-.main-header > ul:last-child {
-	float: right;
-}
-
-/*hides submenus and checkbox*/
-.main-header ul li > *:not(a):not(label) {
-	display: none;
-}
-
-/*displays hamburger menu and search when checked*/
-.main-header #hamburger:checked ~ .primary-nav,
-.main-header #search:checked ~ form {
-	display: block;
-}
-
-/*displays submenus*/
-.main-header ul li:hover > ul:not(.primary-nav),
-.main-header ul li ul li:hover ul {
-	display: block;
-}
-
-/*header design*/
-
-.main-header,
-.main-header ul {
-	margin: 0;
-}
-
-.main-header ul {
-	background: white;
-}
-
-.main-header > ul > li {
-	float: left;
-	display: block;
-	line-height: 4.5rem;
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-/*font design*/
-.main-header > ul > li > a {
-	display: block;
-	margin: 0;
-	color: #444;
-	font-size: 1.125rem;
-	line-height: 4.5rem;
-
-}
-
-/*hamburger menu design*/
-.main-header input[type=checkbox],
-.main-header input[type=checkbox] + label {
-	position: static;
-	margin: 0;
-}
-
-/*primary nav design*/
-.primary-nav {
-	height: calc(100vh - 4.5rem);
-}
-
-/*submenu design*/
-.main-header > ul > li > ul,
-.main-header > ul > li > form {
-	position: absolute;
-	top: 4.5rem;
-	width: auto;
-	line-height: 3rem;
-	white-space: nowrap;
-}
-
-.left-header > li > ul,
-.left-header > li > form {
-	right: 0;
-}
-
-.main-header > ul > li > ul > li {
-	padding: .75rem 1.5rem;
-}
-
-/*primary nav drop down menu*/
-.dropdown-menu {
-	position: relative;
-}
-
-.dropdown-menu > ul {
-	position: absolute;
-	top: 0;
-	left: 100%;
-}
-
-/*mega menu design*/
-.mega-menu > ul {
-	width: 100vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 100%;
-}
-
-.mega-menu {
-
-}
-
-/*logo design*/
-.main-header .logo {
-	display: block;
-	margin-top: .75rem;
-	width: auto;
-	height: 3rem;
-}
-
-/*search form design*/
-.main-header #search ~ form{
-	width: 24rem;
-	background-color: rgba(255, 255, 255, .9);
-}
-
-.main-header #search ~ form *{
-	float: left;
-	display: block;
-	position: static;
-	box-sizing: border-box;
-	height: 3rem;
-	margin: 0;
-}
-
-.main-header #search ~ form input[type="text"] {
-	width: calc(100% - 3rem);
-}
-
-.main-header #search ~ form input[type="submit"] {
-	width: calc(3rem);
-	font-family: 'FontAwesome';
-}
-
-/*laguage dropdown menu design*/
-
-.main-header .language > a,
-.main-header .language ul > li > a {
-	margin: 0;
-	background-size: 3rem auto;
-	background-repeat: no-repeat;
-}
-
-.main-header .language > a {
-	width: 4.875rem;
-	height: 4.5rem;
-	background-position: center;
-}
-
-.main-header .language ul > li > a {
-	line-height: 3rem;
-	padding-left: 3.5rem;
-	background-position: left center;
-}
-
-/*contact button design*/
-
-.main-header .contact {
-	padding: 0 3rem;
-	background-color: #cc2222;
-	color: white;
-}
-
-/*page navigation*/
+/*page nav*/
 
 .page-nav{
 	position: relative;
@@ -1673,8 +1998,6 @@ p + .flex-wrapper::before {
 	background-repeat: no-repeat;
 }
 
-/*page nav backgrounds*/
-
 #fleet .page-nav {
 	background-image: url(../images/flight-training-courses-los-angeles.jpg);
 }
@@ -1706,8 +2029,6 @@ p + .flex-wrapper::before {
 #fleet .page-nav {
 	background-image: url(../images/flight-training-courses-los-angeles.jpg);
 }
-
-/*continue page nav*/
 
 .page-nav::after {
 	content: '';
@@ -1851,7 +2172,6 @@ p + .flex-wrapper::before {
 }
 
 /*large and up (1024px)*/
-
 @media screen and (min-width: 64em) {
 
 	/*offest box*/
@@ -1892,7 +2212,7 @@ p + .flex-wrapper::before {
 		padding-left: 1.875rem;
 	}
 
-	.offset-box.right {
+	.offset-box.right {	
 		padding-right: 1.875rem;
 	}
 }
@@ -1903,7 +2223,7 @@ p + .flex-wrapper::before {
 	position: relative;
 	padding-bottom: 9rem;
 	margin-bottom: 6rem;
-	background-image: url('../images/small-plane-runway.jpg');
+	background-image: url('../images/small-plane-runway.jpg');  
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2004,12 +2324,11 @@ p + .flex-wrapper::before {
 	margin-bottom: 0;
 	line-height: 3rem;
 	font-family: 'Roboto', sans-serif;
-	font-size: 2rem;
+	font-size: 2rem;	
 	text-transform: uppercase;
 }
 
 /*large and up (1024px)*/
-
 @media screen and (min-width: 64em) {
 
 	.share-box .social-box {
@@ -2036,14 +2355,13 @@ p + .flex-wrapper::before {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 
 /*video box*/
 
 .video-box {
 	position: relative;
-	cursor: pointer;
 }
 
 .video-box > *::before {
@@ -2077,7 +2395,7 @@ p + .flex-wrapper::before {
 	overflow: hidden;
 }
 
-.video-summary-box *{
+.video-summary-box *{	
 	color: white;
 }
 
@@ -2095,20 +2413,20 @@ p + .flex-wrapper::before {
 }
 
 /*large and up (1024+)*/
-
 @media screen and (min-width: 64em) {
 
 	.video-summary-box *:last-child::after {
 		top: 1.5rem;
 		right: 1.5rem;
 	}
+
 }
 
 /*box grid*/
 
 .box-grid  article {
 	position: relative;
-	background-color: darkgray;
+	background-color: darkgray;	
 }
 
 .box-grid > h1:first-child {
@@ -2168,7 +2486,9 @@ p + .flex-wrapper::before {
 	margin-bottom: .75rem;
 }
 
-/*form html blocks----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*html block form classes*/
 
 /*sidebar newsletter form*/
 
@@ -2202,7 +2522,7 @@ p + .flex-wrapper::before {
 	color: white;
 }
 
-/*aviation newsletter*/
+/*aviation newsletter form*/
 
 .aviation-newsletter-form {
 	position: relative;
@@ -2270,7 +2590,9 @@ p + .flex-wrapper::before {
 	}
 }
 
-/*background html and css elements----------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*html block background classes*/
 
 /*background*/
 
@@ -2286,11 +2608,11 @@ p + .flex-wrapper::before {
 }
 
 /*large and up (1024+)*/
-
 @media screen and (min-width: 64em) {
-/*gradient image*/
+	
+	/*gradient image*/
 
-	.gradient-image {
+	.gradient-image {	
 		position: absolute;
 		top: 0;
 		left: calc(50% + .9375rem);
@@ -2323,10 +2645,16 @@ p + .flex-wrapper::before {
 		z-index: -1;
 	}
 
-	/*full-width-gradient-image*/
+	/*full width color*/
+
+	/*consider revising*/
+	
+	.full-width-color {}
+
+	/*full width gradient image*/
 
 	.full-width-gradient-image {
-
+		
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -2337,7 +2665,7 @@ p + .flex-wrapper::before {
 		background-clip: border-box;
 		background-repeat: no-repeat;
 		background-position: right;
-		background-color: rgb(245, 245, 245);
+		background-color: rgb(245, 245, 245);	
 		z-index: -1;
 	}
 
@@ -2357,7 +2685,172 @@ p + .flex-wrapper::before {
 	}
 }
 
-/*owl carousel-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*desktop vertical scale*/
+
+.grid-container > div + section,
+.grid-container > article + article,
+.grid-container > article + section,
+.page-nav + .grid-container,
+.grid-container + .grid-container,
+.colossal-form {
+	margin-top: 4.5rem;
+}
+
+footer {
+	margin-top: 6rem;
+}
+
+header {
+	margin-bottom: 3rem;
+}
+
+h1 + *:not(div):not(article):not(section):not(nav):not(h2),
+h2 + *:not(div):not(article):not(section):not(nav):not(h3),
+h3 + *:not(div):not(article):not(section):not(nav):not(h4),
+h4 + *:not(div):not(article):not(section):not(nav):not(h5),
+h5 + *:not(div):not(article):not(section):not(nav):not(h6),
+h6 + *:not(div):not(article):not(section):not(nav) {
+	margin-top: 1.5rem;
+}
+
+.responsive-sprite + h1,
+.responsive-sprite + h2,
+.responsive-sprite + h3,
+.responsive-sprite + h4,
+.responsive-sprite + h5,
+.responsive-sprite + h6,
+hr + h1,
+hr + h2,
+hr + h3,
+hr + h4,
+hr + h5,
+hr + h6 {
+	margin-top: 1.5rem;
+}
+
+p:not(.special-heading) + h1,
+p:not(.special-heading) + h2,
+p:not(.special-heading) + h3,
+p:not(.special-heading) + h4,
+p:not(.special-heading) + h5,
+p:not(.special-heading) + h6 {
+	margin-top: 1.5rem;
+}
+
+p + p {
+	margin-top: 1.5rem
+}
+
+p + iframe {
+	margin-top: 1.5rem;
+}
+
+.pseudo-table,
+.quad-carousel {
+	margin-top: 3rem;
+}
+
+.responsive-sprite:not(:first-child),
+.button,
+.view-more,
+.faq-link,
+.asterisk {
+	margin-top: 1.5rem;
+}
+
+.share-box,
+.box-grid {
+	margin-top: 3rem;
+}
+
+.view-more:last-child {
+	margin-bottom: 1.5rem;
+}
+
+/*foundation classes vertical scale*/
+
+p + .tabs {
+	margin-top: 3rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*consider revising*/
+
+/*typography form elements*/
+
+/*tip: use postion:relative to postion elements vertically—us a value less than or equal to margin-bottom*/
+/*formula: .75rem + 1.5rem = 2.25rem*/
+
+form label{
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin: 0;
+	color: #444;
+}
+
+/*bug: height or margin-bottom rulr breaks alignment of next element*/
+form input[type=checkbox] {
+	position: relative;
+	top: .75rem;
+	line-height: 1.5rem;
+	margin-bottom: 1.5rem;
+	color: #444;
+}
+
+/*workaround allows postioning next to checkbox inputs*/
+form input[type=checkbox] + label {
+	position: relative;
+	top: .75rem;
+	margin-bottom: 1.5rem;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=tel],
+form select {
+	position: relative;
+	top: .375rem;
+	height: 2.25rem;
+	line-height: 1.5rem;
+	padding: .3125rem .5rem .3125rem .5rem;
+	border: .0625rem solid #dcdcdc;
+	border-radius: 0;
+	margin-bottom: 2.25rem;
+	background-color: rgb(245, 245, 245);
+	color: #444;
+}
+
+form textarea {
+	position: relative;
+	top: .375rem;
+	height: 6.75rem;
+	line-height: 1.5rem;
+	padding: .3125rem .5rem .3125rem .5rem;
+	border: .0625rem solid #dcdcdc;
+	border-radius: 0;
+	margin-bottom: 2.25rem;
+	background-color: rgb(245, 245, 245);
+	color: #444;
+}
+
+form button[type=submit]{
+	position: relative;
+	top: .375rem;
+	height:2.25rem;
+	padding: .3125rem 1rem .3125rem 1rem;
+	margin-bottom: .75rem;
+	border: 1px solid #dcdcdc;
+	border-radius: 0;
+	background-color: white;
+	color: #444;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*owl carousel*/
 
 /*uni carousel*/
 
@@ -2453,231 +2946,4 @@ p + .flex-wrapper::before {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: #465064;
-}
-
-/*stuff to consider revising----------------------------------------------------------------------------------------------------*/
-
-/*typography for form elements*/
-
-/*colossal form*/
-
-/*tip: use postion:relative to postion elements vertically—us a value less than or equal to margin-bottom*/
-
-/*formula: .75rem + 1.5rem = 2.25rem*/
-
-form label{
-	font-size: 1rem;
-	line-height: 1.5rem;
-	margin: 0;
-	color: #444;
-}
-
-/*bug: height or margin-bottom rulr breaks alignment of next element*/
-
-form input[type=checkbox] {
-	position: relative;
-	top: .75rem;
-	line-height: 1.5rem;
-	margin-bottom: 1.5rem;
-	color: #444;
-}
-
-/*workaround allows postioning next to checkbox inputs*/
-
-form input[type=checkbox] + label {
-	position: relative;
-	top: .75rem;
-	margin-bottom: 1.5rem;
-}
-
-form input[type=text],
-form input[type=email],
-form input[type=tel],
-form select {
-	position: relative;
-	top: .375rem;
-	height: 2.25rem;
-	line-height: 1.5rem;
-	padding: .3125rem .5rem .3125rem .5rem;
-	border: .0625rem solid #dcdcdc;
-	border-radius: 0;
-	margin-bottom: 2.25rem;
-	background-color: rgb(245, 245, 245);
-	color: #444;
-}
-
-form textarea {
-	position: relative;
-	top: .375rem;
-	height: 6.75rem;
-	line-height: 1.5rem;
-	padding: .3125rem .5rem .3125rem .5rem;
-	border: .0625rem solid #dcdcdc;
-	border-radius: 0;
-	margin-bottom: 2.25rem;
-	background-color: rgb(245, 245, 245);
-	color: #444;
-}
-
-form button[type=submit]{
-	position: relative;
-	top: .375rem;
-	height:2.25rem;
-	padding: .3125rem 1rem .3125rem 1rem;
-	margin-bottom: .75rem;
-	border: 1px solid #dcdcdc;
-	border-radius: 0;
-	background-color: white;
-	color: #444;
-}
-
-/*custom media queries*/
-
-@media screen and (orientation: portrait) {
-
-	/*colossal form*/
-
-	form.grid-container,
-	form::before,
-	form::after {
-		outline: none;
-	}
-
-	.form-spacer{
-		display: none;
-	}
-
-	form input[type=checkbox] {
-	position: relative;
-	top: 0;
-	line-height: 1.5rem;
-	margin-bottom: 1.5rem;
-	color: #444;
-	}
-
-	/*workaround allows postioning next to checkbox inputs*/
-	form input[type=checkbox] + label {
-		position: relative;
-		top: 0;
-		margin-bottom: 1.5rem;
-	}
-
-	/*info banner*/
-	.info-banner .float-image {
-		opacity: .2;
-	}
-
-}
-
-/*vertical scale----------------------------------------------------------------------------------------------------*/
-
-.grid-container > div + section,
-.grid-container > article + article,
-.grid-container > article + section,
-.page-nav + .grid-container,
-.grid-container + .grid-container,
-.colossal-form {
-	margin-top: 4.5rem;
-}
-
-footer {
-	margin-top: 6rem;
-}
-
-header {
-	margin-bottom: 3rem;
-}
-
-h1 + *:not(div):not(article):not(section):not(nav):not(h2),
-h2 + *:not(div):not(article):not(section):not(nav):not(h3),
-h3 + *:not(div):not(article):not(section):not(nav):not(h4),
-h4 + *:not(div):not(article):not(section):not(nav):not(h5),
-h5 + *:not(div):not(article):not(section):not(nav):not(h6),
-h6 + *:not(div):not(article):not(section):not(nav) {
-	margin-top: 1.5rem;
-}
-
-.responsive-sprite + h1,
-.responsive-sprite + h2,
-.responsive-sprite + h3,
-.responsive-sprite + h4,
-.responsive-sprite + h5,
-.responsive-sprite + h6,
-hr + h1,
-hr + h2,
-hr + h3,
-hr + h4,
-hr + h5,
-hr + h6 {
-	margin-top: 1.5rem;
-}
-
-
-
-p:not(.special-heading) + h1,
-p:not(.special-heading) + h2,
-p:not(.special-heading) + h3,
-p:not(.special-heading) + h4,
-p:not(.special-heading) + h5,
-p:not(.special-heading) + h6 {
-	margin-top: 1.5rem;
-}
-
-p + p {
-	margin-top: 1.5rem
-}
-
-p + iframe {
-	margin-top: 1.5rem;
-}
-
-.pseudo-table,
-.quad-carousel {
-	margin-top: 3rem;
-}
-
-.responsive-sprite:not(:first-child),
-.button,
-.view-more,
-.faq-link,
-.asterisk {
-	margin-top: 1.5rem;
-}
-
-.share-box,
-.box-grid {
-	margin-top: 3rem;
-}
-
-.view-more:last-child {
-	margin-bottom: 1.5rem;
-}
-
-/*foundation overides vertical scale*/
-
-p + .tabs {
-	margin-top: 3rem;
-}
-
-/*header----------------------------------------------------------------------------------------------------*/
-
-/*foundation overides*/
-
-.top-bar {
-	padding: 0;
-	margin: 0;
-	overflow: visible;
-}
-
-.top-bar,
-.top-bar ul {
-	background-color: transparent;
-}
-
-/*custom classes*/
-
-.logo {
-
-	width: auto;
-	height: 4.5rem;
 }
