@@ -141,7 +141,11 @@
 							<li><a>Contact Us</a></li>
 						</ul>
 					</li>
-					<li class="logo"><a href="index.php"><img src="images/logo.png"></a></li>
+
+					<!-- <li class="logo"><a href="index.php"><img src="images/logo/logofull_blue.svg"></a></li> -->
+					<li class="logo"><a href="index.php"><img class="show-for-medium" src="images/logo/logofull_blue.svg">
+					<img class="show-for-small-only" src="images/logo/logosmall_blue.svg"></a></li>
+
 					<li>
 						<a>Company</a>
 						<ul>
