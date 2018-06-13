@@ -73,9 +73,9 @@
 				</article>
 			</div>
 		</div>
-		<div class="grid-container full quote-box">
+		<div class="grid-container full quote-box" id="mission-section">
 			<div class="grid-container">
-				<article class="grid-x grid-margin-x" id="mission-section">
+				<article class="grid-x grid-margin-x">
 					<section class="cell small-12">
 						<h1>Our Mission</h1>
 						<blockquote>Flying Academy’s mission is to make YOU the most professional, skilled and dedicated pilot.

@@ -1,4 +1,4 @@
-			<header class="main-header">
+			<nav class="main-header">
 				<ul class="left-header">
 					<li class="hamburger">
 						<input id="hamburger" type="checkbox">
@@ -179,4 +179,4 @@
 					</li>
 					<li id="contact"><a>Contact Us</a></li>
 				</ul>
-			</header>
+			</nav>
