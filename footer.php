@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flying Academy</title>
-    <!--normalize-->
-    <link rel="stylesheet" href="normalize/normalize.css">
-    <!--foundation css-->
-    <link rel="stylesheet" href="foundation/css/foundation.css">
-    <link rel="stylesheet" href="foundation/css/app.css">
-    <!--site css-->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- my tyle -->
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-</head>
-
-<body>
-    <div id="baseline-overlay"></div>
-    <div id="column-overlay"></div>
     <footer>
         <div class="grid-container full">
             <div class="grid-container">
@@ -81,15 +58,3 @@
             </div>
         </div>
     </footer>
-
-    <!--jquery-->
-    <script src="jquery/jquery.min.js"></script>
-    <!--foundation js-->
-    <script src="foundation/js/vendor/what-input.js"></script>
-    <script src="foundation/js/vendor/foundation.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
-</body>
-
-</html>
