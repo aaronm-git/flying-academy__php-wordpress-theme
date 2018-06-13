@@ -21,8 +21,11 @@
 			<iframe width="100%" height="600" src="https://www.youtube.com/embed/8832H4BPV1M?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 		<button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
-	</div>
+	</div>	
 	<div class="wrapper">
+
+	<?php include 'header.php' ?>
+
 		<nav class="page-nav" style="background-image: url(images/airliner-sunset-flying.jpg); background-position: center;">
 			<div class="grid-container">
 				<ul class="vertical medium-horizontal menu" data-smooth-scroll>
@@ -161,6 +164,9 @@
 					</form>
 				</div>
 			</div>
+
+			<?php include 'footer' ?>
+
 		</div>
 		<script src="jquery/jquery.min.js"></script>
 		<script src="foundation/js/vendor/what-input.js"></script>
