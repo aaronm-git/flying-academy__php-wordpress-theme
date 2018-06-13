@@ -165,7 +165,7 @@
 				</div>
 			</div>
 
-			<?php include 'footer' ?>
+			<?php include 'footer.php' ?>
 
 		</div>
 		<script src="jquery/jquery.min.js"></script>
