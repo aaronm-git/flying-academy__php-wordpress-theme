@@ -68,42 +68,14 @@
 				</div>
 			</section>
 		</div>
-		<!--row 2-->
 		<div class="grid-container">
-			<article class="grid-x grid-margin-x">
-				<header class="cell text-center">
-					<p class="special-heading">Flying Academy</p>
-					<h1>Popular Courses</h1>
-				</header>
-				<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/easa-ppl-2.jpg);">
-					<h1>EASA/FA PPL</h1>
-					<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in
-						non-commercial operations.</p>
-					<a href="" class="button">Learn more</a>
-				</div>
-				<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/easa-ppl.jpg);">
-					<h1>EASA 0-ATPL</h1>
-					<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command (PIC)
-						of an aircraft in an airline.</p>
-					<p class="hide">This program is designed for students with little to no flying experience and that want to pursue a career in aviation
-						according to EASA regulations.</p>
-					<a href="" class="button">Learn more</a>
-				</div>
-				<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/faa-cpl.jpg);">
-					<h1>FAA 0-CPL</h1>
-					<p>The CPL license permits to act as Pilot-In-Command (PIC) and acquire compensation on an aircraft.</p>
-					<p class="hide">This program is designed for students with little to no flying experience and that want to pursue a career in aviation
-						according to FAA regulations.</p>
-					<a href="" class="button">Learn more</a>
-				</div>
-				</section>
-			</article>
-			<article class="grid-x grid-margin-x">
+			<!--row 2-->
+			<article class="grid-x grid-margin-x">					
 				<header class="cell text-center">
 					<p class="special-heading">Flying Academy</p>
 					<h1>Courses and Events Calendar</h1>
 				</header>
-				<section class="cell large-8">
+				<section class="cell large-8">					
 					<form class="flex-wrapper">
 						<select>
 							<option value="option1">United States (FAA)</option>
@@ -114,7 +86,7 @@
 						<input type="text" name="search" placeholder="Search">
 					</form>
 					<!--fancy table-->
-					<table class="fancy-table events">
+					<table class="fancy-table events">							
 						<thead>
 							<tr>
 								<th>Event/Class</th>
@@ -122,47 +94,31 @@
 								<th>Date</th>
 								<th>Info</th>
 							</tr>
-						</thead>
+						</thead>							
 						<tbody>
 							<tr class="event-type-a">
 								<td>Flying Academy Christmas Party</td>
 								<td>Los Angeles, California</td>
-								<td>
-									<time>12.12.18</time>
-								</td>
-								<td>
-									<button class="view-more" href="#">READ MORE</button>
-								</td>
+								<td><time>12.12.18</time></td>
+								<td><a class="view-more" href="#">READ MORE</a></td>
 							</tr>
 							<tr class="event-type-b">
 								<td>Flying Academy Course 1</td>
 								<td>Los Angeles, California</td>
-								<td>
-									<time>12.12.18</time>
-								</td>
-								<td>
-									<button class="view-more" href="#">READ MORE</button>
-								</td>
+								<td><time>12.12.18</time></td>
+								<td><a class="view-more" href="#">READ MORE</a></td>
 							</tr>
 							<tr class="event-type-b">
 								<td>Flying Academy Course 2</td>
 								<td>Los Angeles, California</td>
-								<td>
-									<time>12.12.18</time>
-								</td>
-								<td>
-									<button class="view-more" href="#">READ MORE</button>
-								</td>
+								<td><time>12.12.18</time></td>
+								<td><a class="view-more" href="#">READ MORE</a></td>
 							</tr>
 							<tr class="event-type-a">
 								<td>Flying Academy New Years Party</td>
 								<td>Los Angeles, California</td>
-								<td>
-									<time>12.12.18</time>
-								</td>
-								<td>
-									<button class="view-more" href="#">READ MORE</button>
-								</td>
+								<td><time>12.12.18</time></td>
+								<td><a class="view-more" href="#">READ MORE</a></td>
 							</tr>
 						</tbody>
 					</table>
