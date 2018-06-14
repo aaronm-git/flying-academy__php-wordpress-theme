@@ -1,4 +1,4 @@
-			<nav class="main-header">
+			<header class="main-header">
 				<ul class="left-header">
 					<li class="hamburger">
 						<input id="hamburger" type="checkbox">
@@ -76,7 +76,7 @@
 											<li><a href="location-single.php">Accomodations</a></li>
 											<li><a href="location-courses.php">Courses</a></li>
 											<li><a href="time-building.php">Time Building</a></li>
-											<li><a href="location-contacts.php">Contact Local</a></li>
+											<li><a href="location-contact.php">Contact Local</a></li>
 										</ul>
 									</li>
 									<li>
@@ -87,7 +87,7 @@
 											<li><a href="location-single.php">Accomodations</a></li>
 											<li><a href="location-courses.php">Courses</a></li>
 											<li><a href="time-building.php">Time Building</a></li>
-											<li><a href="location-contacts.php">Contact Local</a></li>
+											<li><a href="location-contact.php">Contact Local</a></li>
 										</ul>
 									</li>
 									<li>
@@ -98,7 +98,7 @@
 											<li><a href="location-single.php">Accomodations</a></li>
 											<li><a href="location-courses.php">Courses</a></li>
 											<li><a href="time-building.php">Time Building</a></li>
-											<li><a href="location-contacts.php">Contact Local</a></li>
+											<li><a href="location-contact.php">Contact Local</a></li>
 										</ul>
 									</li>
 									<li>
@@ -109,7 +109,7 @@
 											<li><a href="location-single.php">Accomodations</a></li>
 											<li><a href="location-courses.php">Courses</a></li>
 											<li><a href="time-building.php">Time Building</a></li>
-											<li><a href="location-contacts.php">Contact Local</a></li>
+											<li><a href="location-contact.php">Contact Local</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -120,8 +120,8 @@
 								<label for="company">Company Information</label>
 								<a>Company Information</a>
 								<ul>
-									<li><a>About Us</a></li>
-									<li><a>Business to Business</a></li>
+									<li><a href="about-us.php">About Us</a></li>
+									<li><a href="business-to-business.php">Business to Business</a></li>
 								</ul>
 							</li>
 							<li>
@@ -135,27 +135,23 @@
 									<li><a href="time-building.php">Brno</a></li>
 								</ul>
 							</li>
-							<li><a>Fleet</a></li>
-							<li><a>Fees</a></li>
-							<li><a>Blog</a></li>
-							<li><a>Contact Us</a></li>
+							<li><a href="fleet.php">Fleet</a></li>
+							<li><a href="fees.php">Fees</a></li>
+							<li><a href="blog.php">Blog</a></li>
+							<li><a href="global-contact.php">Contact Us</a></li>
 						</ul>
 					</li>
-
-					<!-- <li class="logo"><a href="index.php"><img src="images/logo/logofull_blue.svg"></a></li> -->
-					<li class="logo"><a href="index.php"><img class="show-for-medium" src="images/logo/logofull_blue.svg">
-					<img class="show-for-small-only" src="images/logo/logosmall_blue.svg"></a></li>
-
+					<li class="logo"><a href="index.php"><img src="images/logofull_blue.svg"></a></li>
 					<li>
 						<a>Company</a>
 						<ul>
-							<li><a>About Us</a></li>
-							<li><a>Business to Business</a></li>
+							<li><a href="about-us.php">About Us</a></li>
+							<li><a href="business-to-business.php">Business to Business</a></li>
 						</ul>
 					</li>
-					<li><a>Courses</a></li>
-					<li><a>Locations</a></li>
-					<li><a>Blog</a></li>
+					<li><a href="course-single.php">Courses</a></li>
+					<li><a href="location-single.php">Locations</a></li>
+					<li><a href="blog.php">Blog</a></li>
 				</ul>
 				<ul class="right-header">
 					<li class="search">
@@ -181,6 +177,6 @@
 							<li><a lang="es" style="background-image: url(images/flags/Spain.svg);">Español</a></li>
 						</ul>
 					</li>
-					<li id="contact"><a>Contact Us</a></li>
+					<li id="contact"><a href="global-contact.php">Contact Us</a></li>
 				</ul>
-			</nav>
+			</header>

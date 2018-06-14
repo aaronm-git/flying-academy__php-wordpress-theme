@@ -1406,7 +1406,292 @@ input[type="checkbox"]:checked ~ ul {
     padding: 0;
   }
 }
+
 /*------------------------------------------------------------------------------------------------------------------------*/
+
+/*main footer*/
+
+.main-footer {
+  padding-top: 1.5rem;
+  background-color: #2d425f;
+}
+
+.main-footer > div:last-child {
+  margin-top: -1px;
+  border-top: 1px solid white;
+}
+
+.main-footer section{
+  padding: 1.5rem 0;
+}
+
+.main-footer section:not(:last-child) {
+  position: relative;
+  margin-top: -1px;
+  border-bottom: 1px solid white;
+}
+
+.main-footer section:not(.contact) a {
+  font-family: 'Roboto Light', sans-serif;
+}
+
+.main-footer * {
+  color: white
+}
+
+.main-footer h1 {
+  line-height: 3rem;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.main-footer h2 {
+  line-height: 1.5rem;
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 1rem;
+  color: #d9d9d9;
+}
+
+.main-footer p {
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 1rem;
+  color: white;
+} 
+
+/*contact*/
+
+.main-footer .contact {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+/*logo*/
+
+.main-footer .contact .logo {
+  display: block;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.main-footer .contact div {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.main-footer .contact a {
+  position: relative;
+  margin: 0;
+}
+
+.main-footer .contact a:hover {
+  position: relative;
+  top: 1px;
+}
+
+.main-footer .contact a:hover,
+.main-footer .contact a:hover::after {
+  text-decoration: none;  
+}
+
+.main-footer .contact a::before {
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.main-footer .contact a::after {
+  content: '';
+  height: 2.5rem;
+  width: 2.5rem;
+  position: absolute;
+  top: calc(50% - 1.25rem);
+  left: calc(50% - 1.25rem);
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+/*location*/
+
+.main-footer .location p {
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 1rem;
+  color: white;
+} 
+
+/*social*/
+
+.main-footer .social a {
+  position: relative;
+  display: block;
+  height: 3rem;
+  padding-left: 3rem;
+  margin: 0;
+  line-height: 3rem;
+}
+
+.main-footer .social a::before {
+  font-family: 'FontAwesome';
+  font-size: 1.75rem;
+  line-height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.main-footer .social a:hover,
+.main-footer .social a:hover::before {
+  color: white !important;
+}
+
+.main-footer .social a:nth-child(1)::before {
+  content: "\f16d";
+}
+
+.main-footer .social a:nth-child(1)::before {
+  content: "\f099";
+}
+
+.main-footer .social a:nth-child(1)::before {
+  content: "\f39e";
+}
+
+.main-footer .social a:nth-child(1)::before {
+  content: "\f16a" !important;
+}
+
+/*newsletter*/
+
+.main-footer .newsletter form {
+  display: flex;
+  justify-content:;
+}
+
+.main-footer .newsletter form * {
+  margin: 0;
+}
+
+.main-footer .newsletter form input[type="email"] {
+  flex-basis: 75%;
+}
+
+.main-footer .newsletter form .button {
+  padding: 0 1.5rem;
+  line-height: 2.25rem;
+  position: relative;
+  bottom: .375rem;
+  margin-top: .75rem;
+  font-size: 1rem;
+  background-color: #878787;
+}
+
+/*sitempap*/
+
+.main-footer section.sitemap a {
+  font-family: 'Minion Pro', serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  text-rendering: geometricPrecision;
+}
+
+/*verticle rythm*/
+
+.main-footer .logo + h1 {
+  margin-top: 1.5rem;
+}
+
+.main-footer h1 + h2 {
+  position: relative;
+  top: -.5rem;
+}
+
+.main-footer p + p {
+  margin-top: .75rem;
+}
+
+.main-footer .social h2 + a {
+  margin-top: .75rem !important;  
+}
+
+.main-footer .social a:last-child {
+  margin-bottom: .75rem !important;
+}
+
+/*large and up (1024+)*/
+@media screen and (min-width: 64em) {
+
+  /*main footer*/ 
+
+  .main-footer {
+    padding: 0;
+  }
+
+  .main-footer > div:first-child > div > div {
+    padding: 4.5rem 0 3rem 0;
+  }
+
+  .main-footer > div:last-child > div > div {
+    padding: 1.5rem 0;
+  }
+
+  .main-footer section{
+    padding: 0;
+  }
+
+  .main-footer section:not(:last-child) {
+    position: relative;
+    border-right: 1px solid white;
+    border-bottom: none;
+  }
+
+  .main-footer h2 {
+    line-height: 1.5rem;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1rem;
+    color: #d9d9d9;
+  }
+
+  .main-footer a:hover {
+    color: white;
+  }
+
+  /*contact*/
+
+  .main-footer .contact {
+    padding-bottom: 0;
+    text-align: center
+  }
+
+  /*logo*/
+
+  .main-footer .contact .logo {
+    position: relative;
+    top: .75rem;
+    padding-bottom: .75rem;
+    height: 3rem;
+  }
+
+  .main-footer .contact .logo + h1 {
+    margin-top: 4.5rem;
+  }
+
+  /*verticle rythm*/
+
+  .main-footer h1 + h2 {
+    position: relative;
+    top: -.5rem;
+  }
+
+  .main-footer h2 + *:first-of-type {
+    margin-top: 1.5rem;
+  }
+
+}
+
 /*html block classes*/
 /*world map*/
 .world-map {
