@@ -22,7 +22,6 @@
 	<link href="css/style.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" href="css/new-home.css">
 	<link rel="stylesheet" href="css/video-modal.css">
-	<link rel="stylesheet" href="css/aaron-global.css">
 </head>
 
 <body id="home">
