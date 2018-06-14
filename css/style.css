@@ -2897,90 +2897,107 @@ input[type="checkbox"]:checked ~ ul {
 }
 
 /*------------------------------------------------------------------------------------------------------------------------*/
+
+/*mobile vertical scale*/
+
+.shaded-box + .shaded-box {
+	margin-top: 3rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
 /*desktop vertical scale*/
-.grid-container > div + section,
-.grid-container > article + article,
-.grid-container > article + section,
-.page-nav + .grid-container,
-.grid-container + .grid-container,
-.colossal-form {
-	margin-top: 4.5rem;
+
+.shaded-box + .shaded-box {
+	margin-top: 0;
 }
 
-footer {
-	margin-top: 6rem;
-}
+/*large and up (1024+)*/
+@media screen and (min-width: 64em) {
 
-header {
-	margin-bottom: 3rem;
-}
+	.grid-container > div + section,
+	.grid-container > article + article,
+	.grid-container > article + section,
+	.page-nav + .grid-container,
+	.grid-container + .grid-container,
+	.colossal-form {
+		margin-top: 4.5rem;
+	}
 
-h1 + *:not(div):not(article):not(section):not(nav):not(h2),
-h2 + *:not(div):not(article):not(section):not(nav):not(h3),
-h3 + *:not(div):not(article):not(section):not(nav):not(h4),
-h4 + *:not(div):not(article):not(section):not(nav):not(h5),
-h5 + *:not(div):not(article):not(section):not(nav):not(h6),
-h6 + *:not(div):not(article):not(section):not(nav) {
-	margin-top: 1.5rem;
-}
+	footer {
+		margin-top: 6rem;
+	}
 
-.responsive-sprite + h1,
-.responsive-sprite + h2,
-.responsive-sprite + h3,
-.responsive-sprite + h4,
-.responsive-sprite + h5,
-.responsive-sprite + h6,
-hr + h1,
-hr + h2,
-hr + h3,
-hr + h4,
-hr + h5,
-hr + h6 {
-	margin-top: 1.5rem;
-}
+	header {
+		margin-bottom: 3rem;
+	}
 
-p:not(.special-heading) + h1,
-p:not(.special-heading) + h2,
-p:not(.special-heading) + h3,
-p:not(.special-heading) + h4,
-p:not(.special-heading) + h5,
-p:not(.special-heading) + h6 {
-	margin-top: 1.5rem;
-}
+	h1 + *:not(div):not(article):not(section):not(nav):not(h2),
+	h2 + *:not(div):not(article):not(section):not(nav):not(h3),
+	h3 + *:not(div):not(article):not(section):not(nav):not(h4),
+	h4 + *:not(div):not(article):not(section):not(nav):not(h5),
+	h5 + *:not(div):not(article):not(section):not(nav):not(h6),
+	h6 + *:not(div):not(article):not(section):not(nav) {
+		margin-top: 1.5rem;
+	}
 
-p + p {
-	margin-top: 1.5rem;
-}
+	.responsive-sprite + h1,
+	.responsive-sprite + h2,
+	.responsive-sprite + h3,
+	.responsive-sprite + h4,
+	.responsive-sprite + h5,
+	.responsive-sprite + h6,
+	hr + h1,
+	hr + h2,
+	hr + h3,
+	hr + h4,
+	hr + h5,
+	hr + h6 {
+		margin-top: 1.5rem;
+	}
 
-p + iframe {
-	margin-top: 1.5rem;
-}
+	p:not(.special-heading) + h1,
+	p:not(.special-heading) + h2,
+	p:not(.special-heading) + h3,
+	p:not(.special-heading) + h4,
+	p:not(.special-heading) + h5,
+	p:not(.special-heading) + h6 {
+		margin-top: 1.5rem;
+	}
 
-.pseudo-table,
-.quad-carousel {
-	margin-top: 3rem;
-}
+	p + p {
+		margin-top: 1.5rem;
+	}
 
-.responsive-sprite:not(:first-child),
-.button,
-.view-more,
-.faq-link,
-.asterisk {
-	margin-top: 1.5rem;
-}
+	p + iframe {
+		margin-top: 1.5rem;
+	}
 
-.share-box,
-.box-grid {
-	margin-top: 3rem;
-}
+	.pseudo-table,
+	.quad-carousel {
+		margin-top: 3rem;
+	}
 
-.view-more:last-child {
-	margin-bottom: 1.5rem;
-}
+	.responsive-sprite:not(:first-child),
+	.button,
+	.view-more,
+	.faq-link,
+	.asterisk {
+		margin-top: 1.5rem;
+	}
 
-/*foundation classes vertical scale*/
-p + .tabs {
-	margin-top: 3rem;
+	.share-box,
+	.box-grid {
+		margin-top: 3rem;
+	}
+
+	.view-more:last-child {
+		margin-bottom: 1.5rem;
+	}
+
+	/*foundation classes vertical scale*/
+	p + .tabs {
+		margin-top: 3rem;
+	}
 }
 
 /*------------------------------------------------------------------------------------------------------------------------*/
