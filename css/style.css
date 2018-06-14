@@ -998,31 +998,41 @@ p + .flex-wrapper::before {
   }
 }
 /*------------------------------------------------------------------------------------------------------------------------*/
-/*header*/
+
+/*main header*/
+
 /*hide for mobile*/
+
 .left-header > li:not(.logo):not(.hamburger),
 .right-header {
   display: none;
 }
+
 /*hide for function*/
+
 /*hide submenus and checkboxes*/
 .main-header ul li > *:not(a):not(label):not(h1) {
   display: none;
 }
+
 /*display for function*/
+
 /*checkbox hack display*/
 #hamburger:checked ~ .primary-nav,
 #search:checked ~ form,
-input[type="checkbox"]:checked ~ ul {
+input[type=checkbox]:checked ~ ul {
   display: block;
 }
+
 /*main header*/
+
 .main-header {
   display: flex;
   justify-content: space-between;
   width: 100%;
   background-color: white;
 }
+
 .main-header,
 .main-header ul:not(.primary-nav),
 .main-header li,
@@ -1030,58 +1040,70 @@ input[type="checkbox"]:checked ~ ul {
   margin: 0;
   padding: 0;
 }
+
 /*reset checkbox position*/
-.main-header input[type="checkbox"],
-.main-header input[type="checkbox"] + label {
+.main-header input[type=checkbox],
+.main-header input[type=checkbox] + label {
   position: static;
   margin: 0;
 }
+
 .main-header a,
 .main-header label {
   display: block;
   white-space: nowrap;
 }
+
 .main-header > ul > li {
-  position: relative;
+  position: relative; 
   float: left;
-  display: block;
+  display: block; 
 }
+
 .main-header > ul > li > a,
 .main-header > ul > li > label {
   display: block;
   line-height: 4.5rem;
-  padding: 0 0.9375rem;
+  padding: 0 .9375rem;
   margin: 0;
   font-size: 1.125rem;
-  color: #1c1c1c;
+  color: #444;    
 }
+
 /*left header*/
+
 .left-header {
   display: flex;
   justify-content: flex-start;
 }
+
 /*left header children*/
+
 /*hamburger menu*/
+
 #hamburger:checked + label {
-  background-image: url(../images/icon-x-black.svg);
+  background-image: url(../images/icon-x-white.svg);
+  background-color: #2D425F;
   background-size: 1.125rem;
-  transform: rotate(360deg);
-  transition: 0.5s;
 }
+
 #hamburger:checked + label img {
   opacity: 0;
 }
+
 #hamburger + label {
   display: block;
   width: 4.5rem;
   height: 4.5rem;
   background-image: url(../images/icon-hamburger-black.svg);
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1.5rem;
-  transition: all 0.5s;
 }
+
 /*primary nav*/
+
 /*position*/
 .primary-nav {
   position: absolute;
@@ -1090,71 +1112,79 @@ input[type="checkbox"]:checked ~ ul {
   width: 100vw;
   padding: 1.5rem 0 0 0;
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: #2D425F;
   z-index: 99;
 }
+
 .primary-nav > li label + a {
   display: none;
 }
+
 .primary-nav a,
 .primary-nav label {
   line-height: 3rem;
   padding: 0 1.5rem;
-  font-family: "Roboto Light", sans-serif;
-  color: #1c1c1c;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-							supported by Chrome and Opera */
+  font-family: 'Roboto Light', sans-serif;
+  color: white;
 }
+
 .primary-nav h1 {
   padding: 0 1.5rem;
-  color: #2d425f;
+  color: lightblue;
 }
+
 /*mega menu*/
+
 .primary-nav > li > label,
 .primary-nav > li > ul > li > label {
   padding-right: 3rem;
-  background-image: url(../images/icon-down-arrow-black.svg);
+  background-image: url(../images/icon-down-arrow-white.svg);
   background-position: right 3rem center;
   background-size: 1rem;
   background-repeat: no-repeat;
 }
-.primary-nav > li > ul > li > label {
-  background-size: 0.75rem;
+
+.primary-nav > li > ul > li > label  {
+  background-size: .75rem;
 }
-.primary-nav > li > input[type="checkbox"]:checked + label,
-.primary-nav > li > ul > li > input[type="checkbox"]:checked + label {
-  background-image: url(../images/icon-up-arrow-black.svg) !important;
+
+.primary-nav > li > input[type=checkbox]:checked + label,
+.primary-nav > li > ul > li > input[type=checkbox]:checked + label {
+  background-image: url(../images/icon-up-arrow-white.svg) !important;
 }
+
 .primary-nav > li > ul > li > label,
-.primary-nav > li > input[type="checkbox"]:checked ~ ul > li > a {
-  background-color: #d9d9d9;
+.primary-nav > li > input[type=checkbox]:checked ~ ul > li > a {
+  background-color: darkgray;
   padding-left: 3rem;
 }
+
 .primary-nav > li > ul > li > ul > li a {
   padding-left: 4.5rem;
-  background-color: #d9d9d9;
+  background-color: silver;
 }
+
 /*logo*/
+
 .main-header .logo img {
   display: block;
   box-sizing: border-box;
   height: 4.5rem;
   padding: 1.375rem 0;
-  margin-left: 0.9375rem;
+  margin-left: .9375rem;
 }
+
 /*right header children*/
+
 /*search form design*/
-#search ~ form {
+
+#search ~ form{
   width: 24rem;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, .7);
   padding: 1.5rem;
 }
-#search ~ form * {
+
+#search ~ form *{
   float: left;
   display: block;
   position: static;
@@ -1162,30 +1192,37 @@ input[type="checkbox"]:checked ~ ul {
   height: 3rem;
   margin: 0;
 }
-#search ~ form input[type="text"] {
+
+#search ~ form input[type="text"] { 
   width: calc(100% - 3rem);
   background-color: white;
   box-shadow: none;
-  color: #656565;
+  color: #aaa;
 }
+
 #search ~ form input[type="submit"] {
   width: calc(3rem);
   border-radius: 0;
-  font-family: "FontAwesome";
-  background-color: #656565;
+  font-family: 'FontAwesome';
+  background-color: #45505f;
   color: white;
 }
+
 #search ~ form input[type="text"]:focus {
-  color: #1c1c1c;
+  color: #444;
 }
+
 /*language*/
+
 .right-header .language > input + label + a {
   display: none;
 }
+
 .right-header .language > a,
 .right-header .language ul > li > a {
   margin: 0;
 }
+
 .right-header .language > label,
 .right-header .language > a {
   padding-right: 3.375rem;
@@ -1194,6 +1231,7 @@ input[type="checkbox"]:checked ~ ul {
   background-repeat: no-repeat;
   background-position: right 1.5rem center;
 }
+
 .right-header .language ul > li > a {
   line-height: 4.5rem;
   padding-left: 5.4375rem;
@@ -1201,159 +1239,202 @@ input[type="checkbox"]:checked ~ ul {
   background-repeat: no-repeat;
   background-position: left 1.5rem center;
 }
+
 /*contact*/
+
 #contact a {
   padding: 0 3rem;
-  background-color: #d24a43;
+  background-color: #D24A43;
   color: white;
   text-transform: uppercase;
 }
-#contact a:hover {
-  background-color: #ef6059;
-}
+
 /*------------------------------------------------------------------------------------------------------------------------*/
-/*header media queries*/
+
+/*main header media queries*/
+
 /*medium and up (640 +)*/
 @media screen and (min-width: 40em) {
+  
   /*right header*/
+
   .right-header {
     display: flex;
     justify-content: flex-end;
   }
+
   .right-header li:not(#contact) {
     display: none;
   }
+
 }
+
 /*large and up (1024+)*/
 @media screen and (min-width: 64em) {
+
   .right-header li {
     display: block !important;
   }
+
   /*hover state submenus*/
+
   .main-header > ul > li > ul:not(.primary-nav) {
     background-color: white;
   }
+
   .main-header > ul > li > ul:not(.primary-nav) > li > a {
-    color: #656565;
+    color: #666;
   }
+
   .main-header > ul > li > ul,
   .main-header > ul > li > form {
     position: absolute;
   }
+
   .main-header > ul > li > ul:not(.primary-nav),
   .main-header > ul > li > form {
     top: 4.5rem;
   }
+
   .left-header > li > ul,
   .left-header > li > form {
     left: 0;
   }
+
   .right-header > li > ul,
   .right-header > li > form {
     right: 0;
   }
+
   .left-header > li > ul:not(.primary-nav) > li > a,
   .right-header > li > ul > li > a,
-  .primary-nav > li:not(.mega-menu) > ul > li > a {
+  .primary-nav > li:not(.mega-menu) > ul > li > a{
     line-height: 3rem;
     width: 100%;
     padding: 0 1.5rem;
   }
+
   .primary-nav > li:not(.mega-menu) {
     position: relative;
   }
+
   .primary-nav > li > ul {
     top: 0;
     left: 100%;
   }
+
 }
+
 /*x-large and up (1200+)*/
 @media screen and (min-width: 75em) {
+
   /*main header*/
+
   .main-header {
     position: fixed;
     overflow: visible;
     z-index: 99;
-    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+    box-shadow: .25rem .25rem .25rem rgba(0, 0, 0, .05)
   }
+
   /*left header*/
+
   .left-header > li {
     display: block !important;
   }
+
   /*right header*/
+
   .right-header .language > input + label + a {
     display: block;
   }
-  /*checkbox hack display*/
-  .main-header input[type="checkbox"]:not(#hamburger):not(#search) + label {
+
+  /*checkbox hack display*/ 
+  .main-header input[type=checkbox]:not(#hamburger):not(#search) + label {
     display: none;
   }
+
   /*bug fix - top level ul display persistant in desktop view when checked*/
   /*turn off language when swith from checkbox to a tag*/
   /*turn off mega menu heading links*/
-  .right-header li input[type="checkbox"]:checked ~ ul,
-  .primary-nav li input[type="checkbox"]:checked ~ ul {
+  .right-header li input[type=checkbox]:checked ~ ul,
+  .primary-nav li input[type=checkbox]:checked ~ ul {
     display: none;
   }
-  .primary-nav li input[type="checkbox"]:checked ~ ul > li > a {
+
+  .primary-nav li input[type=checkbox]:checked ~ ul > li > a {
     padding: 0;
     background-color: transparent;
   }
+
   /*bug fix - bottem level ul display hidden in desktop view when checked*/
-  .primary-nav li input[type="checkbox"]:checked ~ ul > li > ul {
+  .primary-nav li input[type=checkbox]:checked ~ ul > li > ul {
     display: block;
   }
+
   /*primary nav*/
+
   .primary-nav > li > label + a {
     display: block;
   }
+  
   /*hover state submenu display*/
+
   .main-header ul li:hover > ul:not(.primary-nav),
   .main-header ul li ul li:hover ul {
     display: block;
   }
+
   .mega-menu:hover > ul {
     display: flex !important;
   }
+
   /*hover state primary nav*/
+
   .primary-nav {
     position: absolute;
     height: calc(100vh - 4.5rem);
     width: 15rem;
     padding-top: 1.5rem;
-    background-color: #f9f9f9;
   }
-  .primary-nav > ul {
-    background-color: #2d425f;
-  }
+
+  .primary-nav > ul {}
+
   .primary-nav > li:nth-child(3) {
     margin-top: 3rem;
   }
-  .primary-nav > li a {
+
+  .primary-nav > li  a {
     line-height: 3rem;
-    font-family: "Roboto Light", sans-serif;
-    color: #656565;
+    font-family: 'Roboto Light', sans-serif;
+    color: white;
   }
+
   .primary-nav > li:not(.mega-menu) > a {
     padding: 0 1.5rem;
   }
+
   .primary-nav > li:nth-child(4) > a,
-  .primary-nav > li:nth-child(5) > a {
+  .primary-nav > li:nth-child(5) > a {    
     padding-right: 2.4375rem;
     background-image: url(../images/icon-right-arrow-white.svg);
     background-size: 1rem;
-    background-position: right 0.9375rem center;
+    background-position: right .9375rem center;
     background-repeat: no-repeat;
   }
+
   .primary-nav > li > ul {
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #45505F;
   }
+
   .primary-nav > li > ul > li > ul > li > a {
     padding: 0 !important;
-    background-color: transparent !important;
+    background-color: transparent!important;
   }
+
   /*hover state mega menu*/
+
   .mega-menu > a {
     line-height: 3rem;
     padding: 1.5rem 1.5rem 1.4375rem 1.5rem;
@@ -1361,10 +1442,11 @@ input[type="checkbox"]:checked ~ ul {
     background-size: 1.25rem;
     background-position: 95%;
     background-repeat: no-repeat;
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid #D9D9D9;
     font-size: 1.125rem;
   }
-  .mega-menu > ul {
+
+  .mega-menu > ul { 
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1374,39 +1456,44 @@ input[type="checkbox"]:checked ~ ul {
     width: calc(100vw - 15rem);
     height: calc(100vh - 4.5rem);
     padding: 1.5rem calc(1.5rem + 17px) 1.5rem 1.5rem !important;
-    background-color: #2d425f;
+    background-color: #083075;
     overflow-y: auto;
   }
+
   .mega-menu > ul > li {
     flex-basis: 25% !important;
     padding: 0 1.5rem;
   }
+
   .mega-menu > ul > li > a {
     line-height: 3rem;
-    font-family: "Minion Pro", serif;
+    font-family: 'Minion Pro', serif;
     font-weight: normal;
     font-size: 1.5rem;
-    color: #656565;
+    color: white;
     display: block;
   }
+
   .mega-menu ul a {
-    font-family: "Roboto Light", sans-serif;
-    color: #1c1c1c;
+    font-family: 'Roboto Light', sans-serif;
+    color: white;
     line-height: 3rem;
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid #D9D9D9;
     margin-top: -1px;
   }
+
   .mega-menu > ul > li > ul,
   .mega-menu > ul > li > ul > li {
     display: block;
   }
+
   .mega-menu > ul > li > a,
   .mega-menu > ul > li > ul > li > a {
     line-height: 4.5rem;
     padding: 0;
   }
-}
 
+}
 /*------------------------------------------------------------------------------------------------------------------------*/
 
 /*main footer*/
