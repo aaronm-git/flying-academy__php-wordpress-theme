@@ -398,61 +398,55 @@
 		</div>
 		<div class="grid-container">
 			<!--row 5-->
-			<article class="grid-x grid-margin-x">
-				<header class="cell text-center">
-					<p class="special-heading">Flying Academy</p>
-					<h1>Our Training Locations</h1>
-					<small>We are providing global training experience</small>
-				</header>
-				<section class="cell world-map">
-					<img class="world-map-image" src="images/world-map.jpg" alt="world map">
-					<div id="miami" class="place">
-						<a class="pin">Miami, Florida, United States</a>
-						<div class="information">
-							<h2>Miami, Florida</h2>
-							<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla
-								nunc adipiscing vel tellus ut erat.</p>
-							<a class="button transparent" href="">Learn More</a>
-						</div>
-						<div>
-							<div id="los-angeles" class="place">
-								<a class="pin">Miami, Florida, United States</a>
-								<div class="information">
-									<h2>Miami, Florida</h2>
-									<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu,
-										fringilla nunc adipiscing vel tellus ut erat.</p>
-									<a class="button transparent" href="">Learn More</a>
-								</div>
+				<article class="grid-x grid-margin-x">
+					<header class="cell text-center">
+						<p class="special-heading">Flying Academy</p>
+						<h1>Campus Locations</h1>
+					</header>
+					<div class="cell world-map">
+						<img class="world-map-image" src="images/world-map.jpg" alt="world map">
+						<section id="los-angeles" class="place">
+							<a class="pin">Los Angeles, CA, United States</a>						
+							<div class="information" style="background-image: url(images/faa-flying-license.jpg);">
+								<h4>Los Angeles</h4>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
 							</div>
-							<div id="prague" class="place">
-								<a class="pin">Miami, Florida, United States</a>
-								<div class="information">
-									<h2>Miami, Florida</h2>
-									<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu,
-										fringilla nunc adipiscing vel tellus ut erat.</p>
-									<a class="button transparent" href="">Learn More</a>
-								</div>
+						</section>
+						<section id="miami" class="place">
+							<a class="pin">Miami, FL, United States</a>						
+							<div class="information" style="background-image: url(images/flight-training-courses-miami.jpg);">
+								<h4>Miami, Florida</h4>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
 							</div>
-							<div id="brno" class="place">
-								<a class="pin">Miami, Florida, United States</a>
-								<div class="information">
-									<h2>Miami, Florida</h2>
-									<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu,
-										fringilla nunc adipiscing vel tellus ut erat.</p>
-									<a class="button transparent" href="">Learn More</a>
-								</div>
+						</section>			
+						<section id="prague" class="place">
+							<a class="pin">Prague, Czech Republic</a>						
+							<div class="information" style="background-image: url(images/easa-flying-license.jpg);">
+								<h4>Prague</h4>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
 							</div>
-							<div id="gurugram" class="place">
-								<a class="pin">Miami, Florida, United States</a>
-								<div class="information">
-									<h2>Miami, Florida</h2>
-									<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu,
-										fringilla nunc adipiscing vel tellus ut erat.</p>
-									<a class="button transparent" href="">Learn More</a>
-								</div>
+						</section>
+						<section id="brno" class="place">
+							<a class="pin">Brno, Czech Republic</a>						
+							<div class="information" style="background-image: url(images/flight-training-courses-brno.jpg);">
+								<h4>Brno</h4>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
 							</div>
-				</section>
-			</article>
+						</section>
+						<section id="gurugram" class="place">
+							<a class="pin">Gurugram, Delhi NRC, India</a>						
+							<div class="information" style="background-image: url(images/gurugram-india-3.png);">
+								<h4>Gurugram</h4>
+								<p>Lorem ipsum dolor sit amet, condimentum mi magna, nam risus odio vestibulum. Dui bibendum nec sed at quam arcu, fringilla nunc adipiscing vel tellus ut erat.</p>
+								<a class="button transparent" href="">Learn More</a>
+							</div>
+						</section>						
+					</div>
+				</article>
 			</div>
 			<!--row 6-->
 			<div class="grid-container full">
