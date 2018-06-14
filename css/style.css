@@ -2342,7 +2342,7 @@ input[type="checkbox"]:checked ~ ul {
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#2d425f, #03293e);
+  background: linear-gradient(#2d425f, #1a2433);
   opacity: 0.9;
   z-index: -1;
 }
@@ -2352,6 +2352,25 @@ input[type="checkbox"]:checked ~ ul {
   color: #1c1c1c;
   outline: 1px solid #d9d9d9;
   z-index: 200;
+}
+
+/*scroll box*/
+
+.scroll-box .tabs {
+	display: flex;	
+}
+
+.scroll-box .tabs .tabs-title {
+	text-align: center;
+	flex-grow: 1;
+}
+
+.scroll-box .tabs-content {
+	padding: 1.5rem;
+	margin-top: 1.5rem;
+	max-height: 27rem;
+	overflow-y: scroll;
+	outline: 1px solid #d9d9d9;
 }
 
 /*offset box*/
