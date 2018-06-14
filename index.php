@@ -29,9 +29,9 @@
 	<div id="column-overlay"></div>
 	<!-- vide modal -->
 	<div class="reveal large" id="video-modal" data-reveal aria-labelledby="video-modal" aria-hidden="true" role="dialog">
-		<h2 id="video-modal">Time Building at Flying Academy</h2>
+		<h2 id="video-modal">How to Become a Pilot</h2>
 		<div class="responsive-embed widescreen">
-			<iframe width="100%" height="600" src="https://www.youtube.com/embed/8832H4BPV1M?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
+			<iframe width="100%" height="600" src="https://r12---sn-q0c7dn7s.googlevideo.com/videoplayback?beids=%5B9466593%5D&ip=54.171.100.0&key=yt6&lmt=1521055362881402&mt=1529012108&fvip=4&ms=au%2Conr&source=youtube&expire=1529033987&mv=u&id=o-AMVhnZa9xqyplFSAM_gGhuSBZfX10tl0y1Bl9KEfKF0n&mime=video%2Fmp4&signature=9BCB6CF1E975367F16BCB5A8DF23F7DAE300CB33.198C52A4A87A8B9A21CF35EF0B36F4728CB82DE4&mm=31%2C26&mn=sn-q0c7dn7s%2Csn-aigl6n7s&c=WEB&itag=22&requiressl=yes&dur=116.308&ratebypass=yes&pl=16&ipbits=0&ei=o-AiW_rpHInpxgL4hbeIBg&sparams=dur%2Cei%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&signature=undefined" frameborder="0" allow="autoplay; encrypted-media"
 			 allowfullscreen></iframe>
 		</div>
 		<button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
@@ -478,7 +478,7 @@
 				<article class="grid-x">
 					<!--video box-->
 					<section class="cell large-6 video-box" data-open="video-modal">
-						<dir class="responsive-sprite" style="background-image: url(images/pilot.jpg)"></dir>
+						<dir class="responsive-sprite" style="background-image: url(images/how-to-become-a-pilot.png)"></dir>
 					</section>
 					<!--video summary box-->
 					<section class="cell large-6 video-summary-box">
