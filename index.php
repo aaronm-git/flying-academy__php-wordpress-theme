@@ -29,9 +29,9 @@
 	<div id="column-overlay"></div>
 	<!-- vide modal -->
 	<div class="reveal large" id="video-modal" data-reveal aria-labelledby="video-modal" aria-hidden="true" role="dialog">
-		<h2 id="video-modal">Time Building at Flying Academy</h2>
+		<h2 id="video-modal">How to Become a Pilot</h2>
 		<div class="responsive-embed widescreen">
-			<iframe width="100%" height="600" src="https://www.youtube.com/embed/8832H4BPV1M?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
+			<iframe width="100%" height="600" src="https://www.youtube.com/embed/ljtKNQAP3Dc" frameborder="0" allow="autoplay; encrypted-media"
 			 allowfullscreen></iframe>
 		</div>
 		<button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
@@ -478,7 +478,7 @@
 				<article class="grid-x">
 					<!--video box-->
 					<section class="cell large-6 video-box" data-open="video-modal">
-						<dir class="responsive-sprite" style="background-image: url(images/pilot.jpg)"></dir>
+						<dir class="responsive-sprite" style="background-image: url(images/how-to-become-a-pilot.png)"></dir>
 					</section>
 					<!--video summary box-->
 					<section class="cell large-6 video-summary-box">
