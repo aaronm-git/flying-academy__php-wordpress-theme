@@ -4,7 +4,7 @@
 * {
   outline: 1px solid rgba(0, 255, 0, 0.5);
   margin: 0px;
-  border: none;
+  /* border: none; aaron */
   padding: 0px;
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
