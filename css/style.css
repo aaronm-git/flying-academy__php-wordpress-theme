@@ -2905,14 +2905,15 @@ input[type="checkbox"]:checked ~ ul {
 }
 
 /*------------------------------------------------------------------------------------------------------------------------*/
-/*desktop vertical scale*/
 
-.shaded-box + .shaded-box {
-	margin-top: 0;
-}
+/*desktop vertical scale*/
 
 /*large and up (1024+)*/
 @media screen and (min-width: 64em) {
+
+	.shaded-box + .shaded-box {
+		margin-top: 0;
+	}
 
 	.grid-container > div + section,
 	.grid-container > article + article,
