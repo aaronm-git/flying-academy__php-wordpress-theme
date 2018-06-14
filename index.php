@@ -12,7 +12,7 @@
 	 crossorigin="anonymous">
 	<!--normalize-->
 	<link rel="stylesheet" href="normalize/normalize.css">
-	<!--foundation css-->
+
 	<link rel="stylesheet" href="foundation/css/foundation.css">
 	<link rel="stylesheet" href="foundation/css/app.css">
 	<!--owl css-->
@@ -23,7 +23,6 @@
 	<link rel="stylesheet" href="css/new-home.css">
 	<link rel="stylesheet" href="css/video-modal.css">
 	<link rel="stylesheet" href="css/aaron-global.css">
-
 </head>
 
 <body id="home">
@@ -38,10 +37,8 @@
 		</div>
 		<button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
 	</div>
-
 	<div class="wrapper">
-	<?php include 'header.php' ?>
-
+		<?php include 'header.php' ?>
 		<div class="grid-container full">
 			<!-- row 1 -->
 			<!--jumbo carousel-->
@@ -81,24 +78,27 @@
 				</header>
 				<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/easa-ppl-2.jpg);">
 					<h1>EASA/FA PPL</h1>
-					<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+					<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in
+						non-commercial operations.</p>
 					<a href="" class="button">Learn more</a>
 				</div>
 				<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/easa-ppl.jpg);">
 					<h1>EASA 0-ATPL</h1>
-					<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command (PIC) of an aircraft in an airline.</p>
-					<p class="hide">This program is designed for students with little to no flying experience and that want to pursue a career in aviation according to EASA regulations.</p>
+					<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command (PIC)
+						of an aircraft in an airline.</p>
+					<p class="hide">This program is designed for students with little to no flying experience and that want to pursue a career in aviation
+						according to EASA regulations.</p>
 					<a href="" class="button">Learn more</a>
 				</div>
 				<div class="cell large-4 shaded-box inset-outline" style="background-image: url(images/faa-cpl.jpg);">
 					<h1>FAA 0-CPL</h1>
 					<p>The CPL license permits to act as Pilot-In-Command (PIC) and acquire compensation on an aircraft.</p>
-					<p class="hide">This program is designed for students with little to no flying experience and that want to pursue a career in aviation according to FAA regulations.</p>
+					<p class="hide">This program is designed for students with little to no flying experience and that want to pursue a career in aviation
+						according to FAA regulations.</p>
 					<a href="" class="button">Learn more</a>
 				</div>
 				</section>
 			</article>
-
 			<article class="grid-x grid-margin-x">
 				<header class="cell text-center">
 					<p class="special-heading">Flying Academy</p>
@@ -270,7 +270,9 @@
 								<!-- <small>American Way</small> -->
 							</li>
 							<li class="tabs-title">
-								<a href="#panel-2" data-tabs-target="panel-2"><span>EASA - European way</span></a>
+								<a href="#panel-2" data-tabs-target="panel-2">
+									<span>EASA - European way</span>
+								</a>
 								<!-- <small>European Way</small> -->
 							</li>
 						</ul>
@@ -278,69 +280,88 @@
 							<div class="tabs-panel" id="panel-1">
 								<section>
 									<h1>PPL</h1>
-									<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on airplanes in non-commercial operations.</p>
+									<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on airplanes
+										in non-commercial operations.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>0-CPL</h1>
-									<p>The CPL license permits to act as Pilot-In-Command (PIC) and acquire compensation on an aircraft. This program is designed for students with little to no flying experience and that want to pursue a career in aviation according to FAA regulations.</p>
+									<p>The CPL license permits to act as Pilot-In-Command (PIC) and acquire compensation on an aircraft. This program is
+										designed for students with little to no flying experience and that want to pursue a career in aviation according
+										to FAA regulations.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>CPL</h1>
-									<p>The Commercial Pilot Certificate is a qualification that permits the holder to act as the pilot of an aircraft for remuneration.</p>
+									<p>The Commercial Pilot Certificate is a qualification that permits the holder to act as the pilot of an aircraft for
+										remuneration.
+									</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>IR</h1>
-									<p>Instrument Rating refers to the qualifications that is required in order to fly according to Instrument Flight Rules (IFR).</p>
+									<p>Instrument Rating refers to the qualifications that is required in order to fly according to Instrument Flight Rules
+										(IFR).
+									</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>MEP</h1>
-									<p>The Multi Engine Piston rating extends the privileges of a Commercial Pilot Licence (CPL) and allows you to fly aircraft with more than one engine.</p>
+									<p>The Multi Engine Piston rating extends the privileges of a Commercial Pilot Licence (CPL) and allows you to fly
+										aircraft with more than one engine.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>CFI, CFII</h1>
-									<p>The Certified Flight Instructor license allows individuals to provide training to pilots while the Certified Flight Instrument Instructor rating allows holders to provide IR(A) training to pilots.</p>
+									<p>The Certified Flight Instructor license allows individuals to provide training to pilots while the Certified Flight
+										Instrument Instructor rating allows holders to provide IR(A) training to pilots.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 							</div>
 							<div class="tabs-panel is-active" id="panel-2">
 								<section>
 									<h1>PPL</h1>
-									<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes in non-commercial operations.</p>
+									<p>Private Pilot License is a qualification that permits to act without remuneration as PIC or co-pilot on aeroplanes
+										in non-commercial operations.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>ATPL Integrated</h1>
-									<p>During the Integrated ATPL(A), you will become a Commercial Pilot, from no flight experience to holding an EASA Multi-Engine Instrument Rating Commercial Pilot License with ATPL frozen.</p>
+									<p>During the Integrated ATPL(A), you will become a Commercial Pilot, from no flight experience to holding an EASA
+										Multi-Engine Instrument Rating Commercial Pilot License with ATPL frozen.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>0-ATPL</h1>
-									<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command (PIC) of an aircraft in an airline. This program is designed for students with little to no flying experience and that want to pursue a career in aviation according to EASA regulations.</p>
+									<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command
+										(PIC) of an aircraft in an airline. This program is designed for students with little to no flying experience and
+										that want to pursue a career in aviation according to EASA regulations.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>0-ATPL with US experience</h1>
-									<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command (PIC) of an aircraft in an airline. The course “0-ATPL with US experience” guides the students through the process of getting their Private Pilot License in the US all the way to the ATPL level.</p>
+									<p>The ATPL(A) license is the highest level of aircraft pilot certification, that permits to act as Pilot-In-Command
+										(PIC) of an aircraft in an airline. The course “0-ATPL with US experience” guides the students through the process
+										of getting their Private Pilot License in the US all the way to the ATPL level.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>ATPL theory</h1>
-									<p>During the course an applicant must demonstrate a level of knowledge appropriate to the privileges of the holder of a ATPL(A) in accordance with the requirements in Part – FCL.</p>
+									<p>During the course an applicant must demonstrate a level of knowledge appropriate to the privileges of the holder
+										of a ATPL(A) in accordance with the requirements in Part – FCL.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>IR</h1>
-									<p>Instrument Rating refers to the qualifications that is required in order to fly according to Instrument Flight Rules (IFR).</p>
+									<p>Instrument Rating refers to the qualifications that is required in order to fly according to Instrument Flight Rules
+										(IFR).
+									</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>MEP</h1>
-									<p>The Multi Engine Piston rating extends the privileges of a Private Pilot’s Licence (PPL) or Commercial Pilot’s Licence (CPL) and allows you to pilot aircraft with more than one engine.</p>
+									<p>The Multi Engine Piston rating extends the privileges of a Private Pilot’s Licence (PPL) or Commercial Pilot’s Licence
+										(CPL) and allows you to pilot aircraft with more than one engine.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
@@ -350,17 +371,20 @@
 								</section>
 								<section>
 									<h1>MCC</h1>
-									<p>Multi Crew Co-Operation course is essential to have completed in order to fly as an airline crew member in a Multi Pilot Aircraft (MPA).</p>
+									<p>Multi Crew Co-Operation course is essential to have completed in order to fly as an airline crew member in a Multi
+										Pilot Aircraft (MPA).</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>JOC</h1>
-									<p>The Jet Orientation Course or Jet Familiarization Course is an advance training dedicated for future Airline pilots with no jet handling experience.</p>
+									<p>The Jet Orientation Course or Jet Familiarization Course is an advance training dedicated for future Airline pilots
+										with no jet handling experience.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 								<section>
 									<h1>FI, IRI</h1>
-									<p>The Flight Instructor license allows individuals to provide training to pilots while the Instrument Rating Instructor license allows holders to provide IR(A) training to pilots.</p>
+									<p>The Flight Instructor license allows individuals to provide training to pilots while the Instrument Rating Instructor
+										license allows holders to provide IR(A) training to pilots.</p>
 									<a class="" href="#">Read more</a>
 								</section>
 							</div>
@@ -382,7 +406,6 @@
 				</header>
 				<section class="cell world-map">
 					<img class="world-map-image" src="images/world-map.jpg" alt="world map">
-
 					<div id="miami" class="place">
 						<a class="pin">Miami, Florida, United States</a>
 						<div class="information">
@@ -392,7 +415,6 @@
 							<a class="button transparent" href="">Learn More</a>
 						</div>
 						<div>
-
 							<div id="los-angeles" class="place">
 								<a class="pin">Miami, Florida, United States</a>
 								<div class="information">
@@ -402,7 +424,6 @@
 									<a class="button transparent" href="">Learn More</a>
 								</div>
 							</div>
-
 							<div id="prague" class="place">
 								<a class="pin">Miami, Florida, United States</a>
 								<div class="information">
@@ -412,7 +433,6 @@
 									<a class="button transparent" href="">Learn More</a>
 								</div>
 							</div>
-
 							<div id="brno" class="place">
 								<a class="pin">Miami, Florida, United States</a>
 								<div class="information">
@@ -422,7 +442,6 @@
 									<a class="button transparent" href="">Learn More</a>
 								</div>
 							</div>
-
 							<div id="gurugram" class="place">
 								<a class="pin">Miami, Florida, United States</a>
 								<div class="information">
@@ -432,7 +451,6 @@
 									<a class="button transparent" href="">Learn More</a>
 								</div>
 							</div>
-
 				</section>
 			</article>
 			</div>
@@ -475,7 +493,7 @@
 						<p class="special-heading small">Flying Academy</p>
 						<h1>Our Student's Experiences</h1>
 						<p>Flight training should be life time experience.</p>
-						<a class="button light" href="">View more at our Blog</a>
+						<a class="button light" href="/fa-new/blog.php">View more at our Blog</a>
 					</section>
 				</article>
 				<!--row 8-->
@@ -572,7 +590,6 @@
 				</div>
 			</div>
 			<?php include 'footer.php' ?>
-
 			</div>
 			<!--jquery-->
 			<script src="jquery/jquery.min.js"></script>
