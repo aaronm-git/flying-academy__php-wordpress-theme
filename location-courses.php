@@ -58,7 +58,7 @@
 				<article class="grid-x grid-margin-x">
 					<!--image tag box-->
 					<section class="cell medium-7 image-tag-box right">
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/student.jpg);"></div>
 						<div>
 							<p>price from</p>
 							<p>&dollar;32,595</p>
@@ -100,7 +100,7 @@
 				<article class="grid-x grid-margin-x">
 					<!--image tag box-->
 					<section class="cell medium-7 image-tag-box right">
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/pilot-students.jpg);"></div>
 						<div>
 							<p>price from</p>
 							<p>&dollar;32,595</p>
@@ -131,7 +131,7 @@
 					</section>
 					<!--image tag box-->
 					<section class="cell medium-7 image-tag-box left">
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/mpe-image.jpg);"></div>
 						<div>
 							<p>price from</p>
 							<p>&dollar;32,595</p>
@@ -142,7 +142,7 @@
 				<article class="grid-x grid-margin-x">
 					<!--image tag box-->
 					<section class="cell medium-7 image-tag-box right" >
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/0cpl.jpg);"></div>
 						<div>
 							<p>price from</p>
 							<p>&dollar;32,595</p>
@@ -173,7 +173,7 @@
 					</section>
 					<!--image tag box-->
 					<section class="cell medium-7 image-tag-box left">
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/pilots-and-plane.jpg);"></div>
 						<div>
 							<p>price from</p>
 							<p>&dollar;32,595</p>
@@ -184,7 +184,7 @@
 				<article class="grid-x grid-margin-x">
 					<!--image tag box-->
 					<section class="cell medium-7 image-tag-box right" >
-						<div class="responsive-sprite" style="background-image: url(images/pilot.jpg);"></div>
+						<div class="responsive-sprite" style="background-image: url(images/c1.jpg);"></div>
 						<div>
 							<p>price from</p>
 							<p>&dollar;32,595</p>
