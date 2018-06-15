@@ -169,12 +169,12 @@
 						<label for="language">Language</label>
 						<a>Language</a>
 						<ul>
-							<li><a lang="en" style="background-image: url(images/flags/USA.svg);">English</a></li>
-							<li><a lang="cs" style="background-image: url(images/flags/Czech Republic.svg);">Česká</a></li>
-							<li><a lang="it" style="background-image: url(images/flags/Italy.svg);">Italiano</a></li>
-							<li><a lang="ru" style="background-image: url(images/flags/Russian Federation.svg);">Русский</a></li>
-							<li><a lang="zh" style="background-image: url(images/flags/China.svg);">简体中文</a></li>
-							<li><a lang="es" style="background-image: url(images/flags/Spain.svg);">Español</a></li>
+							<li><a lang="en" style="background-image: url(images/flags/us.svg);">English</a></li>
+							<li><a lang="cs" style="background-image: url(images/flags/cz.svg);">Česká</a></li>
+							<li><a lang="it" style="background-image: url(images/flags/it.svg);">Italiano</a></li>
+							<li><a lang="ru" style="background-image: url(images/flags/ru.svg);">Русский</a></li>
+							<li><a lang="zh" style="background-image: url(images/flags/cn.svg);">简体中文</a></li>
+							<li><a lang="es" style="background-image: url(images/flags/es.svg);">Español</a></li>
 						</ul>
 					</li>
 					<li id="contact"><a href="global-contact.php">Contact Us</a></li>

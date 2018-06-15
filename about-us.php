@@ -23,9 +23,7 @@
 		<button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
 	</div>	
 	<div class="wrapper">
-
-	<?php include 'header.php' ?>
-
+		<?php include 'header.php' ?>
 		<nav class="page-nav" style="background-image: url(images/airliner-sunset-flying.jpg); background-position: center;">
 			<div class="grid-container">
 				<ul class="vertical medium-horizontal menu" data-smooth-scroll>
@@ -73,7 +71,7 @@
 				</article>
 			</div>
 		</div>
-		<div class="grid-container full quote-box" id="mission-section">
+		<div class="grid-container full quote-box">
 			<div class="grid-container">
 				<article class="grid-x grid-margin-x">
 					<section class="cell small-12">
@@ -85,7 +83,7 @@
 				</div>
 			</div>
 			<div class="grid-container">
-				<article class="grid-x grid-margin-x plain-info"  id="experience-section" style="background: url(images/about-plane2.jpg) no-repeat 0% 25%; background-size: cover;">
+				<article class="grid-x grid-margin-x plain-info" id="experience-section" style="background: url(images/about-plane2.jpg) no-repeat 0% 25%; background-size: cover;">
 					<section class="cell medium-6">
 						<h1>Flight Training with Experience and Innovation</h1>
 						<p>Flying Academy is led by Airline Pilots. They have developed a broad range of courses that lead the students all the way to their goal. In only 2 years our students will go through PPL (Private Pilot License) to IR (Instrument Rating), then CPL (Commercial Pilot License) to finally the ATPL (Airline Transport Pilot License).</p>
@@ -164,9 +162,7 @@
 					</form>
 				</div>
 			</div>
-
 			<?php include 'footer.php' ?>
-
 		</div>
 		<script src="jquery/jquery.min.js"></script>
 		<script src="foundation/js/vendor/what-input.js"></script>

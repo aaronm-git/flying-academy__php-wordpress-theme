@@ -23,18 +23,8 @@
 		<!--overlay-->
 		<div id="baseline-overlay"></div>
 		<div id="column-overlay"></div>
-
-		<div class="reveal large" id="video-modal" data-reveal aria-labelledby="video-modal" aria-hidden="true" role="dialog">
-                <h2 id="video-modal">Time Building at Flying Academy</h2>
-                <div class="responsive-embed widescreen">
-                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/8832H4BPV1M?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                    <button class="close-button button" data-close aria-label="Close modal" type="button">&times;</button>
-                </div>
-
 		<div class="wrapper">
-		<?php include 'header.php' ?>
-
+			<?php include 'header.php'; ?>
 			<!--page navigation-->
 			<nav class="page-nav">
 				<div class="grid-container">			
@@ -168,9 +158,9 @@
 				<!---row 4-->
 				<article class="grid-x">
 					<!--video box-->
-					<section class="cell large-6 video-box" data-open="video-modal">
-                            <dir class="responsive-sprite" style="background-image: url(images/pilot.jpg)"></dir>
-                        </section>
+					<section class="cell large-6 video-box">
+						<dir class="responsive-sprite" style="background-image: url(images/pilot.jpg)"></dir>
+					</section>
 					<!--video summary box-->
 					<section class="cell large-6 video-summary-box">
 						<p class="special-heading small">Flying Academy</p>
@@ -202,12 +192,11 @@
 				</article>
 			</div>
 			<!--row 6-->
-			<!--fade wrapper-->
+			<!--background-->
 			<div class="grid-container full background">
-				<!--fade image-->
+				<!--full width gradient image-->
 				<div class="full-width-gradient-image" style="background-image: url(images/mountains.jpg);"></div>
 				<div class="grid-container">
-					<!--fade info-->
 					<article class="grid-x grid-margin-x">
 						<section class="cell large-7">
 							<p class="special-heading small">Flying Academy</p>
@@ -345,7 +334,6 @@
 				</article>
 			</div>
 			<?php include 'footer.php' ?>
-
 		</div>
 		<!--jquery-->
 		<script src="jquery/jquery.min.js"></script>
